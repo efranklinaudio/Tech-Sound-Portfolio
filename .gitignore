@@ -14,7 +14,6 @@
 # Compiled Dynamic libraries
 *.so
 *.dylib
-*.dll
 
 # Fortran module files
 *.mod
@@ -23,7 +22,6 @@
 *.lai
 *.la
 *.a
-*.lib
 
 # Executables
 *.exe
@@ -74,3 +72,16 @@ Plugins/**/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+
+# get rid of lib
+*.lib
+
+# Don't ignore these files
+!Plugins/Wwise/*.dll
+!Plugins/Wwise/**.lib
+
+# Ignore these Wwise files 
+.backup*
+.cache*
+*.akd
+*.prof
