@@ -78,10 +78,13 @@ DerivedDataCache/*
 
 # Don't ignore these files
 !Plugins/Wwise/*.dll
+!Plugins/Wwise/*.so
+!Plugins/Wwise/*.a
 !Plugins/Wwise/**.lib
 
 # Ignore these Wwise files 
 .backup*
 .cache*
 *.akd
+*.prof
 *.prof
