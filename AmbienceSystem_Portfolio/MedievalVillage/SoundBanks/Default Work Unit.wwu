@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{9998A332-81D5-4728-948E-EBE7B995576C}" SchemaVersion="119">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{9998A332-81D5-4728-948E-EBE7B995576C}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="SoundBank" ID="{3CB8E9F2-7DE1-4940-B7C3-4F23A4BCFD06}">
+					<ObjectInclusionList>
+						<ObjectRef Name="3D_Ambience" ID="{83A9EB52-B070-425C-888C-47FCC2340834}" WorkUnitID="{83A9EB52-B070-425C-888C-47FCC2340834}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Default Work Unit" ID="{05F5F81D-DB58-459A-9179-417346193955}" WorkUnitID="{05F5F81D-DB58-459A-9179-417346193955}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="2D_Ambience" ID="{BE745BFD-DF7D-474E-BF81-90EB00A2E0F6}" WorkUnitID="{BE745BFD-DF7D-474E-BF81-90EB00A2E0F6}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Ambience" ID="{C66A4928-FA81-47F1-8810-F4FCA9D4F492}" WorkUnitID="{C66A4928-FA81-47F1-8810-F4FCA9D4F492}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Default Work Unit" ID="{37A8E576-81F7-48DB-8106-97136D6FA940}" WorkUnitID="{37A8E576-81F7-48DB-8106-97136D6FA940}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Movement" ID="{3233B393-9F70-48EC-A329-1906449E59D4}" WorkUnitID="{3233B393-9F70-48EC-A329-1906449E59D4}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Default Work Unit" ID="{6002CD08-2212-4B1C-9EE5-35D4641AB3F8}" WorkUnitID="{6002CD08-2212-4B1C-9EE5-35D4641AB3F8}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Movement" ID="{9ADA2F30-4AE8-4B23-9951-A31191237117}" WorkUnitID="{9ADA2F30-4AE8-4B23-9951-A31191237117}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Ambience" ID="{5E847467-A76E-4E47-843C-57F0E66391F3}" WorkUnitID="{5E847467-A76E-4E47-843C-57F0E66391F3}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

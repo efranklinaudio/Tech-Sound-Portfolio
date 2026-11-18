@@ -1,0 +1,302 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "1355168291",
+    "Type": "User",
+    "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
+    "Language": "SFX",
+    "Hash": "{AE816D10-85DE-7C79-D3D2-EB165DDC2E8D}",
+    "ObjectPath": "Init",
+    "ShortName": "Init",
+    "Path": "Init.bnk",
+    "Plugins": {
+     "Custom": [
+      {
+       "Id": "275564784",
+       "Name": "Have_U_Ever_Been_Outside (Custom)",
+       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb\\Field\\[Effect Slot [0]: (RoomVerb)]\\Have_U_Ever_Been_Outside (Custom)",
+       "GUID": "{25D3C0FA-0924-448C-A1A9-D3A30953DA6D}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      },
+      {
+       "Id": "960098761",
+       "Name": "Meter (Custom)",
+       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Ambience\\3D_Ambience\\Wind\\[Effect Slot [0]: (Meter)]\\Meter (Custom)",
+       "GUID": "{EE93DFDE-7CBF-492A-A3CF-4170F9389B52}",
+       "LibName": "Wwise Meter",
+       "LibId": "8454147"
+      },
+      {
+       "Id": "1014145253",
+       "Name": "Room_Medium (Custom)",
+       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb\\Forge\\[Effect Slot [0]: (RoomVerb)]\\Room_Medium (Custom)",
+       "GUID": "{612A6EF7-0B63-4EB6-BD4F-612D99B7873F}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      },
+      {
+       "Id": "1061204808",
+       "Name": "Have_U_Ever_Been_Outside (Custom)",
+       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb\\Village\\[Effect Slot [0]: (RoomVerb)]\\Have_U_Ever_Been_Outside (Custom)",
+       "GUID": "{D046D567-8331-46A6-9975-39D22C32F8F7}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      },
+      {
+       "Id": "1073288824",
+       "Name": "Have_U_Ever_Been_Outside (Custom)",
+       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb\\Forest\\[Effect Slot [0]: (RoomVerb)]\\Have_U_Ever_Been_Outside (Custom)",
+       "GUID": "{5E8D2D0F-0BD5-4AD1-B30F-7274BE6C4F1E}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      }
+     ],
+     "AudioDevices": [
+      {
+       "Id": "2317455096",
+       "Name": "No_Output",
+       "ObjectPath": "\\Audio Devices\\Default Work Unit\\No_Output",
+       "GUID": "{F31E94AE-B4AB-4B0B-9F0E-BD398CAEE2F5}",
+       "LibName": "No Output",
+       "LibId": "11862023"
+      },
+      {
+       "Id": "3859886410",
+       "Name": "System",
+       "ObjectPath": "\\Audio Devices\\Default Work Unit\\System",
+       "GUID": "{29861EF7-15E5-41F0-8982-1F326E1E920E}",
+       "LibName": "System",
+       "LibId": "11403271"
+      }
+     ]
+    },
+    "Busses": [
+     {
+      "Id": "85412153",
+      "Name": "Ambience",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Ambience",
+      "GUID": "{B2925C8B-21C8-41E9-B80F-5A846987C325}"
+     },
+     {
+      "Id": "348963605",
+      "Name": "Reverb",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb",
+      "GUID": "{C17ACBE4-70E1-401E-B7F6-3D475150D04C}"
+     },
+     {
+      "Id": "599996866",
+      "Name": "2D_Ambience",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Ambience\\2D_Ambience",
+      "GUID": "{BB3C0AF2-5E4F-459C-995C-B481B0AB3AB9}"
+     },
+     {
+      "Id": "603313991",
+      "Name": "3D_Ambience",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Ambience\\3D_Ambience",
+      "GUID": "{17507B17-9A3E-456E-A69E-D228F620074F}"
+     },
+     {
+      "Id": "1537061107",
+      "Name": "Wind",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Ambience\\3D_Ambience\\Wind",
+      "GUID": "{5B12E054-936A-4F48-80E9-016E37635FE6}",
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "960098761"
+        }
+       ]
+      }
+     },
+     {
+      "Id": "2129636626",
+      "Name": "Movement",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Movement",
+      "GUID": "{990EDA90-E229-45DA-8B10-98A9253F2737}"
+     },
+     {
+      "Id": "3803692087",
+      "Name": "Master Audio Bus",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus",
+      "GUID": "{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"
+     }
+    ],
+    "AuxBusses": [
+     {
+      "Id": "12377074",
+      "Name": "Forge",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb\\Forge",
+      "GUID": "{F860E3B1-1866-4028-BF4A-54E9F3F15A49}",
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "1014145253"
+        }
+       ]
+      }
+     },
+     {
+      "Id": "491961918",
+      "Name": "Forest",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb\\Forest",
+      "GUID": "{A9E1689D-9973-44F2-A796-776BE0F1619D}",
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "1073288824"
+        }
+       ]
+      }
+     },
+     {
+      "Id": "514358619",
+      "Name": "Field",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb\\Field",
+      "GUID": "{7AC0C4A0-AE5F-47ED-BBD1-340AC1C81CD9}",
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "275564784"
+        }
+       ]
+      }
+     },
+     {
+      "Id": "3945572659",
+      "Name": "Village",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb\\Village",
+      "GUID": "{2FCF22CC-38B6-4DD5-9C7C-C5F13024A0F6}",
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "1061204808"
+        }
+       ]
+      }
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "3519441192",
+      "Name": "Velocity",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Velocity",
+      "GUID": "{B7585C10-8A75-4F61-84D6-AEECB557CCDD}"
+     },
+     {
+      "Id": "4122698001",
+      "Name": "WindVolume",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\WindVolume",
+      "GUID": "{2DA12562-16BB-45DC-9735-4F8A32A481F7}"
+     }
+    ],
+    "StateGroups": [
+     {
+      "Id": "1176860857",
+      "Name": "ExteriorCheck",
+      "ObjectPath": "\\States\\Default Work Unit\\ExteriorCheck",
+      "GUID": "{F11F2A52-37F0-486C-A7C2-1688FA404EC5}",
+      "States": [
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Default Work Unit\\ExteriorCheck\\None",
+        "GUID": "{2F678026-7235-42BB-9654-81BFCFD1A46E}"
+       },
+       {
+        "Id": "1132214669",
+        "Name": "Interior",
+        "ObjectPath": "\\States\\Default Work Unit\\ExteriorCheck\\Interior",
+        "GUID": "{27C5F190-8123-49ED-86F7-6F54F99E8BCD}"
+       },
+       {
+        "Id": "2213992659",
+        "Name": "Exterior",
+        "ObjectPath": "\\States\\Default Work Unit\\ExteriorCheck\\Exterior",
+        "GUID": "{791859CC-E4C9-49E3-8DFE-A50ACF426813}"
+       },
+       {
+        "Id": "3339761385",
+        "Name": "Building",
+        "ObjectPath": "\\States\\Default Work Unit\\ExteriorCheck\\Building",
+        "GUID": "{6BA492DB-6EC2-42F6-9E20-A689B4E0B8DD}"
+       }
+      ]
+     },
+     {
+      "Id": "3686139462",
+      "Name": "Area",
+      "ObjectPath": "\\States\\Default Work Unit\\Area",
+      "GUID": "{DD35175E-C4B7-4DC8-9E70-4C8CCB03A284}",
+      "States": [
+       {
+        "Id": "491961918",
+        "Name": "Forest",
+        "ObjectPath": "\\States\\Default Work Unit\\Area\\Forest",
+        "GUID": "{A03205E1-466B-418E-A0ED-31123474978E}"
+       },
+       {
+        "Id": "514358619",
+        "Name": "Field",
+        "ObjectPath": "\\States\\Default Work Unit\\Area\\Field",
+        "GUID": "{6BCB001B-7464-41DE-94FC-9A3C55A26F28}"
+       },
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Default Work Unit\\Area\\None",
+        "GUID": "{637147D3-FE8A-47A6-9FF5-C3224288CE98}"
+       },
+       {
+        "Id": "3945572659",
+        "Name": "Village",
+        "ObjectPath": "\\States\\Default Work Unit\\Area\\Village",
+        "GUID": "{B6E02AC0-4F2F-45B6-BE02-8FB238D276AA}"
+       }
+      ]
+     }
+    ],
+    "SwitchGroups": [
+     {
+      "Id": "4270634489",
+      "Name": "Footstep_PhysicalMaterials",
+      "ObjectPath": "\\Switches\\Default Work Unit\\Footstep_PhysicalMaterials",
+      "GUID": "{500074DF-4F47-432E-AF11-7CD39E372926}",
+      "Switches": [
+       {
+        "Id": "1216965916",
+        "Name": "Stone",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Footstep_PhysicalMaterials\\Stone",
+        "GUID": "{B53FEFEA-445D-4960-8F69-AB638D6484F8}"
+       },
+       {
+        "Id": "1644059380",
+        "Name": "Undergrowth",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Footstep_PhysicalMaterials\\Undergrowth",
+        "GUID": "{07FBCEDF-2647-405C-8AB7-ED4E694A2E0F}"
+       },
+       {
+        "Id": "2058049674",
+        "Name": "Wood",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Footstep_PhysicalMaterials\\Wood",
+        "GUID": "{0F3B2C96-B056-4F15-9DE2-3AAE00650E06}"
+       },
+       {
+        "Id": "2195636714",
+        "Name": "Dirt",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Footstep_PhysicalMaterials\\Dirt",
+        "GUID": "{A030F214-A9CE-411A-BC29-87880035704E}"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{33DC5CCD-43F2-FFBD-50D6-42533D25D68A}"
+ }
+}

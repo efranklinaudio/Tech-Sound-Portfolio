@@ -1,0 +1,36 @@
+{
+ "ProjectInfo": {
+  "Project": {
+   "Name": "Lyra_Wwise",
+   "GUID": "{79010EDB-D77B-4668-B821-29839D3FF135}",
+   "Generator": "2023.1.6.8555"
+  },
+  "CacheRoot": "../.cache",
+  "Platforms": [
+   {
+    "Name": "Mac",
+    "GUID": "{B390BF14-B2B0-4BB7-A688-B5C9F53497C0}",
+    "BasePlatform": "Mac",
+    "BasePlatformGUID": "{9C6217D5-DD11-4795-87C1-6CE02853C540}",
+    "Path": "Mac"
+   },
+   {
+    "Name": "Windows",
+    "GUID": "{9A8C1176-950B-4549-BBB1-AB4F7C614743}",
+    "BasePlatform": "Windows",
+    "BasePlatformGUID": "{6E0CB257-C6C8-4C5C-8366-2740DFC441EB}",
+    "Path": "Windows"
+   }
+  ],
+  "Languages": [
+   {
+    "Name": "English(US)",
+    "Id": "684519430",
+    "GUID": "{1947CDB2-0CAC-4CC7-BADC-276429F69826}",
+    "Default": "true",
+    "UseAsStandIn": "true"
+   }
+  ],
+  "FileHash": "{43C5B4B8-CFE3-0064-33D9-80F94B086563}"
+ }
+}

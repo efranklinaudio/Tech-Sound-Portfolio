@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{58C000E4-6F18-4184-B44D-950C4E0A2EAA}" SchemaVersion="119">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{58C000E4-6F18-4184-B44D-950C4E0A2EAA}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="General" ID="{4E40FEC9-473A-4F2F-99AA-A295B97B5B84}">
+					<ObjectInclusionList>
+						<ObjectRef Name="lyra_sfx_jump_glass_03" ID="{0B4BBB3D-BE7C-407C-B0C6-DCA66D39B6DF}" WorkUnitID="{3CA177F2-B22E-4AD4-8708-6BDB02F5440C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{17F379C2-E719-4DC1-BE64-5433F12CA0DE}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="UI" ID="{C8A3E87F-CC03-43DE-AF22-2985EFFC759F}" WorkUnitID="{77CD4765-3770-499D-BD52-AF2A5955ADA6}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Factory AK Convolution Reverb Effects Stereo" ID="{9D68BE5F-8CA6-43E0-BCE2-C7D59F63E582}" WorkUnitID="{9D68BE5F-8CA6-43E0-BCE2-C7D59F63E582}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="MX" ID="{31D69AD9-F5ED-450F-B5C9-CC18DD1B10FD}" WorkUnitID="{77CD4765-3770-499D-BD52-AF2A5955ADA6}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Start" ID="{C508EFF1-6387-451D-8914-D8E448659C21}" WorkUnitID="{77CD4765-3770-499D-BD52-AF2A5955ADA6}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="lyra_sfx_jump_glass_04" ID="{ADBD909E-E307-4546-A80E-5B4222589914}" WorkUnitID="{3CA177F2-B22E-4AD4-8708-6BDB02F5440C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="IRS" ID="{994E0AFD-FDC6-473C-B79F-9C8FF94F1E6B}" WorkUnitID="{3CA177F2-B22E-4AD4-8708-6BDB02F5440C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="lyra_sfx_jump_glass_01" ID="{FB32E614-6D46-47B6-961E-973E006E0707}" WorkUnitID="{3CA177F2-B22E-4AD4-8708-6BDB02F5440C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Aux" ID="{FC626BD8-B567-48E5-BC54-E5F32ABA15E1}" WorkUnitID="{17F379C2-E719-4DC1-BE64-5433F12CA0DE}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Ambience" ID="{13AA1AF5-69F9-4931-964B-20B51959F877}" WorkUnitID="{77CD4765-3770-499D-BD52-AF2A5955ADA6}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="World" ID="{557B1837-203F-4AD4-A766-754C51849A1A}" WorkUnitID="{17F379C2-E719-4DC1-BE64-5433F12CA0DE}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Arena" ID="{FCCFC1A7-2023-4BAE-B1BE-5DAEB2DF78EA}" WorkUnitID="{9D68BE5F-8CA6-43E0-BCE2-C7D59F63E582}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Weapons" ID="{BB846B3A-D27F-4C58-B224-684AD64ED77E}" WorkUnitID="{77CD4765-3770-499D-BD52-AF2A5955ADA6}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Movement" ID="{DDC5898E-FF8A-4CCF-A6DE-E43271DAC13C}" WorkUnitID="{77CD4765-3770-499D-BD52-AF2A5955ADA6}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="lyra_sfx_jump_glass_02" ID="{26F41AB6-3D87-4FFB-94C2-E69EE16910F0}" WorkUnitID="{3CA177F2-B22E-4AD4-8708-6BDB02F5440C}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

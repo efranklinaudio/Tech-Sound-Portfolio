@@ -1,0 +1,14 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\ericf\\documents\\unreal projects\\lyra\\plugins\\lyraexttool\\source\\lyraexttool\\private\\lyraexttool.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\ericf\\documents\\unreal projects\\lyra\\intermediate\\build\\win64\\x64\\lyraeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "c:\\users\\ericf\\documents\\unreal projects\\lyra\\plugins\\lyraexttool\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\lyraexttool\\definitions.lyraexttool.h",
+            "c:\\users\\ericf\\documents\\unreal projects\\lyra\\plugins\\lyraexttool\\source\\lyraexttool\\public\\lyraexttool.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

@@ -1,0 +1,12 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-WwiseResourceCooker.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\ericf\Documents\Unreal Projects\AmbienceSystem_Portfolio\Intermediate\Build\Win64\x64\MedievalGameEditor\Development\UnrealEd\SharedPCH.UnrealEd.Cpp20.InclOrderUnreal5_0.h.obj"
+"C:\Users\ericf\Documents\Unreal Projects\AmbienceSystem_Portfolio\Plugins\Wwise\Intermediate\Build\Win64\x64\UnrealEditor\Development\WwiseResourceCooker\Module.WwiseResourceCooker.cpp.obj"
+"C:\Users\ericf\Documents\Unreal Projects\AmbienceSystem_Portfolio\Plugins\Wwise\Intermediate\Build\Win64\x64\UnrealEditor\Development\WwiseResourceCooker\Default.rc2.res"
+/OUT:"C:\Users\ericf\Documents\Unreal Projects\AmbienceSystem_Portfolio\Plugins\Wwise\Intermediate\Build\Win64\x64\UnrealEditor\Development\WwiseResourceCooker\UnrealEditor-WwiseResourceCooker.lib"

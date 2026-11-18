@@ -1,0 +1,113 @@
+Switch Group	ID	Name			Wwise Object Path	Notes
+	18676956	Magazine_Shotgun_Count			\Default Work Unit\Magazine_Shotgun_Count	
+	1776452115	Magazine_Pistol_Count			\Default Work Unit\Magazine_Pistol_Count	
+	3107534752	Magazine_Rifle_Count			\Default Work Unit\Magazine_Rifle_Count	
+	3454845069	MX_CaptureLevel			\Default Work Unit\MX_CaptureLevel	
+	4292341369	Capture_Point_Type			\Default Work Unit\Capture_Point_Type	
+
+Switch	ID	Name	Switch Group			Notes
+	853998396	Shotgun_Final	Magazine_Shotgun_Count			
+	1721210981	Shotgun_Normal	Magazine_Shotgun_Count			
+	3398155685	Pistol_Final	Magazine_Pistol_Count			
+	3757703166	Pistol_Normal	Magazine_Pistol_Count			
+	966943801	Rifle_Normal	Magazine_Rifle_Count			
+	3323306016	Rifle_Final	Magazine_Rifle_Count			
+	3794091076	State_03	MX_CaptureLevel			
+	3794091077	State_02	MX_CaptureLevel			
+	3794091078	State_01	MX_CaptureLevel			
+	1838667140	Friendly	Capture_Point_Type			
+	2299321487	Enemy	Capture_Point_Type			
+
+State Group	ID	Name			Wwise Object Path	Notes
+	324017858	CroushState			\Default Work Unit\CroushState	
+	2424287321	ExplosionState			\Default Work Unit\ExplosionState	
+	3076397936	APS_Focus			\Default Work Unit\APS_Focus	
+	3269193509	MXState			\Default Work Unit\MXState	
+
+State	ID	Name	State Group			Notes
+	748895195	None	CroushState			
+	1447291837	Uncrouched	CroushState			
+	1788443972	Crouched	CroushState			
+	748895195	None	ExplosionState			
+	1160234136	Normal	ExplosionState			
+	2453598386	HighPass	ExplosionState			
+	748895195	None	APS_Focus			
+	3147063624	Focused	APS_Focus			
+	3517500819	Unfocused	APS_Focus			
+	748895195	None	MXState			
+	1256202815	Play	MXState			
+	2555741448	Finish	MXState			
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	504532776	Brick			\Factory Acoustic Textures\Textures\Brick	
+	513139656	Mountain			\Factory Acoustic Textures\Textures\Mountain	
+	815721027	Sidechain_High_UI			\Default Work Unit\Sidechain\Sidechain_High_UI	
+	841620460	Concrete			\Factory Acoustic Textures\Textures\Concrete	
+	1755085759	Wood_Deep			\Factory Acoustic Textures\Textures\Wood_Deep	
+	1873957695	Anechoic			\Factory Acoustic Textures\Textures\Anechoic	
+	1970351858	Fabric			\Factory Acoustic Textures\Textures\Fabric	
+	2058049674	Wood			\Factory Acoustic Textures\Textures\Wood	
+	2412606308	Carpet			\Factory Acoustic Textures\Textures\Carpet	
+	2595128994	Sidechain_High			\Default Work Unit\Sidechain\Sidechain_High	
+	2637588553	Tile			\Factory Acoustic Textures\Textures\Tile	
+	2928161104	Curtains			\Factory Acoustic Textures\Textures\Curtains	
+	3195498748	Cork_Tiles			\Factory Acoustic Textures\Textures\Cork_Tiles	
+	3666249700	Sidechain_Low			\Default Work Unit\Sidechain\Sidechain_Low	
+	3670307564	Drywall			\Factory Acoustic Textures\Textures\Drywall	
+	3786991005	Sidechain_Low_UI			\Default Work Unit\Sidechain\Sidechain_Low_UI	
+	4168643977	Acoustic_Banner			\Factory Acoustic Textures\Textures\Acoustic_Banner	
+	4169298053	Crouch_Pass			\Default Work Unit\Movement\Crouch_Pass	
+	4262522749	Wood_Bright			\Factory Acoustic Textures\Textures\Wood_Bright	
+
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	17497680	Sidechain_UI			\Default Work Unit\Master Audio Bus\Sidechain_UI	
+	85412153	Ambience			\Default Work Unit\Master Audio Bus\World\HDR Bus\Ambience	
+	418286927	HDR Bus			\Default Work Unit\Master Audio Bus\World\HDR Bus	
+	983310469	Aux			\Default Work Unit\Master Audio Bus\World\Aux	
+	1069431850	Player			\Default Work Unit\Master Audio Bus\World\HDR Bus\Player	
+	1467963052	Weapons			\Default Work Unit\Master Audio Bus\World\HDR Bus\Weapons	
+	1551306167	UI			\Default Work Unit\Master Audio Bus\Non-World\UI	
+	1685527054	MX			\Default Work Unit\Master Audio Bus\Non-World\MX	
+	1883033791	Sidechain			\Default Work Unit\Master Audio Bus\Sidechain	
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	680256650	Arena			\Default Work Unit\Master Audio Bus\World\Aux\Arena	
+	815721027	Sidechain_High_UI			\Default Work Unit\Master Audio Bus\Sidechain_UI\Sidechain_High_UI	
+	896230842	Capture_Point			\Default Work Unit\Master Audio Bus\World\Aux\Capture_Point	
+	1761429756	Capture_Point_Room			\Default Work Unit\Master Audio Bus\World\Aux\Capture_Point_Room	
+	1988240518	Center			\Default Work Unit\Master Audio Bus\World\Aux\Center	
+	2493134276	Upper_Capture_Area			\Default Work Unit\Master Audio Bus\World\Aux\Upper_Capture_Area	
+	2595128994	Sidechain_High			\Default Work Unit\Master Audio Bus\Sidechain\Sidechain_High	
+	2792272911	Upper_Hallways			\Default Work Unit\Master Audio Bus\World\Aux\Upper_Hallways	
+	3666249700	Sidechain_Low			\Default Work Unit\Master Audio Bus\Sidechain\Sidechain_Low	
+	3728443364	Catwalk			\Default Work Unit\Master Audio Bus\World\Aux\Catwalk	
+	3786991005	Sidechain_Low_UI			\Default Work Unit\Master Audio Bus\Sidechain_UI\Sidechain_Low_UI	
+	3893129078	Lower_Hallways			\Default Work Unit\Master Audio Bus\World\Aux\Lower_Hallways	
+
+Effect plug-ins	ID	Name	Type				Notes
+	3408413	Meter (Custom)	Wwise Meter			
+	9264991	Parametric EQ (Custom)	Wwise Parametric EQ			
+	46751900	AK Convolution Reverb (Custom)	Wwise Convolution Reverb			
+	75405074	Sidechain_High (Custom)	Wwise Parametric EQ			
+	159213012	Meter (Custom)	Wwise Meter			
+	187629857	Meter (Custom)	Wwise Meter			
+	335695037	AK Convolution Reverb (Custom)	Wwise Convolution Reverb			
+	355949952	Parametric EQ (Custom)	Wwise Parametric EQ			
+	462956227	Gain (Custom)	Wwise Gain			
+	465488096	Parametric EQ (Custom)	Wwise Parametric EQ			
+	628087013	AK Convolution Reverb (Custom)	Wwise Convolution Reverb			
+	680256650	Arena	Wwise Convolution Reverb			
+	694263961	Gain (Custom)	Wwise Gain			
+	756371727	AK Convolution Reverb (Custom)	Wwise Convolution Reverb			
+	878718995	Sidechain_Low (Custom)	Wwise Parametric EQ			
+	898880639	Parametric EQ (Custom)	Wwise Parametric EQ			
+	906825334	Meter (Custom)	Wwise Meter			
+	987156646	AK Convolution Reverb (Custom)	Wwise Convolution Reverb			
+	2595128994	Sidechain_High	Wwise Parametric EQ			
+	3666249700	Sidechain_Low	Wwise Parametric EQ			
+
+Audio Devices	ID	Name	Type				Notes
+	2317455096	No_Output	No Output			
+	3859886410	System	System			
+

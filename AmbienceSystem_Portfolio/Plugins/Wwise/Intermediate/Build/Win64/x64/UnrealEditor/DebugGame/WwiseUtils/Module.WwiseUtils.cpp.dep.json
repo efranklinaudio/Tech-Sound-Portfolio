@@ -1,0 +1,22 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\ericf\\documents\\unreal projects\\ambiencesystem_portfolio\\plugins\\wwise\\intermediate\\build\\win64\\x64\\unrealeditor\\debuggame\\wwiseutils\\module.wwiseutils.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\ericf\\documents\\unreal projects\\ambiencesystem_portfolio\\intermediate\\build\\win64\\x64\\medievalgameeditor\\debuggame\\core\\sharedpch.core.nonoptimized.cpp20.inclorderunreal5_0.h.pch",
+        "Includes": [
+            "c:\\users\\ericf\\documents\\unreal projects\\ambiencesystem_portfolio\\plugins\\wwise\\intermediate\\build\\win64\\x64\\unrealeditor\\debuggame\\wwiseutils\\definitions.wwiseutils.h",
+            "c:\\users\\ericf\\documents\\unreal projects\\ambiencesystem_portfolio\\plugins\\wwise\\source\\wwiseutils\\private\\wwiseunrealhelper.cpp",
+            "c:\\users\\ericf\\documents\\unreal projects\\ambiencesystem_portfolio\\plugins\\wwise\\source\\wwiseutils\\public\\wwiseunrealhelper.h",
+            "c:\\users\\ericf\\documents\\unreal projects\\ambiencesystem_portfolio\\plugins\\wwise\\source\\wwiseutils\\public\\wwise\\stats\\global.h",
+            "c:\\users\\ericf\\documents\\unreal projects\\ambiencesystem_portfolio\\plugins\\wwise\\source\\wwiseutils\\private\\wwise\\stats\\global.cpp",
+            "c:\\users\\ericf\\documents\\unreal projects\\ambiencesystem_portfolio\\plugins\\wwise\\source\\wwiseutils\\private\\wwise\\stats\\memory.cpp",
+            "c:\\users\\ericf\\documents\\unreal projects\\ambiencesystem_portfolio\\plugins\\wwise\\source\\wwiseutils\\public\\wwise\\stats\\memory.h",
+            "c:\\program files\\epic games\\ue_5.3\\engine\\source\\runtime\\core\\public\\hal\\lowlevelmemstats.h",
+            "c:\\users\\ericf\\documents\\unreal projects\\ambiencesystem_portfolio\\plugins\\wwise\\source\\wwiseutils\\private\\wwise\\stats\\namedevents.cpp",
+            "c:\\users\\ericf\\documents\\unreal projects\\ambiencesystem_portfolio\\plugins\\wwise\\source\\wwiseutils\\public\\wwise\\stats\\namedevents.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{5E847467-A76E-4E47-843C-57F0E66391F3}" SchemaVersion="119" RootDocumentID="{37A8E576-81F7-48DB-8106-97136D6FA940}" ParentDocumentID="{37A8E576-81F7-48DB-8106-97136D6FA940}">
+	<Events>
+		<WorkUnit Name="Ambience" ID="{5E847467-A76E-4E47-843C-57F0E66391F3}" OwnerID="{37A8E576-81F7-48DB-8106-97136D6FA940}" PersistMode="Nested">
+			<ChildrenList>
+				<Folder Name="2D Ambience" ID="{9102FC26-61E9-4985-9F09-18E7240F5199}" ShortID="310128669">
+					<ChildrenList>
+						<Event Name="Play_AMB2D_Forest" ID="{2ECFE5CC-73FB-437D-BCA2-E4EE3AD040EC}">
+							<ChildrenList>
+								<Action Name="" ID="{E4AEEC73-2938-416F-AED5-0C0BEF6ED75B}" ShortID="659494257">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="1.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="MVAMB_AMB2D_Forest" ID="{5A9F4A5E-CADC-4A05-91D2-E6E59364187C}" WorkUnitID="{BE745BFD-DF7D-474E-BF81-90EB00A2E0F6}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_AMB2D_Storm" ID="{4F7412FB-1AE4-4098-9B9D-AEA836462E14}">
+							<ChildrenList>
+								<Action Name="" ID="{6D4B0AE0-0BA6-4310-88AF-9814F6D4073E}" ShortID="854613756">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="MVAMB_AMB2D_General" ID="{95371CEF-E95F-4EAE-91FD-A705FB2FB6BB}" WorkUnitID="{BE745BFD-DF7D-474E-BF81-90EB00A2E0F6}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_AMB2D_Village" ID="{BA34232E-1335-4A89-A0B7-2CB10A08AD4F}">
+							<ChildrenList>
+								<Action Name="" ID="{7E76D48B-199D-40BA-8387-2AA49F77D2E4}" ShortID="272532944">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="MVAMB_AMB2D_Village" ID="{52B8C78A-5A53-4BC0-A2C6-E102932BACE9}" WorkUnitID="{BE745BFD-DF7D-474E-BF81-90EB00A2E0F6}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{931F908A-01D6-4765-8885-05939548587D}" ShortID="613726213">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="MVAMB_AMB2D_Wind_Loop" ID="{F998BD81-A0B3-4CB7-A882-6833DC5EBE02}" WorkUnitID="{BE745BFD-DF7D-474E-BF81-90EB00A2E0F6}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_AMB2D_Fields" ID="{8312E3CB-29AC-4159-899D-33676A117451}">
+							<ChildrenList>
+								<Action Name="" ID="{CFD7D8F9-11B5-4E7D-BC46-54F1A2F0F126}" ShortID="599416535">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="MVAMB_AMB2D_Fields" ID="{CF823DB4-2AED-4541-ACBD-A7B5F7E0A498}" WorkUnitID="{BE745BFD-DF7D-474E-BF81-90EB00A2E0F6}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_AMB2D_Smith" ID="{BB62C0E3-0BCA-4E48-98A6-309798356919}">
+							<ChildrenList>
+								<Action Name="" ID="{56EA2613-1384-471E-A5ED-7FA39A8E54F7}" ShortID="864322500">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="MVAMB_AMB2D_Smith" ID="{F3705637-735D-45C1-93B2-5CD692232939}" WorkUnitID="{BE745BFD-DF7D-474E-BF81-90EB00A2E0F6}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="3D Ambience" ID="{0DE2BE72-5F93-45E6-84AD-A7F8D5CC4C64}" ShortID="954648731">
+					<ChildrenList>
+						<Event Name="Play_AMB3D_BannerRustle_Loop" ID="{41E4A029-7375-4272-9889-6DDAA9C23C86}">
+							<ChildrenList>
+								<Action Name="" ID="{61D7A3F2-0A99-4AAF-B65C-FCF2CBAB81B1}" ShortID="1071230394">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="MVAMB_AMB3D_BannerRustle_Loop" ID="{8855EB88-CDE4-4C53-9C50-E7D40465EF76}" WorkUnitID="{83A9EB52-B070-425C-888C-47FCC2340834}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_AMB3D_BannerRustle_Large" ID="{951879C0-88C3-4014-A00B-069A35F08F19}">
+							<ChildrenList>
+								<Action Name="" ID="{2547F4C3-EC97-4EB7-8592-8FAF99831941}" ShortID="339341093">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="BannerRustle_Large" ID="{46A29EC9-53BB-4880-BCE3-629E684FEB95}" WorkUnitID="{83A9EB52-B070-425C-888C-47FCC2340834}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_AMB3D_Village_Crow_Caw" ID="{DDD4B80A-90ED-4E4E-AA89-7126FA4BBD09}">
+							<ChildrenList>
+								<Action Name="" ID="{B99F3368-4A58-45E5-A582-CEA823A55BF0}" ShortID="877947111">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Crow_Caw" ID="{2C6759E7-9CB1-41C0-8236-4E2A3F0A0CED}" WorkUnitID="{83A9EB52-B070-425C-888C-47FCC2340834}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_AMB3D_WindGust" ID="{EAE7A83D-FA9B-4A01-B6CA-5137CA44329A}">
+							<ChildrenList>
+								<Action Name="" ID="{7396AF15-C617-48CD-B19A-1667F500A07E}" ShortID="54138899">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="WindGusts" ID="{287DB4FC-824F-4DA8-8C69-A42F0E50B171}" WorkUnitID="{83A9EB52-B070-425C-888C-47FCC2340834}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Folder Name="Forest" ID="{F3E93805-5787-4670-ABBE-33EA418EB0A2}" ShortID="284994977">
+							<ChildrenList>
+								<Event Name="Play_AMB3D_Forest_BirdCall" ID="{952F9A1D-1C44-455A-B42C-AEE79B019AA2}">
+									<ChildrenList>
+										<Action Name="" ID="{776EE0AF-494F-4862-A07E-238B25B46E63}" ShortID="682090198">
+											<PropertyList>
+												<Property Name="Probability" Type="Real64" Value="60"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="BirdCall" ID="{1F75E841-3746-43F4-9E63-A52E14DEE75A}" WorkUnitID="{83A9EB52-B070-425C-888C-47FCC2340834}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_AMB3D_Forest_BushRustle" ID="{4325F119-5A26-4991-A9D2-8AF4AE15FB9C}">
+									<ChildrenList>
+										<Action Name="" ID="{F022B5B4-39B5-4A61-8ACB-F08AC730011C}" ShortID="364057228">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="BushRustle" ID="{3797BB74-05DA-4949-A8A3-BF23556B7C23}" WorkUnitID="{83A9EB52-B070-425C-888C-47FCC2340834}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_AMB3D_Forest_Cicada" ID="{2452A27D-4110-4E3F-ADC5-C57F6C881A47}">
+									<ChildrenList>
+										<Action Name="" ID="{90205A93-7F8D-4D96-B15A-635135EEB664}" ShortID="270995728">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Cicada" ID="{5DDEA26E-7C2C-4C2B-8CB5-21EDEAA96BFA}" WorkUnitID="{83A9EB52-B070-425C-888C-47FCC2340834}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Village" ID="{831C21F2-C1B7-4460-9090-8FBFB95E2B7E}" ShortID="136162644">
+							<ChildrenList>
+								<Event Name="Play_AMB3D_Village_WoodCreak" ID="{C8EB1AE0-8B46-4202-8341-D81C9A1B9417}">
+									<ChildrenList>
+										<Action Name="" ID="{42101803-E11A-4ED3-95FF-D0DF63A30D95}" ShortID="166670231">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="WoodCreak" ID="{9ED15FF3-ADBE-4B2B-8D27-FC55FF2F9AB0}" WorkUnitID="{83A9EB52-B070-425C-888C-47FCC2340834}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_AMB3D_Village_Forge" ID="{5B8610E7-417E-4A78-87CA-4D55A12A9233}">
+									<ChildrenList>
+										<Action Name="" ID="{51EBE3A3-081A-430F-B58E-77F37DE5153B}" ShortID="607466150">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="MVAMB_AMB3D_Forge" ID="{17637041-8B64-4AB3-8C33-A5641BD740FE}" WorkUnitID="{83A9EB52-B070-425C-888C-47FCC2340834}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_AMB3D_Village_Lantern" ID="{5B72A4C6-55C0-43C0-BA57-DCA1ADB79E31}">
+									<ChildrenList>
+										<Action Name="" ID="{854F05E2-6DB8-4B05-B1D9-799305D2F291}" ShortID="60278551">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="MVAMB_AMB3D_Lantern" ID="{635E5946-2385-4FA5-8AB5-1A98B2619E76}" WorkUnitID="{83A9EB52-B070-425C-888C-47FCC2340834}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_AMB3D_Village_Crow_FlyAway" ID="{E2A86B61-5977-4B4D-B0DC-7815FA3F35ED}">
+									<ChildrenList>
+										<Action Name="" ID="{4092D87A-55ED-41C3-A10A-65EAE338EEF3}" ShortID="807823154">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Crow_FlyAway" ID="{5D3C25D7-631D-45F4-A25C-78B17B6482A2}" WorkUnitID="{83A9EB52-B070-425C-888C-47FCC2340834}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

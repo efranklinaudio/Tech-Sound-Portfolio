@@ -1,0 +1,19 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\ericf\\documents\\unreal projects\\lyra\\plugins\\wwise\\source\\wwiseresourceloader\\private\\wwise\\cookeddata\\wwisegameparametercookeddata.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\ericf\\documents\\unreal projects\\lyra\\intermediate\\build\\win64\\x64\\lyraeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "c:\\users\\ericf\\documents\\unreal projects\\lyra\\plugins\\wwise\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\wwiseresourceloader\\definitions.wwiseresourceloader.h",
+            "c:\\users\\ericf\\documents\\unreal projects\\lyra\\plugins\\wwise\\source\\wwiseresourceloader\\public\\wwise\\cookeddata\\wwisegameparametercookeddata.h",
+            "c:\\users\\ericf\\documents\\unreal projects\\lyra\\plugins\\wwise\\intermediate\\build\\win64\\unrealeditor\\inc\\wwiseresourceloader\\uht\\wwisegameparametercookeddata.generated.h",
+            "c:\\users\\ericf\\documents\\unreal projects\\lyra\\plugins\\wwise\\source\\wwiseresourceloader\\public\\wwise\\stats\\resourceloader.h",
+            "c:\\users\\ericf\\documents\\unreal projects\\lyra\\plugins\\wwise\\source\\wwiseutils\\public\\wwise\\stats\\namedevents.h",
+            "c:\\users\\ericf\\documents\\unreal projects\\lyra\\plugins\\wwise\\source\\wwiseutils\\public\\wwise\\stats\\memory.h",
+            "c:\\program files (x86)\\windows kits\\10\\include\\10.0.19041.0\\ucrt\\inttypes.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

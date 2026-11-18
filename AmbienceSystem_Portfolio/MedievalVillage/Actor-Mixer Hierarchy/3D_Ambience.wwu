@@ -1,0 +1,1356 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{83A9EB52-B070-425C-888C-47FCC2340834}" SchemaVersion="119" RootDocumentID="{6002CD08-2212-4B1C-9EE5-35D4641AB3F8}" ParentDocumentID="{C66A4928-FA81-47F1-8810-F4FCA9D4F492}">
+	<AudioObjects>
+		<WorkUnit Name="3D_Ambience" ID="{83A9EB52-B070-425C-888C-47FCC2340834}" OwnerID="{C66A4928-FA81-47F1-8810-F4FCA9D4F492}" PersistMode="Nested">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="18"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<ActorMixer Name="3D_Ambience_Banner" ID="{97AEFA08-4BCE-4A4D-AE5C-AEC0315BDAAE}" ShortID="625127322">
+					<PropertyList>
+						<Property Name="EnableDiffraction" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Banner" ID="{959342A5-F25F-4582-BB9E-5CE9485A93A2}" WorkUnitID="{B5A51E18-4101-455C-8D04-D227712989AE}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BF29FAC5-1320-47BE-8CB3-E5F6CF9FA6D8}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="3D_Ambience" ID="{17507B17-9A3E-456E-A69E-D228F620074F}" WorkUnitID="{05F5F81D-DB58-459A-9179-417346193955}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="MVAMB_AMB3D_BannerRustle_Loop" ID="{8855EB88-CDE4-4C53-9C50-E7D40465EF76}" ShortID="746612532">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="IsNonCachable" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+								<Property Name="IsStreamingEnabled" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BF29FAC5-1320-47BE-8CB3-E5F6CF9FA6D8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{05F5F81D-DB58-459A-9179-417346193955}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="MVAMB_AMB3D_BannerRustle_Loop" ID="{8B27ECEE-CE8D-428D-A35B-4A1642DB0E71}">
+									<PropertyList>
+										<Property Name="LoopBegin" Type="Real64" Value="0"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="33.7985500312695"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>MVAMB_AMB3D_BannerRustle_Loop.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="865284555"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="MVAMB_AMB3D_BannerRustle_Loop" ID="{8B27ECEE-CE8D-428D-A35B-4A1642DB0E71}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<RandomSequenceContainer Name="BannerRustle_Large" ID="{46A29EC9-53BB-4880-BCE3-629E684FEB95}" ShortID="913675842">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>3</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BF29FAC5-1320-47BE-8CB3-E5F6CF9FA6D8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{05F5F81D-DB58-459A-9179-417346193955}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="MVAMB_AMB3D_BannerRustle_Large_03" ID="{A6210363-E1E2-433A-82D9-2088027CE16D}" ShortID="953533943">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BF29FAC5-1320-47BE-8CB3-E5F6CF9FA6D8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="3D_Ambience" ID="{17507B17-9A3E-456E-A69E-D228F620074F}" WorkUnitID="{05F5F81D-DB58-459A-9179-417346193955}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MVAMB_AMB3D_BannerRustle_Large_03" ID="{956FB2DD-DFC7-48AA-B40C-C8C509337B12}">
+											<Language>SFX</Language>
+											<AudioFile>MVAMB_AMB3D_BannerRustle_Large_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1063204273"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MVAMB_AMB3D_BannerRustle_Large_03" ID="{956FB2DD-DFC7-48AA-B40C-C8C509337B12}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="MVAMB_AMB3D_BannerRustle_Large_01" ID="{DFE7AA8A-0AC6-46A8-AD92-07A657277ECF}" ShortID="444230267">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BF29FAC5-1320-47BE-8CB3-E5F6CF9FA6D8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="3D_Ambience" ID="{17507B17-9A3E-456E-A69E-D228F620074F}" WorkUnitID="{05F5F81D-DB58-459A-9179-417346193955}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MVAMB_AMB3D_BannerRustle_Large_01" ID="{000650E0-998B-4619-9331-B83CAD0EA228}">
+											<Language>SFX</Language>
+											<AudioFile>MVAMB_AMB3D_BannerRustle_Large_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="313706917"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MVAMB_AMB3D_BannerRustle_Large_01" ID="{000650E0-998B-4619-9331-B83CAD0EA228}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="MVAMB_AMB3D_BannerRustle_Large_02" ID="{DBA50080-42E7-4EDF-9ED3-F1FD59D958D7}" ShortID="831089822">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BF29FAC5-1320-47BE-8CB3-E5F6CF9FA6D8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="3D_Ambience" ID="{17507B17-9A3E-456E-A69E-D228F620074F}" WorkUnitID="{05F5F81D-DB58-459A-9179-417346193955}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MVAMB_AMB3D_BannerRustle_Large_02" ID="{73EC949A-B9FF-4906-B2C6-ED08BF47583D}">
+											<Language>SFX</Language>
+											<AudioFile>MVAMB_AMB3D_BannerRustle_Large_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="116006581"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MVAMB_AMB3D_BannerRustle_Large_02" ID="{73EC949A-B9FF-4906-B2C6-ED08BF47583D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="MVAMB_AMB3D_BannerRustle_Large_04" ID="{938D9700-BCF5-44F2-B51F-F8788B6FD5DD}" ShortID="358527660">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BF29FAC5-1320-47BE-8CB3-E5F6CF9FA6D8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="3D_Ambience" ID="{17507B17-9A3E-456E-A69E-D228F620074F}" WorkUnitID="{05F5F81D-DB58-459A-9179-417346193955}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MVAMB_AMB3D_BannerRustle_Large_04" ID="{35EC4713-939F-4EA0-B292-2214B47AB688}">
+											<Language>SFX</Language>
+											<AudioFile>MVAMB_AMB3D_BannerRustle_Large_04.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="878971493"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MVAMB_AMB3D_BannerRustle_Large_04" ID="{35EC4713-939F-4EA0-B292-2214B47AB688}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+					</ChildrenList>
+				</ActorMixer>
+				<ActorMixer Name="3D_Ambience_Forest" ID="{483141BF-B1F0-4690-BAFE-E10F4E9D6964}" ShortID="748793069">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="3D_Random" ID="{395A2EDC-C216-415A-AD9C-751B1F4EEF91}" WorkUnitID="{B5A51E18-4101-455C-8D04-D227712989AE}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BF29FAC5-1320-47BE-8CB3-E5F6CF9FA6D8}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="3D_Ambience" ID="{17507B17-9A3E-456E-A69E-D228F620074F}" WorkUnitID="{05F5F81D-DB58-459A-9179-417346193955}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<RandomSequenceContainer Name="BirdCall" ID="{1F75E841-3746-43F4-9E63-A52E14DEE75A}" ShortID="774977555">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{A32D4503-BDEB-4F50-AE81-C3AE6F785650}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="303"/>
+													<Property Name="Min" Type="Real64" Value="-354"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-2</Value>
+									</ValueList>
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{46466C8B-9F28-485C-ABB1-48C7DFB8B5EC}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="2"/>
+													<Property Name="Min" Type="Real64" Value="-10"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="3D_Random" ID="{395A2EDC-C216-415A-AD9C-751B1F4EEF91}" WorkUnitID="{B5A51E18-4101-455C-8D04-D227712989AE}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BF29FAC5-1320-47BE-8CB3-E5F6CF9FA6D8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{05F5F81D-DB58-459A-9179-417346193955}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="MVAMB_AMB3D_BirdCall_01" ID="{638E225B-5CF1-4F5F-9AA4-52E12CC290D0}" ShortID="736010699">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BF29FAC5-1320-47BE-8CB3-E5F6CF9FA6D8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{05F5F81D-DB58-459A-9179-417346193955}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MVAMB_AMB3D_BirdCall_01" ID="{0DE6ACE6-2B8F-4192-973E-04D1B66D91F2}">
+											<Language>SFX</Language>
+											<AudioFile>MVAMB_AMB3D_BirdCall_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="813551098"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MVAMB_AMB3D_BirdCall_01" ID="{0DE6ACE6-2B8F-4192-973E-04D1B66D91F2}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="MVAMB_AMB3D_BirdCall_02" ID="{AAF05AE2-B0BD-49C8-9700-53FEE5D674AC}" ShortID="793491969">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BF29FAC5-1320-47BE-8CB3-E5F6CF9FA6D8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{05F5F81D-DB58-459A-9179-417346193955}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MVAMB_AMB3D_BirdCall_02" ID="{E3160DA2-F980-4C2E-94F9-FBF0712F4237}">
+											<Language>SFX</Language>
+											<AudioFile>MVAMB_AMB3D_BirdCall_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="33766166"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MVAMB_AMB3D_BirdCall_02" ID="{E3160DA2-F980-4C2E-94F9-FBF0712F4237}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="MVAMB_AMB3D_BirdCall_03" ID="{3CCD4B61-3D8E-4E15-859A-E7224F3C204C}" ShortID="693448727">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BF29FAC5-1320-47BE-8CB3-E5F6CF9FA6D8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{05F5F81D-DB58-459A-9179-417346193955}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MVAMB_AMB3D_BirdCall_03" ID="{F722B3D4-5CC5-4423-881F-816FF9177441}">
+											<Language>SFX</Language>
+											<AudioFile>MVAMB_AMB3D_BirdCall_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="898011573"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MVAMB_AMB3D_BirdCall_03" ID="{F722B3D4-5CC5-4423-881F-816FF9177441}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="MVAMB_AMB3D_BirdCall_04" ID="{7B98E170-D0C6-401E-AA68-52D9D3F2FD2B}" ShortID="633623048">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BF29FAC5-1320-47BE-8CB3-E5F6CF9FA6D8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{05F5F81D-DB58-459A-9179-417346193955}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MVAMB_AMB3D_BirdCall_04" ID="{1C41F574-3A58-4571-B149-0336100F5340}">
+											<Language>SFX</Language>
+											<AudioFile>MVAMB_AMB3D_BirdCall_04.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="203079656"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MVAMB_AMB3D_BirdCall_04" ID="{1C41F574-3A58-4571-B149-0336100F5340}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="BushRustle" ID="{3797BB74-05DA-4949-A8A3-BF23556B7C23}" ShortID="78412599">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{5DDE5A93-AA33-4075-80F2-BA616280DC3A}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="101"/>
+													<Property Name="Min" Type="Real64" Value="-177"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="3D_Random" ID="{395A2EDC-C216-415A-AD9C-751B1F4EEF91}" WorkUnitID="{B5A51E18-4101-455C-8D04-D227712989AE}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BF29FAC5-1320-47BE-8CB3-E5F6CF9FA6D8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{05F5F81D-DB58-459A-9179-417346193955}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="MVAMB_AMB3D_BushRustle_01" ID="{1AD934DB-4526-4F74-B946-418554EBEC54}" ShortID="487455888">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BF29FAC5-1320-47BE-8CB3-E5F6CF9FA6D8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{05F5F81D-DB58-459A-9179-417346193955}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MVAMB_AMB3D_BushRustle_01" ID="{A8ED703B-EA20-4430-95DF-7961D8F19630}">
+											<Language>SFX</Language>
+											<AudioFile>MVAMB_AMB3D_BushRustle_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="781047292"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MVAMB_AMB3D_BushRustle_01" ID="{A8ED703B-EA20-4430-95DF-7961D8F19630}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="MVAMB_AMB3D_BushRustle_02" ID="{10318D16-61FF-4BB3-99EF-9A88F0EE11D9}" ShortID="66252623">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BF29FAC5-1320-47BE-8CB3-E5F6CF9FA6D8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{05F5F81D-DB58-459A-9179-417346193955}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MVAMB_AMB3D_BushRustle_02" ID="{44E8FC12-51AF-436A-8DC9-C2C7C23E6224}">
+											<Language>SFX</Language>
+											<AudioFile>MVAMB_AMB3D_BushRustle_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="630727918"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MVAMB_AMB3D_BushRustle_02" ID="{44E8FC12-51AF-436A-8DC9-C2C7C23E6224}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="MVAMB_AMB3D_BushRustle_03" ID="{413F298A-B67E-4767-B4F1-F4359F2B1714}" ShortID="923861729">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BF29FAC5-1320-47BE-8CB3-E5F6CF9FA6D8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{05F5F81D-DB58-459A-9179-417346193955}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MVAMB_AMB3D_BushRustle_03" ID="{BC775C7A-4C14-462E-8211-3D35B58D12A1}">
+											<Language>SFX</Language>
+											<AudioFile>MVAMB_AMB3D_BushRustle_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="852481515"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MVAMB_AMB3D_BushRustle_03" ID="{BC775C7A-4C14-462E-8211-3D35B58D12A1}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Cicada" ID="{5DDEA26E-7C2C-4C2B-8CB5-21EDEAA96BFA}" ShortID="836571827">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{A3062FA5-51AC-4B70-B930-AC83B30B665A}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="253"/>
+													<Property Name="Min" Type="Real64" Value="-228"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-2</Value>
+									</ValueList>
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{C51363B3-40D0-4E52-9851-305496CD4DFC}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="1"/>
+													<Property Name="Min" Type="Real64" Value="-3"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="3D_Random" ID="{395A2EDC-C216-415A-AD9C-751B1F4EEF91}" WorkUnitID="{B5A51E18-4101-455C-8D04-D227712989AE}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BF29FAC5-1320-47BE-8CB3-E5F6CF9FA6D8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{05F5F81D-DB58-459A-9179-417346193955}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="MVAMB_AMB3D_Cicada_01" ID="{E2132B06-8DE1-4C33-A2E4-BE38A27D0333}" ShortID="920211364">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BF29FAC5-1320-47BE-8CB3-E5F6CF9FA6D8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{05F5F81D-DB58-459A-9179-417346193955}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MVAMB_AMB3D_Cicada_01" ID="{5DB90F2C-D883-4392-A413-E5EF4AA124FE}">
+											<Language>SFX</Language>
+											<AudioFile>MVAMB_AMB3D_Cicada_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="658215475"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MVAMB_AMB3D_Cicada_01" ID="{5DB90F2C-D883-4392-A413-E5EF4AA124FE}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="MVAMB_AMB3D_Cicada_02" ID="{8D9AF4D9-82E8-4873-96D6-11B0CB5B7F86}" ShortID="974854966">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BF29FAC5-1320-47BE-8CB3-E5F6CF9FA6D8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{05F5F81D-DB58-459A-9179-417346193955}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MVAMB_AMB3D_Cicada_02" ID="{B1B678F6-8697-47F6-BFE6-15C8B15EFA1B}">
+											<Language>SFX</Language>
+											<AudioFile>MVAMB_AMB3D_Cicada_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="482332482"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MVAMB_AMB3D_Cicada_02" ID="{B1B678F6-8697-47F6-BFE6-15C8B15EFA1B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="MVAMB_AMB3D_Cicada_03" ID="{53A61445-41E3-4C47-9764-7DA15BBCC05B}" ShortID="773961356">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BF29FAC5-1320-47BE-8CB3-E5F6CF9FA6D8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{05F5F81D-DB58-459A-9179-417346193955}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MVAMB_AMB3D_Cicada_03" ID="{F453C8B0-1A34-49E6-9837-037617BA8CA8}">
+											<Language>SFX</Language>
+											<AudioFile>MVAMB_AMB3D_Cicada_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="610307768"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MVAMB_AMB3D_Cicada_03" ID="{F453C8B0-1A34-49E6-9837-037617BA8CA8}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="MVAMB_AMB3D_Cicada_04" ID="{5E053DE1-BF39-48B3-ADD5-4C8AB7605D6F}" ShortID="18511411">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BF29FAC5-1320-47BE-8CB3-E5F6CF9FA6D8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{05F5F81D-DB58-459A-9179-417346193955}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MVAMB_AMB3D_Cicada_04" ID="{B33FEFDA-77B5-4629-AF8C-FB0862DBC558}">
+											<Language>SFX</Language>
+											<AudioFile>MVAMB_AMB3D_Cicada_04.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="973452083"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MVAMB_AMB3D_Cicada_04" ID="{B33FEFDA-77B5-4629-AF8C-FB0862DBC558}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+					</ChildrenList>
+				</ActorMixer>
+				<ActorMixer Name="3D_Ambience_Wind" ID="{04F13CE2-6AD3-410A-BDA9-C4B2106DE141}" ShortID="1068060335">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="EnableDiffraction" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="WindGust" ID="{8CFB47A9-1DAF-4A45-84CF-6D1037E51D41}" WorkUnitID="{B5A51E18-4101-455C-8D04-D227712989AE}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BF29FAC5-1320-47BE-8CB3-E5F6CF9FA6D8}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Wind" ID="{5B12E054-936A-4F48-80E9-016E37635FE6}" WorkUnitID="{05F5F81D-DB58-459A-9179-417346193955}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<SwitchContainer Name="WindGusts" ID="{287DB4FC-824F-4DA8-8C69-A42F0E50B171}" ShortID="648168702">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="EnableDiffraction" Type="bool" Value="True"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-10</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="WindGust" ID="{8CFB47A9-1DAF-4A45-84CF-6D1037E51D41}" WorkUnitID="{B5A51E18-4101-455C-8D04-D227712989AE}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BF29FAC5-1320-47BE-8CB3-E5F6CF9FA6D8}"/>
+								</Reference>
+								<Reference Name="DefaultSwitchOrState">
+									<ObjectRef Name="Forest" ID="{A03205E1-466B-418E-A0ED-31123474978E}" WorkUnitID="{D7257679-AC07-4378-8732-A9B3BE48686D}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{05F5F81D-DB58-459A-9179-417346193955}"/>
+								</Reference>
+								<Reference Name="SwitchGroupOrStateGroup">
+									<ObjectRef Name="Area" ID="{DD35175E-C4B7-4DC8-9E70-4C8CCB03A284}" WorkUnitID="{D7257679-AC07-4378-8732-A9B3BE48686D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<RandomSequenceContainer Name="General" ID="{8B0A9B56-79DC-4813-892E-028BD33D28EE}" ShortID="341530367">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BF29FAC5-1320-47BE-8CB3-E5F6CF9FA6D8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{05F5F81D-DB58-459A-9179-417346193955}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="MVAMB_AMB3D_WindGust_General_01" ID="{97D3F16B-1693-4A84-AD7E-279D0ADBF64A}" ShortID="546481142">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BF29FAC5-1320-47BE-8CB3-E5F6CF9FA6D8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{05F5F81D-DB58-459A-9179-417346193955}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="MVAMB_AMB3D_WindGust_General_01" ID="{72AF6C50-FB45-47BC-B349-06252936BED5}">
+													<Language>SFX</Language>
+													<AudioFile>MVAMB_AMB3D_WindGust_General_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="310247767"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="MVAMB_AMB3D_WindGust_General_01" ID="{72AF6C50-FB45-47BC-B349-06252936BED5}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="MVAMB_AMB3D_WindGust_General_02" ID="{6C38E87A-18EE-4DEF-95B5-B16CB40CCE55}" ShortID="387404130">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BF29FAC5-1320-47BE-8CB3-E5F6CF9FA6D8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{05F5F81D-DB58-459A-9179-417346193955}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="MVAMB_AMB3D_WindGust_General_02" ID="{1879C1AE-E2E5-4E44-99D4-521BB24343F7}">
+													<Language>SFX</Language>
+													<AudioFile>MVAMB_AMB3D_WindGust_General_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="698241151"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="MVAMB_AMB3D_WindGust_General_02" ID="{1879C1AE-E2E5-4E44-99D4-521BB24343F7}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="MVAMB_AMB3D_WindGust_General_03" ID="{91A64F35-3446-4BDA-AAC7-C1331CD6F513}" ShortID="755106723">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BF29FAC5-1320-47BE-8CB3-E5F6CF9FA6D8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{05F5F81D-DB58-459A-9179-417346193955}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="MVAMB_AMB3D_WindGust_General_03" ID="{FB5A1BBE-B1F5-482E-8F86-F4D698EB7CA9}">
+													<Language>SFX</Language>
+													<AudioFile>MVAMB_AMB3D_WindGust_General_03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="531609743"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="MVAMB_AMB3D_WindGust_General_03" ID="{FB5A1BBE-B1F5-482E-8F86-F4D698EB7CA9}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="MVAMB_AMB3D_WindGust_General_04" ID="{10A3E314-DE0C-4A3B-8DC5-86A43CF3C45A}" ShortID="757713350">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BF29FAC5-1320-47BE-8CB3-E5F6CF9FA6D8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{05F5F81D-DB58-459A-9179-417346193955}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="MVAMB_AMB3D_WindGust_General_04" ID="{4598E377-5822-48AC-9591-C805120DF6CE}">
+													<Language>SFX</Language>
+													<AudioFile>MVAMB_AMB3D_WindGust_General_04.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="830834780"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="MVAMB_AMB3D_WindGust_General_04" ID="{4598E377-5822-48AC-9591-C805120DF6CE}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="Forest" ID="{46DC7D84-2EA9-44BB-BF80-8DACFF026F44}" ShortID="461035495">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BF29FAC5-1320-47BE-8CB3-E5F6CF9FA6D8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{05F5F81D-DB58-459A-9179-417346193955}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="MVAMB_AMB3D_WindGust_Forest_01" ID="{F2959225-4DDB-4BB1-8CAF-89EECB86E5E4}" ShortID="767863081">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BF29FAC5-1320-47BE-8CB3-E5F6CF9FA6D8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{05F5F81D-DB58-459A-9179-417346193955}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="MVAMB_AMB3D_WindGust_Forest_01" ID="{437FEDD4-59BA-4143-BFE7-C761F706F096}">
+													<Language>SFX</Language>
+													<AudioFile>MVAMB_AMB3D_WindGust_Forest_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="163938029"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="MVAMB_AMB3D_WindGust_Forest_01" ID="{437FEDD4-59BA-4143-BFE7-C761F706F096}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="MVAMB_AMB3D_WindGust_Forest_02" ID="{E42FCD47-276F-43BC-ACA2-1F0D1AAE5E87}" ShortID="642293454">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BF29FAC5-1320-47BE-8CB3-E5F6CF9FA6D8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{05F5F81D-DB58-459A-9179-417346193955}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="MVAMB_AMB3D_WindGust_Forest_02" ID="{395768D0-9D43-4D5D-BE66-3D13009D874B}">
+													<Language>SFX</Language>
+													<AudioFile>MVAMB_AMB3D_WindGust_Forest_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="272215089"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="MVAMB_AMB3D_WindGust_Forest_02" ID="{395768D0-9D43-4D5D-BE66-3D13009D874B}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="MVAMB_AMB3D_WindGust_Forest_03" ID="{8695F9F7-60E4-4CCD-BFAA-441E5F917646}" ShortID="759040550">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BF29FAC5-1320-47BE-8CB3-E5F6CF9FA6D8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{05F5F81D-DB58-459A-9179-417346193955}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="MVAMB_AMB3D_WindGust_Forest_03" ID="{57C3FECD-A26F-4A78-B57C-2D6BC321EA35}">
+													<Language>SFX</Language>
+													<AudioFile>MVAMB_AMB3D_WindGust_Forest_03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="809270089"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="MVAMB_AMB3D_WindGust_Forest_03" ID="{57C3FECD-A26F-4A78-B57C-2D6BC321EA35}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="MVAMB_AMB3D_WindGust_Forest_04" ID="{2CBADBCD-F1B5-409C-8A38-38BA1AB5E52D}" ShortID="442165658">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BF29FAC5-1320-47BE-8CB3-E5F6CF9FA6D8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{05F5F81D-DB58-459A-9179-417346193955}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="MVAMB_AMB3D_WindGust_Forest_04" ID="{3D0A2F63-12E3-4F55-A0E1-A416BF283F88}">
+													<Language>SFX</Language>
+													<AudioFile>MVAMB_AMB3D_WindGust_Forest_04.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="737766269"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="MVAMB_AMB3D_WindGust_Forest_04" ID="{3D0A2F63-12E3-4F55-A0E1-A416BF283F88}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="MVAMB_AMB3D_WindGust_Forest_05" ID="{C80A4EB8-5383-4B7B-AC75-1288A5D42D51}" ShortID="457119413">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BF29FAC5-1320-47BE-8CB3-E5F6CF9FA6D8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{05F5F81D-DB58-459A-9179-417346193955}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="MVAMB_AMB3D_WindGust_Forest_05" ID="{92B5E3CC-62E7-43E2-9DA2-619859C9E504}">
+													<Language>SFX</Language>
+													<AudioFile>MVAMB_AMB3D_WindGust_Forest_05.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="835943619"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="MVAMB_AMB3D_WindGust_Forest_05" ID="{92B5E3CC-62E7-43E2-9DA2-619859C9E504}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+							</ChildrenList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="ExteriorCheck" ID="{F11F2A52-37F0-486C-A7C2-1688FA404EC5}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="Building" ID="{6BA492DB-6EC2-42F6-9E20-A689B4E0B8DD}"/>
+										<CustomState Name="" ID="{35818100-598A-4CAD-BB08-0A5850BF9A41}" ShortID="530019700"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Exterior" ID="{791859CC-E4C9-49E3-8DFE-A50ACF426813}"/>
+										<CustomState Name="" ID="{B5B02040-37EB-4C3D-AD63-3B02A70ED2C8}" ShortID="427702340"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Interior" ID="{27C5F190-8123-49ED-86F7-6F54F99E8BCD}"/>
+										<CustomState Name="" ID="{77673773-027A-4B33-8721-FB4E5D93387E}" ShortID="561341038">
+											<PropertyList>
+												<Property Name="Highpass" Type="int16" Value="22"/>
+												<Property Name="Lowpass" Type="int16" Value="29"/>
+												<Property Name="Volume" Type="Real64" Value="-8"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
+							<GroupingInfo>
+								<GroupingBehaviorList>
+									<GroupingBehavior>
+										<ItemRef Name="General" ID="{8B0A9B56-79DC-4813-892E-028BD33D28EE}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="Forest" ID="{46DC7D84-2EA9-44BB-BF80-8DACFF026F44}"/>
+									</GroupingBehavior>
+								</GroupingBehaviorList>
+								<GroupingList>
+									<Grouping>
+										<SwitchRef Name="Field" ID="{6BCB001B-7464-41DE-94FC-9A3C55A26F28}"/>
+										<ItemList>
+											<ItemRef Name="General" ID="{8B0A9B56-79DC-4813-892E-028BD33D28EE}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Village" ID="{B6E02AC0-4F2F-45B6-BE02-8FB238D276AA}"/>
+										<ItemList>
+											<ItemRef Name="General" ID="{8B0A9B56-79DC-4813-892E-028BD33D28EE}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="None" ID="{637147D3-FE8A-47A6-9FF5-C3224288CE98}"/>
+										<ItemList>
+											<ItemRef Name="General" ID="{8B0A9B56-79DC-4813-892E-028BD33D28EE}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Forest" ID="{A03205E1-466B-418E-A0ED-31123474978E}"/>
+										<ItemList>
+											<ItemRef Name="Forest" ID="{46DC7D84-2EA9-44BB-BF80-8DACFF026F44}"/>
+										</ItemList>
+									</Grouping>
+								</GroupingList>
+							</GroupingInfo>
+						</SwitchContainer>
+					</ChildrenList>
+				</ActorMixer>
+				<ActorMixer Name="3D_Ambience_Village" ID="{DB5F13B3-A99B-49C5-91A0-3599676AA71D}" ShortID="256598257">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="EnableDiffraction" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="3D_Random" ID="{395A2EDC-C216-415A-AD9C-751B1F4EEF91}" WorkUnitID="{B5A51E18-4101-455C-8D04-D227712989AE}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BF29FAC5-1320-47BE-8CB3-E5F6CF9FA6D8}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="3D_Ambience" ID="{17507B17-9A3E-456E-A69E-D228F620074F}" WorkUnitID="{05F5F81D-DB58-459A-9179-417346193955}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="MVAMB_AMB3D_Forge" ID="{17637041-8B64-4AB3-8C33-A5641BD740FE}" ShortID="703667943">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="EnableDiffraction" Type="bool" Value="True"/>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="IsNonCachable" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+								<Property Name="IsStreamingEnabled" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Forge" ID="{AAAB66E1-E5B3-47B3-B06D-313987D2CD2C}" WorkUnitID="{B5A51E18-4101-455C-8D04-D227712989AE}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BF29FAC5-1320-47BE-8CB3-E5F6CF9FA6D8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{05F5F81D-DB58-459A-9179-417346193955}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="MVAMB_AMB3D_Forge" ID="{2B580467-C81D-42C9-BF06-7D5C432E3161}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="30.002607879925"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>MVAMB_AMB3D_Forge.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="339396261"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="MVAMB_AMB3D_Forge" ID="{2B580467-C81D-42C9-BF06-7D5C432E3161}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="MVAMB_AMB3D_Lantern" ID="{635E5946-2385-4FA5-8AB5-1A98B2619E76}" ShortID="817504507">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="EnableDiffraction" Type="bool" Value="True"/>
+								<Property Name="Highpass" Type="int16">
+									<ValueList>
+										<Value>29</Value>
+									</ValueList>
+								</Property>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="IsNonCachable" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+								<Property Name="IsStreamingEnabled" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+								<Property Name="MakeUpGain" Type="Real64">
+									<ValueList>
+										<Value>4</Value>
+									</ValueList>
+								</Property>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>250</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>2</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Lantern" ID="{628FB58B-D9F3-42C3-A668-AB7DB385354C}" WorkUnitID="{B5A51E18-4101-455C-8D04-D227712989AE}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BF29FAC5-1320-47BE-8CB3-E5F6CF9FA6D8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{05F5F81D-DB58-459A-9179-417346193955}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="MVAMB_AMB3D_Lantern" ID="{0D6F5F9C-B157-438D-83E9-A11F8C87D7EA}">
+									<PropertyList>
+										<Property Name="LoopBegin" Type="Real64" Value="0"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="17.2705691056911"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>MVAMB_AMB3D_Lantern.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="375761970"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="MVAMB_AMB3D_Lantern" ID="{0D6F5F9C-B157-438D-83E9-A11F8C87D7EA}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<RandomSequenceContainer Name="Crow_FlyAway" ID="{5D3C25D7-631D-45F4-A25C-78B17B6482A2}" ShortID="177557461">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+								<Property Name="MakeUpGain" Type="Real64">
+									<ValueList>
+										<Value>0.5</Value>
+									</ValueList>
+								</Property>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>2</Value>
+									</ValueList>
+								</Property>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Crow_FlyAway" ID="{B1E383AD-AFE7-4E04-8BBE-EE9CF495CC4C}" WorkUnitID="{B5A51E18-4101-455C-8D04-D227712989AE}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BF29FAC5-1320-47BE-8CB3-E5F6CF9FA6D8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{05F5F81D-DB58-459A-9179-417346193955}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="MVAMB_AMB3D_BirdFly_01_REV" ID="{2D4DEEEE-38AD-48BE-8517-22A3E43ADED3}" ShortID="165101341">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BF29FAC5-1320-47BE-8CB3-E5F6CF9FA6D8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{05F5F81D-DB58-459A-9179-417346193955}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MVAMB_AMB3D_BirdFly_01_REV" ID="{C8F1A2C4-E370-4D40-8946-7FFCBEBFA69F}">
+											<Language>SFX</Language>
+											<AudioFile>MVAMB_AMB3D_BirdFly_01_REV.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="667613652"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MVAMB_AMB3D_BirdFly_01_REV" ID="{C8F1A2C4-E370-4D40-8946-7FFCBEBFA69F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="MVAMB_AMB3D_BirdFly_02_REV" ID="{6E61CF3C-8F8B-4B1B-93B8-5DB89EDDE885}" ShortID="386975332">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BF29FAC5-1320-47BE-8CB3-E5F6CF9FA6D8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{05F5F81D-DB58-459A-9179-417346193955}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MVAMB_AMB3D_BirdFly_02_REV" ID="{EA8230BE-FB27-4E67-9547-55FC8EB01A54}">
+											<Language>SFX</Language>
+											<AudioFile>MVAMB_AMB3D_BirdFly_02_REV.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="940524448"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MVAMB_AMB3D_BirdFly_02_REV" ID="{EA8230BE-FB27-4E67-9547-55FC8EB01A54}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="MVAMB_AMB3D_BirdFly_03_REV" ID="{169B1E1C-5A65-475D-9E85-C4440D852984}" ShortID="965930326">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BF29FAC5-1320-47BE-8CB3-E5F6CF9FA6D8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{05F5F81D-DB58-459A-9179-417346193955}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MVAMB_AMB3D_BirdFly_03_REV" ID="{77ACD791-7205-426D-9A51-137E3FF9AF5F}">
+											<Language>SFX</Language>
+											<AudioFile>MVAMB_AMB3D_BirdFly_03_REV.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="821048420"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MVAMB_AMB3D_BirdFly_03_REV" ID="{77ACD791-7205-426D-9A51-137E3FF9AF5F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Crow_Caw" ID="{2C6759E7-9CB1-41C0-8236-4E2A3F0A0CED}" ShortID="263829476">
+							<PropertyList>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="3D_Random" ID="{395A2EDC-C216-415A-AD9C-751B1F4EEF91}" WorkUnitID="{B5A51E18-4101-455C-8D04-D227712989AE}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BF29FAC5-1320-47BE-8CB3-E5F6CF9FA6D8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{05F5F81D-DB58-459A-9179-417346193955}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="MVAMB_AMB3D_Crow_01" ID="{FF323BEE-800F-412D-81B8-8F3571937D3F}" ShortID="585577575">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BF29FAC5-1320-47BE-8CB3-E5F6CF9FA6D8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{05F5F81D-DB58-459A-9179-417346193955}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MVAMB_AMB3D_Crow_01" ID="{F9E8CA56-EDB6-4114-9D28-0D165B183175}">
+											<Language>SFX</Language>
+											<AudioFile>MVAMB_AMB3D_Crow_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="343087894"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MVAMB_AMB3D_Crow_01" ID="{F9E8CA56-EDB6-4114-9D28-0D165B183175}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="MVAMB_AMB3D_Crow_02" ID="{37A0C5B9-8B60-4571-A325-373E14DD55F8}" ShortID="323046895">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BF29FAC5-1320-47BE-8CB3-E5F6CF9FA6D8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{05F5F81D-DB58-459A-9179-417346193955}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MVAMB_AMB3D_Crow_02" ID="{61B04BCA-4CD2-42FB-AC62-0461B405E43C}">
+											<Language>SFX</Language>
+											<AudioFile>MVAMB_AMB3D_Crow_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="581991574"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MVAMB_AMB3D_Crow_02" ID="{61B04BCA-4CD2-42FB-AC62-0461B405E43C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="MVAMB_AMB3D_Crow_03" ID="{9CBA8FDB-8C40-4B5F-A187-821CD4696313}" ShortID="681144027">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BF29FAC5-1320-47BE-8CB3-E5F6CF9FA6D8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{05F5F81D-DB58-459A-9179-417346193955}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MVAMB_AMB3D_Crow_03" ID="{5231F342-A920-4FA4-A80F-F0A92AF79010}">
+											<Language>SFX</Language>
+											<AudioFile>MVAMB_AMB3D_Crow_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="656050783"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MVAMB_AMB3D_Crow_03" ID="{5231F342-A920-4FA4-A80F-F0A92AF79010}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="MVAMB_AMB3D_Crow_04" ID="{10B2BD65-9E87-49DB-BF9E-D66D29902217}" ShortID="246156360">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BF29FAC5-1320-47BE-8CB3-E5F6CF9FA6D8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{05F5F81D-DB58-459A-9179-417346193955}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MVAMB_AMB3D_Crow_04" ID="{2164A317-0326-48D3-B2F5-1B9DEB77DAB4}">
+											<Language>SFX</Language>
+											<AudioFile>MVAMB_AMB3D_Crow_04.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="959632580"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MVAMB_AMB3D_Crow_04" ID="{2164A317-0326-48D3-B2F5-1B9DEB77DAB4}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="WoodCreak" ID="{9ED15FF3-ADBE-4B2B-8D27-FC55FF2F9AB0}" ShortID="988746850">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="GlobalOrPerObject" Type="int16" Value="0"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="3D_Random" ID="{395A2EDC-C216-415A-AD9C-751B1F4EEF91}" WorkUnitID="{B5A51E18-4101-455C-8D04-D227712989AE}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BF29FAC5-1320-47BE-8CB3-E5F6CF9FA6D8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{05F5F81D-DB58-459A-9179-417346193955}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="MVAMB_AMB3D_WoodCreak_01" ID="{E416E3CA-1994-454A-AAE7-1BA3AD15392C}" ShortID="767799640">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BF29FAC5-1320-47BE-8CB3-E5F6CF9FA6D8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{05F5F81D-DB58-459A-9179-417346193955}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MVAMB_AMB3D_WoodCreak_01" ID="{91BD64E7-C5EB-4401-8F90-5DA06A402925}">
+											<Language>SFX</Language>
+											<AudioFile>MVAMB_AMB3D_WoodCreak_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="695597515"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MVAMB_AMB3D_WoodCreak_01" ID="{91BD64E7-C5EB-4401-8F90-5DA06A402925}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="MVAMB_AMB3D_WoodCreak_02" ID="{59FAD34D-A2E9-48FC-BE94-BF80ACBB583B}" ShortID="263618422">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BF29FAC5-1320-47BE-8CB3-E5F6CF9FA6D8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{05F5F81D-DB58-459A-9179-417346193955}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MVAMB_AMB3D_WoodCreak_02" ID="{A571652E-40B6-4466-B15A-287AFD0F91D5}">
+											<Language>SFX</Language>
+											<AudioFile>MVAMB_AMB3D_WoodCreak_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="675049094"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MVAMB_AMB3D_WoodCreak_02" ID="{A571652E-40B6-4466-B15A-287AFD0F91D5}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="MVAMB_AMB3D_WoodCreak_03" ID="{2C1619A5-7263-448F-958D-22C0D4E5BB9D}" ShortID="734383968">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BF29FAC5-1320-47BE-8CB3-E5F6CF9FA6D8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{05F5F81D-DB58-459A-9179-417346193955}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MVAMB_AMB3D_WoodCreak_03" ID="{1C8B3472-F9B0-4EA6-844F-940EC25C0331}">
+											<Language>SFX</Language>
+											<AudioFile>MVAMB_AMB3D_WoodCreak_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="767578179"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MVAMB_AMB3D_WoodCreak_03" ID="{1C8B3472-F9B0-4EA6-844F-940EC25C0331}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="MVAMB_AMB3D_WoodCreak_04" ID="{D4E4AAA4-70BB-4C4D-BE43-2FB30E446EA8}" ShortID="944723637">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BF29FAC5-1320-47BE-8CB3-E5F6CF9FA6D8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{05F5F81D-DB58-459A-9179-417346193955}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MVAMB_AMB3D_WoodCreak_04" ID="{394FF5BD-8803-4997-BA44-E3C71CC8CD20}">
+											<Language>SFX</Language>
+											<AudioFile>MVAMB_AMB3D_WoodCreak_04.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="388381558"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MVAMB_AMB3D_WoodCreak_04" ID="{394FF5BD-8803-4997-BA44-E3C71CC8CD20}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+					</ChildrenList>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

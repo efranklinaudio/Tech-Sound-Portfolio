@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{1D86C58F-E722-62EE-E9FB-0660743CAB57}">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<Plugins>
+				<Custom>
+					<Plugin Id="3408413" Name="Meter (Custom)" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Sidechain_UI\Sidechain_Low_UI\[Effect Slot [1]: (Meter)]\Meter (Custom)" GUID="{06D269DA-8779-4E89-B4C7-7630CBFBD70A}" LibName="Wwise Meter" LibId="8454147"/>
+					<Plugin Id="9264991" Name="Parametric EQ (Custom)" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Sidechain\Sidechain_Low\[Effect Slot [0]: (Parametric EQ)]\Parametric EQ (Custom)" GUID="{9AC8DE5A-82F1-4D25-868E-FBC8467562A0}" LibName="Wwise Parametric EQ" LibId="6881283"/>
+					<Plugin Id="75405074" Name="Sidechain_High (Custom)" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\World\HDR Bus\Ambience\[Effect Slot [1]: (Parametric EQ)]\Sidechain_High (Custom)" GUID="{47B3BBBB-AC09-4B4C-B46B-219AE336E18A}" LibName="Wwise Parametric EQ" LibId="6881283"/>
+					<Plugin Id="159213012" Name="Meter (Custom)" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Sidechain\Sidechain_High\[Effect Slot [1]: (Meter)]\Meter (Custom)" GUID="{13039B94-5C18-4CE3-B36E-1E11501EBAA9}" LibName="Wwise Meter" LibId="8454147"/>
+					<Plugin Id="187629857" Name="Meter (Custom)" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Sidechain_UI\Sidechain_High_UI\[Effect Slot [1]: (Meter)]\Meter (Custom)" GUID="{D4B1CAB3-4F92-4607-B5A0-96592C8D98B6}" LibName="Wwise Meter" LibId="8454147"/>
+					<Plugin Id="355949952" Name="Parametric EQ (Custom)" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Sidechain\Sidechain_High\[Effect Slot [0]: (Parametric EQ)]\Parametric EQ (Custom)" GUID="{E0E5C0AB-5BD3-45DB-BDA0-4EB56E71BE63}" LibName="Wwise Parametric EQ" LibId="6881283"/>
+					<Plugin Id="462956227" Name="Gain (Custom)" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Sidechain_UI\[Effect Slot [0]: (Gain)]\Gain (Custom)" GUID="{59A80B82-82A9-408F-BD41-DEB177AB79DB}" LibName="Wwise Gain" LibId="9109507"/>
+					<Plugin Id="465488096" Name="Parametric EQ (Custom)" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Sidechain_UI\Sidechain_Low_UI\[Effect Slot [0]: (Parametric EQ)]\Parametric EQ (Custom)" GUID="{1BD98D28-3371-4CC9-88F1-AA912CA9C3BE}" LibName="Wwise Parametric EQ" LibId="6881283"/>
+					<Plugin Id="694263961" Name="Gain (Custom)" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Sidechain\[Effect Slot [0]: (Gain)]\Gain (Custom)" GUID="{28E3386D-D1EF-4443-AA5C-863A5998FCFD}" LibName="Wwise Gain" LibId="9109507"/>
+					<Plugin Id="878718995" Name="Sidechain_Low (Custom)" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\World\HDR Bus\Ambience\[Effect Slot [0]: (Parametric EQ)]\Sidechain_Low (Custom)" GUID="{28C06AB5-2E82-44D2-86B0-014721121A21}" LibName="Wwise Parametric EQ" LibId="6881283"/>
+					<Plugin Id="898880639" Name="Parametric EQ (Custom)" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Sidechain_UI\Sidechain_High_UI\[Effect Slot [0]: (Parametric EQ)]\Parametric EQ (Custom)" GUID="{E6047FF2-2159-4494-AA4F-9F684745DAF2}" LibName="Wwise Parametric EQ" LibId="6881283"/>
+					<Plugin Id="906825334" Name="Meter (Custom)" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Sidechain\Sidechain_Low\[Effect Slot [1]: (Meter)]\Meter (Custom)" GUID="{3BCD2680-AE64-4BD9-83BB-6CE28610AED0}" LibName="Wwise Meter" LibId="8454147"/>
+				</Custom>
+				<ShareSets>
+					<Plugin Id="2595128994" Name="Sidechain_High" ObjectPath="\Effects\Default Work Unit\Sidechain_High" GUID="{143FD56D-D023-4FA3-B1E1-111C3A25CD30}" LibName="Wwise Parametric EQ" LibId="6881283"/>
+					<Plugin Id="3666249700" Name="Sidechain_Low" ObjectPath="\Effects\Default Work Unit\Sidechain_Low" GUID="{08956998-4CE2-443F-B717-FE7A5C05D968}" LibName="Wwise Parametric EQ" LibId="6881283"/>
+				</ShareSets>
+				<AudioDevices>
+					<Plugin Id="2317455096" Name="No_Output" ObjectPath="\Audio Devices\Default Work Unit\No_Output" GUID="{4F861901-7835-4E8A-8192-C797D72DED92}" LibName="No Output" LibId="11862023"/>
+					<Plugin Id="3859886410" Name="System" ObjectPath="\Audio Devices\Default Work Unit\System" GUID="{849F95CD-8CB2-4708-8A51-F0855E477E46}" LibName="System" LibId="11403271"/>
+				</AudioDevices>
+			</Plugins>
+			<Busses>
+				<Bus Id="17497680" Name="Sidechain_UI" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Sidechain_UI" GUID="{E4AE2376-41A6-408F-8C69-8D0DB0088AE8}">
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="462956227"/>
+						</Custom>
+					</PluginRefs>
+				</Bus>
+				<Bus Id="85412153" Name="Ambience" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\World\HDR Bus\Ambience" GUID="{D00AA00F-7DE1-49D0-98AE-36FAAF394B76}">
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="75405074"/>
+							<PluginRef Id="878718995"/>
+						</Custom>
+					</PluginRefs>
+				</Bus>
+				<Bus Id="418286927" Name="HDR Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\World\HDR Bus" GUID="{04185827-5AB7-48B0-976A-FB4678EA4F73}"/>
+				<Bus Id="983310469" Name="Aux" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\World\Aux" GUID="{FC626BD8-B567-48E5-BC54-E5F32ABA15E1}"/>
+				<Bus Id="1069431850" Name="Player" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\World\HDR Bus\Player" GUID="{E4909E3C-EBCB-4EEC-ACDF-E826289BFA42}">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="2595128994"/>
+							<PluginRef Id="3666249700"/>
+						</ShareSets>
+					</PluginRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="2595128994" Name="Sidechain_High" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Sidechain\Sidechain_High" GUID="{04303727-4ED9-4BFE-8454-40B742F221AA}"/>
+						<AuxBusRef Id="3666249700" Name="Sidechain_Low" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Sidechain\Sidechain_Low" GUID="{7A0323CF-47E7-4A2D-B4A3-13957CDBA819}"/>
+					</AuxBusRefs>
+				</Bus>
+				<Bus Id="1467963052" Name="Weapons" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\World\HDR Bus\Weapons" GUID="{1FC70217-95D9-4171-BDDC-45299D414EC1}">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="2595128994"/>
+							<PluginRef Id="3666249700"/>
+						</ShareSets>
+					</PluginRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="2595128994" Name="Sidechain_High" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Sidechain\Sidechain_High" GUID="{04303727-4ED9-4BFE-8454-40B742F221AA}"/>
+						<AuxBusRef Id="3666249700" Name="Sidechain_Low" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Sidechain\Sidechain_Low" GUID="{7A0323CF-47E7-4A2D-B4A3-13957CDBA819}"/>
+					</AuxBusRefs>
+				</Bus>
+				<Bus Id="1551306167" Name="UI" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Non-World\UI" GUID="{6F4FA9D3-4A59-4827-AFCD-33F806F0FF3F}">
+					<AuxBusRefs>
+						<AuxBusRef Id="815721027" Name="Sidechain_High_UI" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Sidechain_UI\Sidechain_High_UI" GUID="{5D0326AE-1C63-42E2-9494-F8DC9B105989}"/>
+						<AuxBusRef Id="3786991005" Name="Sidechain_Low_UI" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Sidechain_UI\Sidechain_Low_UI" GUID="{11DEB295-75FB-4A54-A160-86D77669CA4D}"/>
+					</AuxBusRefs>
+				</Bus>
+				<Bus Id="1685527054" Name="MX" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Non-World\MX" GUID="{E696AA33-B3A6-4188-9240-6790A88B07B3}">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="2595128994"/>
+							<PluginRef Id="3666249700"/>
+						</ShareSets>
+					</PluginRefs>
+				</Bus>
+				<Bus Id="1883033791" Name="Sidechain" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Sidechain" GUID="{B2029079-A837-49DC-8311-21C0B667C4ED}">
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="694263961"/>
+						</Custom>
+					</PluginRefs>
+				</Bus>
+				<Bus Id="3803692087" Name="Master Audio Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus" GUID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
+			</Busses>
+			<AuxBusses>
+				<AuxBus Id="680256650" Name="Arena" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\World\Aux\Arena" GUID="{61F909EC-9FAD-439C-BE58-AB0094811BB9}"/>
+				<AuxBus Id="815721027" Name="Sidechain_High_UI" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Sidechain_UI\Sidechain_High_UI" GUID="{5D0326AE-1C63-42E2-9494-F8DC9B105989}">
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="187629857"/>
+							<PluginRef Id="898880639"/>
+						</Custom>
+					</PluginRefs>
+				</AuxBus>
+				<AuxBus Id="896230842" Name="Capture_Point" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\World\Aux\Capture_Point" GUID="{B828BBD5-614C-4DC1-AF6A-C7A76CCF47E1}"/>
+				<AuxBus Id="1761429756" Name="Capture_Point_Room" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\World\Aux\Capture_Point_Room" GUID="{A82B7772-0947-4D06-AA4B-BE229671CD72}"/>
+				<AuxBus Id="1988240518" Name="Center" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\World\Aux\Center" GUID="{76116BA4-163F-45EE-ACEF-EE1006DBA898}"/>
+				<AuxBus Id="2493134276" Name="Upper_Capture_Area" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\World\Aux\Upper_Capture_Area" GUID="{89FBA9F9-4567-40F2-9BBD-4CD8811816D0}"/>
+				<AuxBus Id="2595128994" Name="Sidechain_High" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Sidechain\Sidechain_High" GUID="{04303727-4ED9-4BFE-8454-40B742F221AA}">
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="159213012"/>
+							<PluginRef Id="355949952"/>
+						</Custom>
+					</PluginRefs>
+				</AuxBus>
+				<AuxBus Id="2792272911" Name="Upper_Hallways" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\World\Aux\Upper_Hallways" GUID="{3A72E3C8-4B76-42CE-B317-56C80BCBBFDE}"/>
+				<AuxBus Id="3666249700" Name="Sidechain_Low" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Sidechain\Sidechain_Low" GUID="{7A0323CF-47E7-4A2D-B4A3-13957CDBA819}">
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="9264991"/>
+							<PluginRef Id="906825334"/>
+						</Custom>
+					</PluginRefs>
+				</AuxBus>
+				<AuxBus Id="3728443364" Name="Catwalk" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\World\Aux\Catwalk" GUID="{8FCC4064-6115-478C-89DE-D546E2C66AF8}"/>
+				<AuxBus Id="3786991005" Name="Sidechain_Low_UI" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Sidechain_UI\Sidechain_Low_UI" GUID="{11DEB295-75FB-4A54-A160-86D77669CA4D}">
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="3408413"/>
+							<PluginRef Id="465488096"/>
+						</Custom>
+					</PluginRefs>
+				</AuxBus>
+				<AuxBus Id="3893129078" Name="Lower_Hallways" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\World\Aux\Lower_Hallways" GUID="{1177A88D-4014-4E14-B342-5103816ED86F}"/>
+			</AuxBusses>
+			<GameParameters>
+				<GameParameter Id="6452437" Name="MX_Level" ObjectPath="\Game Parameters\Default Work Unit\MX_Level" GUID="{C0BB5F44-B48D-4C67-AD4F-DF05C2C391CA}"/>
+				<GameParameter Id="245283241" Name="Capture_Progress" ObjectPath="\Game Parameters\Default Work Unit\Capture\Capture_Progress" GUID="{2797D8A4-229B-4500-8F19-AD3DE47809FD}"/>
+				<GameParameter Id="585280047" Name="Jump_Timer" ObjectPath="\Game Parameters\Default Work Unit\Movement\Jump_Timer" GUID="{94C37243-8022-4220-8933-3695380A88E1}"/>
+				<GameParameter Id="760594156" Name="JumpHeight" ObjectPath="\Game Parameters\Default Work Unit\Movement\JumpHeight" GUID="{172214DF-AF1B-49D7-B2E7-7D9484EA03FD}"/>
+				<GameParameter Id="815721027" Name="Sidechain_High_UI" ObjectPath="\Game Parameters\Default Work Unit\Sidechain\Sidechain_High_UI" GUID="{8C6C66BF-0CA1-4C76-9D0E-664EB3258F4E}"/>
+				<GameParameter Id="931844945" Name="HDR" ObjectPath="\Game Parameters\Default Work Unit\HDR" GUID="{55C58AA4-23D6-480D-B90F-D61064B4B0A0}"/>
+				<GameParameter Id="1172363682" Name="Rifle_Magazine" ObjectPath="\Game Parameters\Default Work Unit\Magazine\Rifle_Magazine" GUID="{1224564F-0801-4D1F-A037-E7847F88B742}"/>
+				<GameParameter Id="1244270586" Name="Capture_Level" ObjectPath="\Game Parameters\Default Work Unit\Capture\Capture_Level" GUID="{D79D66E1-CCE2-4D8D-9445-BA701A47155B}"/>
+				<GameParameter Id="1751452464" Name="Cancel_CaptureExit" ObjectPath="\Game Parameters\Default Work Unit\Capture\Cancel_CaptureExit" GUID="{3256C3C0-67F8-45F5-A7D4-40424C0C5FE0}"/>
+				<GameParameter Id="2141048674" Name="Elevation" ObjectPath="\Game Parameters\Default Work Unit\Movement\Elevation" GUID="{61EF7BFF-803A-4A4A-A8DD-56C14112A769}"/>
+				<GameParameter Id="2265605889" Name="HeroType" ObjectPath="\Game Parameters\Default Work Unit\Movement\HeroType" GUID="{0398ACBB-8343-4F88-8125-D61B9D42BC8B}"/>
+				<GameParameter Id="2595128994" Name="Sidechain_High" ObjectPath="\Game Parameters\Default Work Unit\Sidechain\Sidechain_High" GUID="{C89BD2BC-A195-4E4C-84DB-FB9D74FB04A4}"/>
+				<GameParameter Id="3666249700" Name="Sidechain_Low" ObjectPath="\Game Parameters\Default Work Unit\Sidechain\Sidechain_Low" GUID="{051F9B13-D5FB-45E2-9395-A84BBB185DDE}"/>
+				<GameParameter Id="3786991005" Name="Sidechain_Low_UI" ObjectPath="\Game Parameters\Default Work Unit\Sidechain\Sidechain_Low_UI" GUID="{C971C7EE-664A-41B7-86FA-FE8683BD51BC}"/>
+				<GameParameter Id="3904355326" Name="Shotgun_Magazine" ObjectPath="\Game Parameters\Default Work Unit\Magazine\Shotgun_Magazine" GUID="{DE09CCD6-A2AA-44CE-A441-8A2F3272FB12}"/>
+				<GameParameter Id="4103420329" Name="Pistol_Magazine" ObjectPath="\Game Parameters\Default Work Unit\Magazine\Pistol_Magazine" GUID="{8B24D075-DD0F-4E7B-B6AA-9D8B0F301FED}"/>
+				<GameParameter Id="4169298053" Name="Crouch_Pass" ObjectPath="\Game Parameters\Default Work Unit\Movement\Crouch_Pass" GUID="{B420C446-931D-46F2-A13F-54B3891CC04F}"/>
+				<GameParameter Id="4190665748" Name="HeroVelocity" ObjectPath="\Game Parameters\Default Work Unit\Movement\HeroVelocity" GUID="{7F63BF96-9650-4DB6-8E49-5B2DC9FCAF1F}"/>
+			</GameParameters>
+			<StateGroups>
+				<StateGroup Id="324017858" Name="CroushState" ObjectPath="\States\Default Work Unit\CroushState" GUID="{2BACAFE5-0006-40B5-8A5E-E322CB65C041}">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\CroushState\None" GUID="{1B420D75-7261-4142-B8D1-904B8F531E89}"/>
+						<State Id="1447291837" Name="Uncrouched" ObjectPath="\States\Default Work Unit\CroushState\Uncrouched" GUID="{0D2BD66C-662D-4A61-96E2-86ED0A398B9C}"/>
+						<State Id="1788443972" Name="Crouched" ObjectPath="\States\Default Work Unit\CroushState\Crouched" GUID="{497A333D-5007-47CB-A8D2-48C9C4E1CF20}"/>
+					</States>
+				</StateGroup>
+				<StateGroup Id="2424287321" Name="ExplosionState" ObjectPath="\States\Default Work Unit\ExplosionState" GUID="{F231351B-E6DD-42E0-80BD-D14677E13B62}">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\ExplosionState\None" GUID="{CD3DAA51-D5C5-4366-9CCE-CE3DDE1C8A1F}"/>
+						<State Id="1160234136" Name="Normal" ObjectPath="\States\Default Work Unit\ExplosionState\Normal" GUID="{115E5712-F181-4756-BA05-0E11B54CBDBA}"/>
+						<State Id="2453598386" Name="HighPass" ObjectPath="\States\Default Work Unit\ExplosionState\HighPass" GUID="{C53AAF15-17C8-4DD8-A911-5667D6AD7F85}"/>
+					</States>
+				</StateGroup>
+				<StateGroup Id="3076397936" Name="APS_Focus" ObjectPath="\States\Default Work Unit\APS_Focus" GUID="{388FBFC5-6C84-4B56-B4BA-DB0BF9D6F2AA}">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\APS_Focus\None" GUID="{2A78E2D0-3CB6-4264-9FCD-FD23D20E9966}"/>
+						<State Id="3147063624" Name="Focused" ObjectPath="\States\Default Work Unit\APS_Focus\Focused" GUID="{11FCF506-296C-4AC4-A46E-1EE33F683C71}"/>
+						<State Id="3517500819" Name="Unfocused" ObjectPath="\States\Default Work Unit\APS_Focus\Unfocused" GUID="{6E5EEAA1-7FA7-4D71-854F-85A01AAFA44F}"/>
+					</States>
+				</StateGroup>
+				<StateGroup Id="3269193509" Name="MXState" ObjectPath="\States\Default Work Unit\MXState" GUID="{C288704A-B086-47EB-B393-58D5BD27A544}">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\MXState\None" GUID="{3176CA47-4C4C-44E7-9EDE-2C0510EB510A}"/>
+						<State Id="1256202815" Name="Play" ObjectPath="\States\Default Work Unit\MXState\Play" GUID="{E1623B7A-6525-4A48-8BD9-80864225B645}"/>
+						<State Id="2555741448" Name="Finish" ObjectPath="\States\Default Work Unit\MXState\Finish" GUID="{10ED7AED-CABF-4890-8918-FCB7723353C4}"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
+			<SwitchGroups>
+				<SwitchGroup Id="18676956" Name="Magazine_Shotgun_Count" ObjectPath="\Switches\Default Work Unit\Magazine_Shotgun_Count" GUID="{B23A8684-C664-413A-8DD9-AD02D5F26E7C}">
+					<GameParameterRef Id="3904355326"/>
+					<Switches>
+						<Switch Id="853998396" Name="Shotgun_Final" ObjectPath="\Switches\Default Work Unit\Magazine_Shotgun_Count\Shotgun_Final" GUID="{46870EBD-C34F-4ED0-A763-5CDEDC415061}"/>
+						<Switch Id="1721210981" Name="Shotgun_Normal" ObjectPath="\Switches\Default Work Unit\Magazine_Shotgun_Count\Shotgun_Normal" GUID="{0AC89F6F-10D3-434F-96A6-527BA219B974}"/>
+					</Switches>
+				</SwitchGroup>
+				<SwitchGroup Id="787816892" Name="Match_Result" ObjectPath="\Switches\Default Work Unit\Match_Result" GUID="{9ED468A8-1735-4B8F-8539-45F7D66C0E12}">
+					<Switches>
+						<Switch Id="1593864692" Name="Defeat" ObjectPath="\Switches\Default Work Unit\Match_Result\Defeat" GUID="{4048BEEC-9E1D-4896-A0DA-66F4B65D4605}"/>
+						<Switch Id="2716678721" Name="Victory" ObjectPath="\Switches\Default Work Unit\Match_Result\Victory" GUID="{D10A5BC8-645C-4C9F-9A03-021B3D6B7148}"/>
+					</Switches>
+				</SwitchGroup>
+				<SwitchGroup Id="1776452115" Name="Magazine_Pistol_Count" ObjectPath="\Switches\Default Work Unit\Magazine_Pistol_Count" GUID="{35A6D913-B690-4104-AD5A-352257CA56CB}">
+					<GameParameterRef Id="4103420329"/>
+					<Switches>
+						<Switch Id="3398155685" Name="Pistol_Final" ObjectPath="\Switches\Default Work Unit\Magazine_Pistol_Count\Pistol_Final" GUID="{B542D980-506F-4641-81F8-60BAF07F892A}"/>
+						<Switch Id="3757703166" Name="Pistol_Normal" ObjectPath="\Switches\Default Work Unit\Magazine_Pistol_Count\Pistol_Normal" GUID="{FE5C05E9-60E6-47C0-A4FE-861B4BB8D22C}"/>
+					</Switches>
+				</SwitchGroup>
+				<SwitchGroup Id="3107534752" Name="Magazine_Rifle_Count" ObjectPath="\Switches\Default Work Unit\Magazine_Rifle_Count" GUID="{4FE6E8A3-2D4D-4F0D-A044-B48CB021E7E7}">
+					<GameParameterRef Id="1172363682"/>
+					<Switches>
+						<Switch Id="966943801" Name="Rifle_Normal" ObjectPath="\Switches\Default Work Unit\Magazine_Rifle_Count\Rifle_Normal" GUID="{F0E79651-E4A3-42DA-9316-A58BA286C49F}"/>
+						<Switch Id="3323306016" Name="Rifle_Final" ObjectPath="\Switches\Default Work Unit\Magazine_Rifle_Count\Rifle_Final" GUID="{8CFEBE43-9306-4C95-B73C-87235F323FC9}"/>
+					</Switches>
+				</SwitchGroup>
+				<SwitchGroup Id="3454845069" Name="MX_CaptureLevel" ObjectPath="\Switches\Default Work Unit\MX_CaptureLevel" GUID="{F1B3D9CA-3581-4265-8393-65A90D36B731}">
+					<GameParameterRef Id="1244270586"/>
+					<Switches>
+						<Switch Id="3794091076" Name="State_03" ObjectPath="\Switches\Default Work Unit\MX_CaptureLevel\State_03" GUID="{9978574E-383D-4549-8AC2-48850C51C618}"/>
+						<Switch Id="3794091077" Name="State_02" ObjectPath="\Switches\Default Work Unit\MX_CaptureLevel\State_02" GUID="{ADA6AB9C-3C5C-4DCE-A42A-42054E7EB5A1}"/>
+						<Switch Id="3794091078" Name="State_01" ObjectPath="\Switches\Default Work Unit\MX_CaptureLevel\State_01" GUID="{66FF1ADC-F713-4CFC-8894-8854DDE7E548}"/>
+					</Switches>
+				</SwitchGroup>
+				<SwitchGroup Id="3865314626" Name="Material" ObjectPath="\Switches\Default Work Unit\Material" GUID="{C3F5D774-DF4E-41AB-991A-C68C6BE7DB5E}">
+					<Switches>
+						<Switch Id="841620460" Name="Concrete" ObjectPath="\Switches\Default Work Unit\Material\Concrete" GUID="{D2C27402-DB54-4AFA-A321-9D3FA208AC03}"/>
+						<Switch Id="928522647" Name="PhysMat_Player" ObjectPath="\Switches\Default Work Unit\Material\PhysMat_Player" GUID="{B8136218-6B64-48B6-A589-903AF6F2B965}"/>
+						<Switch Id="2449969375" Name="Glass" ObjectPath="\Switches\Default Work Unit\Material\Glass" GUID="{37E35534-61E9-4437-99CD-A8511D39719E}"/>
+					</Switches>
+				</SwitchGroup>
+				<SwitchGroup Id="4292341369" Name="Capture_Point_Type" ObjectPath="\Switches\Default Work Unit\Capture_Point_Type" GUID="{58165774-EC40-4C1C-8810-73AB66B895F9}">
+					<Switches>
+						<Switch Id="1838667140" Name="Friendly" ObjectPath="\Switches\Default Work Unit\Capture_Point_Type\Friendly" GUID="{F4A1054C-E50C-417F-912A-FD08AEC5D9B6}"/>
+						<Switch Id="2299321487" Name="Enemy" ObjectPath="\Switches\Default Work Unit\Capture_Point_Type\Enemy" GUID="{DC9E3983-CA77-4C4A-918F-E57B0D2FCEF3}"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
+			<AcousticTextures>
+				<AcousticTexture Id="504532776" Name="Brick" ObjectPath="\Virtual Acoustics\Factory Acoustic Textures\Textures\Brick" GUID="{B086A5A9-F204-4C53-A838-BDB18B18F6D6}">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="12"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="18"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="23"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="35"/>
+						<Property Name="Scattering" Type="Real32" Value="0"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="513139656" Name="Mountain" ObjectPath="\Virtual Acoustics\Factory Acoustic Textures\Textures\Mountain" GUID="{C5933731-001A-4AB4-98DD-9B033A8C8EAB}">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="0"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="0"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="0"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="0"/>
+						<Property Name="Scattering" Type="Real32" Value="0"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="841620460" Name="Concrete" ObjectPath="\Virtual Acoustics\Factory Acoustic Textures\Textures\Concrete" GUID="{5CF81C00-2896-4AE0-AF7C-3080BDABA682}">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="6"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="6"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="6"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="14"/>
+						<Property Name="Scattering" Type="Real32" Value="0"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="1755085759" Name="Wood_Deep" ObjectPath="\Virtual Acoustics\Factory Acoustic Textures\Textures\Wood_Deep" GUID="{5246478E-C5DA-4E0C-A0DE-C98D1479529A}">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="1"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="8"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="20"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="35"/>
+						<Property Name="Scattering" Type="Real32" Value="0"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="1873957695" Name="Anechoic" ObjectPath="\Virtual Acoustics\Factory Acoustic Textures\Textures\Anechoic" GUID="{8B0AC232-02E2-4EDE-BEAC-FDD1A900E3ED}">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="100"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="100"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="100"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="100"/>
+						<Property Name="Scattering" Type="Real32" Value="0"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="1970351858" Name="Fabric" ObjectPath="\Virtual Acoustics\Factory Acoustic Textures\Textures\Fabric" GUID="{8381D532-DB6E-4EED-A7A3-BC7B0A0B8BA8}">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="3"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="13"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="48"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="72"/>
+						<Property Name="Scattering" Type="Real32" Value="0"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="2058049674" Name="Wood" ObjectPath="\Virtual Acoustics\Factory Acoustic Textures\Textures\Wood" GUID="{1FFFBC96-6FE7-489E-BA6C-7C14A71391AE}">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="32"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="25"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="20"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="35"/>
+						<Property Name="Scattering" Type="Real32" Value="0"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="2412606308" Name="Carpet" ObjectPath="\Virtual Acoustics\Factory Acoustic Textures\Textures\Carpet" GUID="{34227589-DC56-4260-96C4-B9F4B669092B}">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="46"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="45"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="76"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="100"/>
+						<Property Name="Scattering" Type="Real32" Value="0"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="2637588553" Name="Tile" ObjectPath="\Virtual Acoustics\Factory Acoustic Textures\Textures\Tile" GUID="{A882DAC4-132A-47B7-BA9D-B9907BA29CC0}">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="67"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="41"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="12"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="0"/>
+						<Property Name="Scattering" Type="Real32" Value="0"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="2928161104" Name="Curtains" ObjectPath="\Virtual Acoustics\Factory Acoustic Textures\Textures\Curtains" GUID="{F8E69E33-5C97-4968-B508-A1535F2D66E8}">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="7"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="60"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="0"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="84"/>
+						<Property Name="Scattering" Type="Real32" Value="0"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="3195498748" Name="Cork_Tiles" ObjectPath="\Virtual Acoustics\Factory Acoustic Textures\Textures\Cork_Tiles" GUID="{30D2C919-925F-4143-8906-3DBB3C4AE5E2}">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="14"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="30"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="73"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="100"/>
+						<Property Name="Scattering" Type="Real32" Value="0"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="3670307564" Name="Drywall" ObjectPath="\Virtual Acoustics\Factory Acoustic Textures\Textures\Drywall" GUID="{68A4E3F4-4C0B-4687-A8B8-A84DB93DBC8F}">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="2"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="2"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="2"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="2"/>
+						<Property Name="Scattering" Type="Real32" Value="0"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="4168643977" Name="Acoustic_Banner" ObjectPath="\Virtual Acoustics\Factory Acoustic Textures\Textures\Acoustic_Banner" GUID="{2F2D53F2-DACC-408E-8B88-98B1B52A26D6}">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="37"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="100"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="100"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="100"/>
+						<Property Name="Scattering" Type="Real32" Value="0"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="4262522749" Name="Wood_Bright" ObjectPath="\Virtual Acoustics\Factory Acoustic Textures\Textures\Wood_Bright" GUID="{7B85D1E5-C1A2-4E63-9A13-CEC54B641ADC}">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="32"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="25"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="10"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="9"/>
+						<Property Name="Scattering" Type="Real32" Value="0"/>
+					</Properties>
+				</AcousticTexture>
+			</AcousticTextures>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{027D7451-85C7-F254-F310-0B262FCDCF57}</FileHash>
+</SoundBanksInfo>

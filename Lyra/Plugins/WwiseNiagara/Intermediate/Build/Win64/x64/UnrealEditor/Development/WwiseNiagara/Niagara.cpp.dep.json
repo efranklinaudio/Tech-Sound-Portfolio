@@ -1,0 +1,15 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\ericf\\documents\\unreal projects\\lyra\\plugins\\wwiseniagara\\source\\wwiseniagara\\private\\wwise\\stats\\niagara.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\ericf\\documents\\unreal projects\\lyra\\intermediate\\build\\win64\\x64\\lyraeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "c:\\users\\ericf\\documents\\unreal projects\\lyra\\plugins\\wwiseniagara\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\wwiseniagara\\definitions.wwiseniagara.h",
+            "c:\\users\\ericf\\documents\\unreal projects\\lyra\\plugins\\wwiseniagara\\source\\wwiseniagara\\public\\wwise\\stats\\niagara.h",
+            "c:\\users\\ericf\\documents\\unreal projects\\lyra\\plugins\\wwise\\source\\wwiseutils\\public\\wwise\\stats\\namedevents.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

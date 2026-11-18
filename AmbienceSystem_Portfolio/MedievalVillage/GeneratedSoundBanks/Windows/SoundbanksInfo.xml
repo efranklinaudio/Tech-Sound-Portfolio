@@ -1,0 +1,923 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<RootPaths>
+		<ProjectRoot>../..</ProjectRoot>
+		<SourceFilesRoot>../../.cache/Windows</SourceFilesRoot>
+		<SoundBanksRoot>.</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>.</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{AE816D10-85DE-7C79-D3D2-EB165DDC2E8D}">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<Plugins>
+				<Custom>
+					<Plugin Id="275564784" Name="Have_U_Ever_Been_Outside (Custom)" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb\Field\[Effect Slot [0]: (RoomVerb)]\Have_U_Ever_Been_Outside (Custom)" GUID="{25D3C0FA-0924-448C-A1A9-D3A30953DA6D}" LibName="Wwise RoomVerb" LibId="7733251"/>
+					<Plugin Id="960098761" Name="Meter (Custom)" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Ambience\3D_Ambience\Wind\[Effect Slot [0]: (Meter)]\Meter (Custom)" GUID="{EE93DFDE-7CBF-492A-A3CF-4170F9389B52}" LibName="Wwise Meter" LibId="8454147"/>
+					<Plugin Id="1014145253" Name="Room_Medium (Custom)" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb\Forge\[Effect Slot [0]: (RoomVerb)]\Room_Medium (Custom)" GUID="{612A6EF7-0B63-4EB6-BD4F-612D99B7873F}" LibName="Wwise RoomVerb" LibId="7733251"/>
+					<Plugin Id="1061204808" Name="Have_U_Ever_Been_Outside (Custom)" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb\Village\[Effect Slot [0]: (RoomVerb)]\Have_U_Ever_Been_Outside (Custom)" GUID="{D046D567-8331-46A6-9975-39D22C32F8F7}" LibName="Wwise RoomVerb" LibId="7733251"/>
+					<Plugin Id="1073288824" Name="Have_U_Ever_Been_Outside (Custom)" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb\Forest\[Effect Slot [0]: (RoomVerb)]\Have_U_Ever_Been_Outside (Custom)" GUID="{5E8D2D0F-0BD5-4AD1-B30F-7274BE6C4F1E}" LibName="Wwise RoomVerb" LibId="7733251"/>
+				</Custom>
+				<AudioDevices>
+					<Plugin Id="2317455096" Name="No_Output" ObjectPath="\Audio Devices\Default Work Unit\No_Output" GUID="{F31E94AE-B4AB-4B0B-9F0E-BD398CAEE2F5}" LibName="No Output" LibId="11862023"/>
+					<Plugin Id="3859886410" Name="System" ObjectPath="\Audio Devices\Default Work Unit\System" GUID="{29861EF7-15E5-41F0-8982-1F326E1E920E}" LibName="System" LibId="11403271"/>
+				</AudioDevices>
+			</Plugins>
+			<Busses>
+				<Bus Id="85412153" Name="Ambience" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Ambience" GUID="{B2925C8B-21C8-41E9-B80F-5A846987C325}"/>
+				<Bus Id="348963605" Name="Reverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb" GUID="{C17ACBE4-70E1-401E-B7F6-3D475150D04C}"/>
+				<Bus Id="599996866" Name="2D_Ambience" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Ambience\2D_Ambience" GUID="{BB3C0AF2-5E4F-459C-995C-B481B0AB3AB9}"/>
+				<Bus Id="603313991" Name="3D_Ambience" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Ambience\3D_Ambience" GUID="{17507B17-9A3E-456E-A69E-D228F620074F}"/>
+				<Bus Id="1537061107" Name="Wind" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Ambience\3D_Ambience\Wind" GUID="{5B12E054-936A-4F48-80E9-016E37635FE6}">
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="960098761"/>
+						</Custom>
+					</PluginRefs>
+				</Bus>
+				<Bus Id="2129636626" Name="Movement" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Movement" GUID="{990EDA90-E229-45DA-8B10-98A9253F2737}"/>
+				<Bus Id="3803692087" Name="Master Audio Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus" GUID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
+			</Busses>
+			<AuxBusses>
+				<AuxBus Id="12377074" Name="Forge" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb\Forge" GUID="{F860E3B1-1866-4028-BF4A-54E9F3F15A49}">
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="1014145253"/>
+						</Custom>
+					</PluginRefs>
+				</AuxBus>
+				<AuxBus Id="491961918" Name="Forest" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb\Forest" GUID="{A9E1689D-9973-44F2-A796-776BE0F1619D}">
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="1073288824"/>
+						</Custom>
+					</PluginRefs>
+				</AuxBus>
+				<AuxBus Id="514358619" Name="Field" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb\Field" GUID="{7AC0C4A0-AE5F-47ED-BBD1-340AC1C81CD9}">
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="275564784"/>
+						</Custom>
+					</PluginRefs>
+				</AuxBus>
+				<AuxBus Id="3945572659" Name="Village" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb\Village" GUID="{2FCF22CC-38B6-4DD5-9C7C-C5F13024A0F6}">
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="1061204808"/>
+						</Custom>
+					</PluginRefs>
+				</AuxBus>
+			</AuxBusses>
+			<GameParameters>
+				<GameParameter Id="3519441192" Name="Velocity" ObjectPath="\Game Parameters\Default Work Unit\Velocity" GUID="{B7585C10-8A75-4F61-84D6-AEECB557CCDD}"/>
+				<GameParameter Id="4122698001" Name="WindVolume" ObjectPath="\Game Parameters\Default Work Unit\WindVolume" GUID="{2DA12562-16BB-45DC-9735-4F8A32A481F7}"/>
+			</GameParameters>
+			<StateGroups>
+				<StateGroup Id="1176860857" Name="ExteriorCheck" ObjectPath="\States\Default Work Unit\ExteriorCheck" GUID="{F11F2A52-37F0-486C-A7C2-1688FA404EC5}">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\ExteriorCheck\None" GUID="{2F678026-7235-42BB-9654-81BFCFD1A46E}"/>
+						<State Id="1132214669" Name="Interior" ObjectPath="\States\Default Work Unit\ExteriorCheck\Interior" GUID="{27C5F190-8123-49ED-86F7-6F54F99E8BCD}"/>
+						<State Id="2213992659" Name="Exterior" ObjectPath="\States\Default Work Unit\ExteriorCheck\Exterior" GUID="{791859CC-E4C9-49E3-8DFE-A50ACF426813}"/>
+						<State Id="3339761385" Name="Building" ObjectPath="\States\Default Work Unit\ExteriorCheck\Building" GUID="{6BA492DB-6EC2-42F6-9E20-A689B4E0B8DD}"/>
+					</States>
+				</StateGroup>
+				<StateGroup Id="3686139462" Name="Area" ObjectPath="\States\Default Work Unit\Area" GUID="{DD35175E-C4B7-4DC8-9E70-4C8CCB03A284}">
+					<States>
+						<State Id="491961918" Name="Forest" ObjectPath="\States\Default Work Unit\Area\Forest" GUID="{A03205E1-466B-418E-A0ED-31123474978E}"/>
+						<State Id="514358619" Name="Field" ObjectPath="\States\Default Work Unit\Area\Field" GUID="{6BCB001B-7464-41DE-94FC-9A3C55A26F28}"/>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\Area\None" GUID="{637147D3-FE8A-47A6-9FF5-C3224288CE98}"/>
+						<State Id="3945572659" Name="Village" ObjectPath="\States\Default Work Unit\Area\Village" GUID="{B6E02AC0-4F2F-45B6-BE02-8FB238D276AA}"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
+			<SwitchGroups>
+				<SwitchGroup Id="4270634489" Name="Footstep_PhysicalMaterials" ObjectPath="\Switches\Default Work Unit\Footstep_PhysicalMaterials" GUID="{500074DF-4F47-432E-AF11-7CD39E372926}">
+					<Switches>
+						<Switch Id="1216965916" Name="Stone" ObjectPath="\Switches\Default Work Unit\Footstep_PhysicalMaterials\Stone" GUID="{B53FEFEA-445D-4960-8F69-AB638D6484F8}"/>
+						<Switch Id="1644059380" Name="Undergrowth" ObjectPath="\Switches\Default Work Unit\Footstep_PhysicalMaterials\Undergrowth" GUID="{07FBCEDF-2647-405C-8AB7-ED4E694A2E0F}"/>
+						<Switch Id="2058049674" Name="Wood" ObjectPath="\Switches\Default Work Unit\Footstep_PhysicalMaterials\Wood" GUID="{0F3B2C96-B056-4F15-9DE2-3AAE00650E06}"/>
+						<Switch Id="2195636714" Name="Dirt" ObjectPath="\Switches\Default Work Unit\Footstep_PhysicalMaterials\Dirt" GUID="{A030F214-A9CE-411A-BC29-87880035704E}"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
+		</SoundBank>
+		<SoundBank Id="1661994096" Type="User" GUID="{3CB8E9F2-7DE1-4940-B7C3-4F23A4BCFD06}" Language="SFX" Hash="{E1ACE668-6F99-60B8-E5FC-73BEB73B4D51}">
+			<ObjectPath>\SoundBanks\Default Work Unit\SoundBank</ObjectPath>
+			<ShortName>SoundBank</ShortName>
+			<Path>SoundBank.bnk</Path>
+			<Media>
+				<File Id="1877740" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MVAMB_MVMT_Dirt_Walk_02.wav</ShortName>
+					<CachePath>SFX/MVAMB_MVMT_Dirt_Walk_02_818F3B66.wem</CachePath>
+				</File>
+				<File Id="5376386" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MVAMB_MVMT_Stone_Walk_03.wav</ShortName>
+					<CachePath>SFX/MVAMB_MVMT_Stone_Walk_03_818F3B66.wem</CachePath>
+				</File>
+				<File Id="30740906" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MVAMB_MVMT_Stone_Walk_04.wav</ShortName>
+					<CachePath>SFX/MVAMB_MVMT_Stone_Walk_04_818F3B66.wem</CachePath>
+				</File>
+				<File Id="30826807" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MVAMB_MVMT_Wood_Run_04.wav</ShortName>
+					<CachePath>SFX/MVAMB_MVMT_Wood_Run_04_818F3B66.wem</CachePath>
+				</File>
+				<File Id="33766166" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MVAMB_AMB3D_BirdCall_02.wav</ShortName>
+					<CachePath>SFX/MVAMB_AMB3D_BirdCall_02_818F3B66.wem</CachePath>
+				</File>
+				<File Id="36973768" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MVAMB_MVMT_Stone_Walk_05.wav</ShortName>
+					<CachePath>SFX/MVAMB_MVMT_Stone_Walk_05_818F3B66.wem</CachePath>
+				</File>
+				<File Id="42768234" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MVAMB_MVMT_Foliage_Walk_05.wav</ShortName>
+					<CachePath>SFX/MVAMB_MVMT_Foliage_Walk_05_818F3B66.wem</CachePath>
+				</File>
+				<File Id="51068478" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MVAMB_MVMT_Stone_Walk_01.wav</ShortName>
+					<CachePath>SFX/MVAMB_MVMT_Stone_Walk_01_818F3B66.wem</CachePath>
+				</File>
+				<File Id="88526252" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MVAMB_MVMT_Run_Moss_01.wav</ShortName>
+					<CachePath>SFX/MVAMB_MVMT_Run_Moss_01_818F3B66.wem</CachePath>
+				</File>
+				<File Id="106513712" Language="SFX" Streaming="true" Location="Loose">
+					<ShortName>MVAMB_AMB2D_Smith.wav</ShortName>
+					<Path>Media/106513712.wem</Path>
+					<CachePath>SFX/MVAMB_AMB2D_Smith_5D513DC3.wem</CachePath>
+				</File>
+				<File Id="113241377" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MVAMB_MVMT_Foliage_Walk_04.wav</ShortName>
+					<CachePath>SFX/MVAMB_MVMT_Foliage_Walk_04_818F3B66.wem</CachePath>
+				</File>
+				<File Id="113312526" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MVAMB_MVMT_Dirt_Walk_03.wav</ShortName>
+					<CachePath>SFX/MVAMB_MVMT_Dirt_Walk_03_818F3B66.wem</CachePath>
+				</File>
+				<File Id="114361696" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MVAMB_MVMT_Wood_Run_02.wav</ShortName>
+					<CachePath>SFX/MVAMB_MVMT_Wood_Run_02_818F3B66.wem</CachePath>
+				</File>
+				<File Id="116006581" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MVAMB_AMB3D_BannerRustle_Large_02.wav</ShortName>
+					<CachePath>SFX/MVAMB_AMB3D_BannerRustle_Large_02_818F3B66.wem</CachePath>
+				</File>
+				<File Id="163938029" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MVAMB_AMB3D_WindGust_Forest_01.wav</ShortName>
+					<CachePath>SFX/MVAMB_AMB3D_WindGust_Forest_01_818F3B66.wem</CachePath>
+				</File>
+				<File Id="180840226" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MVAMB_MVMT_Wood_Walk_03.wav</ShortName>
+					<CachePath>SFX/MVAMB_MVMT_Wood_Walk_03_818F3B66.wem</CachePath>
+				</File>
+				<File Id="193214997" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MVAMB_MVMT_Dirt_Walk_05.wav</ShortName>
+					<CachePath>SFX/MVAMB_MVMT_Dirt_Walk_05_818F3B66.wem</CachePath>
+				</File>
+				<File Id="197997106" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MVAMB_MVMT_Dirt_Run_05.wav</ShortName>
+					<CachePath>SFX/MVAMB_MVMT_Dirt_Run_05_818F3B66.wem</CachePath>
+				</File>
+				<File Id="203079656" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MVAMB_AMB3D_BirdCall_04.wav</ShortName>
+					<CachePath>SFX/MVAMB_AMB3D_BirdCall_04_818F3B66.wem</CachePath>
+				</File>
+				<File Id="209612959" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MVAMB_MVMT_Stone_Run_02.wav</ShortName>
+					<CachePath>SFX/MVAMB_MVMT_Stone_Run_02_818F3B66.wem</CachePath>
+				</File>
+				<File Id="231947072" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MVAMB_MVMT_Dirt_Run_02.wav</ShortName>
+					<CachePath>SFX/MVAMB_MVMT_Dirt_Run_02_818F3B66.wem</CachePath>
+				</File>
+				<File Id="237628641" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MVAMB_MVMT_Wood_Run_01.wav</ShortName>
+					<CachePath>SFX/MVAMB_MVMT_Wood_Run_01_818F3B66.wem</CachePath>
+				</File>
+				<File Id="242522122" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MVAMB_MVMT_Wood_Walk_04.wav</ShortName>
+					<CachePath>SFX/MVAMB_MVMT_Wood_Walk_04_818F3B66.wem</CachePath>
+				</File>
+				<File Id="244146520" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MVAMB_MVMT_Stone_Walk_02.wav</ShortName>
+					<CachePath>SFX/MVAMB_MVMT_Stone_Walk_02_818F3B66.wem</CachePath>
+				</File>
+				<File Id="269688864" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MVAMB_MVMT_Dirt_Walk_01.wav</ShortName>
+					<CachePath>SFX/MVAMB_MVMT_Dirt_Walk_01_818F3B66.wem</CachePath>
+				</File>
+				<File Id="272215089" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MVAMB_AMB3D_WindGust_Forest_02.wav</ShortName>
+					<CachePath>SFX/MVAMB_AMB3D_WindGust_Forest_02_818F3B66.wem</CachePath>
+				</File>
+				<File Id="296127076" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MVAMB_MVMT_Wood_Run_03.wav</ShortName>
+					<CachePath>SFX/MVAMB_MVMT_Wood_Run_03_818F3B66.wem</CachePath>
+				</File>
+				<File Id="296434475" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MVAMB_MVMT_Dirt_Run_04.wav</ShortName>
+					<CachePath>SFX/MVAMB_MVMT_Dirt_Run_04_818F3B66.wem</CachePath>
+				</File>
+				<File Id="303160349" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MVAMB_MVMT_Dirt_Walk_06.wav</ShortName>
+					<CachePath>SFX/MVAMB_MVMT_Dirt_Walk_06_818F3B66.wem</CachePath>
+				</File>
+				<File Id="310247767" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MVAMB_AMB3D_WindGust_General_01.wav</ShortName>
+					<CachePath>SFX/MVAMB_AMB3D_WindGust_General_01_818F3B66.wem</CachePath>
+				</File>
+				<File Id="313706917" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MVAMB_AMB3D_BannerRustle_Large_01.wav</ShortName>
+					<CachePath>SFX/MVAMB_AMB3D_BannerRustle_Large_01_818F3B66.wem</CachePath>
+				</File>
+				<File Id="339396261" Language="SFX" Streaming="true" Location="Loose">
+					<ShortName>MVAMB_AMB3D_Forge.wav</ShortName>
+					<Path>Media/339396261.wem</Path>
+					<CachePath>SFX/MVAMB_AMB3D_Forge_D74889D3.wem</CachePath>
+				</File>
+				<File Id="343087894" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MVAMB_AMB3D_Crow_01.wav</ShortName>
+					<CachePath>SFX/MVAMB_AMB3D_Crow_01_818F3B66.wem</CachePath>
+				</File>
+				<File Id="358767849" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MVAMB_MVMT_Foliage_Walk_03.wav</ShortName>
+					<CachePath>SFX/MVAMB_MVMT_Foliage_Walk_03_818F3B66.wem</CachePath>
+				</File>
+				<File Id="375761970" Language="SFX" Streaming="true" Location="Loose">
+					<ShortName>MVAMB_AMB3D_Lantern.wav</ShortName>
+					<Path>Media/375761970.wem</Path>
+					<CachePath>SFX/MVAMB_AMB3D_Lantern_0324AB79.wem</CachePath>
+				</File>
+				<File Id="388381558" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MVAMB_AMB3D_WoodCreak_04.wav</ShortName>
+					<CachePath>SFX/MVAMB_AMB3D_WoodCreak_04_818F3B66.wem</CachePath>
+				</File>
+				<File Id="464091168" Language="SFX" Streaming="true" Location="Loose">
+					<ShortName>MVAMB_AMB2D_Storm.wav</ShortName>
+					<Path>Media/464091168.wem</Path>
+					<CachePath>SFX/MVAMB_AMB2D_Storm_BFF7F1AD.wem</CachePath>
+				</File>
+				<File Id="482332482" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MVAMB_AMB3D_Cicada_02.wav</ShortName>
+					<CachePath>SFX/MVAMB_AMB3D_Cicada_02_818F3B66.wem</CachePath>
+				</File>
+				<File Id="498097930" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MVAMB_MVMT_Stone_Run_03.wav</ShortName>
+					<CachePath>SFX/MVAMB_MVMT_Stone_Run_03_818F3B66.wem</CachePath>
+				</File>
+				<File Id="529831544" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MVAMB_MVMT_Stone_Run_04.wav</ShortName>
+					<CachePath>SFX/MVAMB_MVMT_Stone_Run_04_818F3B66.wem</CachePath>
+				</File>
+				<File Id="531609743" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MVAMB_AMB3D_WindGust_General_03.wav</ShortName>
+					<CachePath>SFX/MVAMB_AMB3D_WindGust_General_03_818F3B66.wem</CachePath>
+				</File>
+				<File Id="535370785" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MVAMB_MVMT_Dirt_Run_01.wav</ShortName>
+					<CachePath>SFX/MVAMB_MVMT_Dirt_Run_01_818F3B66.wem</CachePath>
+				</File>
+				<File Id="581991574" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MVAMB_AMB3D_Crow_02.wav</ShortName>
+					<CachePath>SFX/MVAMB_AMB3D_Crow_02_818F3B66.wem</CachePath>
+				</File>
+				<File Id="601110615" Language="SFX" Streaming="true" Location="Loose">
+					<ShortName>MVAMB_AMB2D_Fields.wav</ShortName>
+					<Path>Media/601110615.wem</Path>
+					<CachePath>SFX/MVAMB_AMB2D_Fields_BA79FA9F.wem</CachePath>
+				</File>
+				<File Id="610307768" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MVAMB_AMB3D_Cicada_03.wav</ShortName>
+					<CachePath>SFX/MVAMB_AMB3D_Cicada_03_818F3B66.wem</CachePath>
+				</File>
+				<File Id="622521874" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MVAMB_MVMT_Stone_Run_01.wav</ShortName>
+					<CachePath>SFX/MVAMB_MVMT_Stone_Run_01_818F3B66.wem</CachePath>
+				</File>
+				<File Id="630727918" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MVAMB_AMB3D_BushRustle_02.wav</ShortName>
+					<CachePath>SFX/MVAMB_AMB3D_BushRustle_02_818F3B66.wem</CachePath>
+				</File>
+				<File Id="656050783" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MVAMB_AMB3D_Crow_03.wav</ShortName>
+					<CachePath>SFX/MVAMB_AMB3D_Crow_03_818F3B66.wem</CachePath>
+				</File>
+				<File Id="658215475" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MVAMB_AMB3D_Cicada_01.wav</ShortName>
+					<CachePath>SFX/MVAMB_AMB3D_Cicada_01_818F3B66.wem</CachePath>
+				</File>
+				<File Id="667613652" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MVAMB_AMB3D_BirdFly_01_REV.wav</ShortName>
+					<CachePath>SFX/MVAMB_AMB3D_BirdFly_01_REV_818F3B66.wem</CachePath>
+				</File>
+				<File Id="675049094" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MVAMB_AMB3D_WoodCreak_02.wav</ShortName>
+					<CachePath>SFX/MVAMB_AMB3D_WoodCreak_02_818F3B66.wem</CachePath>
+				</File>
+				<File Id="695597515" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MVAMB_AMB3D_WoodCreak_01.wav</ShortName>
+					<CachePath>SFX/MVAMB_AMB3D_WoodCreak_01_818F3B66.wem</CachePath>
+				</File>
+				<File Id="698241151" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MVAMB_AMB3D_WindGust_General_02.wav</ShortName>
+					<CachePath>SFX/MVAMB_AMB3D_WindGust_General_02_818F3B66.wem</CachePath>
+				</File>
+				<File Id="712960714" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MVAMB_MVMT_Walk_Moss_03.wav</ShortName>
+					<CachePath>SFX/MVAMB_MVMT_Walk_Moss_03_818F3B66.wem</CachePath>
+				</File>
+				<File Id="737766269" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MVAMB_AMB3D_WindGust_Forest_04.wav</ShortName>
+					<CachePath>SFX/MVAMB_AMB3D_WindGust_Forest_04_818F3B66.wem</CachePath>
+				</File>
+				<File Id="757316712" Language="SFX" Streaming="true" Location="Loose">
+					<ShortName>MVAMB_AMB2D_Wind_Loop.wav</ShortName>
+					<Path>Media/757316712.wem</Path>
+					<CachePath>SFX/MVAMB_AMB2D_Wind_Loop_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="767578179" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MVAMB_AMB3D_WoodCreak_03.wav</ShortName>
+					<CachePath>SFX/MVAMB_AMB3D_WoodCreak_03_818F3B66.wem</CachePath>
+				</File>
+				<File Id="781047292" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MVAMB_AMB3D_BushRustle_01.wav</ShortName>
+					<CachePath>SFX/MVAMB_AMB3D_BushRustle_01_818F3B66.wem</CachePath>
+				</File>
+				<File Id="800522768" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MVAMB_MVMT_Dirt_Walk_04.wav</ShortName>
+					<CachePath>SFX/MVAMB_MVMT_Dirt_Walk_04_818F3B66.wem</CachePath>
+				</File>
+				<File Id="809270089" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MVAMB_AMB3D_WindGust_Forest_03.wav</ShortName>
+					<CachePath>SFX/MVAMB_AMB3D_WindGust_Forest_03_818F3B66.wem</CachePath>
+				</File>
+				<File Id="810769814" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MVAMB_MVMT_Walk_Moss_01.wav</ShortName>
+					<CachePath>SFX/MVAMB_MVMT_Walk_Moss_01_818F3B66.wem</CachePath>
+				</File>
+				<File Id="813551098" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MVAMB_AMB3D_BirdCall_01.wav</ShortName>
+					<CachePath>SFX/MVAMB_AMB3D_BirdCall_01_818F3B66.wem</CachePath>
+				</File>
+				<File Id="821048420" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MVAMB_AMB3D_BirdFly_03_REV.wav</ShortName>
+					<CachePath>SFX/MVAMB_AMB3D_BirdFly_03_REV_818F3B66.wem</CachePath>
+				</File>
+				<File Id="830834780" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MVAMB_AMB3D_WindGust_General_04.wav</ShortName>
+					<CachePath>SFX/MVAMB_AMB3D_WindGust_General_04_818F3B66.wem</CachePath>
+				</File>
+				<File Id="835943619" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MVAMB_AMB3D_WindGust_Forest_05.wav</ShortName>
+					<CachePath>SFX/MVAMB_AMB3D_WindGust_Forest_05_818F3B66.wem</CachePath>
+				</File>
+				<File Id="839843995" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MVAMB_MVMT_Foliage_Walk_02.wav</ShortName>
+					<CachePath>SFX/MVAMB_MVMT_Foliage_Walk_02_818F3B66.wem</CachePath>
+				</File>
+				<File Id="845608399" Language="SFX" Streaming="true" Location="Loose">
+					<ShortName>MVAMB_AMB2D_Village.wav</ShortName>
+					<Path>Media/845608399.wem</Path>
+					<CachePath>SFX/MVAMB_AMB2D_Village_7F190DA6.wem</CachePath>
+				</File>
+				<File Id="852481515" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MVAMB_AMB3D_BushRustle_03.wav</ShortName>
+					<CachePath>SFX/MVAMB_AMB3D_BushRustle_03_818F3B66.wem</CachePath>
+				</File>
+				<File Id="865284555" Language="SFX" Streaming="true" Location="Loose">
+					<ShortName>MVAMB_AMB3D_BannerRustle_Loop.wav</ShortName>
+					<Path>Media/865284555.wem</Path>
+					<CachePath>SFX/MVAMB_AMB3D_BannerRustle_Loop_3BBDB9F5.wem</CachePath>
+				</File>
+				<File Id="876968200" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MVAMB_MVMT_Foliage_Walk_01.wav</ShortName>
+					<CachePath>SFX/MVAMB_MVMT_Foliage_Walk_01_818F3B66.wem</CachePath>
+				</File>
+				<File Id="878971493" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MVAMB_AMB3D_BannerRustle_Large_04.wav</ShortName>
+					<CachePath>SFX/MVAMB_AMB3D_BannerRustle_Large_04_818F3B66.wem</CachePath>
+				</File>
+				<File Id="892201450" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MVAMB_MVMT_Walk_Moss_02.wav</ShortName>
+					<CachePath>SFX/MVAMB_MVMT_Walk_Moss_02_818F3B66.wem</CachePath>
+				</File>
+				<File Id="898011573" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MVAMB_AMB3D_BirdCall_03.wav</ShortName>
+					<CachePath>SFX/MVAMB_AMB3D_BirdCall_03_818F3B66.wem</CachePath>
+				</File>
+				<File Id="902148381" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MVAMB_MVMT_Run_Moss_03.wav</ShortName>
+					<CachePath>SFX/MVAMB_MVMT_Run_Moss_03_818F3B66.wem</CachePath>
+				</File>
+				<File Id="932008338" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MVAMB_MVMT_Wood_Walk_01.wav</ShortName>
+					<CachePath>SFX/MVAMB_MVMT_Wood_Walk_01_818F3B66.wem</CachePath>
+				</File>
+				<File Id="933623071" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MVAMB_MVMT_Run_Moss_02.wav</ShortName>
+					<CachePath>SFX/MVAMB_MVMT_Run_Moss_02_818F3B66.wem</CachePath>
+				</File>
+				<File Id="938971001" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MVAMB_MVMT_Dirt_Run_03.wav</ShortName>
+					<CachePath>SFX/MVAMB_MVMT_Dirt_Run_03_818F3B66.wem</CachePath>
+				</File>
+				<File Id="940524448" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MVAMB_AMB3D_BirdFly_02_REV.wav</ShortName>
+					<CachePath>SFX/MVAMB_AMB3D_BirdFly_02_REV_818F3B66.wem</CachePath>
+				</File>
+				<File Id="950490598" Language="SFX" Streaming="true" Location="Loose">
+					<ShortName>MVAMB_AMB2D_Forest.wav</ShortName>
+					<Path>Media/950490598.wem</Path>
+					<CachePath>SFX/MVAMB_AMB2D_Forest_F4110EDC.wem</CachePath>
+				</File>
+				<File Id="959632580" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MVAMB_AMB3D_Crow_04.wav</ShortName>
+					<CachePath>SFX/MVAMB_AMB3D_Crow_04_818F3B66.wem</CachePath>
+				</File>
+				<File Id="973452083" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MVAMB_AMB3D_Cicada_04.wav</ShortName>
+					<CachePath>SFX/MVAMB_AMB3D_Cicada_04_818F3B66.wem</CachePath>
+				</File>
+				<File Id="1063204273" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MVAMB_AMB3D_BannerRustle_Large_03.wav</ShortName>
+					<CachePath>SFX/MVAMB_AMB3D_BannerRustle_Large_03_818F3B66.wem</CachePath>
+				</File>
+				<File Id="1065819550" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MVAMB_MVMT_Wood_Walk_02.wav</ShortName>
+					<CachePath>SFX/MVAMB_MVMT_Wood_Walk_02_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Plugins>
+				<Custom>
+					<Plugin Id="275564784" Name="Have_U_Ever_Been_Outside (Custom)" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb\Field\[Effect Slot [0]: (RoomVerb)]\Have_U_Ever_Been_Outside (Custom)" GUID="{25D3C0FA-0924-448C-A1A9-D3A30953DA6D}" LibName="Wwise RoomVerb" LibId="7733251"/>
+					<Plugin Id="960098761" Name="Meter (Custom)" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Ambience\3D_Ambience\Wind\[Effect Slot [0]: (Meter)]\Meter (Custom)" GUID="{EE93DFDE-7CBF-492A-A3CF-4170F9389B52}" LibName="Wwise Meter" LibId="8454147"/>
+					<Plugin Id="1014145253" Name="Room_Medium (Custom)" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb\Forge\[Effect Slot [0]: (RoomVerb)]\Room_Medium (Custom)" GUID="{612A6EF7-0B63-4EB6-BD4F-612D99B7873F}" LibName="Wwise RoomVerb" LibId="7733251"/>
+					<Plugin Id="1061204808" Name="Have_U_Ever_Been_Outside (Custom)" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb\Village\[Effect Slot [0]: (RoomVerb)]\Have_U_Ever_Been_Outside (Custom)" GUID="{D046D567-8331-46A6-9975-39D22C32F8F7}" LibName="Wwise RoomVerb" LibId="7733251"/>
+					<Plugin Id="1073288824" Name="Have_U_Ever_Been_Outside (Custom)" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb\Forest\[Effect Slot [0]: (RoomVerb)]\Have_U_Ever_Been_Outside (Custom)" GUID="{5E8D2D0F-0BD5-4AD1-B30F-7274BE6C4F1E}" LibName="Wwise RoomVerb" LibId="7733251"/>
+				</Custom>
+			</Plugins>
+			<Events>
+				<Event Id="711442636" Name="Play_AMB2D_Fields" ObjectPath="\Events\Default Work Unit\Ambience\2D Ambience\Play_AMB2D_Fields" GUID="{8312E3CB-29AC-4159-899D-33676A117451}" MaxAttenuation="950" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="601110615"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="224793992" Name="Play_AMB2D_Forest" ObjectPath="\Events\Default Work Unit\Ambience\2D Ambience\Play_AMB2D_Forest" GUID="{2ECFE5CC-73FB-437D-BCA2-E4EE3AD040EC}" MaxAttenuation="950" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="950490598"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3861049160" Name="Play_AMB2D_Smith" ObjectPath="\Events\Default Work Unit\Ambience\2D Ambience\Play_AMB2D_Smith" GUID="{BB62C0E3-0BCA-4E48-98A6-309798356919}" MaxAttenuation="550" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="106513712"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="713497946" Name="Play_AMB2D_Storm" ObjectPath="\Events\Default Work Unit\Ambience\2D Ambience\Play_AMB2D_Storm" GUID="{4F7412FB-1AE4-4098-9B9D-AEA836462E14}" MaxAttenuation="950" DurationType="Infinite">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="3686139462" Id="514358619" GUID="{6BCB001B-7464-41DE-94FC-9A3C55A26F28}"/>
+							<MediaRefs>
+								<MediaRef Id="757316712"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="3686139462" Id="3945572659" GUID="{B6E02AC0-4F2F-45B6-BE02-8FB238D276AA}"/>
+							<MediaRefs>
+								<MediaRef Id="464091168"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="3686139462" Id="748895195" GUID="{637147D3-FE8A-47A6-9FF5-C3224288CE98}"/>
+							<MediaRefs>
+								<MediaRef Id="757316712"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="3686139462" Id="491961918" GUID="{A03205E1-466B-418E-A0ED-31123474978E}" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="757316712"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="3686139462" Id="514358619" GUID="{6BCB001B-7464-41DE-94FC-9A3C55A26F28}"/>
+							<MediaRefs>
+								<MediaRef Id="757316712"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="3686139462" Id="3945572659" GUID="{B6E02AC0-4F2F-45B6-BE02-8FB238D276AA}"/>
+							<MediaRefs>
+								<MediaRef Id="464091168"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="3686139462" Id="748895195" GUID="{637147D3-FE8A-47A6-9FF5-C3224288CE98}"/>
+							<MediaRefs>
+								<MediaRef Id="757316712"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="3686139462" Id="491961918" GUID="{A03205E1-466B-418E-A0ED-31123474978E}" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="757316712"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="3350734665" Name="Play_AMB2D_Village" ObjectPath="\Events\Default Work Unit\Ambience\2D Ambience\Play_AMB2D_Village" GUID="{BA34232E-1335-4A89-A0B7-2CB10A08AD4F}" MaxAttenuation="950" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="757316712"/>
+						<MediaRef Id="845608399"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="410773671" Name="Play_AMB3D_BannerRustle_Large" ObjectPath="\Events\Default Work Unit\Ambience\3D Ambience\Play_AMB3D_BannerRustle_Large" GUID="{951879C0-88C3-4014-A00B-069A35F08F19}" MaxAttenuation="1500" DurationType="OneShot" DurationMin="1.3183334" DurationMax="1.3183334">
+					<MediaRefs>
+						<MediaRef Id="116006581"/>
+						<MediaRef Id="313706917"/>
+						<MediaRef Id="878971493"/>
+						<MediaRef Id="1063204273"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3358165816" Name="Play_AMB3D_BannerRustle_Loop" ObjectPath="\Events\Default Work Unit\Ambience\3D Ambience\Play_AMB3D_BannerRustle_Loop" GUID="{41E4A029-7375-4272-9889-6DDAA9C23C86}" MaxAttenuation="1500" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="865284555"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3124761557" Name="Play_AMB3D_Forest_BirdCall" ObjectPath="\Events\Default Work Unit\Ambience\3D Ambience\Forest\Play_AMB3D_Forest_BirdCall" GUID="{952F9A1D-1C44-455A-B42C-AEE79B019AA2}" MaxAttenuation="1750" DurationType="OneShot" DurationMin="0" DurationMax="9.992978">
+					<MediaRefs>
+						<MediaRef Id="33766166"/>
+						<MediaRef Id="203079656"/>
+						<MediaRef Id="813551098"/>
+						<MediaRef Id="898011573"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3504126637" Name="Play_AMB3D_Forest_BushRustle" ObjectPath="\Events\Default Work Unit\Ambience\3D Ambience\Forest\Play_AMB3D_Forest_BushRustle" GUID="{4325F119-5A26-4991-A9D2-8AF4AE15FB9C}" MaxAttenuation="1750" DurationType="OneShot" DurationMin="3.8195398" DurationMax="5.9971776">
+					<MediaRefs>
+						<MediaRef Id="630727918"/>
+						<MediaRef Id="781047292"/>
+						<MediaRef Id="852481515"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3780561745" Name="Play_AMB3D_Forest_Cicada" ObjectPath="\Events\Default Work Unit\Ambience\3D Ambience\Forest\Play_AMB3D_Forest_Cicada" GUID="{2452A27D-4110-4E3F-ADC5-C57F6C881A47}" MaxAttenuation="1750" DurationType="OneShot" DurationMin="4.6781898" DurationMax="6.226431">
+					<MediaRefs>
+						<MediaRef Id="482332482"/>
+						<MediaRef Id="610307768"/>
+						<MediaRef Id="658215475"/>
+						<MediaRef Id="973452083"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1864336298" Name="Play_AMB3D_Village_Crow_Caw" ObjectPath="\Events\Default Work Unit\Ambience\3D Ambience\Play_AMB3D_Village_Crow_Caw" GUID="{DDD4B80A-90ED-4E4E-AA89-7126FA4BBD09}" MaxAttenuation="1750" DurationType="OneShot" DurationMin="5.4143333" DurationMax="6.779667">
+					<MediaRefs>
+						<MediaRef Id="343087894"/>
+						<MediaRef Id="581991574"/>
+						<MediaRef Id="656050783"/>
+						<MediaRef Id="959632580"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3367379716" Name="Play_AMB3D_Village_Crow_FlyAway" ObjectPath="\Events\Default Work Unit\Ambience\3D Ambience\Village\Play_AMB3D_Village_Crow_FlyAway" GUID="{E2A86B61-5977-4B4D-B0DC-7815FA3F35ED}" MaxAttenuation="4500" DurationType="OneShot" DurationMin="2.6836667" DurationMax="2.6836667">
+					<MediaRefs>
+						<MediaRef Id="667613652"/>
+						<MediaRef Id="821048420"/>
+						<MediaRef Id="940524448"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3518207694" Name="Play_AMB3D_Village_Forge" ObjectPath="\Events\Default Work Unit\Ambience\3D Ambience\Village\Play_AMB3D_Village_Forge" GUID="{5B8610E7-417E-4A78-87CA-4D55A12A9233}" MaxAttenuation="750" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="339396261"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3393669167" Name="Play_AMB3D_Village_Lantern" ObjectPath="\Events\Default Work Unit\Ambience\3D Ambience\Village\Play_AMB3D_Village_Lantern" GUID="{5B72A4C6-55C0-43C0-BA57-DCA1ADB79E31}" MaxAttenuation="400" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="375761970"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3707582442" Name="Play_AMB3D_Village_WoodCreak" ObjectPath="\Events\Default Work Unit\Ambience\3D Ambience\Village\Play_AMB3D_Village_WoodCreak" GUID="{C8EB1AE0-8B46-4202-8341-D81C9A1B9417}" MaxAttenuation="1750" DurationType="OneShot" DurationMin="1.3183334" DurationMax="2.6836667">
+					<MediaRefs>
+						<MediaRef Id="388381558"/>
+						<MediaRef Id="675049094"/>
+						<MediaRef Id="695597515"/>
+						<MediaRef Id="767578179"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1275728957" Name="Play_AMB3D_WindGust" ObjectPath="\Events\Default Work Unit\Ambience\3D Ambience\Play_AMB3D_WindGust" GUID="{EAE7A83D-FA9B-4A01-B6CA-5137CA44329A}" MaxAttenuation="800" DurationType="OneShot" DurationMin="6.779667" DurationMax="10.130542">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="3686139462" Id="514358619" GUID="{6BCB001B-7464-41DE-94FC-9A3C55A26F28}"/>
+							<MediaRefs>
+								<MediaRef Id="310247767"/>
+								<MediaRef Id="531609743"/>
+								<MediaRef Id="698241151"/>
+								<MediaRef Id="830834780"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="3686139462" Id="3945572659" GUID="{B6E02AC0-4F2F-45B6-BE02-8FB238D276AA}"/>
+							<MediaRefs>
+								<MediaRef Id="310247767"/>
+								<MediaRef Id="531609743"/>
+								<MediaRef Id="698241151"/>
+								<MediaRef Id="830834780"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="3686139462" Id="748895195" GUID="{637147D3-FE8A-47A6-9FF5-C3224288CE98}"/>
+							<MediaRefs>
+								<MediaRef Id="310247767"/>
+								<MediaRef Id="531609743"/>
+								<MediaRef Id="698241151"/>
+								<MediaRef Id="830834780"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="3686139462" Id="491961918" GUID="{A03205E1-466B-418E-A0ED-31123474978E}" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="163938029"/>
+								<MediaRef Id="272215089"/>
+								<MediaRef Id="737766269"/>
+								<MediaRef Id="809270089"/>
+								<MediaRef Id="835943619"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="3686139462" Id="514358619" GUID="{6BCB001B-7464-41DE-94FC-9A3C55A26F28}"/>
+							<MediaRefs>
+								<MediaRef Id="310247767"/>
+								<MediaRef Id="531609743"/>
+								<MediaRef Id="698241151"/>
+								<MediaRef Id="830834780"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="3686139462" Id="3945572659" GUID="{B6E02AC0-4F2F-45B6-BE02-8FB238D276AA}"/>
+							<MediaRefs>
+								<MediaRef Id="310247767"/>
+								<MediaRef Id="531609743"/>
+								<MediaRef Id="698241151"/>
+								<MediaRef Id="830834780"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="3686139462" Id="748895195" GUID="{637147D3-FE8A-47A6-9FF5-C3224288CE98}"/>
+							<MediaRefs>
+								<MediaRef Id="310247767"/>
+								<MediaRef Id="531609743"/>
+								<MediaRef Id="698241151"/>
+								<MediaRef Id="830834780"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="3686139462" Id="491961918" GUID="{A03205E1-466B-418E-A0ED-31123474978E}" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="163938029"/>
+								<MediaRef Id="272215089"/>
+								<MediaRef Id="737766269"/>
+								<MediaRef Id="809270089"/>
+								<MediaRef Id="835943619"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="337851413" Name="Play_MVMT_Footstep" ObjectPath="\Events\Default Work Unit\Movement\Play_MVMT_Footstep" GUID="{762E01A4-8D6E-498E-A778-C671BAD104EF}" DurationType="OneShot" DurationMin="1.1563263" DurationMax="1.5257818">
+					<MediaRefs>
+						<MediaRef Id="42768234"/>
+						<MediaRef Id="113241377"/>
+						<MediaRef Id="358767849"/>
+						<MediaRef Id="839843995"/>
+						<MediaRef Id="876968200"/>
+					</MediaRefs>
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="4270634489" Id="2195636714" GUID="{A030F214-A9CE-411A-BC29-87880035704E}" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="1877740"/>
+								<MediaRef Id="113312526"/>
+								<MediaRef Id="193214997"/>
+								<MediaRef Id="269688864"/>
+								<MediaRef Id="303160349"/>
+								<MediaRef Id="800522768"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="4270634489" Id="2058049674" GUID="{0F3B2C96-B056-4F15-9DE2-3AAE00650E06}"/>
+							<MediaRefs>
+								<MediaRef Id="180840226"/>
+								<MediaRef Id="242522122"/>
+								<MediaRef Id="932008338"/>
+								<MediaRef Id="1065819550"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="4270634489" Id="1644059380" GUID="{07FBCEDF-2647-405C-8AB7-ED4E694A2E0F}"/>
+							<MediaRefs>
+								<MediaRef Id="712960714"/>
+								<MediaRef Id="810769814"/>
+								<MediaRef Id="892201450"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="4270634489" Id="1216965916" GUID="{B53FEFEA-445D-4960-8F69-AB638D6484F8}"/>
+							<MediaRefs>
+								<MediaRef Id="5376386"/>
+								<MediaRef Id="30740906"/>
+								<MediaRef Id="36973768"/>
+								<MediaRef Id="51068478"/>
+								<MediaRef Id="244146520"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="4270634489" Id="2195636714" GUID="{A030F214-A9CE-411A-BC29-87880035704E}" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="197997106"/>
+								<MediaRef Id="231947072"/>
+								<MediaRef Id="296434475"/>
+								<MediaRef Id="535370785"/>
+								<MediaRef Id="938971001"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="4270634489" Id="2058049674" GUID="{0F3B2C96-B056-4F15-9DE2-3AAE00650E06}"/>
+							<MediaRefs>
+								<MediaRef Id="30826807"/>
+								<MediaRef Id="114361696"/>
+								<MediaRef Id="237628641"/>
+								<MediaRef Id="296127076"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="4270634489" Id="1644059380" GUID="{07FBCEDF-2647-405C-8AB7-ED4E694A2E0F}"/>
+							<MediaRefs>
+								<MediaRef Id="88526252"/>
+								<MediaRef Id="902148381"/>
+								<MediaRef Id="933623071"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="4270634489" Id="1216965916" GUID="{B53FEFEA-445D-4960-8F69-AB638D6484F8}"/>
+							<MediaRefs>
+								<MediaRef Id="209612959"/>
+								<MediaRef Id="498097930"/>
+								<MediaRef Id="529831544"/>
+								<MediaRef Id="622521874"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="4270634489" Id="2195636714" GUID="{A030F214-A9CE-411A-BC29-87880035704E}" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="1877740"/>
+								<MediaRef Id="113312526"/>
+								<MediaRef Id="193214997"/>
+								<MediaRef Id="269688864"/>
+								<MediaRef Id="303160349"/>
+								<MediaRef Id="800522768"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="4270634489" Id="2058049674" GUID="{0F3B2C96-B056-4F15-9DE2-3AAE00650E06}"/>
+							<MediaRefs>
+								<MediaRef Id="180840226"/>
+								<MediaRef Id="242522122"/>
+								<MediaRef Id="932008338"/>
+								<MediaRef Id="1065819550"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="4270634489" Id="1644059380" GUID="{07FBCEDF-2647-405C-8AB7-ED4E694A2E0F}"/>
+							<MediaRefs>
+								<MediaRef Id="712960714"/>
+								<MediaRef Id="810769814"/>
+								<MediaRef Id="892201450"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="4270634489" Id="1216965916" GUID="{B53FEFEA-445D-4960-8F69-AB638D6484F8}"/>
+							<MediaRefs>
+								<MediaRef Id="5376386"/>
+								<MediaRef Id="30740906"/>
+								<MediaRef Id="36973768"/>
+								<MediaRef Id="51068478"/>
+								<MediaRef Id="244146520"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="4270634489" Id="2195636714" GUID="{A030F214-A9CE-411A-BC29-87880035704E}" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="197997106"/>
+								<MediaRef Id="231947072"/>
+								<MediaRef Id="296434475"/>
+								<MediaRef Id="535370785"/>
+								<MediaRef Id="938971001"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="4270634489" Id="2058049674" GUID="{0F3B2C96-B056-4F15-9DE2-3AAE00650E06}"/>
+							<MediaRefs>
+								<MediaRef Id="30826807"/>
+								<MediaRef Id="114361696"/>
+								<MediaRef Id="237628641"/>
+								<MediaRef Id="296127076"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="4270634489" Id="1644059380" GUID="{07FBCEDF-2647-405C-8AB7-ED4E694A2E0F}"/>
+							<MediaRefs>
+								<MediaRef Id="88526252"/>
+								<MediaRef Id="902148381"/>
+								<MediaRef Id="933623071"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="4270634489" Id="1216965916" GUID="{B53FEFEA-445D-4960-8F69-AB638D6484F8}"/>
+							<MediaRefs>
+								<MediaRef Id="209612959"/>
+								<MediaRef Id="498097930"/>
+								<MediaRef Id="529831544"/>
+								<MediaRef Id="622521874"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+			</Events>
+			<Busses>
+				<Bus Id="85412153" Name="Ambience" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Ambience" GUID="{B2925C8B-21C8-41E9-B80F-5A846987C325}"/>
+				<Bus Id="348963605" Name="Reverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb" GUID="{C17ACBE4-70E1-401E-B7F6-3D475150D04C}"/>
+				<Bus Id="599996866" Name="2D_Ambience" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Ambience\2D_Ambience" GUID="{BB3C0AF2-5E4F-459C-995C-B481B0AB3AB9}"/>
+				<Bus Id="603313991" Name="3D_Ambience" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Ambience\3D_Ambience" GUID="{17507B17-9A3E-456E-A69E-D228F620074F}"/>
+				<Bus Id="1537061107" Name="Wind" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Ambience\3D_Ambience\Wind" GUID="{5B12E054-936A-4F48-80E9-016E37635FE6}">
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="960098761"/>
+						</Custom>
+					</PluginRefs>
+				</Bus>
+				<Bus Id="2129636626" Name="Movement" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Movement" GUID="{990EDA90-E229-45DA-8B10-98A9253F2737}"/>
+				<Bus Id="3803692087" Name="Master Audio Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus" GUID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
+			</Busses>
+			<AuxBusses>
+				<AuxBus Id="12377074" Name="Forge" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb\Forge" GUID="{F860E3B1-1866-4028-BF4A-54E9F3F15A49}">
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="1014145253"/>
+						</Custom>
+					</PluginRefs>
+				</AuxBus>
+				<AuxBus Id="491961918" Name="Forest" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb\Forest" GUID="{A9E1689D-9973-44F2-A796-776BE0F1619D}">
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="1073288824"/>
+						</Custom>
+					</PluginRefs>
+				</AuxBus>
+				<AuxBus Id="514358619" Name="Field" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb\Field" GUID="{7AC0C4A0-AE5F-47ED-BBD1-340AC1C81CD9}">
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="275564784"/>
+						</Custom>
+					</PluginRefs>
+				</AuxBus>
+				<AuxBus Id="3945572659" Name="Village" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb\Village" GUID="{2FCF22CC-38B6-4DD5-9C7C-C5F13024A0F6}">
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="1061204808"/>
+						</Custom>
+					</PluginRefs>
+				</AuxBus>
+			</AuxBusses>
+			<GameParameters>
+				<GameParameter Id="3519441192" Name="Velocity" ObjectPath="\Game Parameters\Default Work Unit\Velocity" GUID="{B7585C10-8A75-4F61-84D6-AEECB557CCDD}"/>
+			</GameParameters>
+			<StateGroups>
+				<StateGroup Id="1176860857" Name="ExteriorCheck" ObjectPath="\States\Default Work Unit\ExteriorCheck" GUID="{F11F2A52-37F0-486C-A7C2-1688FA404EC5}">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\ExteriorCheck\None" GUID="{2F678026-7235-42BB-9654-81BFCFD1A46E}"/>
+						<State Id="1132214669" Name="Interior" ObjectPath="\States\Default Work Unit\ExteriorCheck\Interior" GUID="{27C5F190-8123-49ED-86F7-6F54F99E8BCD}"/>
+						<State Id="2213992659" Name="Exterior" ObjectPath="\States\Default Work Unit\ExteriorCheck\Exterior" GUID="{791859CC-E4C9-49E3-8DFE-A50ACF426813}"/>
+						<State Id="3339761385" Name="Building" ObjectPath="\States\Default Work Unit\ExteriorCheck\Building" GUID="{6BA492DB-6EC2-42F6-9E20-A689B4E0B8DD}"/>
+					</States>
+				</StateGroup>
+				<StateGroup Id="3686139462" Name="Area" ObjectPath="\States\Default Work Unit\Area" GUID="{DD35175E-C4B7-4DC8-9E70-4C8CCB03A284}">
+					<States>
+						<State Id="491961918" Name="Forest" ObjectPath="\States\Default Work Unit\Area\Forest" GUID="{A03205E1-466B-418E-A0ED-31123474978E}"/>
+						<State Id="514358619" Name="Field" ObjectPath="\States\Default Work Unit\Area\Field" GUID="{6BCB001B-7464-41DE-94FC-9A3C55A26F28}"/>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\Area\None" GUID="{637147D3-FE8A-47A6-9FF5-C3224288CE98}"/>
+						<State Id="3945572659" Name="Village" ObjectPath="\States\Default Work Unit\Area\Village" GUID="{B6E02AC0-4F2F-45B6-BE02-8FB238D276AA}"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
+			<SwitchGroups>
+				<SwitchGroup Id="4270634489" Name="Footstep_PhysicalMaterials" ObjectPath="\Switches\Default Work Unit\Footstep_PhysicalMaterials" GUID="{500074DF-4F47-432E-AF11-7CD39E372926}">
+					<Switches>
+						<Switch Id="1216965916" Name="Stone" ObjectPath="\Switches\Default Work Unit\Footstep_PhysicalMaterials\Stone" GUID="{B53FEFEA-445D-4960-8F69-AB638D6484F8}"/>
+						<Switch Id="1644059380" Name="Undergrowth" ObjectPath="\Switches\Default Work Unit\Footstep_PhysicalMaterials\Undergrowth" GUID="{07FBCEDF-2647-405C-8AB7-ED4E694A2E0F}"/>
+						<Switch Id="2058049674" Name="Wood" ObjectPath="\Switches\Default Work Unit\Footstep_PhysicalMaterials\Wood" GUID="{0F3B2C96-B056-4F15-9DE2-3AAE00650E06}"/>
+						<Switch Id="2195636714" Name="Dirt" ObjectPath="\Switches\Default Work Unit\Footstep_PhysicalMaterials\Dirt" GUID="{A030F214-A9CE-411A-BC29-87880035704E}"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{A85D725E-8BCF-0834-430C-E82A0ECAF4C0}</FileHash>
+</SoundBanksInfo>

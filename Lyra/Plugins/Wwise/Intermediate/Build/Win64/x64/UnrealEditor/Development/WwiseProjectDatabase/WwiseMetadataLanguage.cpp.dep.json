@@ -1,0 +1,19 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\ericf\\documents\\unreal projects\\lyra\\plugins\\wwise\\source\\wwiseprojectdatabase\\private\\wwise\\metadata\\wwisemetadatalanguage.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\ericf\\documents\\unreal projects\\lyra\\intermediate\\build\\win64\\x64\\lyraeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "c:\\users\\ericf\\documents\\unreal projects\\lyra\\plugins\\wwise\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\wwiseprojectdatabase\\definitions.wwiseprojectdatabase.h",
+            "c:\\users\\ericf\\documents\\unreal projects\\lyra\\plugins\\wwise\\source\\wwiseprojectdatabase\\public\\wwise\\metadata\\wwisemetadatalanguage.h",
+            "c:\\users\\ericf\\documents\\unreal projects\\lyra\\plugins\\wwise\\source\\wwiseprojectdatabase\\public\\wwise\\metadata\\wwisemetadataloadable.h",
+            "c:\\users\\ericf\\documents\\unreal projects\\lyra\\plugins\\wwise\\source\\wwiseprojectdatabase\\public\\wwise\\metadata\\wwisemetadataforwarddeclarations.h",
+            "c:\\users\\ericf\\documents\\unreal projects\\lyra\\plugins\\wwise\\source\\wwiseprojectdatabase\\private\\wwise\\metadata\\wwisemetadataloader.h",
+            "c:\\users\\ericf\\documents\\unreal projects\\lyra\\plugins\\wwise\\source\\wwiseprojectdatabase\\public\\wwise\\metadata\\wwisemetadatagameparameter.h",
+            "c:\\users\\ericf\\documents\\unreal projects\\lyra\\plugins\\wwise\\source\\wwiseprojectdatabase\\public\\wwise\\metadata\\wwisemetadatabasicreference.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

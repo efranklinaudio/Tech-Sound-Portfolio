@@ -1,0 +1,22 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-Wwise.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\ericf\Documents\Unreal Projects\Lyra\Intermediate\Build\Win64\x64\LyraEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h.obj"
+"C:\Users\ericf\Documents\Unreal Projects\Lyra\Plugins\Wwise\Intermediate\Build\Win64\x64\UnrealEditor\Development\Wwise\Module.Wwise.cpp.obj"
+"C:\Users\ericf\Documents\Unreal Projects\Lyra\Plugins\Wwise\Intermediate\Build\Win64\x64\UnrealEditor\Development\Wwise\WwiseModule.cpp.obj"
+"C:\Users\ericf\Documents\Unreal Projects\Lyra\Plugins\Wwise\Intermediate\Build\Win64\x64\UnrealEditor\Development\Wwise\Wwise.cpp.obj"
+"C:\Users\ericf\Documents\Unreal Projects\Lyra\Plugins\Wwise\Intermediate\Build\Win64\x64\UnrealEditor\Development\Wwise\WwiseAudioLinkSettingsFactory.cpp.obj"
+"C:\Users\ericf\Documents\Unreal Projects\Lyra\Plugins\Wwise\Intermediate\Build\Win64\x64\UnrealEditor\Development\Wwise\WwiseAudioLinkComponent.cpp.obj"
+"C:\Users\ericf\Documents\Unreal Projects\Lyra\Plugins\Wwise\Intermediate\Build\Win64\x64\UnrealEditor\Development\Wwise\WwiseAudioLinkFactory.cpp.obj"
+"C:\Users\ericf\Documents\Unreal Projects\Lyra\Plugins\Wwise\Intermediate\Build\Win64\x64\UnrealEditor\Development\Wwise\WwiseAudioLinkInputClient.cpp.obj"
+"C:\Users\ericf\Documents\Unreal Projects\Lyra\Plugins\Wwise\Intermediate\Build\Win64\x64\UnrealEditor\Development\Wwise\WwiseAudioLinkSettings.cpp.obj"
+"C:\Users\ericf\Documents\Unreal Projects\Lyra\Plugins\Wwise\Intermediate\Build\Win64\x64\UnrealEditor\Development\Wwise\WwiseAudioLinkSourcePushed.cpp.obj"
+"C:\Users\ericf\Documents\Unreal Projects\Lyra\Plugins\Wwise\Intermediate\Build\Win64\x64\UnrealEditor\Development\Wwise\WwiseAudioLinkSynchronizer.cpp.obj"
+"C:\Users\ericf\Documents\Unreal Projects\Lyra\Plugins\Wwise\Intermediate\Build\Win64\x64\UnrealEditor\Development\Wwise\AudioLink.cpp.obj"
+"C:\Users\ericf\Documents\Unreal Projects\Lyra\Plugins\Wwise\Intermediate\Build\Win64\x64\UnrealEditor\Development\Wwise\Default.rc2.res"
+/OUT:"C:\Users\ericf\Documents\Unreal Projects\Lyra\Plugins\Wwise\Intermediate\Build\Win64\x64\UnrealEditor\Development\Wwise\UnrealEditor-Wwise.lib"

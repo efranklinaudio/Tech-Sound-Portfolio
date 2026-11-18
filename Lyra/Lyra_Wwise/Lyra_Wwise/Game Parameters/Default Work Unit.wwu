@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{9532220F-F6DA-417F-9DAC-FAB366854D8D}" SchemaVersion="119">
+	<GameParameters>
+		<WorkUnit Name="Default Work Unit" ID="{9532220F-F6DA-417F-9DAC-FAB366854D8D}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="MX_Level" ID="{C0BB5F44-B48D-4C67-AD4F-DF05C2C391CA}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="75"/>
+					</PropertyList>
+				</GameParameter>
+				<Folder Name="Capture" ID="{34B07A4A-917E-4A66-9E4F-FB57764C3BE2}" ShortID="221814772">
+					<ChildrenList>
+						<GameParameter Name="Capture_Level" ID="{D79D66E1-CCE2-4D8D-9445-BA701A47155B}">
+							<PropertyList>
+								<Property Name="InitialValue" Type="Real64" Value="0"/>
+								<Property Name="Max" Type="Real64" Value="125"/>
+							</PropertyList>
+						</GameParameter>
+						<GameParameter Name="Cancel_CaptureExit" ID="{3256C3C0-67F8-45F5-A7D4-40424C0C5FE0}">
+							<PropertyList>
+								<Property Name="InitialValue" Type="Real64" Value="0"/>
+								<Property Name="Max" Type="Real64" Value="1"/>
+							</PropertyList>
+						</GameParameter>
+						<GameParameter Name="Capture_Progress" ID="{2797D8A4-229B-4500-8F19-AD3DE47809FD}">
+							<PropertyList>
+								<Property Name="InitialValue" Type="Real64" Value="5"/>
+								<Property Name="Max" Type="Real64" Value="5"/>
+							</PropertyList>
+						</GameParameter>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Movement" ID="{6C4C2F70-B5EE-46E2-BA8D-CD56F4FAD31D}" ShortID="376644642">
+					<ChildrenList>
+						<GameParameter Name="Elevation" ID="{61EF7BFF-803A-4A4A-A8DD-56C14112A769}">
+							<PropertyList>
+								<Property Name="InitialValue" Type="Real64" Value="0"/>
+								<Property Name="Max" Type="Real64" Value="18"/>
+							</PropertyList>
+						</GameParameter>
+						<GameParameter Name="HeroType" ID="{0398ACBB-8343-4F88-8125-D61B9D42BC8B}">
+							<PropertyList>
+								<Property Name="InitialValue" Type="Real64" Value="1"/>
+								<Property Name="Max" Type="Real64" Value="1"/>
+							</PropertyList>
+						</GameParameter>
+						<GameParameter Name="HeroVelocity" ID="{7F63BF96-9650-4DB6-8E49-5B2DC9FCAF1F}">
+							<PropertyList>
+								<Property Name="Max" Type="Real64" Value="600"/>
+							</PropertyList>
+						</GameParameter>
+						<GameParameter Name="Crouch_Pass" ID="{B420C446-931D-46F2-A13F-54B3891CC04F}">
+							<PropertyList>
+								<Property Name="FilterTimeDown" Type="Real64" Value="3"/>
+								<Property Name="FilterTimeUp" Type="Real64" Value="3"/>
+								<Property Name="InitialValue" Type="Real64" Value="1"/>
+								<Property Name="Max" Type="Real64" Value="1"/>
+								<Property Name="RTPCRamping" Type="int16" Value="2"/>
+								<Property Name="SlewRateDown" Type="Real64" Value="41"/>
+								<Property Name="SlewRateUp" Type="Real64" Value="41"/>
+							</PropertyList>
+						</GameParameter>
+						<GameParameter Name="JumpHeight" ID="{172214DF-AF1B-49D7-B2E7-7D9484EA03FD}">
+							<PropertyList>
+								<Property Name="InitialValue" Type="Real64" Value="0.5"/>
+								<Property Name="Max" Type="Real64" Value="2"/>
+							</PropertyList>
+						</GameParameter>
+						<GameParameter Name="Jump_Timer" ID="{94C37243-8022-4220-8933-3695380A88E1}">
+							<PropertyList>
+								<Property Name="InitialValue" Type="Real64" Value="0"/>
+								<Property Name="Max" Type="Real64" Value="4"/>
+							</PropertyList>
+						</GameParameter>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Magazine" ID="{3FD0BAFE-7506-44B7-936D-62D624CEB7A3}" ShortID="896481341">
+					<ChildrenList>
+						<GameParameter Name="Pistol_Magazine" ID="{8B24D075-DD0F-4E7B-B6AA-9D8B0F301FED}">
+							<PropertyList>
+								<Property Name="InitialValue" Type="Real64" Value="12"/>
+								<Property Name="Max" Type="Real64" Value="12"/>
+							</PropertyList>
+						</GameParameter>
+						<GameParameter Name="Rifle_Magazine" ID="{1224564F-0801-4D1F-A037-E7847F88B742}">
+							<PropertyList>
+								<Property Name="InitialValue" Type="Real64" Value="30"/>
+								<Property Name="Max" Type="Real64" Value="30"/>
+							</PropertyList>
+						</GameParameter>
+						<GameParameter Name="Shotgun_Magazine" ID="{DE09CCD6-A2AA-44CE-A441-8A2F3272FB12}">
+							<PropertyList>
+								<Property Name="InitialValue" Type="Real64" Value="8"/>
+								<Property Name="Max" Type="Real64" Value="8"/>
+							</PropertyList>
+						</GameParameter>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Sidechain" ID="{08946246-11EE-4146-8015-7B69DE16CFF5}" ShortID="212694170">
+					<ChildrenList>
+						<GameParameter Name="Sidechain_High" ID="{C89BD2BC-A195-4E4C-84DB-FB9D74FB04A4}">
+							<PropertyList>
+								<Property Name="InitialValue" Type="Real64" Value="-48"/>
+								<Property Name="Max" Type="Real64" Value="0"/>
+								<Property Name="Min" Type="Real64" Value="-48"/>
+							</PropertyList>
+						</GameParameter>
+						<GameParameter Name="Sidechain_Low" ID="{051F9B13-D5FB-45E2-9395-A84BBB185DDE}">
+							<PropertyList>
+								<Property Name="InitialValue" Type="Real64" Value="-48"/>
+								<Property Name="Max" Type="Real64" Value="0"/>
+								<Property Name="Min" Type="Real64" Value="-48"/>
+							</PropertyList>
+						</GameParameter>
+						<GameParameter Name="Sidechain_High_UI" ID="{8C6C66BF-0CA1-4C76-9D0E-664EB3258F4E}">
+							<PropertyList>
+								<Property Name="InitialValue" Type="Real64" Value="-48"/>
+								<Property Name="Max" Type="Real64" Value="0"/>
+								<Property Name="Min" Type="Real64" Value="-48"/>
+							</PropertyList>
+						</GameParameter>
+						<GameParameter Name="Sidechain_Low_UI" ID="{C971C7EE-664A-41B7-86FA-FE8683BD51BC}">
+							<PropertyList>
+								<Property Name="InitialValue" Type="Real64" Value="-48"/>
+								<Property Name="Max" Type="Real64" Value="0"/>
+								<Property Name="Min" Type="Real64" Value="-48"/>
+							</PropertyList>
+						</GameParameter>
+					</ChildrenList>
+				</Folder>
+				<GameParameter Name="HDR" ID="{55C58AA4-23D6-480D-B90F-D61064B4B0A0}"/>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

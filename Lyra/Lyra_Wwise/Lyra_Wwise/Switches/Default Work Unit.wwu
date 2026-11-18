@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{D8245D94-5D4B-405A-8BB1-527CD8DE8EED}" SchemaVersion="119">
+	<Switches>
+		<WorkUnit Name="Default Work Unit" ID="{D8245D94-5D4B-405A-8BB1-527CD8DE8EED}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchGroup Name="Material" ID="{C3F5D774-DF4E-41AB-991A-C68C6BE7DB5E}">
+					<ChildrenList>
+						<Switch Name="Glass" ID="{37E35534-61E9-4437-99CD-A8511D39719E}"/>
+						<Switch Name="Concrete" ID="{D2C27402-DB54-4AFA-A321-9D3FA208AC03}"/>
+						<Switch Name="PhysMat_Player" ID="{B8136218-6B64-48B6-A589-903AF6F2B965}"/>
+					</ChildrenList>
+				</SwitchGroup>
+				<SwitchGroup Name="Capture_Point_Type" ID="{58165774-EC40-4C1C-8810-73AB66B895F9}">
+					<ChildrenList>
+						<Switch Name="Friendly" ID="{F4A1054C-E50C-417F-912A-FD08AEC5D9B6}"/>
+						<Switch Name="Enemy" ID="{DC9E3983-CA77-4C4A-918F-E57B0D2FCEF3}"/>
+					</ChildrenList>
+					<SwitchOnRTPC>
+						<GameParameterRef Name="Elevation" ID="{61EF7BFF-803A-4A4A-A8DD-56C14112A769}"/>
+						<Curve Name="" ID="{F1AC1C93-9925-4F45-BD36-5BE702EF8798}">
+							<PropertyList>
+								<Property Name="Flags" Type="int32" Value="65537"/>
+							</PropertyList>
+							<PointList>
+								<Point>
+									<XPos>0</XPos>
+									<YPos>0</YPos>
+									<Flags>5</Flags>
+								</Point>
+								<Point>
+									<XPos>18</XPos>
+									<YPos>0</YPos>
+									<Flags>37</Flags>
+								</Point>
+							</PointList>
+						</Curve>
+					</SwitchOnRTPC>
+				</SwitchGroup>
+				<SwitchGroup Name="Match_Result" ID="{9ED468A8-1735-4B8F-8539-45F7D66C0E12}">
+					<ChildrenList>
+						<Switch Name="Victory" ID="{D10A5BC8-645C-4C9F-9A03-021B3D6B7148}"/>
+						<Switch Name="Defeat" ID="{4048BEEC-9E1D-4896-A0DA-66F4B65D4605}"/>
+					</ChildrenList>
+				</SwitchGroup>
+				<SwitchGroup Name="MX_CaptureLevel" ID="{F1B3D9CA-3581-4265-8393-65A90D36B731}">
+					<PropertyList>
+						<Property Name="UseGameParameter" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Switch Name="State_01" ID="{66FF1ADC-F713-4CFC-8894-8854DDE7E548}"/>
+						<Switch Name="State_02" ID="{ADA6AB9C-3C5C-4DCE-A42A-42054E7EB5A1}"/>
+						<Switch Name="State_03" ID="{9978574E-383D-4549-8AC2-48850C51C618}"/>
+					</ChildrenList>
+					<SwitchOnRTPC>
+						<GameParameterRef Name="Capture_Level" ID="{D79D66E1-CCE2-4D8D-9445-BA701A47155B}"/>
+						<Curve Name="" ID="{8699F6F4-85F7-495A-BCFA-CC8F8D364E8B}">
+							<PropertyList>
+								<Property Name="Flags" Type="int32" Value="65537"/>
+							</PropertyList>
+							<PointList>
+								<Point>
+									<XPos>0</XPos>
+									<YPos>1</YPos>
+									<Flags>5</Flags>
+								</Point>
+								<Point>
+									<XPos>45</XPos>
+									<YPos>2</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>95</XPos>
+									<YPos>3</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>125</XPos>
+									<YPos>3</YPos>
+									<Flags>37</Flags>
+								</Point>
+							</PointList>
+						</Curve>
+					</SwitchOnRTPC>
+				</SwitchGroup>
+				<SwitchGroup Name="Magazine_Pistol_Count" ID="{35A6D913-B690-4104-AD5A-352257CA56CB}">
+					<PropertyList>
+						<Property Name="UseGameParameter" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Switch Name="Pistol_Final" ID="{B542D980-506F-4641-81F8-60BAF07F892A}"/>
+						<Switch Name="Pistol_Normal" ID="{FE5C05E9-60E6-47C0-A4FE-861B4BB8D22C}"/>
+					</ChildrenList>
+					<SwitchOnRTPC>
+						<GameParameterRef Name="Pistol_Magazine" ID="{8B24D075-DD0F-4E7B-B6AA-9D8B0F301FED}"/>
+						<Curve Name="" ID="{9BB9B6E1-4D76-47DA-89F7-280B07D14079}">
+							<PropertyList>
+								<Property Name="Flags" Type="int32" Value="65537"/>
+							</PropertyList>
+							<PointList>
+								<Point>
+									<XPos>0</XPos>
+									<YPos>2</YPos>
+									<Flags>5</Flags>
+								</Point>
+								<Point>
+									<XPos>0.0943952802359885</XPos>
+									<YPos>1</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>1.5</XPos>
+									<YPos>2</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>12</XPos>
+									<YPos>0</YPos>
+									<Flags>37</Flags>
+								</Point>
+							</PointList>
+						</Curve>
+					</SwitchOnRTPC>
+				</SwitchGroup>
+				<SwitchGroup Name="Magazine_Rifle_Count" ID="{4FE6E8A3-2D4D-4F0D-A044-B48CB021E7E7}">
+					<PropertyList>
+						<Property Name="UseGameParameter" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Switch Name="Rifle_Final" ID="{8CFEBE43-9306-4C95-B73C-87235F323FC9}"/>
+						<Switch Name="Rifle_Normal" ID="{F0E79651-E4A3-42DA-9316-A58BA286C49F}"/>
+					</ChildrenList>
+					<SwitchOnRTPC>
+						<GameParameterRef Name="Rifle_Magazine" ID="{1224564F-0801-4D1F-A037-E7847F88B742}"/>
+						<Curve Name="" ID="{7C43CCD5-CE14-4A08-A13F-DF5986853674}">
+							<PropertyList>
+								<Property Name="Flags" Type="int32" Value="65537"/>
+							</PropertyList>
+							<PointList>
+								<Point>
+									<XPos>0</XPos>
+									<YPos>2</YPos>
+									<Flags>5</Flags>
+								</Point>
+								<Point>
+									<XPos>0.263929618768329</XPos>
+									<YPos>1</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>1.5</XPos>
+									<YPos>2</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>30</XPos>
+									<YPos>0</YPos>
+									<Flags>37</Flags>
+								</Point>
+							</PointList>
+						</Curve>
+					</SwitchOnRTPC>
+				</SwitchGroup>
+				<SwitchGroup Name="Magazine_Shotgun_Count" ID="{B23A8684-C664-413A-8DD9-AD02D5F26E7C}">
+					<PropertyList>
+						<Property Name="UseGameParameter" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Switch Name="Shotgun_Final" ID="{46870EBD-C34F-4ED0-A763-5CDEDC415061}"/>
+						<Switch Name="Shotgun_Normal" ID="{0AC89F6F-10D3-434F-96A6-527BA219B974}"/>
+					</ChildrenList>
+					<SwitchOnRTPC>
+						<GameParameterRef Name="Shotgun_Magazine" ID="{DE09CCD6-A2AA-44CE-A441-8A2F3272FB12}"/>
+						<Curve Name="" ID="{E4D9E1EA-743F-456B-A11B-876E4B474320}">
+							<PropertyList>
+								<Property Name="Flags" Type="int32" Value="65537"/>
+							</PropertyList>
+							<PointList>
+								<Point>
+									<XPos>0</XPos>
+									<YPos>2</YPos>
+									<Flags>5</Flags>
+								</Point>
+								<Point>
+									<XPos>0.375624375624376</XPos>
+									<YPos>1</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>1.5</XPos>
+									<YPos>2</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>8</XPos>
+									<YPos>0</YPos>
+									<Flags>37</Flags>
+								</Point>
+							</PointList>
+						</Curve>
+					</SwitchOnRTPC>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</Switches>
+</WwiseDocument>

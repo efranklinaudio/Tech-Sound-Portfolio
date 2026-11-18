@@ -1,0 +1,18 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\ericf\\documents\\unreal projects\\lyra\\plugins\\wwise\\source\\wwisefilehandler\\private\\wwise\\cookeddata\\wwisemediacookeddata.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\ericf\\documents\\unreal projects\\lyra\\intermediate\\build\\win64\\x64\\lyraeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "c:\\users\\ericf\\documents\\unreal projects\\lyra\\plugins\\wwise\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\wwisefilehandler\\definitions.wwisefilehandler.h",
+            "c:\\users\\ericf\\documents\\unreal projects\\lyra\\plugins\\wwise\\source\\wwisefilehandler\\public\\wwise\\cookeddata\\wwisemediacookeddata.h",
+            "c:\\users\\ericf\\documents\\unreal projects\\lyra\\plugins\\wwise\\intermediate\\build\\win64\\unrealeditor\\inc\\wwisefilehandler\\uht\\wwisemediacookeddata.generated.h",
+            "c:\\users\\ericf\\documents\\unreal projects\\lyra\\plugins\\wwise\\source\\wwisefilehandler\\public\\wwise\\stats\\filehandler.h",
+            "c:\\users\\ericf\\documents\\unreal projects\\lyra\\plugins\\wwise\\source\\wwiseutils\\public\\wwise\\stats\\namedevents.h",
+            "c:\\program files (x86)\\windows kits\\10\\include\\10.0.19041.0\\ucrt\\inttypes.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

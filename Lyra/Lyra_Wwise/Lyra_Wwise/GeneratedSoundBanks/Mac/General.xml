@@ -1,0 +1,2099 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="133642231" Type="User" GUID="{4E40FEC9-473A-4F2F-99AA-A295B97B5B84}" Language="SFX" Hash="{D1D779F1-CF05-D80E-A31A-B1373BD4B01D}">
+			<ObjectPath>\SoundBanks\Default Work Unit\General</ObjectPath>
+			<ShortName>General</ShortName>
+			<Path>General.bnk</Path>
+			<Media>
+				<File Id="3886637" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_victory.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_victory_81AD44CE.wem</CachePath>
+				</File>
+				<File Id="7493245" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_rifle_tail_03.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_rifle_tail_03_0F0F1E27.wem</CachePath>
+				</File>
+				<File Id="15968265" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_impact_base_02.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_impact_base_02_CFE82CC3.wem</CachePath>
+				</File>
+				<File Id="16271058" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_shotgun_reload_impact_02.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_shotgun_reload_impact_02_BFCA91A7.wem</CachePath>
+				</File>
+				<File Id="16604930" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_mx_state03_horn04.wav</ShortName>
+					<CachePath>SFX/lyra_mx_state03_horn04_DD09B518.wem</CachePath>
+				</File>
+				<File Id="17402276" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_pistol_dryfire_lastshot_02.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_pistol_dryfire_lastshot_02_CF29E8ED.wem</CachePath>
+				</File>
+				<File Id="22795088" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_jumpup_concrete_03.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_jumpup_concrete_03_CFE82CC3.wem</CachePath>
+				</File>
+				<File Id="25797793" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_rifle_fire_close_04_REV.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_rifle_fire_close_04_REV_1C32957F.wem</CachePath>
+				</File>
+				<File Id="29723913" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_mx_transition_state02to03_A.wav</ShortName>
+					<CachePath>SFX/lyra_mx_transition_state02to03_A_DD09B518.wem</CachePath>
+				</File>
+				<File Id="32767470" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_padprox.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_padprox_6AB35551.wem</CachePath>
+				</File>
+				<File Id="36611765" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_impact_concrete_02.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_impact_concrete_02_CFE82CC3.wem</CachePath>
+				</File>
+				<File Id="38381534" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_jump_concrete_03.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_jump_concrete_03_CFE82CC3.wem</CachePath>
+				</File>
+				<File Id="39458899" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_jumpup_glass_01.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_jumpup_glass_01_CFE82CC3.wem</CachePath>
+				</File>
+				<File Id="39978940" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_shotgun_closefire_npc_02.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_shotgun_closefire_npc_02_BFCA91A7.wem</CachePath>
+				</File>
+				<File Id="46634038" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_grenade_explode_glass_02.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_grenade_explode_glass_02_BFCA91A7.wem</CachePath>
+				</File>
+				<File Id="53311594" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_footstep_glass_04.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_footstep_glass_04_CFE82CC3.wem</CachePath>
+				</File>
+				<File Id="53750649" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_footstep_glass_03.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_footstep_glass_03_CFE82CC3.wem</CachePath>
+				</File>
+				<File Id="56191290" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_impact_concrete_04.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_impact_concrete_04_CFE82CC3.wem</CachePath>
+				</File>
+				<File Id="59786072" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_mx_transition_state02to03_D.wav</ShortName>
+					<CachePath>SFX/lyra_mx_transition_state02to03_D_DD09B518.wem</CachePath>
+				</File>
+				<File Id="73837607" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_footstep_glass_02.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_footstep_glass_02_CFE82CC3.wem</CachePath>
+				</File>
+				<File Id="75593001" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_grenade_explode_glass_05.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_grenade_explode_glass_05_BFCA91A7.wem</CachePath>
+				</File>
+				<File Id="75912325" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_rifle_reload_magazineout_01.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_rifle_reload_magazineout_01_BFCA91A7.wem</CachePath>
+				</File>
+				<File Id="76077768" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_equip_out_03.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_equip_out_03_CFE82CC3.wem</CachePath>
+				</File>
+				<File Id="76253839" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_rifle_tail_02.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_rifle_tail_02_0F0F1E27.wem</CachePath>
+				</File>
+				<File Id="79138857" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_mx_phase02_phrase03.wav</ShortName>
+					<CachePath>SFX/lyra_mx_phase02_phrase03_DD09B518.wem</CachePath>
+				</File>
+				<File Id="79667478" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_impact_player_02.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_impact_player_02_CFE82CC3.wem</CachePath>
+				</File>
+				<File Id="84289766" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_pistol_fire_far_05.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_pistol_fire_far_05_BFCA91A7.wem</CachePath>
+				</File>
+				<File Id="86421022" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_grenade_explode_concrete_02.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_grenade_explode_concrete_02_BFCA91A7.wem</CachePath>
+				</File>
+				<File Id="91789476" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_pistol_fire_far_02.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_pistol_fire_far_02_BFCA91A7.wem</CachePath>
+				</File>
+				<File Id="93736641" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_ui_doublekill.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_ui_doublekill_81AD44CE.wem</CachePath>
+				</File>
+				<File Id="99943819" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_rifle_tail_01.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_rifle_tail_01_0F0F1E27.wem</CachePath>
+				</File>
+				<File Id="105195312" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_shotgun_tail_03.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_shotgun_tail_03_0F0F1E27.wem</CachePath>
+				</File>
+				<File Id="109254052" Language="SFX" Streaming="true" Location="Loose">
+					<ShortName>lyra_sfx_amb_high.wav</ShortName>
+					<Path>Media/109254052.wem</Path>
+					<CachePath>SFX/lyra_sfx_amb_high_88E88A78.wem</CachePath>
+				</File>
+				<File Id="111015912" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_ui_capturearea_exit.wav</ShortName>
+					<CachePath>SFX/lyra_ui_capturearea_exit_AC6D7301.wem</CachePath>
+				</File>
+				<File Id="112513086" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_rifle_fire_far_05.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_rifle_fire_far_05_BFCA91A7.wem</CachePath>
+				</File>
+				<File Id="113237922" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_pistol_reload_magazinein_02.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_pistol_reload_magazinein_02_CFE82CC3.wem</CachePath>
+				</File>
+				<File Id="119079255" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_scuff_concrete_02.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_scuff_concrete_02_CFE82CC3.wem</CachePath>
+				</File>
+				<File Id="119323924" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_shotgun_reload_magazineout_02.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_shotgun_reload_magazineout_02_BFCA91A7.wem</CachePath>
+				</File>
+				<File Id="127563498" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_mx_phase02_phraseEND.wav</ShortName>
+					<CachePath>SFX/lyra_mx_phase02_phraseEND_DD09B518.wem</CachePath>
+				</File>
+				<File Id="136576422" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_mx_phase03_phrase01.wav</ShortName>
+					<CachePath>SFX/lyra_mx_phase03_phrase01_DD09B518.wem</CachePath>
+				</File>
+				<File Id="148363815" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_shotgun_fire_far_04.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_shotgun_fire_far_04_BFCA91A7.wem</CachePath>
+				</File>
+				<File Id="151995807" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_rifle_reload_magazinein_01.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_rifle_reload_magazinein_01_CFE82CC3.wem</CachePath>
+				</File>
+				<File Id="154680059" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_dash.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_dash_8E2ECC06.wem</CachePath>
+				</File>
+				<File Id="162365737" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_mx_phase03_phraseBEG.wav</ShortName>
+					<CachePath>SFX/lyra_mx_phase03_phraseBEG_DD09B518.wem</CachePath>
+				</File>
+				<File Id="171891520" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_rifle_dryfire_01.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_rifle_dryfire_01_BFCA91A7.wem</CachePath>
+				</File>
+				<File Id="176067266" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_pistol_closefire_player_04.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_pistol_closefire_player_04_BFCA91A7.wem</CachePath>
+				</File>
+				<File Id="178079439" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_pistol_closefire_player_03.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_pistol_closefire_player_03_BFCA91A7.wem</CachePath>
+				</File>
+				<File Id="183899982" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_pistol_dryfire_lastshot_01.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_pistol_dryfire_lastshot_01_5E53217C.wem</CachePath>
+				</File>
+				<File Id="184873655" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_weapon_punch_miss_02.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_weapon_punch_miss_02_CFE82CC3.wem</CachePath>
+				</File>
+				<File Id="192295790" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_mx_phase02_phrase01wav.wav</ShortName>
+					<CachePath>SFX/lyra_mx_phase02_phrase01wav_DD09B518.wem</CachePath>
+				</File>
+				<File Id="200447962" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_mx_phase03_phrase06.wav</ShortName>
+					<CachePath>SFX/lyra_mx_phase03_phrase06_DD09B518.wem</CachePath>
+				</File>
+				<File Id="207673020" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_mx_state03_horn05.wav</ShortName>
+					<CachePath>SFX/lyra_mx_state03_horn05_DD09B518.wem</CachePath>
+				</File>
+				<File Id="210100180" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_shotgun_dryfire_01.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_shotgun_dryfire_01_BFCA91A7.wem</CachePath>
+				</File>
+				<File Id="215446943" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_mx_phase03_phraseENDwav.wav</ShortName>
+					<CachePath>SFX/lyra_mx_phase03_phraseENDwav_DD09B518.wem</CachePath>
+				</File>
+				<File Id="216338263" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_mx_state03_hornEND.wav</ShortName>
+					<CachePath>SFX/lyra_mx_state03_hornEND_DD09B518.wem</CachePath>
+				</File>
+				<File Id="219554316" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_pistol_tail_02.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_pistol_tail_02_0F0F1E27.wem</CachePath>
+				</File>
+				<File Id="219846685" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_grenade_explode_far_03.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_grenade_explode_far_03_BFCA91A7.wem</CachePath>
+				</File>
+				<File Id="220656026" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_ui_capturearea_enter.wav</ShortName>
+					<CachePath>SFX/lyra_ui_capturearea_enter_81AD44CE.wem</CachePath>
+				</File>
+				<File Id="224211563" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_pistol_dryfire_02.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_pistol_dryfire_02_BFCA91A7.wem</CachePath>
+				</File>
+				<File Id="224293986" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_mx_phase03_phrase07.wav</ShortName>
+					<CachePath>SFX/lyra_mx_phase03_phrase07_DD09B518.wem</CachePath>
+				</File>
+				<File Id="224645672" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_footstep_concrete_03.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_footstep_concrete_03_CFE82CC3.wem</CachePath>
+				</File>
+				<File Id="233073162" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_pistol_equip_01.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_pistol_equip_01_CFE82CC3.wem</CachePath>
+				</File>
+				<File Id="237814626" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_whizby_04.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_whizby_04_CFE82CC3.wem</CachePath>
+				</File>
+				<File Id="244841809" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_jumpup_concrete_04.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_jumpup_concrete_04_CFE82CC3.wem</CachePath>
+				</File>
+				<File Id="245795101" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_rifle_dryfire_lastshot_03.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_rifle_dryfire_lastshot_03_3ACFB25E.wem</CachePath>
+				</File>
+				<File Id="256530967" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_rifle_dryfire_03.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_rifle_dryfire_03_BFCA91A7.wem</CachePath>
+				</File>
+				<File Id="258585209" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_gun_bulletdrop_02.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_gun_bulletdrop_02_0F0F1E27.wem</CachePath>
+				</File>
+				<File Id="260787375" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_rifle_fire_close_02_REV.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_rifle_fire_close_02_REV_E3838C73.wem</CachePath>
+				</File>
+				<File Id="261321180" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_weapon_equip.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_weapon_equip_81AD44CE.wem</CachePath>
+				</File>
+				<File Id="280109081" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_pistol_tail_04.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_pistol_tail_04_0F0F1E27.wem</CachePath>
+				</File>
+				<File Id="302747984" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_grenade_explode_concrete_04.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_grenade_explode_concrete_04_BFCA91A7.wem</CachePath>
+				</File>
+				<File Id="309615218" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_damage_player_02.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_damage_player_02_F3577032.wem</CachePath>
+				</File>
+				<File Id="311472067" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_rifle_dryfire_lastshot_01.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_rifle_dryfire_lastshot_01_60B245F5.wem</CachePath>
+				</File>
+				<File Id="313557710" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_pistol_fire_far_01.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_pistol_fire_far_01_BFCA91A7.wem</CachePath>
+				</File>
+				<File Id="314004299" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_shotgun_reload_impact_03.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_shotgun_reload_impact_03_BFCA91A7.wem</CachePath>
+				</File>
+				<File Id="325147111" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_gun_bulletdrop_01.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_gun_bulletdrop_01_0F0F1E27.wem</CachePath>
+				</File>
+				<File Id="329345702" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_pistol_dryfire_lastshot_03.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_pistol_dryfire_lastshot_03_83B8C0A2.wem</CachePath>
+				</File>
+				<File Id="336724159" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_punch_01.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_punch_01_CFE82CC3.wem</CachePath>
+				</File>
+				<File Id="338471777" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_footstep_concrete_01.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_footstep_concrete_01_CFE82CC3.wem</CachePath>
+				</File>
+				<File Id="339615880" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Tower_IR.wav</ShortName>
+					<CachePath>SFX/Tower_IR_81AD44CE.wem</CachePath>
+				</File>
+				<File Id="339872586" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_weapon_punch_miss_03.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_weapon_punch_miss_03_CFE82CC3.wem</CachePath>
+				</File>
+				<File Id="342636695" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_shotgun_closefire_player_01.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_shotgun_closefire_player_01_BFCA91A7.wem</CachePath>
+				</File>
+				<File Id="354103040" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_mx_phase02_phraseTRANS_A.wav</ShortName>
+					<CachePath>SFX/lyra_mx_phase02_phraseTRANS_A_DD09B518.wem</CachePath>
+				</File>
+				<File Id="360159843" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_jumpup_glass_04.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_jumpup_glass_04_CFE82CC3.wem</CachePath>
+				</File>
+				<File Id="360634386" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_footstep_concrete_05.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_footstep_concrete_05_CFE82CC3.wem</CachePath>
+				</File>
+				<File Id="367579084" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_mx_state03_horn02.wav</ShortName>
+					<CachePath>SFX/lyra_mx_state03_horn02_DD09B518.wem</CachePath>
+				</File>
+				<File Id="368151120" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Courtyard_IR.wav</ShortName>
+					<CachePath>SFX/Courtyard_IR_81AD44CE.wem</CachePath>
+				</File>
+				<File Id="369173273" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_shotgun_dryfire_03.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_shotgun_dryfire_03_BFCA91A7.wem</CachePath>
+				</File>
+				<File Id="372484598" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_equip_in_01.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_equip_in_01_CFE82CC3.wem</CachePath>
+				</File>
+				<File Id="374885670" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_shotgun_equip_03.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_shotgun_equip_03_BFCA91A7.wem</CachePath>
+				</File>
+				<File Id="377333772" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_rifle_reload_magazinein_03.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_rifle_reload_magazinein_03_CFE82CC3.wem</CachePath>
+				</File>
+				<File Id="379300781" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_grenade_explode_concrete_05.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_grenade_explode_concrete_05_BFCA91A7.wem</CachePath>
+				</File>
+				<File Id="383773135" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_rifle_fire_far_03.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_rifle_fire_far_03_BFCA91A7.wem</CachePath>
+				</File>
+				<File Id="384070351" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_jumpup_glass_02.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_jumpup_glass_02_CFE82CC3.wem</CachePath>
+				</File>
+				<File Id="384542865" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_pistol_fire_close_02.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_pistol_fire_close_02_BFCA91A7.wem</CachePath>
+				</File>
+				<File Id="385436300" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_footstep_glass_06.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_footstep_glass_06_CFE82CC3.wem</CachePath>
+				</File>
+				<File Id="389475316" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_defeat.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_defeat_81AD44CE.wem</CachePath>
+				</File>
+				<File Id="394721250" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>BFAA_MVMT_JumpDown_SubImpact.wav</ShortName>
+					<CachePath>SFX/BFAA_MVMT_JumpDown_SubImpact_CFE82CC3.wem</CachePath>
+				</File>
+				<File Id="396662398" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_rifle_fire_close_06_REV.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_rifle_fire_close_06_REV_7CC7B515.wem</CachePath>
+				</File>
+				<File Id="397527824" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_rifle_reload_forwardassist_01.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_rifle_reload_forwardassist_01_BFCA91A7.wem</CachePath>
+				</File>
+				<File Id="398584910" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_footstep_concrete_04.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_footstep_concrete_04_CFE82CC3.wem</CachePath>
+				</File>
+				<File Id="404050049" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_shotgun_closefire_npc_01.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_shotgun_closefire_npc_01_BFCA91A7.wem</CachePath>
+				</File>
+				<File Id="405117088" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_damage_player_03.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_damage_player_03_F3577032.wem</CachePath>
+				</File>
+				<File Id="430624697" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_grenade_explode_far_01.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_grenade_explode_far_01_BFCA91A7.wem</CachePath>
+				</File>
+				<File Id="430644115" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_rifle_equip_01.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_rifle_equip_01_CFE82CC3.wem</CachePath>
+				</File>
+				<File Id="436094456" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_shotgun_dryfire_lastshot_01.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_shotgun_dryfire_lastshot_01_AB5FDA57.wem</CachePath>
+				</File>
+				<File Id="438139631" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_jumpup_glass_03.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_jumpup_glass_03_CFE82CC3.wem</CachePath>
+				</File>
+				<File Id="448637051" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_largegun_cock_02.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_largegun_cock_02_CFE82CC3.wem</CachePath>
+				</File>
+				<File Id="450141566" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_rifle_equip_03.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_rifle_equip_03_CFE82CC3.wem</CachePath>
+				</File>
+				<File Id="452808344" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_rifle_closefire_player_04.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_rifle_closefire_player_04_BFCA91A7.wem</CachePath>
+				</File>
+				<File Id="456929750" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_smallgun_cock_01.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_smallgun_cock_01_CFE82CC3.wem</CachePath>
+				</File>
+				<File Id="457261927" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_shotgun_closefire_player_05.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_shotgun_closefire_player_05_BFCA91A7.wem</CachePath>
+				</File>
+				<File Id="457445068" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_mx_phase01_phrase03wav.wav</ShortName>
+					<CachePath>SFX/lyra_mx_phase01_phrase03wav_DD09B518.wem</CachePath>
+				</File>
+				<File Id="466903299" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Bridge_IR.wav</ShortName>
+					<CachePath>SFX/Bridge_IR_81AD44CE.wem</CachePath>
+				</File>
+				<File Id="469905686" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_footstep_concrete_02.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_footstep_concrete_02_74913CB3.wem</CachePath>
+				</File>
+				<File Id="476248206" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_mx_phase02_phraseTRANS_D.wav</ShortName>
+					<CachePath>SFX/lyra_mx_phase02_phraseTRANS_D_DD09B518.wem</CachePath>
+				</File>
+				<File Id="477019436" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_whizby_01.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_whizby_01_CFE82CC3.wem</CachePath>
+				</File>
+				<File Id="478583727" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_mx_phase02_phrase07.wav</ShortName>
+					<CachePath>SFX/lyra_mx_phase02_phrase07_DD09B518.wem</CachePath>
+				</File>
+				<File Id="479040194" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>CoveredRoom_IR.wav</ShortName>
+					<CachePath>SFX/CoveredRoom_IR_81AD44CE.wem</CachePath>
+				</File>
+				<File Id="482911964" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_rifle_closefire_player_01.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_rifle_closefire_player_01_BFCA91A7.wem</CachePath>
+				</File>
+				<File Id="484082911" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_mx_phase01_phrase04wav.wav</ShortName>
+					<CachePath>SFX/lyra_mx_phase01_phrase04wav_DD09B518.wem</CachePath>
+				</File>
+				<File Id="485707823" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_weapon_punch_miss_01.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_weapon_punch_miss_01_CFE82CC3.wem</CachePath>
+				</File>
+				<File Id="486362204" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_shotgun_closefire_player_04.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_shotgun_closefire_player_04_BFCA91A7.wem</CachePath>
+				</File>
+				<File Id="491106090" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_shotgun_closefire_npc_03.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_shotgun_closefire_npc_03_BFCA91A7.wem</CachePath>
+				</File>
+				<File Id="498676719" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_pistol_reload_magazinein_03.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_pistol_reload_magazinein_03_CFE82CC3.wem</CachePath>
+				</File>
+				<File Id="502267585" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_grenade_explode_glass_04.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_grenade_explode_glass_04_BFCA91A7.wem</CachePath>
+				</File>
+				<File Id="510791388" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_mx_phase02_phrase04.wav</ShortName>
+					<CachePath>SFX/lyra_mx_phase02_phrase04_DD09B518.wem</CachePath>
+				</File>
+				<File Id="520152807" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_pistol_fire_far_04.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_pistol_fire_far_04_BFCA91A7.wem</CachePath>
+				</File>
+				<File Id="523083293" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_shotgun_closefire_npc_05.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_shotgun_closefire_npc_05_BFCA91A7.wem</CachePath>
+				</File>
+				<File Id="533002415" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_rifle_closefire_player_03.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_rifle_closefire_player_03_BFCA91A7.wem</CachePath>
+				</File>
+				<File Id="536268137" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_jump_glass_03.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_jump_glass_03_CFE82CC3.wem</CachePath>
+				</File>
+				<File Id="537585844" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_shotgun_fire_far_01.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_shotgun_fire_far_01_BFCA91A7.wem</CachePath>
+				</File>
+				<File Id="544638090" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_jumpup_concrete_01.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_jumpup_concrete_01_B6E6BEE1.wem</CachePath>
+				</File>
+				<File Id="548909952" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_scuff_concrete_05.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_scuff_concrete_05_CFE82CC3.wem</CachePath>
+				</File>
+				<File Id="548934451" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_shotgun_reload_magazineout_01.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_shotgun_reload_magazineout_01_BFCA91A7.wem</CachePath>
+				</File>
+				<File Id="551995089" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_mx_phase03_phrase05.wav</ShortName>
+					<CachePath>SFX/lyra_mx_phase03_phrase05_DD09B518.wem</CachePath>
+				</File>
+				<File Id="552293254" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_mx_phase02_phraseBEG.wav</ShortName>
+					<CachePath>SFX/lyra_mx_phase02_phraseBEG_DD09B518.wem</CachePath>
+				</File>
+				<File Id="553311109" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_equip_out_02.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_equip_out_02_CFE82CC3.wem</CachePath>
+				</File>
+				<File Id="553887028" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_grenade_explode_far_04.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_grenade_explode_far_04_BFCA91A7.wem</CachePath>
+				</File>
+				<File Id="557845151" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_rifle_dryfire_lastshot_02.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_rifle_dryfire_lastshot_02_BFCA91A7.wem</CachePath>
+				</File>
+				<File Id="560732503" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_pistol_fire_far_03.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_pistol_fire_far_03_BFCA91A7.wem</CachePath>
+				</File>
+				<File Id="561075151" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_jump_concrete_02.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_jump_concrete_02_CFE82CC3.wem</CachePath>
+				</File>
+				<File Id="564752047" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_shotgun_tail_04.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_shotgun_tail_04_0F0F1E27.wem</CachePath>
+				</File>
+				<File Id="567191248" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_footstep_concrete_06.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_footstep_concrete_06_CFE82CC3.wem</CachePath>
+				</File>
+				<File Id="572360255" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_jump_glass_02.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_jump_glass_02_CFE82CC3.wem</CachePath>
+				</File>
+				<File Id="573332581" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_pistol_fire_close_06.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_pistol_fire_close_06_BFCA91A7.wem</CachePath>
+				</File>
+				<File Id="576748722" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_grenade_explode_concrete_03.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_grenade_explode_concrete_03_BFCA91A7.wem</CachePath>
+				</File>
+				<File Id="581047147" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_shotgun_dryfire_lastshot_03.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_shotgun_dryfire_lastshot_03_BFCA91A7.wem</CachePath>
+				</File>
+				<File Id="587072973" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_shotgun_tail_01.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_shotgun_tail_01_0F0F1E27.wem</CachePath>
+				</File>
+				<File Id="593290130" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_pad_jump.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_pad_jump_CFE82CC3.wem</CachePath>
+				</File>
+				<File Id="605655355" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_shotgun_equip_02.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_shotgun_equip_02_BFCA91A7.wem</CachePath>
+				</File>
+				<File Id="607540613" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_shotgun_reload_magazineout_03.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_shotgun_reload_magazineout_03_BFCA91A7.wem</CachePath>
+				</File>
+				<File Id="608233443" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_mx_stinger_defeat.wav</ShortName>
+					<CachePath>SFX/lyra_mx_stinger_defeat_DD09B518.wem</CachePath>
+				</File>
+				<File Id="608976748" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_player_respawn.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_player_respawn_81AD44CE.wem</CachePath>
+				</File>
+				<File Id="617444070" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_rifle_tail_04.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_rifle_tail_04_0F0F1E27.wem</CachePath>
+				</File>
+				<File Id="619397221" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_rifle_fire_close_01_REV.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_rifle_fire_close_01_REV_9F13FB75.wem</CachePath>
+				</File>
+				<File Id="622216900" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_rifle_reload_forwardassist_02.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_rifle_reload_forwardassist_02_BFCA91A7.wem</CachePath>
+				</File>
+				<File Id="623981726" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_pistol_closefire_player_01.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_pistol_closefire_player_01_BFCA91A7.wem</CachePath>
+				</File>
+				<File Id="629363491" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_shotgun_reload_impact_01.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_shotgun_reload_impact_01_BFCA91A7.wem</CachePath>
+				</File>
+				<File Id="630106406" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_mx_phase01_phrase05wav.wav</ShortName>
+					<CachePath>SFX/lyra_mx_phase01_phrase05wav_DD09B518.wem</CachePath>
+				</File>
+				<File Id="634725633" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Walkway_IR.wav</ShortName>
+					<CachePath>SFX/Walkway_IR_81AD44CE.wem</CachePath>
+				</File>
+				<File Id="638053354" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_pistol_equip_02.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_pistol_equip_02_CFE82CC3.wem</CachePath>
+				</File>
+				<File Id="639474814" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_pistol_reload_magazineout_02.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_pistol_reload_magazineout_02_BFCA91A7.wem</CachePath>
+				</File>
+				<File Id="640033219" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_scuff_concrete_01.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_scuff_concrete_01_CFE82CC3.wem</CachePath>
+				</File>
+				<File Id="649839046" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_shotgun_tail_02.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_shotgun_tail_02_0F0F1E27.wem</CachePath>
+				</File>
+				<File Id="657509556" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_whizby_03.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_whizby_03_CFE82CC3.wem</CachePath>
+				</File>
+				<File Id="660372565" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_mx_phase02_phrase06.wav</ShortName>
+					<CachePath>SFX/lyra_mx_phase02_phrase06_DD09B518.wem</CachePath>
+				</File>
+				<File Id="666435730" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_mx_phase02_phrase05.wav</ShortName>
+					<CachePath>SFX/lyra_mx_phase02_phrase05_DD09B518.wem</CachePath>
+				</File>
+				<File Id="666795438" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_mx_state03_horn07.wav</ShortName>
+					<CachePath>SFX/lyra_mx_state03_horn07_DD09B518.wem</CachePath>
+				</File>
+				<File Id="668824994" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_shotgun_dryfire_lastshot_02.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_shotgun_dryfire_lastshot_02_3323D590.wem</CachePath>
+				</File>
+				<File Id="670311380" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_mx_phase01_phrase07wav.wav</ShortName>
+					<CachePath>SFX/lyra_mx_phase01_phrase07wav_DD09B518.wem</CachePath>
+				</File>
+				<File Id="674334715" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_impact_concrete_03.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_impact_concrete_03_CFE82CC3.wem</CachePath>
+				</File>
+				<File Id="675053018" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_rifle_fire_far_01.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_rifle_fire_far_01_BFCA91A7.wem</CachePath>
+				</File>
+				<File Id="675909070" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_rifle_reload_magazineout_03.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_rifle_reload_magazineout_03_BFCA91A7.wem</CachePath>
+				</File>
+				<File Id="683249284" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_pistol_fire_close_03.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_pistol_fire_close_03_BFCA91A7.wem</CachePath>
+				</File>
+				<File Id="683998594" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_mx_state03_horn06.wav</ShortName>
+					<CachePath>SFX/lyra_mx_state03_horn06_DD09B518.wem</CachePath>
+				</File>
+				<File Id="688994125" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_equip_out_01.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_equip_out_01_CFE82CC3.wem</CachePath>
+				</File>
+				<File Id="698436292" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_grenade_explode_glass_03.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_grenade_explode_glass_03_BFCA91A7.wem</CachePath>
+				</File>
+				<File Id="702050367" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_equip_in_02.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_equip_in_02_CFE82CC3.wem</CachePath>
+				</File>
+				<File Id="702717549" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_pistol_tail_05.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_pistol_tail_05_0F0F1E27.wem</CachePath>
+				</File>
+				<File Id="707954571" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_rifle_tail_05.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_rifle_tail_05_0F0F1E27.wem</CachePath>
+				</File>
+				<File Id="708405695" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_mx_phase02_phrase02wav.wav</ShortName>
+					<CachePath>SFX/lyra_mx_phase02_phrase02wav_DD09B518.wem</CachePath>
+				</File>
+				<File Id="710890458" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_impact_concrete_01.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_impact_concrete_01_CFE82CC3.wem</CachePath>
+				</File>
+				<File Id="714055369" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_grenade_explode_far_02.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_grenade_explode_far_02_BFCA91A7.wem</CachePath>
+				</File>
+				<File Id="718088629" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_smallgun_cock_03.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_smallgun_cock_03_CFE82CC3.wem</CachePath>
+				</File>
+				<File Id="719085310" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_grenade_explode_glass_01.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_grenade_explode_glass_01_BFCA91A7.wem</CachePath>
+				</File>
+				<File Id="727136994" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_shotgun_closefire_player_02.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_shotgun_closefire_player_02_BFCA91A7.wem</CachePath>
+				</File>
+				<File Id="730663474" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_scuff_concrete_03.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_scuff_concrete_03_CFE82CC3.wem</CachePath>
+				</File>
+				<File Id="734599909" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>BFAA_MVMT_JumpDown_WindWhistle_REV.wav</ShortName>
+					<CachePath>SFX/BFAA_MVMT_JumpDown_WindWhistle_REV_096040C1.wem</CachePath>
+				</File>
+				<File Id="735217101" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_punch_02.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_punch_02_CFE82CC3.wem</CachePath>
+				</File>
+				<File Id="741427355" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_gun_bulletdrop_03.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_gun_bulletdrop_03_0F0F1E27.wem</CachePath>
+				</File>
+				<File Id="743678596" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_respawntimer.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_respawntimer_81AD44CE.wem</CachePath>
+				</File>
+				<File Id="751370414" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_shotgun_closefire_npc_04.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_shotgun_closefire_npc_04_BFCA91A7.wem</CachePath>
+				</File>
+				<File Id="751896744" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_jump_glass_01.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_jump_glass_01_CFE82CC3.wem</CachePath>
+				</File>
+				<File Id="755072600" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_gun_bulletdrop_04.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_gun_bulletdrop_04_0F0F1E27.wem</CachePath>
+				</File>
+				<File Id="761460150" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_grenade_explode_concrete_01.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_grenade_explode_concrete_01_BFCA91A7.wem</CachePath>
+				</File>
+				<File Id="764102408" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_pistol_tail_01.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_pistol_tail_01_0F0F1E27.wem</CachePath>
+				</File>
+				<File Id="773400846" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_footstep_glass_01.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_footstep_glass_01_CFE82CC3.wem</CachePath>
+				</File>
+				<File Id="775535923" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_impact_player_03.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_impact_player_03_CFE82CC3.wem</CachePath>
+				</File>
+				<File Id="779218783" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_mx_phase03_phrase04.wav</ShortName>
+					<CachePath>SFX/lyra_mx_phase03_phrase04_DD09B518.wem</CachePath>
+				</File>
+				<File Id="780383701" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_impact_glass_01.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_impact_glass_01_CFE82CC3.wem</CachePath>
+				</File>
+				<File Id="786195763" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_shotgun_tail_05.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_shotgun_tail_05_0F0F1E27.wem</CachePath>
+				</File>
+				<File Id="789346111" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_pistol_tail_06.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_pistol_tail_06_0F0F1E27.wem</CachePath>
+				</File>
+				<File Id="795753064" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_mx_phase01_phraseENDwav.wav</ShortName>
+					<CachePath>SFX/lyra_mx_phase01_phraseENDwav_DD09B518.wem</CachePath>
+				</File>
+				<File Id="795861705" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_pistol_reload_magazinein_01.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_pistol_reload_magazinein_01_CFE82CC3.wem</CachePath>
+				</File>
+				<File Id="797330266" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_footstep_glass_05.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_footstep_glass_05_CFE82CC3.wem</CachePath>
+				</File>
+				<File Id="800897200" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_mx_state03_horn03.wav</ShortName>
+					<CachePath>SFX/lyra_mx_state03_horn03_DD09B518.wem</CachePath>
+				</File>
+				<File Id="806602596" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_shotgun_fire_far_03.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_shotgun_fire_far_03_BFCA91A7.wem</CachePath>
+				</File>
+				<File Id="807147839" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_jump_glass_04.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_jump_glass_04_CFE82CC3.wem</CachePath>
+				</File>
+				<File Id="808182261" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_mx_phase03_phrase03.wav</ShortName>
+					<CachePath>SFX/lyra_mx_phase03_phrase03_DD09B518.wem</CachePath>
+				</File>
+				<File Id="809069376" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_shotgun_dryfire_02.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_shotgun_dryfire_02_BFCA91A7.wem</CachePath>
+				</File>
+				<File Id="810808613" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_impact_base_01.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_impact_base_01_CFE82CC3.wem</CachePath>
+				</File>
+				<File Id="816556649" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_pistol_dryfire_01.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_pistol_dryfire_01_BFCA91A7.wem</CachePath>
+				</File>
+				<File Id="820853020" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_mx_phase01_phrase02wav.wav</ShortName>
+					<CachePath>SFX/lyra_mx_phase01_phrase02wav_DD09B518.wem</CachePath>
+				</File>
+				<File Id="822638584" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_damage_player_04.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_damage_player_04_F3577032.wem</CachePath>
+				</File>
+				<File Id="823509969" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_playerdeath.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_playerdeath_B5AB691B.wem</CachePath>
+				</File>
+				<File Id="823741502" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_pistol_fire_far_06.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_pistol_fire_far_06_BFCA91A7.wem</CachePath>
+				</File>
+				<File Id="824515970" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_impact_glass_02.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_impact_glass_02_CFE82CC3.wem</CachePath>
+				</File>
+				<File Id="835902202" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_capture_friendly.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_capture_friendly_81AD44CE.wem</CachePath>
+				</File>
+				<File Id="852610261" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_whizby_02.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_whizby_02_CFE82CC3.wem</CachePath>
+				</File>
+				<File Id="862663777" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_shotgun_reload_magazinein_03.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_shotgun_reload_magazinein_03_BFCA91A7.wem</CachePath>
+				</File>
+				<File Id="870317174" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SmallCourtyard_IR.wav</ShortName>
+					<CachePath>SFX/SmallCourtyard_IR_81AD44CE.wem</CachePath>
+				</File>
+				<File Id="881977919" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_pistol_fire_close_04.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_pistol_fire_close_04_BFCA91A7.wem</CachePath>
+				</File>
+				<File Id="887156644" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_pistol_fire_close_01.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_pistol_fire_close_01_BFCA91A7.wem</CachePath>
+				</File>
+				<File Id="899166263" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_rifle_fire_close_03_REV.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_rifle_fire_close_03_REV_8A9848A7.wem</CachePath>
+				</File>
+				<File Id="904379121" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_jumpup_concrete_02.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_jumpup_concrete_02_CFE82CC3.wem</CachePath>
+				</File>
+				<File Id="913107184" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_pistol_dryfire_03.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_pistol_dryfire_03_BFCA91A7.wem</CachePath>
+				</File>
+				<File Id="914690573" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_rifle_closefire_player_02.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_rifle_closefire_player_02_BFCA91A7.wem</CachePath>
+				</File>
+				<File Id="916798492" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_rifle_reload_magazinein_02.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_rifle_reload_magazinein_02_CFE82CC3.wem</CachePath>
+				</File>
+				<File Id="918527845" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_impact_glass_03.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_impact_glass_03_CFE82CC3.wem</CachePath>
+				</File>
+				<File Id="921085618" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_rifle_fire_far_04.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_rifle_fire_far_04_BFCA91A7.wem</CachePath>
+				</File>
+				<File Id="922087875" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_mx_phase01_phrase06wav.wav</ShortName>
+					<CachePath>SFX/lyra_mx_phase01_phrase06wav_DD09B518.wem</CachePath>
+				</File>
+				<File Id="923448678" Language="SFX" Streaming="true" Location="Loose">
+					<ShortName>lyra_sfx_amb_low.wav</ShortName>
+					<Path>Media/923448678.wem</Path>
+					<CachePath>SFX/lyra_sfx_amb_low_88E88A78.wem</CachePath>
+				</File>
+				<File Id="935455448" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_impact_base_04.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_impact_base_04_CFE82CC3.wem</CachePath>
+				</File>
+				<File Id="937116391" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_pistol_reload_magazineout_01.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_pistol_reload_magazineout_01_BFCA91A7.wem</CachePath>
+				</File>
+				<File Id="943486680" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_rifle_equip_02.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_rifle_equip_02_CFE82CC3.wem</CachePath>
+				</File>
+				<File Id="943868238" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_smallgun_cock_02.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_smallgun_cock_02_CFE82CC3.wem</CachePath>
+				</File>
+				<File Id="944172881" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_largegun_cock_03.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_largegun_cock_03_966E8AB0.wem</CachePath>
+				</File>
+				<File Id="954062027" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_damage_player_01.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_damage_player_01_F3577032.wem</CachePath>
+				</File>
+				<File Id="957225035" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_shotgun_equip_01.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_shotgun_equip_01_BFCA91A7.wem</CachePath>
+				</File>
+				<File Id="957458978" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_grenade_trigger_02.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_grenade_trigger_02_CFE82CC3.wem</CachePath>
+				</File>
+				<File Id="961494332" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_rifle_fire_close_05_REV.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_rifle_fire_close_05_REV_3DDECEA9.wem</CachePath>
+				</File>
+				<File Id="970617312" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_shotgun_closefire_player_03.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_shotgun_closefire_player_03_BFCA91A7.wem</CachePath>
+				</File>
+				<File Id="970710225" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_mx_state03_horn01.wav</ShortName>
+					<CachePath>SFX/lyra_mx_state03_horn01_DD09B518.wem</CachePath>
+				</File>
+				<File Id="972591048" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_mx_phase03_phrase02.wav</ShortName>
+					<CachePath>SFX/lyra_mx_phase03_phrase02_DD09B518.wem</CachePath>
+				</File>
+				<File Id="984640717" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_mx_phase01_phraseBEG.wav</ShortName>
+					<CachePath>SFX/lyra_mx_phase01_phraseBEG_DD09B518.wem</CachePath>
+				</File>
+				<File Id="984968551" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_shotgun_reload_magazinein_02.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_shotgun_reload_magazinein_02_BFCA91A7.wem</CachePath>
+				</File>
+				<File Id="988179788" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>BFAA_MVMT_JumpDown_WindRushing_REV.wav</ShortName>
+					<CachePath>SFX/BFAA_MVMT_JumpDown_WindRushing_REV_096040C1.wem</CachePath>
+				</File>
+				<File Id="990335601" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_jump_concrete_04.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_jump_concrete_04_CFE82CC3.wem</CachePath>
+				</File>
+				<File Id="993170172" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_jump_concrete_01.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_jump_concrete_01_CFE82CC3.wem</CachePath>
+				</File>
+				<File Id="993402780" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_rifle_fire_far_02.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_rifle_fire_far_02_BFCA91A7.wem</CachePath>
+				</File>
+				<File Id="994353465" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_pistol_tail_03.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_pistol_tail_03_0F0F1E27.wem</CachePath>
+				</File>
+				<File Id="995558658" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_impact_base_03.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_impact_base_03_CFE82CC3.wem</CachePath>
+				</File>
+				<File Id="995851182" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_shotgun_fire_far_02.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_shotgun_fire_far_02_BFCA91A7.wem</CachePath>
+				</File>
+				<File Id="1004386265" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_largegun_cock_01.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_largegun_cock_01_CFE82CC3.wem</CachePath>
+				</File>
+				<File Id="1004908840" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_capture_enemy.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_capture_enemy_81AD44CE.wem</CachePath>
+				</File>
+				<File Id="1011730976" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_mx_phase01_phrase01wav.wav</ShortName>
+					<CachePath>SFX/lyra_mx_phase01_phrase01wav_DD09B518.wem</CachePath>
+				</File>
+				<File Id="1016643972" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_impact_player_01.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_impact_player_01_CFE82CC3.wem</CachePath>
+				</File>
+				<File Id="1017620080" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_pistol_closefire_player_02.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_pistol_closefire_player_02_BFCA91A7.wem</CachePath>
+				</File>
+				<File Id="1019627652" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_pistol_fire_close_05.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_pistol_fire_close_05_BFCA91A7.wem</CachePath>
+				</File>
+				<File Id="1026529761" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_equip_in_03.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_equip_in_03_CFE82CC3.wem</CachePath>
+				</File>
+				<File Id="1028577751" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_rifle_reload_magazineout_02.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_rifle_reload_magazineout_02_BFCA91A7.wem</CachePath>
+				</File>
+				<File Id="1031386919" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_pistol_reload_magazineout_03.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_pistol_reload_magazineout_03_BFCA91A7.wem</CachePath>
+				</File>
+				<File Id="1034488194" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_pistol_equip_03.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_pistol_equip_03_CFE82CC3.wem</CachePath>
+				</File>
+				<File Id="1042756422" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_shotgun_reload_magazinein_01.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_shotgun_reload_magazinein_01_BFCA91A7.wem</CachePath>
+				</File>
+				<File Id="1051835278" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_scuff_concrete_04.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_scuff_concrete_04_CFE82CC3.wem</CachePath>
+				</File>
+				<File Id="1052220962" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_rifle_reload_forwardassist_03.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_rifle_reload_forwardassist_03_BFCA91A7.wem</CachePath>
+				</File>
+				<File Id="1052577985" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_grenade_trigger_01.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_grenade_trigger_01_CFE82CC3.wem</CachePath>
+				</File>
+				<File Id="1064349044" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lyra_sfx_rifle_dryfire_02.wav</ShortName>
+					<CachePath>SFX/lyra_sfx_rifle_dryfire_02_BFCA91A7.wem</CachePath>
+				</File>
+			</Media>
+			<Plugins>
+				<Custom>
+					<Plugin Id="3408413" Name="Meter (Custom)" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Sidechain_UI\Sidechain_Low_UI\[Effect Slot [1]: (Meter)]\Meter (Custom)" GUID="{06D269DA-8779-4E89-B4C7-7630CBFBD70A}" LibName="Wwise Meter" LibId="8454147"/>
+					<Plugin Id="9264991" Name="Parametric EQ (Custom)" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Sidechain\Sidechain_Low\[Effect Slot [0]: (Parametric EQ)]\Parametric EQ (Custom)" GUID="{9AC8DE5A-82F1-4D25-868E-FBC8467562A0}" LibName="Wwise Parametric EQ" LibId="6881283"/>
+					<Plugin Id="75405074" Name="Sidechain_High (Custom)" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\World\HDR Bus\Ambience\[Effect Slot [1]: (Parametric EQ)]\Sidechain_High (Custom)" GUID="{47B3BBBB-AC09-4B4C-B46B-219AE336E18A}" LibName="Wwise Parametric EQ" LibId="6881283"/>
+					<Plugin Id="159213012" Name="Meter (Custom)" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Sidechain\Sidechain_High\[Effect Slot [1]: (Meter)]\Meter (Custom)" GUID="{13039B94-5C18-4CE3-B36E-1E11501EBAA9}" LibName="Wwise Meter" LibId="8454147"/>
+					<Plugin Id="187629857" Name="Meter (Custom)" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Sidechain_UI\Sidechain_High_UI\[Effect Slot [1]: (Meter)]\Meter (Custom)" GUID="{D4B1CAB3-4F92-4607-B5A0-96592C8D98B6}" LibName="Wwise Meter" LibId="8454147"/>
+					<Plugin Id="355949952" Name="Parametric EQ (Custom)" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Sidechain\Sidechain_High\[Effect Slot [0]: (Parametric EQ)]\Parametric EQ (Custom)" GUID="{E0E5C0AB-5BD3-45DB-BDA0-4EB56E71BE63}" LibName="Wwise Parametric EQ" LibId="6881283"/>
+					<Plugin Id="462956227" Name="Gain (Custom)" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Sidechain_UI\[Effect Slot [0]: (Gain)]\Gain (Custom)" GUID="{59A80B82-82A9-408F-BD41-DEB177AB79DB}" LibName="Wwise Gain" LibId="9109507"/>
+					<Plugin Id="465488096" Name="Parametric EQ (Custom)" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Sidechain_UI\Sidechain_Low_UI\[Effect Slot [0]: (Parametric EQ)]\Parametric EQ (Custom)" GUID="{1BD98D28-3371-4CC9-88F1-AA912CA9C3BE}" LibName="Wwise Parametric EQ" LibId="6881283"/>
+					<Plugin Id="694263961" Name="Gain (Custom)" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Sidechain\[Effect Slot [0]: (Gain)]\Gain (Custom)" GUID="{28E3386D-D1EF-4443-AA5C-863A5998FCFD}" LibName="Wwise Gain" LibId="9109507"/>
+					<Plugin Id="878718995" Name="Sidechain_Low (Custom)" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\World\HDR Bus\Ambience\[Effect Slot [0]: (Parametric EQ)]\Sidechain_Low (Custom)" GUID="{28C06AB5-2E82-44D2-86B0-014721121A21}" LibName="Wwise Parametric EQ" LibId="6881283"/>
+					<Plugin Id="898880639" Name="Parametric EQ (Custom)" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Sidechain_UI\Sidechain_High_UI\[Effect Slot [0]: (Parametric EQ)]\Parametric EQ (Custom)" GUID="{E6047FF2-2159-4494-AA4F-9F684745DAF2}" LibName="Wwise Parametric EQ" LibId="6881283"/>
+					<Plugin Id="906825334" Name="Meter (Custom)" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Sidechain\Sidechain_Low\[Effect Slot [1]: (Meter)]\Meter (Custom)" GUID="{3BCD2680-AE64-4BD9-83BB-6CE28610AED0}" LibName="Wwise Meter" LibId="8454147"/>
+				</Custom>
+				<ShareSets>
+					<Plugin Id="2595128994" Name="Sidechain_High" ObjectPath="\Effects\Default Work Unit\Sidechain_High" GUID="{143FD56D-D023-4FA3-B1E1-111C3A25CD30}" LibName="Wwise Parametric EQ" LibId="6881283"/>
+					<Plugin Id="3666249700" Name="Sidechain_Low" ObjectPath="\Effects\Default Work Unit\Sidechain_Low" GUID="{08956998-4CE2-443F-B717-FE7A5C05D968}" LibName="Wwise Parametric EQ" LibId="6881283"/>
+				</ShareSets>
+			</Plugins>
+			<Events>
+				<Event Id="3667557751" Name="Bullet_Drop" ObjectPath="\Events\Default Work Unit\Weapons\Bullet_Drop" GUID="{45403CCF-FB9C-4FC5-B8D1-8973BC9E50F1}" MaxAttenuation="5500" DurationType="OneShot" DurationMin="0.98975" DurationMax="1.4613959">
+					<MediaRefs>
+						<MediaRef Id="258585209"/>
+						<MediaRef Id="325147111"/>
+						<MediaRef Id="741427355"/>
+						<MediaRef Id="755072600"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3921814510" Name="Bullet_Impact" ObjectPath="\Events\Default Work Unit\Weapons\Bullet_Impact" GUID="{843FE023-8A2C-4F8A-A301-7159253D7BE5}" MaxAttenuation="3500" DurationType="OneShot" DurationMin="0.36813533" DurationMax="1.627795">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3865314626" Id="841620460" GUID="{D2C27402-DB54-4AFA-A321-9D3FA208AC03}" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="15968265"/>
+								<MediaRef Id="36611765"/>
+								<MediaRef Id="56191290"/>
+								<MediaRef Id="674334715"/>
+								<MediaRef Id="710890458"/>
+								<MediaRef Id="810808613"/>
+								<MediaRef Id="935455448"/>
+								<MediaRef Id="995558658"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3865314626" Id="928522647" GUID="{B8136218-6B64-48B6-A589-903AF6F2B965}"/>
+							<MediaRefs>
+								<MediaRef Id="15968265"/>
+								<MediaRef Id="79667478"/>
+								<MediaRef Id="775535923"/>
+								<MediaRef Id="810808613"/>
+								<MediaRef Id="935455448"/>
+								<MediaRef Id="995558658"/>
+								<MediaRef Id="1016643972"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3865314626" Id="2449969375" GUID="{37E35534-61E9-4437-99CD-A8511D39719E}"/>
+							<MediaRefs>
+								<MediaRef Id="15968265"/>
+								<MediaRef Id="780383701"/>
+								<MediaRef Id="810808613"/>
+								<MediaRef Id="824515970"/>
+								<MediaRef Id="918527845"/>
+								<MediaRef Id="935455448"/>
+								<MediaRef Id="995558658"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="1675703924" Name="Capture_Area_Enter" ObjectPath="\Events\Default Work Unit\UI\Capture_Area_Enter" GUID="{15DBE92D-E618-4D30-8AE1-5CE156F7E45D}" DurationType="OneShot" DurationMin="11.404166" DurationMax="11.404166">
+					<MediaRefs>
+						<MediaRef Id="220656026"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2218344534" Name="Capture_Area_Exit" ObjectPath="\Events\Default Work Unit\UI\Capture_Area_Exit" GUID="{CE38493F-D323-4DA3-8511-CA17DFD4F675}" DurationType="OneShot" DurationMin="3.7875848" DurationMax="3.7875848">
+					<MediaRefs>
+						<MediaRef Id="111015912"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1360932348" Name="Capture_Enemy" ObjectPath="\Events\Default Work Unit\UI\Capture_Enemy" GUID="{1FEA9A44-064E-4DC1-AE1F-9500D45616F5}" DurationType="OneShot" DurationMin="2.42425" DurationMax="2.42425">
+					<MediaRefs>
+						<MediaRef Id="1004908840"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1075075437" Name="Capture_Friendly" ObjectPath="\Events\Default Work Unit\UI\Capture_Friendly" GUID="{B39311B9-5795-4A6B-8D1A-A36B4596CC37}" DurationType="OneShot" DurationMin="2.1284583" DurationMax="2.1284583">
+					<MediaRefs>
+						<MediaRef Id="835902202"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1942692385" Name="Dash" ObjectPath="\Events\Default Work Unit\Movement\Dash" GUID="{84E9B8EF-6D98-4832-A7CA-22291D32B05B}" MaxAttenuation="3150" DurationType="OneShot" DurationMin="0.7403711" DurationMax="0.9344269">
+					<MediaRefs>
+						<MediaRef Id="154680059"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="779278001" Name="Death" ObjectPath="\Events\Default Work Unit\Movement\Death" GUID="{06D19E83-CDB5-4033-B507-4580D66E49E1}" MaxAttenuation="3000" DurationType="OneShot" DurationMin="2.2449505" DurationMax="2.876239">
+					<MediaRefs>
+						<MediaRef Id="823509969"/>
+					</MediaRefs>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="2094165984" Name="STOP_WindRush" ObjectPath="\Events\Default Work Unit\Movement\STOP_WindRush" GUID="{58E9A4EC-3BAC-48D5-B2F0-6FBD4031DDDD}"/>
+					</ActionPostEvent>
+				</Event>
+				<Event Id="3650570114" Name="DoubleKill" ObjectPath="\Events\Default Work Unit\UI\DoubleKill" GUID="{1855BEE9-330A-4776-AB05-F43A08293460}" DurationType="OneShot" DurationMin="13.627334" DurationMax="13.627334">
+					<MediaRefs>
+						<MediaRef Id="93736641"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1318705351" Name="Equipment_In" ObjectPath="\Events\Default Work Unit\Weapons\Equipment_In" GUID="{9CAEF833-BA51-4144-AEB6-C8AF3CD61C66}" MaxAttenuation="5500" DurationType="OneShot" DurationMin="1.3593333" DurationMax="1.3593333">
+					<MediaRefs>
+						<MediaRef Id="372484598"/>
+						<MediaRef Id="702050367"/>
+						<MediaRef Id="1026529761"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2620712378" Name="Equipment_Out" ObjectPath="\Events\Default Work Unit\Weapons\Equipment_Out" GUID="{AECFCF04-13A9-4F84-9AB4-FBBE2485B7E8}" MaxAttenuation="5500" DurationType="OneShot" DurationMin="1.3593333" DurationMax="1.3593333">
+					<MediaRefs>
+						<MediaRef Id="76077768"/>
+						<MediaRef Id="553311109"/>
+						<MediaRef Id="688994125"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1866025847" Name="Footstep" ObjectPath="\Events\Default Work Unit\Movement\Footstep" GUID="{38BBD8DC-9220-4DBB-8D84-40C7AEE2CB56}" MaxAttenuation="3150" DurationType="OneShot" DurationMin="0.04750026" DurationMax="1.0324013">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3865314626" Id="841620460" GUID="{D2C27402-DB54-4AFA-A321-9D3FA208AC03}" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="224645672"/>
+								<MediaRef Id="338471777"/>
+								<MediaRef Id="360634386"/>
+								<MediaRef Id="398584910"/>
+								<MediaRef Id="469905686"/>
+								<MediaRef Id="567191248"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3865314626" Id="2449969375" GUID="{37E35534-61E9-4437-99CD-A8511D39719E}"/>
+							<MediaRefs>
+								<MediaRef Id="53311594"/>
+								<MediaRef Id="53750649"/>
+								<MediaRef Id="73837607"/>
+								<MediaRef Id="385436300"/>
+								<MediaRef Id="773400846"/>
+								<MediaRef Id="797330266"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="2974935085" Name="Grenade_Explosion" ObjectPath="\Events\Default Work Unit\Weapons\Grenade\Grenade_Explosion" GUID="{860ACDBF-7777-42E2-8CE8-3738ED34F568}" MaxAttenuation="5500" DurationType="OneShot" DurationMin="2.73" DurationMax="7.61215">
+					<MediaRefs>
+						<MediaRef Id="219846685"/>
+						<MediaRef Id="430624697"/>
+						<MediaRef Id="553887028"/>
+						<MediaRef Id="714055369"/>
+					</MediaRefs>
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3865314626" Id="841620460" GUID="{D2C27402-DB54-4AFA-A321-9D3FA208AC03}" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="86421022"/>
+								<MediaRef Id="302747984"/>
+								<MediaRef Id="379300781"/>
+								<MediaRef Id="576748722"/>
+								<MediaRef Id="761460150"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3865314626" Id="928522647" GUID="{B8136218-6B64-48B6-A589-903AF6F2B965}"/>
+							<MediaRefs>
+								<MediaRef Id="86421022"/>
+								<MediaRef Id="302747984"/>
+								<MediaRef Id="379300781"/>
+								<MediaRef Id="576748722"/>
+								<MediaRef Id="761460150"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3865314626" Id="2449969375" GUID="{37E35534-61E9-4437-99CD-A8511D39719E}"/>
+							<MediaRefs>
+								<MediaRef Id="46634038"/>
+								<MediaRef Id="75593001"/>
+								<MediaRef Id="502267585"/>
+								<MediaRef Id="698436292"/>
+								<MediaRef Id="719085310"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="3301329608" Name="Grenade_Throw" ObjectPath="\Events\Default Work Unit\Weapons\Grenade\Grenade_Throw" GUID="{44A9FF06-580F-4AA8-BD38-7A1AF2C79E42}" DurationType="OneShot" DurationMin="1.362" DurationMax="1.5528231">
+					<MediaRefs>
+						<MediaRef Id="957458978"/>
+						<MediaRef Id="1052577985"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="4006599139" Name="HighAmb" ObjectPath="\Events\Default Work Unit\Ambience\HighAmb" GUID="{3B388F75-34B3-4B1F-AE25-333161FA4CFE}" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="109254052"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="963034008" Name="Jump_Down" ObjectPath="\Events\Default Work Unit\Movement\Jump_Down" GUID="{BE9D9D7D-5C2A-4DBC-AF80-87347DFEA877}" MaxAttenuation="3150" DurationType="OneShot" DurationMin="1.2257929" DurationMax="1.5748019">
+					<MediaRefs>
+						<MediaRef Id="394721250"/>
+					</MediaRefs>
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3865314626" Id="841620460" GUID="{D2C27402-DB54-4AFA-A321-9D3FA208AC03}" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="38381534"/>
+								<MediaRef Id="561075151"/>
+								<MediaRef Id="990335601"/>
+								<MediaRef Id="993170172"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3865314626" Id="2449969375" GUID="{37E35534-61E9-4437-99CD-A8511D39719E}"/>
+							<MediaRefs>
+								<MediaRef Id="38381534"/>
+								<MediaRef Id="561075151"/>
+								<MediaRef Id="990335601"/>
+								<MediaRef Id="993170172"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="462222395" Name="Jump_Up" ObjectPath="\Events\Default Work Unit\Movement\Jump_Up" GUID="{B9B33643-6C99-4FDB-AE86-103A5BB96B3B}" MaxAttenuation="3150" DurationType="OneShot" DurationMin="1.0245318" DurationMax="1.841295">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3865314626" Id="841620460" GUID="{D2C27402-DB54-4AFA-A321-9D3FA208AC03}" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="22795088"/>
+								<MediaRef Id="244841809"/>
+								<MediaRef Id="544638090"/>
+								<MediaRef Id="904379121"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3865314626" Id="2449969375" GUID="{37E35534-61E9-4437-99CD-A8511D39719E}"/>
+							<MediaRefs>
+								<MediaRef Id="39458899"/>
+								<MediaRef Id="360159843"/>
+								<MediaRef Id="384070351"/>
+								<MediaRef Id="438139631"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="893399255" Name="LargeGun_Cock" ObjectPath="\Events\Default Work Unit\Weapons\LargeGun_Cock" GUID="{103F32E3-7386-47ED-AF8D-E12CEE73EADE}" MaxAttenuation="5500" DurationType="OneShot" DurationMin="0.34912425" DurationMax="1.6183975">
+					<MediaRefs>
+						<MediaRef Id="448637051"/>
+						<MediaRef Id="944172881"/>
+						<MediaRef Id="1004386265"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3913935255" Name="LowAmb" ObjectPath="\Events\Default Work Unit\Ambience\LowAmb" GUID="{D7EC86F2-F988-4E11-A96F-B4066A665017}" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="923448678"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="599380950" Name="Match_Result_Defeat" ObjectPath="\Events\Default Work Unit\UI\Match_Result_Defeat" GUID="{CF05379D-2E25-42B2-9A8C-7ED1960DE67B}" DurationType="OneShot" DurationMin="4.098" DurationMax="4.098">
+					<MediaRefs>
+						<MediaRef Id="389475316"/>
+					</MediaRefs>
+					<ActionSetState>
+						<ActionSetStateEntry GroupId="3269193509" Id="2555741448" Name="Finish" ObjectPath="\States\Default Work Unit\MXState\Finish" GUID="{10ED7AED-CABF-4890-8918-FCB7723353C4}"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="3307264123" Name="Match_Result_Victory" ObjectPath="\Events\Default Work Unit\UI\Match_Result_Victory" GUID="{0B8E70BB-F27E-4F02-8361-A7A4B3F7C017}" DurationType="OneShot" DurationMin="4.098" DurationMax="4.098">
+					<MediaRefs>
+						<MediaRef Id="3886637"/>
+					</MediaRefs>
+					<ActionSetState>
+						<ActionSetStateEntry GroupId="3269193509" Id="2555741448" Name="Finish" ObjectPath="\States\Default Work Unit\MXState\Finish" GUID="{10ED7AED-CABF-4890-8918-FCB7723353C4}"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="1238399815" Name="Pad_Jump" ObjectPath="\Events\Default Work Unit\Movement\Pad_Jump" GUID="{57BC5C58-EE47-4BC2-BB23-C53C1163616A}" MaxAttenuation="3150" DurationType="OneShot" DurationMin="0.7738739" DurationMax="0.97671103">
+					<MediaRefs>
+						<MediaRef Id="593290130"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="4255606190" Name="Pad_Proximity" ObjectPath="\Events\Default Work Unit\UI\Pad_Proximity" GUID="{4DC32116-97E5-468B-B319-A6761A8625A6}" MaxAttenuation="766" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="32767470"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2267812190" Name="Pistol_DryFire" ObjectPath="\Events\Default Work Unit\Weapons\Pistol\Pistol_DryFire" GUID="{E0378EC2-7AB6-415F-BA45-F512DDD98895}" MaxAttenuation="5500" DurationType="OneShot" DurationMin="1.0154126" DurationMax="1.9372617">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="1776452115" Id="3398155685" GUID="{B542D980-506F-4641-81F8-60BAF07F892A}"/>
+							<MediaRefs>
+								<MediaRef Id="17402276"/>
+								<MediaRef Id="183899982"/>
+								<MediaRef Id="329345702"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="1776452115" Id="3757703166" GUID="{FE5C05E9-60E6-47C0-A4FE-861B4BB8D22C}" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="224211563"/>
+								<MediaRef Id="816556649"/>
+								<MediaRef Id="913107184"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="3139634777" Name="Pistol_Equip" ObjectPath="\Events\Default Work Unit\Weapons\Pistol\Pistol_Equip" GUID="{F03ED7C6-2F35-4D3A-A526-1FE0556D3CE8}" MaxAttenuation="3330" DurationType="OneShot" DurationMin="1.107955" DurationMax="1.5275637">
+					<MediaRefs>
+						<MediaRef Id="233073162"/>
+						<MediaRef Id="638053354"/>
+						<MediaRef Id="1034488194"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="411135019" Name="Pistol_Fire" ObjectPath="\Events\Default Work Unit\Weapons\Pistol\Pistol_Fire" GUID="{443C4F20-3EE5-4069-85F8-18BF1D5DE953}" MaxAttenuation="5700" DurationType="OneShot" DurationMin="1.818" DurationMax="4.338">
+					<MediaRefs>
+						<MediaRef Id="84289766"/>
+						<MediaRef Id="91789476"/>
+						<MediaRef Id="219554316"/>
+						<MediaRef Id="280109081"/>
+						<MediaRef Id="313557710"/>
+						<MediaRef Id="384542865"/>
+						<MediaRef Id="520152807"/>
+						<MediaRef Id="560732503"/>
+						<MediaRef Id="573332581"/>
+						<MediaRef Id="683249284"/>
+						<MediaRef Id="702717549"/>
+						<MediaRef Id="764102408"/>
+						<MediaRef Id="789346111"/>
+						<MediaRef Id="823741502"/>
+						<MediaRef Id="881977919"/>
+						<MediaRef Id="887156644"/>
+						<MediaRef Id="994353465"/>
+						<MediaRef Id="1019627652"/>
+					</MediaRefs>
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="1776452115" Id="3398155685" GUID="{B542D980-506F-4641-81F8-60BAF07F892A}"/>
+							<MediaRefs>
+								<MediaRef Id="17402276"/>
+								<MediaRef Id="183899982"/>
+								<MediaRef Id="329345702"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="1776452115" Id="3757703166" GUID="{FE5C05E9-60E6-47C0-A4FE-861B4BB8D22C}" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="224211563"/>
+								<MediaRef Id="816556649"/>
+								<MediaRef Id="913107184"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="1139050097" Name="Pistol_Fire_Player" ObjectPath="\Events\Default Work Unit\Weapons\Pistol\Pistol_Fire_Player" GUID="{24D99F27-0E45-4AF9-AD99-99B8BF483C1A}" MaxAttenuation="5700" DurationType="OneShot" DurationMin="1.818" DurationMax="4.338">
+					<MediaRefs>
+						<MediaRef Id="176067266"/>
+						<MediaRef Id="178079439"/>
+						<MediaRef Id="219554316"/>
+						<MediaRef Id="280109081"/>
+						<MediaRef Id="623981726"/>
+						<MediaRef Id="702717549"/>
+						<MediaRef Id="764102408"/>
+						<MediaRef Id="789346111"/>
+						<MediaRef Id="994353465"/>
+						<MediaRef Id="1017620080"/>
+					</MediaRefs>
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="1776452115" Id="3398155685" GUID="{B542D980-506F-4641-81F8-60BAF07F892A}"/>
+							<MediaRefs>
+								<MediaRef Id="17402276"/>
+								<MediaRef Id="183899982"/>
+								<MediaRef Id="329345702"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="1776452115" Id="3757703166" GUID="{FE5C05E9-60E6-47C0-A4FE-861B4BB8D22C}" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="224211563"/>
+								<MediaRef Id="816556649"/>
+								<MediaRef Id="913107184"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="1680351756" Name="Pistol_Reload_MagazineIn" ObjectPath="\Events\Default Work Unit\Weapons\Pistol\Pistol_Reload_MagazineIn" GUID="{0932EC89-D6E4-4EDC-8BA7-71174EAEAF8B}" MaxAttenuation="3330" DurationType="OneShot" DurationMin="1.1201816" DurationMax="3.0057945">
+					<MediaRefs>
+						<MediaRef Id="113237922"/>
+						<MediaRef Id="498676719"/>
+						<MediaRef Id="795861705"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3189676331" Name="Pistol_Reload_MagazineOut" ObjectPath="\Events\Default Work Unit\Weapons\Pistol\Pistol_Reload_MagazineOut" GUID="{091C221C-225E-40F3-8AB6-54F6F6CDBA54}" MaxAttenuation="3330" DurationType="OneShot" DurationMin="1.3593333" DurationMax="1.3593333">
+					<MediaRefs>
+						<MediaRef Id="639474814"/>
+						<MediaRef Id="937116391"/>
+						<MediaRef Id="1031386919"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3440910434" Name="Play_WindRush" ObjectPath="\Events\Default Work Unit\Movement\Play_WindRush" GUID="{36A9F1F2-9C38-4D4C-8415-288283957837}" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="734599909"/>
+						<MediaRef Id="988179788"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2065621639" Name="Player_DamageTaken" ObjectPath="\Events\Default Work Unit\UI\Player_DamageTaken" GUID="{57CD26A4-D812-4260-8109-FE82D666CC0A}" DurationType="OneShot" DurationMin="1.311993" DurationMax="2.7212324">
+					<MediaRefs>
+						<MediaRef Id="309615218"/>
+						<MediaRef Id="405117088"/>
+						<MediaRef Id="822638584"/>
+						<MediaRef Id="954062027"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2161713971" Name="Player_Respawn" ObjectPath="\Events\Default Work Unit\UI\Player_Respawn" GUID="{8117638D-6F67-4775-9293-2E1B2A4DB210}" DurationType="OneShot" DurationMin="2.6669626" DurationMax="2.6669626">
+					<MediaRefs>
+						<MediaRef Id="608976748"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="203841585" Name="Player_Respawn_Timer" ObjectPath="\Events\Default Work Unit\UI\Player_Respawn_Timer" GUID="{588F59E0-3835-4695-AF99-1297409F5FBE}" DurationType="OneShot" DurationMin="5.193766" DurationMax="5.193766">
+					<MediaRefs>
+						<MediaRef Id="743678596"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3527566233" Name="Punch_Hit" ObjectPath="\Events\Default Work Unit\Weapons\Punch_Hit" GUID="{D933BA7C-0CB5-425F-A08D-2A94F36C8017}" MaxAttenuation="5500" DurationType="OneShot" DurationMin="0.96830595" DurationMax="1.5230165">
+					<MediaRefs>
+						<MediaRef Id="336724159"/>
+						<MediaRef Id="735217101"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2871299542" Name="Punch_Miss" ObjectPath="\Events\Default Work Unit\Weapons\Punch_Miss" GUID="{B924F153-D0C9-4686-B404-CEF25FC69847}" MaxAttenuation="5500" DurationType="OneShot" DurationMin="0.3453781" DurationMax="0.8011112">
+					<MediaRefs>
+						<MediaRef Id="184873655"/>
+						<MediaRef Id="339872586"/>
+						<MediaRef Id="485707823"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="330778647" Name="Rifle_DryFire" ObjectPath="\Events\Default Work Unit\Weapons\Rifle\Rifle_DryFire" GUID="{C6994506-3274-4228-9948-5A455020F804}" MaxAttenuation="5500" DurationType="OneShot" DurationMin="1.12472" DurationMax="1.9966667">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3107534752" Id="3323306016" GUID="{8CFEBE43-9306-4C95-B73C-87235F323FC9}"/>
+							<MediaRefs>
+								<MediaRef Id="245795101"/>
+								<MediaRef Id="311472067"/>
+								<MediaRef Id="557845151"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3107534752" Id="966943801" GUID="{F0E79651-E4A3-42DA-9316-A58BA286C49F}" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="171891520"/>
+								<MediaRef Id="256530967"/>
+								<MediaRef Id="1064349044"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="2436066948" Name="Rifle_Equip" ObjectPath="\Events\Default Work Unit\Weapons\Rifle\Rifle_Equip" GUID="{6F22D114-D548-48B5-92C1-B2F34A98646B}" MaxAttenuation="5500" DurationType="OneShot" DurationMin="1.5705094" DurationMax="1.8709002">
+					<MediaRefs>
+						<MediaRef Id="430644115"/>
+						<MediaRef Id="450141566"/>
+						<MediaRef Id="943486680"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="737959300" Name="Rifle_Fire" ObjectPath="\Events\Default Work Unit\Weapons\Rifle\Rifle_Fire" GUID="{4ABD0190-7456-4931-9E22-7E9623409FE5}" MaxAttenuation="5700" DurationType="OneShot" DurationMin="2.73" DurationMax="4.333125">
+					<MediaRefs>
+						<MediaRef Id="7493245"/>
+						<MediaRef Id="25797793"/>
+						<MediaRef Id="76253839"/>
+						<MediaRef Id="99943819"/>
+						<MediaRef Id="112513086"/>
+						<MediaRef Id="260787375"/>
+						<MediaRef Id="383773135"/>
+						<MediaRef Id="396662398"/>
+						<MediaRef Id="617444070"/>
+						<MediaRef Id="619397221"/>
+						<MediaRef Id="675053018"/>
+						<MediaRef Id="707954571"/>
+						<MediaRef Id="899166263"/>
+						<MediaRef Id="921085618"/>
+						<MediaRef Id="961494332"/>
+						<MediaRef Id="993402780"/>
+					</MediaRefs>
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3107534752" Id="3323306016" GUID="{8CFEBE43-9306-4C95-B73C-87235F323FC9}"/>
+							<MediaRefs>
+								<MediaRef Id="245795101"/>
+								<MediaRef Id="311472067"/>
+								<MediaRef Id="557845151"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3107534752" Id="966943801" GUID="{F0E79651-E4A3-42DA-9316-A58BA286C49F}" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="171891520"/>
+								<MediaRef Id="256530967"/>
+								<MediaRef Id="1064349044"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="4002181148" Name="Rifle_Fire_Player" ObjectPath="\Events\Default Work Unit\Weapons\Rifle\Rifle_Fire_Player" GUID="{4D257292-6E8D-4370-ADF6-D4642EE27874}" MaxAttenuation="5700" DurationType="OneShot" DurationMin="2.73" DurationMax="4.333125">
+					<MediaRefs>
+						<MediaRef Id="7493245"/>
+						<MediaRef Id="76253839"/>
+						<MediaRef Id="99943819"/>
+						<MediaRef Id="452808344"/>
+						<MediaRef Id="482911964"/>
+						<MediaRef Id="533002415"/>
+						<MediaRef Id="617444070"/>
+						<MediaRef Id="707954571"/>
+						<MediaRef Id="914690573"/>
+					</MediaRefs>
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3107534752" Id="3323306016" GUID="{8CFEBE43-9306-4C95-B73C-87235F323FC9}"/>
+							<MediaRefs>
+								<MediaRef Id="245795101"/>
+								<MediaRef Id="311472067"/>
+								<MediaRef Id="557845151"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3107534752" Id="966943801" GUID="{F0E79651-E4A3-42DA-9316-A58BA286C49F}" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="171891520"/>
+								<MediaRef Id="256530967"/>
+								<MediaRef Id="1064349044"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="3327023745" Name="Rifle_Reload_FA" ObjectPath="\Events\Default Work Unit\Weapons\Rifle\Rifle_Reload_FA" GUID="{C71D3C4F-4C35-4926-BFAB-29DA511397A6}" MaxAttenuation="5500" DurationType="OneShot" DurationMin="1.3593333" DurationMax="1.3593333">
+					<MediaRefs>
+						<MediaRef Id="397527824"/>
+						<MediaRef Id="622216900"/>
+						<MediaRef Id="1052220962"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2479168797" Name="Rifle_Reload_MagazineIn" ObjectPath="\Events\Default Work Unit\Weapons\Rifle\Rifle_Reload_MagazineIn" GUID="{11D2CFC2-E4D3-4EDB-9F2F-43756D3BBD2E}" MaxAttenuation="5500" DurationType="OneShot" DurationMin="1.4823635" DurationMax="1.900307">
+					<MediaRefs>
+						<MediaRef Id="151995807"/>
+						<MediaRef Id="377333772"/>
+						<MediaRef Id="916798492"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2707141828" Name="Rifle_Reload_MagazineOut" ObjectPath="\Events\Default Work Unit\Weapons\Rifle\Rifle_Reload_MagazineOut" GUID="{EC01F02E-BFCB-4D08-843F-CE6B2CB4E0F5}" MaxAttenuation="5500" DurationType="OneShot" DurationMin="1.3593333" DurationMax="1.3593333">
+					<MediaRefs>
+						<MediaRef Id="75912325"/>
+						<MediaRef Id="675909070"/>
+						<MediaRef Id="1028577751"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="84696428" Name="S" ObjectPath="\Events\Default Work Unit\Movement\S" GUID="{B653ECFE-42F1-4BE3-AA40-41A2DE7494B4}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="2332106820" Name="Scuff" ObjectPath="\Events\Default Work Unit\Movement\Scuff" GUID="{2D2C8782-9BFA-44CA-98DA-1EAC3A5B5BFF}" MaxAttenuation="3150" DurationType="OneShot" DurationMin="0.95235145" DurationMax="1.1175964">
+					<MediaRefs>
+						<MediaRef Id="119079255"/>
+						<MediaRef Id="548909952"/>
+						<MediaRef Id="640033219"/>
+						<MediaRef Id="730663474"/>
+						<MediaRef Id="1051835278"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="4183821267" Name="Shotgun_DryFire" ObjectPath="\Events\Default Work Unit\Weapons\Shotgun\Shotgun_DryFire" GUID="{4CD69B37-CD05-4B09-BB08-353551BED234}" MaxAttenuation="5500" DurationType="OneShot" DurationMin="1.3593333" DurationMax="1.9966667">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="18676956" Id="1721210981" GUID="{0AC89F6F-10D3-434F-96A6-527BA219B974}"/>
+							<MediaRefs>
+								<MediaRef Id="210100180"/>
+								<MediaRef Id="369173273"/>
+								<MediaRef Id="809069376"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="18676956" Id="853998396" GUID="{46870EBD-C34F-4ED0-A763-5CDEDC415061}"/>
+							<MediaRefs>
+								<MediaRef Id="436094456"/>
+								<MediaRef Id="581047147"/>
+								<MediaRef Id="668824994"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="2457033496" Name="Shotgun_Equip" ObjectPath="\Events\Default Work Unit\Weapons\Shotgun\Shotgun_Equip" GUID="{759AA4B1-7EEA-499F-94F4-3A9671B2466C}" MaxAttenuation="5500" DurationType="OneShot" DurationMin="1.3593333" DurationMax="1.3593333">
+					<MediaRefs>
+						<MediaRef Id="374885670"/>
+						<MediaRef Id="605655355"/>
+						<MediaRef Id="957225035"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3982195600" Name="Shotgun_Fire" ObjectPath="\Events\Default Work Unit\Weapons\Shotgun\Shotgun_Fire" GUID="{4F56013F-7167-4A2C-9F18-2F7D0C17EB75}" MaxAttenuation="5700" DurationType="OneShot" DurationMin="2.531979" DurationMax="5.5585623">
+					<MediaRefs>
+						<MediaRef Id="39978940"/>
+						<MediaRef Id="105195312"/>
+						<MediaRef Id="148363815"/>
+						<MediaRef Id="404050049"/>
+						<MediaRef Id="491106090"/>
+						<MediaRef Id="523083293"/>
+						<MediaRef Id="537585844"/>
+						<MediaRef Id="564752047"/>
+						<MediaRef Id="587072973"/>
+						<MediaRef Id="649839046"/>
+						<MediaRef Id="751370414"/>
+						<MediaRef Id="786195763"/>
+						<MediaRef Id="806602596"/>
+						<MediaRef Id="995851182"/>
+					</MediaRefs>
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="18676956" Id="1721210981" GUID="{0AC89F6F-10D3-434F-96A6-527BA219B974}"/>
+							<MediaRefs>
+								<MediaRef Id="210100180"/>
+								<MediaRef Id="369173273"/>
+								<MediaRef Id="809069376"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="18676956" Id="853998396" GUID="{46870EBD-C34F-4ED0-A763-5CDEDC415061}"/>
+							<MediaRefs>
+								<MediaRef Id="436094456"/>
+								<MediaRef Id="581047147"/>
+								<MediaRef Id="668824994"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="3864136168" Name="Shotgun_Fire_Player" ObjectPath="\Events\Default Work Unit\Weapons\Shotgun\Shotgun_Fire_Player" GUID="{9B1A9820-D93F-400D-A8E0-BC7EBB516B41}" MaxAttenuation="5700" DurationType="OneShot" DurationMin="2.531979" DurationMax="5.5585623">
+					<MediaRefs>
+						<MediaRef Id="105195312"/>
+						<MediaRef Id="342636695"/>
+						<MediaRef Id="457261927"/>
+						<MediaRef Id="486362204"/>
+						<MediaRef Id="564752047"/>
+						<MediaRef Id="587072973"/>
+						<MediaRef Id="649839046"/>
+						<MediaRef Id="727136994"/>
+						<MediaRef Id="786195763"/>
+						<MediaRef Id="970617312"/>
+					</MediaRefs>
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="18676956" Id="1721210981" GUID="{0AC89F6F-10D3-434F-96A6-527BA219B974}"/>
+							<MediaRefs>
+								<MediaRef Id="210100180"/>
+								<MediaRef Id="369173273"/>
+								<MediaRef Id="809069376"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="18676956" Id="853998396" GUID="{46870EBD-C34F-4ED0-A763-5CDEDC415061}"/>
+							<MediaRefs>
+								<MediaRef Id="436094456"/>
+								<MediaRef Id="581047147"/>
+								<MediaRef Id="668824994"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="2454657434" Name="Shotgun_Impact" ObjectPath="\Events\Default Work Unit\Weapons\Shotgun\Shotgun_Impact" GUID="{E266347B-2F74-4C5F-B5CD-F9FAB208D46D}" MaxAttenuation="5500" DurationType="OneShot" DurationMin="1.3593333" DurationMax="1.3593333">
+					<MediaRefs>
+						<MediaRef Id="16271058"/>
+						<MediaRef Id="314004299"/>
+						<MediaRef Id="629363491"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="631405825" Name="Shotgun_Reload_MagazineIn" ObjectPath="\Events\Default Work Unit\Weapons\Shotgun\Shotgun_Reload_MagazineIn" GUID="{74801EEE-6780-40C3-8577-4FB4D8005E2A}" MaxAttenuation="5500" DurationType="OneShot" DurationMin="1.3593333" DurationMax="1.5958333">
+					<MediaRefs>
+						<MediaRef Id="862663777"/>
+						<MediaRef Id="984968551"/>
+						<MediaRef Id="1042756422"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1422289920" Name="Shotgun_Reload_MagazineOut" ObjectPath="\Events\Default Work Unit\Weapons\Shotgun\Shotgun_Reload_MagazineOut" GUID="{A8CAC2D5-E603-4B9D-BE7A-0048C002971C}" MaxAttenuation="5500" DurationType="OneShot" DurationMin="1.3593333" DurationMax="1.3593333">
+					<MediaRefs>
+						<MediaRef Id="119323924"/>
+						<MediaRef Id="548934451"/>
+						<MediaRef Id="607540613"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3340233377" Name="SmallWeapon_Cock" ObjectPath="\Events\Default Work Unit\Weapons\SmallWeapon_Cock" GUID="{7AE24C45-235E-4163-9528-FD084BC92A75}" MaxAttenuation="5500" DurationType="OneShot" DurationMin="1.3593333" DurationMax="1.3593333">
+					<MediaRefs>
+						<MediaRef Id="456929750"/>
+						<MediaRef Id="718088629"/>
+						<MediaRef Id="943868238"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1281810935" Name="Start" ObjectPath="\Events\Default Work Unit\Start" GUID="{C508EFF1-6387-451D-8914-D8E448659C21}" DurationType="OneShot" DurationMin="0" DurationMax="0">
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="1450859615" Name="Start_NMX" ObjectPath="\Events\Default Work Unit\MX\Start_NMX" GUID="{EE133D31-C7D6-414B-ABEA-7BEC4FAFFE6C}"/>
+						<ActionPostEventEntry Id="3913935255" Name="LowAmb" ObjectPath="\Events\Default Work Unit\Ambience\LowAmb" GUID="{D7EC86F2-F988-4E11-A96F-B4066A665017}"/>
+						<ActionPostEventEntry Id="4006599139" Name="HighAmb" ObjectPath="\Events\Default Work Unit\Ambience\HighAmb" GUID="{3B388F75-34B3-4B1F-AE25-333161FA4CFE}"/>
+					</ActionPostEvent>
+					<ActionSetState>
+						<ActionSetStateEntry GroupId="324017858" Id="1447291837" Name="Uncrouched" ObjectPath="\States\Default Work Unit\CroushState\Uncrouched" GUID="{0D2BD66C-662D-4A61-96E2-86ED0A398B9C}"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="1450859615" Name="Start_NMX" ObjectPath="\Events\Default Work Unit\MX\Start_NMX" GUID="{EE133D31-C7D6-414B-ABEA-7BEC4FAFFE6C}" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="29723913"/>
+						<MediaRef Id="59786072"/>
+						<MediaRef Id="354103040"/>
+						<MediaRef Id="476248206"/>
+					</MediaRefs>
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="3269193509" Id="1256202815" GUID="{E1623B7A-6525-4A48-8BD9-80864225B645}"/>
+							<Children>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="3454845069" Id="3794091078" GUID="{66FF1ADC-F713-4CFC-8894-8854DDE7E548}"/>
+									<MediaRefs>
+										<MediaRef Id="457445068"/>
+										<MediaRef Id="484082911"/>
+										<MediaRef Id="630106406"/>
+										<MediaRef Id="670311380"/>
+										<MediaRef Id="795753064"/>
+										<MediaRef Id="820853020"/>
+										<MediaRef Id="922087875"/>
+										<MediaRef Id="984640717"/>
+										<MediaRef Id="1011730976"/>
+									</MediaRefs>
+								</SwitchContainer>
+							</Children>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="3269193509" Id="1256202815" GUID="{E1623B7A-6525-4A48-8BD9-80864225B645}"/>
+							<Children>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="3454845069" Id="3794091077" GUID="{ADA6AB9C-3C5C-4DCE-A42A-42054E7EB5A1}"/>
+									<MediaRefs>
+										<MediaRef Id="79138857"/>
+										<MediaRef Id="127563498"/>
+										<MediaRef Id="192295790"/>
+										<MediaRef Id="478583727"/>
+										<MediaRef Id="510791388"/>
+										<MediaRef Id="552293254"/>
+										<MediaRef Id="660372565"/>
+										<MediaRef Id="666435730"/>
+										<MediaRef Id="708405695"/>
+									</MediaRefs>
+								</SwitchContainer>
+							</Children>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="3269193509" Id="1256202815" GUID="{E1623B7A-6525-4A48-8BD9-80864225B645}"/>
+							<Children>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="3454845069" Id="3794091076" GUID="{9978574E-383D-4549-8AC2-48850C51C618}"/>
+									<MediaRefs>
+										<MediaRef Id="16604930"/>
+										<MediaRef Id="136576422"/>
+										<MediaRef Id="162365737"/>
+										<MediaRef Id="200447962"/>
+										<MediaRef Id="207673020"/>
+										<MediaRef Id="215446943"/>
+										<MediaRef Id="216338263"/>
+										<MediaRef Id="224293986"/>
+										<MediaRef Id="367579084"/>
+										<MediaRef Id="551995089"/>
+										<MediaRef Id="666795438"/>
+										<MediaRef Id="683998594"/>
+										<MediaRef Id="779218783"/>
+										<MediaRef Id="800897200"/>
+										<MediaRef Id="808182261"/>
+										<MediaRef Id="970710225"/>
+										<MediaRef Id="972591048"/>
+									</MediaRefs>
+								</SwitchContainer>
+							</Children>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="3269193509" Id="2555741448" GUID="{10ED7AED-CABF-4890-8918-FCB7723353C4}"/>
+							<Children>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="3454845069" Id="3794091076" GUID="{9978574E-383D-4549-8AC2-48850C51C618}"/>
+									<MediaRefs>
+										<MediaRef Id="608233443"/>
+									</MediaRefs>
+								</SwitchContainer>
+							</Children>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="3269193509" Id="2555741448" GUID="{10ED7AED-CABF-4890-8918-FCB7723353C4}"/>
+							<Children>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="3454845069" Id="3794091077" GUID="{ADA6AB9C-3C5C-4DCE-A42A-42054E7EB5A1}"/>
+									<MediaRefs>
+										<MediaRef Id="608233443"/>
+									</MediaRefs>
+								</SwitchContainer>
+							</Children>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="3269193509" Id="2555741448" GUID="{10ED7AED-CABF-4890-8918-FCB7723353C4}"/>
+							<Children>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="3454845069" Id="3794091078" GUID="{66FF1ADC-F713-4CFC-8894-8854DDE7E548}"/>
+									<MediaRefs>
+										<MediaRef Id="608233443"/>
+									</MediaRefs>
+								</SwitchContainer>
+							</Children>
+						</SwitchContainer>
+					</SwitchContainers>
+					<ActionSetState>
+						<ActionSetStateEntry GroupId="3269193509" Id="1256202815" Name="Play" ObjectPath="\States\Default Work Unit\MXState\Play" GUID="{E1623B7A-6525-4A48-8BD9-80864225B645}"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="2754919465" Name="STOP_CaptureAreaEnter" ObjectPath="\Events\Default Work Unit\UI\STOP_CaptureAreaEnter" GUID="{CA727F7C-535A-4C50-95C7-E99CAEB58CA3}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="4279956840" Name="Stop_PadProx" ObjectPath="\Events\Default Work Unit\UI\Stop_PadProx" GUID="{F9F77EFD-4EED-459A-A489-E9CEC4DD5504}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="2094165984" Name="STOP_WindRush" ObjectPath="\Events\Default Work Unit\Movement\STOP_WindRush" GUID="{58E9A4EC-3BAC-48D5-B2F0-6FBD4031DDDD}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="943549884" Name="Weapon_Equip" ObjectPath="\Events\Default Work Unit\UI\Weapon_Equip" GUID="{F9C77D6A-8A69-40D0-A8CA-8607D74353E6}" MaxAttenuation="5500" DurationType="OneShot" DurationMin="2.73" DurationMax="2.73">
+					<MediaRefs>
+						<MediaRef Id="261321180"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3394872122" Name="Whizby" ObjectPath="\Events\Default Work Unit\Weapons\Whizby" GUID="{32D696EC-6307-42AF-8620-7BC2BFB76B49}" MaxAttenuation="1435" DurationType="OneShot" DurationMin="0" DurationMax="0.86655265">
+					<MediaRefs>
+						<MediaRef Id="237814626"/>
+						<MediaRef Id="477019436"/>
+						<MediaRef Id="657509556"/>
+						<MediaRef Id="852610261"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+			<Busses>
+				<Bus Id="17497680" Name="Sidechain_UI" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Sidechain_UI" GUID="{E4AE2376-41A6-408F-8C69-8D0DB0088AE8}">
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="462956227"/>
+						</Custom>
+					</PluginRefs>
+				</Bus>
+				<Bus Id="85412153" Name="Ambience" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\World\HDR Bus\Ambience" GUID="{D00AA00F-7DE1-49D0-98AE-36FAAF394B76}">
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="75405074"/>
+							<PluginRef Id="878718995"/>
+						</Custom>
+					</PluginRefs>
+				</Bus>
+				<Bus Id="418286927" Name="HDR Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\World\HDR Bus" GUID="{04185827-5AB7-48B0-976A-FB4678EA4F73}"/>
+				<Bus Id="983310469" Name="Aux" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\World\Aux" GUID="{FC626BD8-B567-48E5-BC54-E5F32ABA15E1}"/>
+				<Bus Id="1069431850" Name="Player" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\World\HDR Bus\Player" GUID="{E4909E3C-EBCB-4EEC-ACDF-E826289BFA42}">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="2595128994"/>
+							<PluginRef Id="3666249700"/>
+						</ShareSets>
+					</PluginRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="2595128994" Name="Sidechain_High" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Sidechain\Sidechain_High" GUID="{04303727-4ED9-4BFE-8454-40B742F221AA}"/>
+						<AuxBusRef Id="3666249700" Name="Sidechain_Low" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Sidechain\Sidechain_Low" GUID="{7A0323CF-47E7-4A2D-B4A3-13957CDBA819}"/>
+					</AuxBusRefs>
+				</Bus>
+				<Bus Id="1467963052" Name="Weapons" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\World\HDR Bus\Weapons" GUID="{1FC70217-95D9-4171-BDDC-45299D414EC1}">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="2595128994"/>
+							<PluginRef Id="3666249700"/>
+						</ShareSets>
+					</PluginRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="2595128994" Name="Sidechain_High" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Sidechain\Sidechain_High" GUID="{04303727-4ED9-4BFE-8454-40B742F221AA}"/>
+						<AuxBusRef Id="3666249700" Name="Sidechain_Low" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Sidechain\Sidechain_Low" GUID="{7A0323CF-47E7-4A2D-B4A3-13957CDBA819}"/>
+					</AuxBusRefs>
+				</Bus>
+				<Bus Id="1551306167" Name="UI" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Non-World\UI" GUID="{6F4FA9D3-4A59-4827-AFCD-33F806F0FF3F}">
+					<AuxBusRefs>
+						<AuxBusRef Id="815721027" Name="Sidechain_High_UI" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Sidechain_UI\Sidechain_High_UI" GUID="{5D0326AE-1C63-42E2-9494-F8DC9B105989}"/>
+						<AuxBusRef Id="3786991005" Name="Sidechain_Low_UI" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Sidechain_UI\Sidechain_Low_UI" GUID="{11DEB295-75FB-4A54-A160-86D77669CA4D}"/>
+					</AuxBusRefs>
+				</Bus>
+				<Bus Id="1685527054" Name="MX" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Non-World\MX" GUID="{E696AA33-B3A6-4188-9240-6790A88B07B3}">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="2595128994"/>
+							<PluginRef Id="3666249700"/>
+						</ShareSets>
+					</PluginRefs>
+				</Bus>
+				<Bus Id="1883033791" Name="Sidechain" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Sidechain" GUID="{B2029079-A837-49DC-8311-21C0B667C4ED}">
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="694263961"/>
+						</Custom>
+					</PluginRefs>
+				</Bus>
+				<Bus Id="3803692087" Name="Master Audio Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus" GUID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
+			</Busses>
+			<AuxBusses>
+				<AuxBus Id="680256650" Name="Arena" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\World\Aux\Arena" GUID="{61F909EC-9FAD-439C-BE58-AB0094811BB9}"/>
+				<AuxBus Id="815721027" Name="Sidechain_High_UI" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Sidechain_UI\Sidechain_High_UI" GUID="{5D0326AE-1C63-42E2-9494-F8DC9B105989}">
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="187629857"/>
+							<PluginRef Id="898880639"/>
+						</Custom>
+					</PluginRefs>
+				</AuxBus>
+				<AuxBus Id="896230842" Name="Capture_Point" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\World\Aux\Capture_Point" GUID="{B828BBD5-614C-4DC1-AF6A-C7A76CCF47E1}"/>
+				<AuxBus Id="1761429756" Name="Capture_Point_Room" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\World\Aux\Capture_Point_Room" GUID="{A82B7772-0947-4D06-AA4B-BE229671CD72}"/>
+				<AuxBus Id="1988240518" Name="Center" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\World\Aux\Center" GUID="{76116BA4-163F-45EE-ACEF-EE1006DBA898}"/>
+				<AuxBus Id="2493134276" Name="Upper_Capture_Area" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\World\Aux\Upper_Capture_Area" GUID="{89FBA9F9-4567-40F2-9BBD-4CD8811816D0}"/>
+				<AuxBus Id="2595128994" Name="Sidechain_High" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Sidechain\Sidechain_High" GUID="{04303727-4ED9-4BFE-8454-40B742F221AA}">
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="159213012"/>
+							<PluginRef Id="355949952"/>
+						</Custom>
+					</PluginRefs>
+				</AuxBus>
+				<AuxBus Id="2792272911" Name="Upper_Hallways" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\World\Aux\Upper_Hallways" GUID="{3A72E3C8-4B76-42CE-B317-56C80BCBBFDE}"/>
+				<AuxBus Id="3666249700" Name="Sidechain_Low" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Sidechain\Sidechain_Low" GUID="{7A0323CF-47E7-4A2D-B4A3-13957CDBA819}">
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="9264991"/>
+							<PluginRef Id="906825334"/>
+						</Custom>
+					</PluginRefs>
+				</AuxBus>
+				<AuxBus Id="3728443364" Name="Catwalk" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\World\Aux\Catwalk" GUID="{8FCC4064-6115-478C-89DE-D546E2C66AF8}"/>
+				<AuxBus Id="3786991005" Name="Sidechain_Low_UI" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Sidechain_UI\Sidechain_Low_UI" GUID="{11DEB295-75FB-4A54-A160-86D77669CA4D}">
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="3408413"/>
+							<PluginRef Id="465488096"/>
+						</Custom>
+					</PluginRefs>
+				</AuxBus>
+				<AuxBus Id="3893129078" Name="Lower_Hallways" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\World\Aux\Lower_Hallways" GUID="{1177A88D-4014-4E14-B342-5103816ED86F}"/>
+			</AuxBusses>
+			<GameParameters>
+				<GameParameter Id="245283241" Name="Capture_Progress" ObjectPath="\Game Parameters\Default Work Unit\Capture\Capture_Progress" GUID="{2797D8A4-229B-4500-8F19-AD3DE47809FD}"/>
+				<GameParameter Id="585280047" Name="Jump_Timer" ObjectPath="\Game Parameters\Default Work Unit\Movement\Jump_Timer" GUID="{94C37243-8022-4220-8933-3695380A88E1}"/>
+				<GameParameter Id="760594156" Name="JumpHeight" ObjectPath="\Game Parameters\Default Work Unit\Movement\JumpHeight" GUID="{172214DF-AF1B-49D7-B2E7-7D9484EA03FD}"/>
+				<GameParameter Id="815721027" Name="Sidechain_High_UI" ObjectPath="\Game Parameters\Default Work Unit\Sidechain\Sidechain_High_UI" GUID="{8C6C66BF-0CA1-4C76-9D0E-664EB3258F4E}"/>
+				<GameParameter Id="1172363682" Name="Rifle_Magazine" ObjectPath="\Game Parameters\Default Work Unit\Magazine\Rifle_Magazine" GUID="{1224564F-0801-4D1F-A037-E7847F88B742}"/>
+				<GameParameter Id="1244270586" Name="Capture_Level" ObjectPath="\Game Parameters\Default Work Unit\Capture\Capture_Level" GUID="{D79D66E1-CCE2-4D8D-9445-BA701A47155B}"/>
+				<GameParameter Id="1751452464" Name="Cancel_CaptureExit" ObjectPath="\Game Parameters\Default Work Unit\Capture\Cancel_CaptureExit" GUID="{3256C3C0-67F8-45F5-A7D4-40424C0C5FE0}"/>
+				<GameParameter Id="2141048674" Name="Elevation" ObjectPath="\Game Parameters\Default Work Unit\Movement\Elevation" GUID="{61EF7BFF-803A-4A4A-A8DD-56C14112A769}"/>
+				<GameParameter Id="2265605889" Name="HeroType" ObjectPath="\Game Parameters\Default Work Unit\Movement\HeroType" GUID="{0398ACBB-8343-4F88-8125-D61B9D42BC8B}"/>
+				<GameParameter Id="2595128994" Name="Sidechain_High" ObjectPath="\Game Parameters\Default Work Unit\Sidechain\Sidechain_High" GUID="{C89BD2BC-A195-4E4C-84DB-FB9D74FB04A4}"/>
+				<GameParameter Id="3666249700" Name="Sidechain_Low" ObjectPath="\Game Parameters\Default Work Unit\Sidechain\Sidechain_Low" GUID="{051F9B13-D5FB-45E2-9395-A84BBB185DDE}"/>
+				<GameParameter Id="3786991005" Name="Sidechain_Low_UI" ObjectPath="\Game Parameters\Default Work Unit\Sidechain\Sidechain_Low_UI" GUID="{C971C7EE-664A-41B7-86FA-FE8683BD51BC}"/>
+				<GameParameter Id="3904355326" Name="Shotgun_Magazine" ObjectPath="\Game Parameters\Default Work Unit\Magazine\Shotgun_Magazine" GUID="{DE09CCD6-A2AA-44CE-A441-8A2F3272FB12}"/>
+				<GameParameter Id="4103420329" Name="Pistol_Magazine" ObjectPath="\Game Parameters\Default Work Unit\Magazine\Pistol_Magazine" GUID="{8B24D075-DD0F-4E7B-B6AA-9D8B0F301FED}"/>
+				<GameParameter Id="4169298053" Name="Crouch_Pass" ObjectPath="\Game Parameters\Default Work Unit\Movement\Crouch_Pass" GUID="{B420C446-931D-46F2-A13F-54B3891CC04F}"/>
+				<GameParameter Id="4190665748" Name="HeroVelocity" ObjectPath="\Game Parameters\Default Work Unit\Movement\HeroVelocity" GUID="{7F63BF96-9650-4DB6-8E49-5B2DC9FCAF1F}"/>
+			</GameParameters>
+			<StateGroups>
+				<StateGroup Id="324017858" Name="CroushState" ObjectPath="\States\Default Work Unit\CroushState" GUID="{2BACAFE5-0006-40B5-8A5E-E322CB65C041}">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\CroushState\None" GUID="{1B420D75-7261-4142-B8D1-904B8F531E89}"/>
+						<State Id="1447291837" Name="Uncrouched" ObjectPath="\States\Default Work Unit\CroushState\Uncrouched" GUID="{0D2BD66C-662D-4A61-96E2-86ED0A398B9C}"/>
+						<State Id="1788443972" Name="Crouched" ObjectPath="\States\Default Work Unit\CroushState\Crouched" GUID="{497A333D-5007-47CB-A8D2-48C9C4E1CF20}"/>
+					</States>
+				</StateGroup>
+				<StateGroup Id="2424287321" Name="ExplosionState" ObjectPath="\States\Default Work Unit\ExplosionState" GUID="{F231351B-E6DD-42E0-80BD-D14677E13B62}">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\ExplosionState\None" GUID="{CD3DAA51-D5C5-4366-9CCE-CE3DDE1C8A1F}"/>
+						<State Id="1160234136" Name="Normal" ObjectPath="\States\Default Work Unit\ExplosionState\Normal" GUID="{115E5712-F181-4756-BA05-0E11B54CBDBA}"/>
+						<State Id="2453598386" Name="HighPass" ObjectPath="\States\Default Work Unit\ExplosionState\HighPass" GUID="{C53AAF15-17C8-4DD8-A911-5667D6AD7F85}"/>
+					</States>
+				</StateGroup>
+				<StateGroup Id="3269193509" Name="MXState" ObjectPath="\States\Default Work Unit\MXState" GUID="{C288704A-B086-47EB-B393-58D5BD27A544}">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\MXState\None" GUID="{3176CA47-4C4C-44E7-9EDE-2C0510EB510A}"/>
+						<State Id="1256202815" Name="Play" ObjectPath="\States\Default Work Unit\MXState\Play" GUID="{E1623B7A-6525-4A48-8BD9-80864225B645}"/>
+						<State Id="2555741448" Name="Finish" ObjectPath="\States\Default Work Unit\MXState\Finish" GUID="{10ED7AED-CABF-4890-8918-FCB7723353C4}"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
+			<SwitchGroups>
+				<SwitchGroup Id="18676956" Name="Magazine_Shotgun_Count" ObjectPath="\Switches\Default Work Unit\Magazine_Shotgun_Count" GUID="{B23A8684-C664-413A-8DD9-AD02D5F26E7C}">
+					<GameParameterRef Id="3904355326"/>
+					<Switches>
+						<Switch Id="853998396" Name="Shotgun_Final" ObjectPath="\Switches\Default Work Unit\Magazine_Shotgun_Count\Shotgun_Final" GUID="{46870EBD-C34F-4ED0-A763-5CDEDC415061}"/>
+						<Switch Id="1721210981" Name="Shotgun_Normal" ObjectPath="\Switches\Default Work Unit\Magazine_Shotgun_Count\Shotgun_Normal" GUID="{0AC89F6F-10D3-434F-96A6-527BA219B974}"/>
+					</Switches>
+				</SwitchGroup>
+				<SwitchGroup Id="1776452115" Name="Magazine_Pistol_Count" ObjectPath="\Switches\Default Work Unit\Magazine_Pistol_Count" GUID="{35A6D913-B690-4104-AD5A-352257CA56CB}">
+					<GameParameterRef Id="4103420329"/>
+					<Switches>
+						<Switch Id="3398155685" Name="Pistol_Final" ObjectPath="\Switches\Default Work Unit\Magazine_Pistol_Count\Pistol_Final" GUID="{B542D980-506F-4641-81F8-60BAF07F892A}"/>
+						<Switch Id="3757703166" Name="Pistol_Normal" ObjectPath="\Switches\Default Work Unit\Magazine_Pistol_Count\Pistol_Normal" GUID="{FE5C05E9-60E6-47C0-A4FE-861B4BB8D22C}"/>
+					</Switches>
+				</SwitchGroup>
+				<SwitchGroup Id="3107534752" Name="Magazine_Rifle_Count" ObjectPath="\Switches\Default Work Unit\Magazine_Rifle_Count" GUID="{4FE6E8A3-2D4D-4F0D-A044-B48CB021E7E7}">
+					<GameParameterRef Id="1172363682"/>
+					<Switches>
+						<Switch Id="966943801" Name="Rifle_Normal" ObjectPath="\Switches\Default Work Unit\Magazine_Rifle_Count\Rifle_Normal" GUID="{F0E79651-E4A3-42DA-9316-A58BA286C49F}"/>
+						<Switch Id="3323306016" Name="Rifle_Final" ObjectPath="\Switches\Default Work Unit\Magazine_Rifle_Count\Rifle_Final" GUID="{8CFEBE43-9306-4C95-B73C-87235F323FC9}"/>
+					</Switches>
+				</SwitchGroup>
+				<SwitchGroup Id="3454845069" Name="MX_CaptureLevel" ObjectPath="\Switches\Default Work Unit\MX_CaptureLevel" GUID="{F1B3D9CA-3581-4265-8393-65A90D36B731}">
+					<GameParameterRef Id="1244270586"/>
+					<Switches>
+						<Switch Id="3794091076" Name="State_03" ObjectPath="\Switches\Default Work Unit\MX_CaptureLevel\State_03" GUID="{9978574E-383D-4549-8AC2-48850C51C618}"/>
+						<Switch Id="3794091077" Name="State_02" ObjectPath="\Switches\Default Work Unit\MX_CaptureLevel\State_02" GUID="{ADA6AB9C-3C5C-4DCE-A42A-42054E7EB5A1}"/>
+						<Switch Id="3794091078" Name="State_01" ObjectPath="\Switches\Default Work Unit\MX_CaptureLevel\State_01" GUID="{66FF1ADC-F713-4CFC-8894-8854DDE7E548}"/>
+					</Switches>
+				</SwitchGroup>
+				<SwitchGroup Id="3865314626" Name="Material" ObjectPath="\Switches\Default Work Unit\Material" GUID="{C3F5D774-DF4E-41AB-991A-C68C6BE7DB5E}">
+					<Switches>
+						<Switch Id="841620460" Name="Concrete" ObjectPath="\Switches\Default Work Unit\Material\Concrete" GUID="{D2C27402-DB54-4AFA-A321-9D3FA208AC03}"/>
+						<Switch Id="928522647" Name="PhysMat_Player" ObjectPath="\Switches\Default Work Unit\Material\PhysMat_Player" GUID="{B8136218-6B64-48B6-A589-903AF6F2B965}"/>
+						<Switch Id="2449969375" Name="Glass" ObjectPath="\Switches\Default Work Unit\Material\Glass" GUID="{37E35534-61E9-4437-99CD-A8511D39719E}"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{365CCF73-7B41-B6B9-5B6D-CA8D044C6429}</FileHash>
+</SoundBanksInfo>

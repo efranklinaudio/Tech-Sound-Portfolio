@@ -1,0 +1,30 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\ericf\\documents\\unreal projects\\lyra\\plugins\\wwise\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\wwisesimpleexternalsource\\module.wwisesimpleexternalsource.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\ericf\\documents\\unreal projects\\lyra\\intermediate\\build\\win64\\x64\\lyraeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "c:\\users\\ericf\\documents\\unreal projects\\lyra\\plugins\\wwise\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\wwisesimpleexternalsource\\definitions.wwisesimpleexternalsource.h",
+            "c:\\users\\ericf\\documents\\unreal projects\\lyra\\plugins\\wwise\\intermediate\\build\\win64\\unrealeditor\\inc\\wwisesimpleexternalsource\\uht\\wwiseexternalsourcecookiedefaultmedia.gen.cpp",
+            "c:\\users\\ericf\\documents\\unreal projects\\lyra\\plugins\\wwise\\source\\wwisesimpleexternalsource\\public\\wwise\\simpleextsrc\\wwiseexternalsourcecookiedefaultmedia.h",
+            "c:\\users\\ericf\\documents\\unreal projects\\lyra\\plugins\\wwise\\intermediate\\build\\win64\\unrealeditor\\inc\\wwisesimpleexternalsource\\uht\\wwiseexternalsourcecookiedefaultmedia.generated.h",
+            "c:\\users\\ericf\\documents\\unreal projects\\lyra\\plugins\\wwise\\intermediate\\build\\win64\\unrealeditor\\inc\\wwisesimpleexternalsource\\uht\\wwiseexternalsourcemediainfo.gen.cpp",
+            "c:\\users\\ericf\\documents\\unreal projects\\lyra\\plugins\\wwise\\source\\wwisesimpleexternalsource\\public\\wwise\\simpleextsrc\\wwiseexternalsourcemediainfo.h",
+            "c:\\users\\ericf\\documents\\unreal projects\\lyra\\plugins\\wwise\\intermediate\\build\\win64\\unrealeditor\\inc\\wwisesimpleexternalsource\\uht\\wwiseexternalsourcemediainfo.generated.h",
+            "c:\\users\\ericf\\documents\\unreal projects\\lyra\\plugins\\wwise\\intermediate\\build\\win64\\unrealeditor\\inc\\wwisesimpleexternalsource\\uht\\wwiseexternalsourcesettings.gen.cpp",
+            "c:\\users\\ericf\\documents\\unreal projects\\lyra\\plugins\\wwise\\source\\wwisesimpleexternalsource\\public\\wwise\\simpleextsrc\\wwiseexternalsourcesettings.h",
+            "c:\\users\\ericf\\documents\\unreal projects\\lyra\\plugins\\wwise\\source\\akaudio\\public\\akunrealeditorhelper.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\source\\runtime\\engine\\public\\net\\replayout.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\source\\runtime\\core\\public\\containers\\staticbitarray.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\source\\runtime\\net\\core\\public\\net\\core\\misc\\guidreferences.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\source\\runtime\\net\\core\\public\\net\\core\\pushmodel\\pushmodel.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\source\\runtime\\net\\core\\public\\net\\core\\propertyconditions\\repchangedpropertytracker.h",
+            "c:\\users\\ericf\\documents\\unreal projects\\lyra\\plugins\\wwise\\source\\wwisesimpleexternalsource\\public\\wwise\\stats\\simpleextsrc.h",
+            "c:\\users\\ericf\\documents\\unreal projects\\lyra\\plugins\\wwise\\intermediate\\build\\win64\\unrealeditor\\inc\\wwisesimpleexternalsource\\uht\\wwiseexternalsourcesettings.generated.h",
+            "c:\\users\\ericf\\documents\\unreal projects\\lyra\\plugins\\wwise\\intermediate\\build\\win64\\unrealeditor\\inc\\wwisesimpleexternalsource\\uht\\wwisesimpleexternalsource.init.gen.cpp"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{1C4D5449-8EFF-475C-9E2E-5735F09C60C2}" SchemaVersion="119">
+	<SoundcasterSessions>
+		<WorkUnit Name="Default Work Unit" ID="{1C4D5449-8EFF-475C-9E2E-5735F09C60C2}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="Soundcaster Test" ID="{975A37FB-40C5-45C7-87EA-6AD69BDC4DE3}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="LowAmb" ID="{D7EC86F2-F988-4E11-A96F-B4066A665017}" WorkUnitID="{77CD4765-3770-499D-BD52-AF2A5955ADA6}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Pistol_Fire" ID="{443C4F20-3EE5-4069-85F8-18BF1D5DE953}" WorkUnitID="{77CD4765-3770-499D-BD52-AF2A5955ADA6}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Shotgun_Fire" ID="{4F56013F-7167-4A2C-9F18-2F7D0C17EB75}" WorkUnitID="{77CD4765-3770-499D-BD52-AF2A5955ADA6}"/>
+							<Position X="0" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Rifle_Equip" ID="{6F22D114-D548-48B5-92C1-B2F34A98646B}" WorkUnitID="{77CD4765-3770-499D-BD52-AF2A5955ADA6}"/>
+							<Position X="0" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="HighAmb" ID="{3B388F75-34B3-4B1F-AE25-333161FA4CFE}" WorkUnitID="{77CD4765-3770-499D-BD52-AF2A5955ADA6}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Rifle_Fire" ID="{4ABD0190-7456-4931-9E22-7E9623409FE5}" WorkUnitID="{77CD4765-3770-499D-BD52-AF2A5955ADA6}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Footstep" ID="{38BBD8DC-9220-4DBB-8D84-40C7AEE2CB56}" WorkUnitID="{77CD4765-3770-499D-BD52-AF2A5955ADA6}"/>
+							<Position X="1" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Rifle_Reload_MagazineIn" ID="{11D2CFC2-E4D3-4EDB-9F2F-43756D3BBD2E}" WorkUnitID="{77CD4765-3770-499D-BD52-AF2A5955ADA6}"/>
+							<Position X="1" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Match_Result_Victory" ID="{0B8E70BB-F27E-4F02-8361-A7A4B3F7C017}" WorkUnitID="{77CD4765-3770-499D-BD52-AF2A5955ADA6}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Jump_Up" ID="{B9B33643-6C99-4FDB-AE86-103A5BB96B3B}" WorkUnitID="{77CD4765-3770-499D-BD52-AF2A5955ADA6}"/>
+							<Position X="2" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Jump_Down" ID="{BE9D9D7D-5C2A-4DBC-AF80-87347DFEA877}" WorkUnitID="{77CD4765-3770-499D-BD52-AF2A5955ADA6}"/>
+							<Position X="2" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Player_Respawn" ID="{8117638D-6F67-4775-9293-2E1B2A4DB210}" WorkUnitID="{77CD4765-3770-499D-BD52-AF2A5955ADA6}"/>
+							<Position X="2" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Pistol_Fire_Player" ID="{24D99F27-0E45-4AF9-AD99-99B8BF483C1A}" WorkUnitID="{77CD4765-3770-499D-BD52-AF2A5955ADA6}"/>
+							<Position X="3" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Pad_Proximity" ID="{4DC32116-97E5-468B-B319-A6761A8625A6}" WorkUnitID="{77CD4765-3770-499D-BD52-AF2A5955ADA6}"/>
+							<Position X="3" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Player_DamageTaken" ID="{57CD26A4-D812-4260-8109-FE82D666CC0A}" WorkUnitID="{77CD4765-3770-499D-BD52-AF2A5955ADA6}"/>
+							<Position X="3" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Dash" ID="{84E9B8EF-6D98-4832-A7CA-22291D32B05B}" WorkUnitID="{77CD4765-3770-499D-BD52-AF2A5955ADA6}"/>
+							<Position X="3" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Bullet_Impact" ID="{843FE023-8A2C-4F8A-A301-7159253D7BE5}" WorkUnitID="{77CD4765-3770-499D-BD52-AF2A5955ADA6}"/>
+							<Position X="4" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Start_NMX" ID="{EE133D31-C7D6-414B-ABEA-7BEC4FAFFE6C}" WorkUnitID="{77CD4765-3770-499D-BD52-AF2A5955ADA6}"/>
+							<Position X="4" Y="1"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="Sidechain_Low_UI" ID="{C971C7EE-664A-41B7-86FA-FE8683BD51BC}"/>
+							<Value>-48</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Jump_Timer" ID="{94C37243-8022-4220-8933-3695380A88E1}"/>
+							<Value>3.42469879518072</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Shotgun_Magazine" ID="{DE09CCD6-A2AA-44CE-A441-8A2F3272FB12}"/>
+							<Value>1.05743855109961</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Capture_Progress" ID="{2797D8A4-229B-4500-8F19-AD3DE47809FD}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Sidechain_Low" ID="{051F9B13-D5FB-45E2-9395-A84BBB185DDE}"/>
+							<Value>-48</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Cancel_CaptureExit" ID="{3256C3C0-67F8-45F5-A7D4-40424C0C5FE0}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Crouch_Pass" ID="{B420C446-931D-46F2-A13F-54B3891CC04F}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="HDR" ID="{55C58AA4-23D6-480D-B90F-D61064B4B0A0}"/>
+							<Value>50</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="JumpHeight" ID="{172214DF-AF1B-49D7-B2E7-7D9484EA03FD}"/>
+							<Value>2</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Elevation" ID="{61EF7BFF-803A-4A4A-A8DD-56C14112A769}"/>
+							<Value>13.2</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="MX_Level" ID="{C0BB5F44-B48D-4C67-AD4F-DF05C2C391CA}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Sidechain_High_UI" ID="{8C6C66BF-0CA1-4C76-9D0E-664EB3258F4E}"/>
+							<Value>-48</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Rifle_Magazine" ID="{1224564F-0801-4D1F-A037-E7847F88B742}"/>
+							<Value>1.04786545924968</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Capture_Level" ID="{D79D66E1-CCE2-4D8D-9445-BA701A47155B}"/>
+							<Value>112</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="HeroVelocity" ID="{7F63BF96-9650-4DB6-8E49-5B2DC9FCAF1F}"/>
+							<Value>590</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Sidechain_High" ID="{C89BD2BC-A195-4E4C-84DB-FB9D74FB04A4}"/>
+							<Value>-48</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Pistol_Magazine" ID="{8B24D075-DD0F-4E7B-B6AA-9D8B0F301FED}"/>
+							<Value>1</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="HeroType" ID="{0398ACBB-8343-4F88-8125-D61B9D42BC8B}"/>
+							<Value>0</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="Uncrouched" ID="{0D2BD66C-662D-4A61-96E2-86ED0A398B9C}"/>
+						<CurrentStateRef Name="Normal" ID="{115E5712-F181-4756-BA05-0E11B54CBDBA}"/>
+						<CurrentStateRef Name="Finish" ID="{10ED7AED-CABF-4890-8918-FCB7723353C4}"/>
+						<CurrentStateRef Name="Unfocused" ID="{6E5EEAA1-7FA7-4D71-854F-85A01AAFA44F}"/>
+					</CurrentStateList>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="Pistol_Final" ID="{B542D980-506F-4641-81F8-60BAF07F892A}"/>
+						<CurrentSwitchRef Name="Shotgun_Final" ID="{46870EBD-C34F-4ED0-A763-5CDEDC415061}"/>
+						<CurrentSwitchRef Name="Concrete" ID="{D2C27402-DB54-4AFA-A321-9D3FA208AC03}"/>
+						<CurrentSwitchRef Name="State_01" ID="{66FF1ADC-F713-4CFC-8894-8854DDE7E548}"/>
+						<CurrentSwitchRef Name="Defeat" ID="{4048BEEC-9E1D-4896-A0DA-66F4B65D4605}"/>
+						<CurrentSwitchRef Name="Enemy" ID="{DC9E3983-CA77-4C4A-918F-E57B0D2FCEF3}"/>
+						<CurrentSwitchRef Name="Rifle_Final" ID="{8CFEBE43-9306-4C95-B73C-87235F323FC9}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundcasterSessions>
+</WwiseDocument>

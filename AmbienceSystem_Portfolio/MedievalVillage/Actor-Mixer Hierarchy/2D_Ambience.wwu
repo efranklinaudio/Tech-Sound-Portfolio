@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{BE745BFD-DF7D-474E-BF81-90EB00A2E0F6}" SchemaVersion="119" RootDocumentID="{6002CD08-2212-4B1C-9EE5-35D4641AB3F8}" ParentDocumentID="{C66A4928-FA81-47F1-8810-F4FCA9D4F492}">
+	<AudioObjects>
+		<WorkUnit Name="2D_Ambience" ID="{BE745BFD-DF7D-474E-BF81-90EB00A2E0F6}" OwnerID="{C66A4928-FA81-47F1-8810-F4FCA9D4F492}" PersistMode="Nested">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="4"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<ActorMixer Name="2D_Ambience_Loops" ID="{735AD8C1-C420-4DCC-9408-7296AB85589B}" ShortID="204476876">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="2D_AMB" ID="{A82BE50E-4CB3-4310-94C7-B78E9E51760C}" WorkUnitID="{B5A51E18-4101-455C-8D04-D227712989AE}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BF29FAC5-1320-47BE-8CB3-E5F6CF9FA6D8}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="2D_Ambience" ID="{BB3C0AF2-5E4F-459C-995C-B481B0AB3AB9}" WorkUnitID="{05F5F81D-DB58-459A-9179-417346193955}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="MVAMB_AMB2D_Forest" ID="{5A9F4A5E-CADC-4A05-91D2-E6E59364187C}" ShortID="786066088">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="IsNonCachable" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+								<Property Name="IsStreamingEnabled" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BF29FAC5-1320-47BE-8CB3-E5F6CF9FA6D8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{05F5F81D-DB58-459A-9179-417346193955}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="MVAMB_AMB2D_Forest" ID="{CC61B66B-298E-4DE7-AF3A-9DFD90F67669}">
+									<PropertyList>
+										<Property Name="LoopBegin" Type="Real64" Value="0"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="63.1010565978737"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>MVAMB_AMB2D_Forest.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="950490598"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="MVAMB_AMB2D_Forest" ID="{CC61B66B-298E-4DE7-AF3A-9DFD90F67669}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="MVAMB_AMB2D_Smith" ID="{F3705637-735D-45C1-93B2-5CD692232939}" ShortID="926578551">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="EnableDiffraction" Type="bool" Value="True"/>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="IsNonCachable" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+								<Property Name="IsStreamingEnabled" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Smith" ID="{4D819475-F272-4F83-8C54-AA87589B423E}" WorkUnitID="{B5A51E18-4101-455C-8D04-D227712989AE}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BF29FAC5-1320-47BE-8CB3-E5F6CF9FA6D8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{05F5F81D-DB58-459A-9179-417346193955}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="MVAMB_AMB2D_Smith" ID="{F873579B-3466-4E86-8CD3-899A9E077BB1}">
+									<PropertyList>
+										<Property Name="LoopBegin" Type="Real64" Value="0"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="61.8163696060038"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>MVAMB_AMB2D_Smith.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="106513712"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="MVAMB_AMB2D_Smith" ID="{F873579B-3466-4E86-8CD3-899A9E077BB1}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="MVAMB_AMB2D_Village" ID="{52B8C78A-5A53-4BC0-A2C6-E102932BACE9}" ShortID="822727673">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="IsNonCachable" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+								<Property Name="IsStreamingEnabled" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BF29FAC5-1320-47BE-8CB3-E5F6CF9FA6D8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{05F5F81D-DB58-459A-9179-417346193955}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="MVAMB_AMB2D_Village" ID="{737874C0-DC6F-413A-AD5F-04B1D0E985E1}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="106.196106941839"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>MVAMB_AMB2D_Village.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="845608399"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="MVAMB_AMB2D_Village" ID="{737874C0-DC6F-413A-AD5F-04B1D0E985E1}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="MVAMB_AMB2D_Fields" ID="{CF823DB4-2AED-4541-ACBD-A7B5F7E0A498}" ShortID="139305024">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="IsNonCachable" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+								<Property Name="IsStreamingEnabled" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BF29FAC5-1320-47BE-8CB3-E5F6CF9FA6D8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{05F5F81D-DB58-459A-9179-417346193955}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="MVAMB_AMB2D_Fields" ID="{0D090039-3072-47E3-8FD0-B3DA6A2A3D32}">
+									<PropertyList>
+										<Property Name="LoopBegin" Type="Real64" Value="0"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="53.8497023139462"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>MVAMB_AMB2D_Fields.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="601110615"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="MVAMB_AMB2D_Fields" ID="{0D090039-3072-47E3-8FD0-B3DA6A2A3D32}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<SwitchContainer Name="MVAMB_AMB2D_General" ID="{95371CEF-E95F-4EAE-91FD-A705FB2FB6BB}" ShortID="676304903">
+							<PropertyList>
+								<Property Name="SwitchBehavior" Type="int16" Value="1"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-2</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BF29FAC5-1320-47BE-8CB3-E5F6CF9FA6D8}"/>
+								</Reference>
+								<Reference Name="DefaultSwitchOrState">
+									<ObjectRef Name="Forest" ID="{A03205E1-466B-418E-A0ED-31123474978E}" WorkUnitID="{D7257679-AC07-4378-8732-A9B3BE48686D}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{05F5F81D-DB58-459A-9179-417346193955}"/>
+								</Reference>
+								<Reference Name="SwitchGroupOrStateGroup">
+									<ObjectRef Name="Area" ID="{DD35175E-C4B7-4DC8-9E70-4C8CCB03A284}" WorkUnitID="{D7257679-AC07-4378-8732-A9B3BE48686D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="MVAMB_AMB2D_Storm" ID="{70301BD3-A79A-4D17-A900-9BB3DACC5ED0}" ShortID="53050075">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="IsNonCachable" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IsStreamingEnabled" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="2D_AMB" ID="{A82BE50E-4CB3-4310-94C7-B78E9E51760C}" WorkUnitID="{B5A51E18-4101-455C-8D04-D227712989AE}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BF29FAC5-1320-47BE-8CB3-E5F6CF9FA6D8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="2D_Ambience" ID="{BB3C0AF2-5E4F-459C-995C-B481B0AB3AB9}" WorkUnitID="{05F5F81D-DB58-459A-9179-417346193955}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MVAMB_AMB2D_Storm" ID="{9DA45608-9CBB-4526-9130-27280DE850B9}">
+											<PropertyList>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="79.2992964352721"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>MVAMB_AMB2D_Storm.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="464091168"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MVAMB_AMB2D_Storm" ID="{9DA45608-9CBB-4526-9130-27280DE850B9}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="MVAMB_AMB2D_Wind_Loop" ID="{F998BD81-A0B3-4CB7-A882-6833DC5EBE02}" ShortID="334783979">
+									<PropertyList>
+										<Property Name="Highpass" Type="int16">
+											<ValueList>
+												<Value>26</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="IsNonCachable" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IsStreamingEnabled" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Pitch" Type="int32">
+											<ValueList>
+												<Value>-230</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-12</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BF29FAC5-1320-47BE-8CB3-E5F6CF9FA6D8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{05F5F81D-DB58-459A-9179-417346193955}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MVAMB_AMB2D_Wind_Loop" ID="{AC3CA434-E0D2-46C1-BD42-A6FC69FC1A54}">
+											<Language>SFX</Language>
+											<AudioFile>MVAMB_AMB2D_Wind_Loop.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="757316712"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MVAMB_AMB2D_Wind_Loop" ID="{AC3CA434-E0D2-46C1-BD42-A6FC69FC1A54}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<GroupingInfo>
+								<GroupingBehaviorList>
+									<GroupingBehavior>
+										<ItemRef Name="MVAMB_AMB2D_Wind_Loop" ID="{F998BD81-A0B3-4CB7-A882-6833DC5EBE02}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="MVAMB_AMB2D_Storm" ID="{70301BD3-A79A-4D17-A900-9BB3DACC5ED0}"/>
+									</GroupingBehavior>
+								</GroupingBehaviorList>
+								<GroupingList>
+									<Grouping>
+										<SwitchRef Name="Field" ID="{6BCB001B-7464-41DE-94FC-9A3C55A26F28}"/>
+										<ItemList>
+											<ItemRef Name="MVAMB_AMB2D_Wind_Loop" ID="{F998BD81-A0B3-4CB7-A882-6833DC5EBE02}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Village" ID="{B6E02AC0-4F2F-45B6-BE02-8FB238D276AA}"/>
+										<ItemList>
+											<ItemRef Name="MVAMB_AMB2D_Storm" ID="{70301BD3-A79A-4D17-A900-9BB3DACC5ED0}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="None" ID="{637147D3-FE8A-47A6-9FF5-C3224288CE98}"/>
+										<ItemList>
+											<ItemRef Name="MVAMB_AMB2D_Wind_Loop" ID="{F998BD81-A0B3-4CB7-A882-6833DC5EBE02}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Forest" ID="{A03205E1-466B-418E-A0ED-31123474978E}"/>
+										<ItemList>
+											<ItemRef Name="MVAMB_AMB2D_Wind_Loop" ID="{F998BD81-A0B3-4CB7-A882-6833DC5EBE02}"/>
+										</ItemList>
+									</Grouping>
+								</GroupingList>
+							</GroupingInfo>
+						</SwitchContainer>
+					</ChildrenList>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

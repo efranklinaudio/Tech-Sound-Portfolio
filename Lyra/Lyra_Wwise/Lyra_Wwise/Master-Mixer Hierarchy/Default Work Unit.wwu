@@ -1,0 +1,1402 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{17F379C2-E719-4DC1-BE64-5433F12CA0DE}" SchemaVersion="119">
+	<Busses>
+		<WorkUnit Name="Default Work Unit" ID="{17F379C2-E719-4DC1-BE64-5433F12CA0DE}" PersistMode="Standalone">
+			<ChildrenList>
+				<Bus Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}">
+					<ReferenceList>
+						<Reference Name="AudioDevice" PluginName="System" CompanyID="0" PluginID="174" PluginType="7">
+							<ObjectRef Name="System" ID="{849F95CD-8CB2-4708-8A51-F0855E477E46}" WorkUnitID="{73C8A76D-DEE0-4C06-860C-339090A703BE}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Bus Name="Sidechain" ID="{B2029079-A837-49DC-8311-21C0B667C4ED}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="4"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<AuxBus Name="Sidechain_Low" ID="{7A0323CF-47E7-4A2D-B4A3-13957CDBA819}">
+									<ObjectLists>
+										<ObjectList Name="Effects">
+											<Reference>
+												<Local>
+													<EffectSlot Name="" ID="{9C69B5CE-0A03-42CF-B790-0EB19EBFF61B}" ShortID="778117136">
+														<ReferenceList>
+															<Reference Name="Effect">
+																<Custom>
+																	<Effect Name="Parametric EQ (Custom)" ID="{9AC8DE5A-82F1-4D25-868E-FBC8467562A0}" ShortID="9264991" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+																		<PropertyList>
+																			<Property Name="FilterTypeBand1" Type="int32" Value="0"/>
+																			<Property Name="FrequencyBand1" Type="Real32" Value="258"/>
+																			<Property Name="OnOffBand2" Type="bool" Value="False"/>
+																			<Property Name="OnOffBand3" Type="bool" Value="False"/>
+																			<Property Name="QFactorBand1" Type="Real32" Value="0.5"/>
+																		</PropertyList>
+																	</Effect>
+																</Custom>
+															</Reference>
+														</ReferenceList>
+													</EffectSlot>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<EffectSlot Name="" ID="{71D8ABAE-2566-4568-BB46-6901490A2BF4}" ShortID="769154282">
+														<ReferenceList>
+															<Reference Name="Effect">
+																<Custom>
+																	<Effect Name="Meter (Custom)" ID="{3BCD2680-AE64-4BD9-83BB-6CE28610AED0}" ShortID="906825334" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">
+																		<PropertyList>
+																			<Property Name="Hold" Type="Real32" Value="0.16"/>
+																			<Property Name="Min" Type="Real32" Value="-52.6"/>
+																		</PropertyList>
+																		<PluginData>
+	<GameParameter Name="Sidechain_Low" ID="{051F9B13-D5FB-45E2-9395-A84BBB185DDE}"/>
+</PluginData>
+																	</Effect>
+																</Custom>
+															</Reference>
+														</ReferenceList>
+													</EffectSlot>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</AuxBus>
+								<AuxBus Name="Sidechain_High" ID="{04303727-4ED9-4BFE-8454-40B742F221AA}">
+									<ObjectLists>
+										<ObjectList Name="Effects">
+											<Reference>
+												<Local>
+													<EffectSlot Name="" ID="{DC44448C-BC4D-4A23-98B8-D34C288B324A}" ShortID="51947443">
+														<ReferenceList>
+															<Reference Name="Effect">
+																<Custom>
+																	<Effect Name="Parametric EQ (Custom)" ID="{E0E5C0AB-5BD3-45DB-BDA0-4EB56E71BE63}" ShortID="355949952" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+																		<PropertyList>
+																			<Property Name="FilterTypeBand2" Type="int32" Value="1"/>
+																			<Property Name="FrequencyBand2" Type="Real32" Value="1861"/>
+																			<Property Name="FrequencyBand3" Type="Real32" Value="9650"/>
+																			<Property Name="OnOffBand1" Type="bool" Value="False"/>
+																			<Property Name="OnOffBand3" Type="bool" Value="False"/>
+																			<Property Name="QFactorBand2" Type="Real32" Value="0.5"/>
+																		</PropertyList>
+																	</Effect>
+																</Custom>
+															</Reference>
+														</ReferenceList>
+													</EffectSlot>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<EffectSlot Name="" ID="{900C7E49-0AAB-4822-A8C9-46C57CE65339}" ShortID="516157879">
+														<ReferenceList>
+															<Reference Name="Effect">
+																<Custom>
+																	<Effect Name="Meter (Custom)" ID="{13039B94-5C18-4CE3-B36E-1E11501EBAA9}" ShortID="159213012" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">
+																		<PropertyList>
+																			<Property Name="Hold" Type="Real32" Value="0.26"/>
+																		</PropertyList>
+																		<PluginData>
+	<GameParameter Name="Sidechain_High" ID="{C89BD2BC-A195-4E4C-84DB-FB9D74FB04A4}"/>
+</PluginData>
+																	</Effect>
+																</Custom>
+															</Reference>
+														</ReferenceList>
+													</EffectSlot>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</AuxBus>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Effects">
+									<Reference>
+										<Local>
+											<EffectSlot Name="" ID="{052C9D93-BD3C-465C-873F-CC227AD182DE}" ShortID="416588760">
+												<ReferenceList>
+													<Reference Name="Effect">
+														<Custom>
+															<Effect Name="Gain (Custom)" ID="{28E3386D-D1EF-4443-AA5C-863A5998FCFD}" ShortID="694263961" PluginName="Wwise Gain" CompanyID="0" PluginID="139" PluginType="3">
+																<PropertyList>
+																	<Property Name="FullBandGain" Type="Real32" Value="-96.3"/>
+																</PropertyList>
+															</Effect>
+														</Custom>
+													</Reference>
+												</ReferenceList>
+											</EffectSlot>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</Bus>
+						<Folder Name="World" ID="{557B1837-203F-4AD4-A766-754C51849A1A}" ShortID="861919234">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="7"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Bus Name="Aux" ID="{FC626BD8-B567-48E5-BC54-E5F32ABA15E1}">
+									<ChildrenList>
+										<AuxBus Name="Center" ID="{76116BA4-163F-45EE-ACEF-EE1006DBA898}">
+											<ObjectLists>
+												<ObjectList Name="Effects">
+													<Reference>
+														<Local>
+															<EffectSlot Name="" ID="{C9DEC07E-FA16-4224-B357-9F01D2EBD360}" ShortID="239422355">
+																<ReferenceList>
+																	<Reference Name="Effect">
+																		<Custom>
+																			<Effect Name="AK Convolution Reverb (Custom)" ID="{97C62DB8-86F8-4672-9B11-A55172D31FB7}" ShortID="46751900" PluginName="Wwise Convolution Reverb" CompanyID="0" PluginID="127" PluginType="3">
+																				<PropertyList>
+																					<Property Name="IRConvolutionStop" Type="Real64" Value="0.828095238095238"/>
+																					<Property Name="IRLevel" Type="Real32" Value="-15.4"/>
+																					<Property Name="WetLevel" Type="Real32" Value="-8.3"/>
+																				</PropertyList>
+																				<ChildrenList>
+																					<PluginMediaSource Name="Tower_IR" ID="{C24D86AF-89E3-4D00-A5DA-E0FDCA77C6EB}">
+																						<ParentPluginID>8323075</ParentPluginID>
+																						<PropertyList>
+																							<Property Name="DataFileName" Type="string" Value="Tower_IR.wav"/>
+																						</PropertyList>
+																						<MediaIDList>
+																							<MediaID ID="593984766"/>
+																						</MediaIDList>
+																					</PluginMediaSource>
+																				</ChildrenList>
+																				<PluginData>
+	<ConvolutionData>
+		<CurveList Version="1">
+			<CurveInfo Name="IRGraphicEQ">
+				<Curve Name="">
+					<PropertyList>
+						<Property Name="Flags" Type="int32" Value="19"/>
+					</PropertyList>
+					<PointList>
+						<Point>
+							<XPos>20</XPos>
+							<YPos>0</YPos>
+							<Flags>5</Flags>
+						</Point>
+						<Point>
+							<XPos>20000</XPos>
+							<YPos>0</YPos>
+							<Flags>37</Flags>
+						</Point>
+					</PointList>
+				</Curve>
+			</CurveInfo>
+			<CurveInfo Name="IRLPF">
+				<Curve Name="">
+					<PropertyList>
+						<Property Name="Flags" Type="int32" Value="5"/>
+					</PropertyList>
+					<PointList>
+						<Point>
+							<XPos>0</XPos>
+							<YPos>20000</YPos>
+							<Flags>5</Flags>
+						</Point>
+						<Point>
+							<XPos>0.828095238095238</XPos>
+							<YPos>20000</YPos>
+							<Flags>37</Flags>
+						</Point>
+					</PointList>
+				</Curve>
+			</CurveInfo>
+			<CurveInfo Name="IRLevel">
+				<Curve Name="">
+					<PropertyList>
+						<Property Name="Flags" Type="int32" Value="1"/>
+					</PropertyList>
+					<PointList>
+						<Point>
+							<XPos>0</XPos>
+							<YPos>0</YPos>
+							<Flags>5</Flags>
+						</Point>
+						<Point>
+							<XPos>0.828095238095238</XPos>
+							<YPos>0</YPos>
+							<Flags>37</Flags>
+						</Point>
+					</PointList>
+				</Curve>
+			</CurveInfo>
+		</CurveList>
+	</ConvolutionData>
+</PluginData>
+																			</Effect>
+																		</Custom>
+																	</Reference>
+																</ReferenceList>
+															</EffectSlot>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</AuxBus>
+										<AuxBus Name="Arena" ID="{61F909EC-9FAD-439C-BE58-AB0094811BB9}">
+											<ObjectLists>
+												<ObjectList Name="Effects">
+													<Reference>
+														<Local>
+															<EffectSlot Name="" ID="{FC817AAB-CA03-46DD-9444-76C984522F31}" ShortID="541834499">
+																<ReferenceList>
+																	<Reference Name="Effect" PluginName="Wwise Convolution Reverb" CompanyID="0" PluginID="127" PluginType="3">
+																		<ObjectRef Name="Arena" ID="{FCCFC1A7-2023-4BAE-B1BE-5DAEB2DF78EA}" WorkUnitID="{9D68BE5F-8CA6-43E0-BCE2-C7D59F63E582}"/>
+																	</Reference>
+																</ReferenceList>
+															</EffectSlot>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</AuxBus>
+										<AuxBus Name="Capture_Point" ID="{B828BBD5-614C-4DC1-AF6A-C7A76CCF47E1}">
+											<ObjectLists>
+												<ObjectList Name="Effects">
+													<Reference>
+														<Local>
+															<EffectSlot Name="" ID="{1FA298A2-2474-430C-AFA1-F5C15854535D}" ShortID="996144692">
+																<ReferenceList>
+																	<Reference Name="Effect">
+																		<Custom>
+																			<Effect Name="AK Convolution Reverb (Custom)" ID="{130422FB-DFCA-4E14-B23C-A2A61E9BDD89}" ShortID="756371727" PluginName="Wwise Convolution Reverb" CompanyID="0" PluginID="127" PluginType="3">
+																				<PropertyList>
+																					<Property Name="IRConvolutionStop" Type="Real64" Value="0.687369614512472"/>
+																					<Property Name="IRLevel" Type="Real32" Value="-15.1"/>
+																					<Property Name="WetLevel" Type="Real32" Value="-14.5"/>
+																				</PropertyList>
+																				<ChildrenList>
+																					<PluginMediaSource Name="SmallCourtyard_IR" ID="{01652D33-0F8D-4AE8-A5E8-EC32E6F47FD2}">
+																						<ParentPluginID>8323075</ParentPluginID>
+																						<PropertyList>
+																							<Property Name="DataFileName" Type="string" Value="SmallCourtyard_IR.wav"/>
+																						</PropertyList>
+																						<MediaIDList>
+																							<MediaID ID="50255811"/>
+																						</MediaIDList>
+																					</PluginMediaSource>
+																				</ChildrenList>
+																				<PluginData>
+	<ConvolutionData>
+		<CurveList Version="1">
+			<CurveInfo Name="IRGraphicEQ">
+				<Curve Name="">
+					<PropertyList>
+						<Property Name="Flags" Type="int32" Value="19"/>
+					</PropertyList>
+					<PointList>
+						<Point>
+							<XPos>20</XPos>
+							<YPos>0</YPos>
+							<Flags>5</Flags>
+						</Point>
+						<Point>
+							<XPos>20000</XPos>
+							<YPos>0</YPos>
+							<Flags>37</Flags>
+						</Point>
+					</PointList>
+				</Curve>
+			</CurveInfo>
+			<CurveInfo Name="IRLPF">
+				<Curve Name="">
+					<PropertyList>
+						<Property Name="Flags" Type="int32" Value="5"/>
+					</PropertyList>
+					<PointList>
+						<Point>
+							<XPos>0</XPos>
+							<YPos>20000</YPos>
+							<Flags>5</Flags>
+						</Point>
+						<Point>
+							<XPos>0.687369614512472</XPos>
+							<YPos>20000</YPos>
+							<Flags>37</Flags>
+						</Point>
+					</PointList>
+				</Curve>
+			</CurveInfo>
+			<CurveInfo Name="IRLevel">
+				<Curve Name="">
+					<PropertyList>
+						<Property Name="Flags" Type="int32" Value="1"/>
+					</PropertyList>
+					<PointList>
+						<Point>
+							<XPos>0</XPos>
+							<YPos>0</YPos>
+							<Flags>5</Flags>
+						</Point>
+						<Point>
+							<XPos>0.687369614512472</XPos>
+							<YPos>0</YPos>
+							<Flags>37</Flags>
+						</Point>
+					</PointList>
+				</Curve>
+			</CurveInfo>
+		</CurveList>
+	</ConvolutionData>
+</PluginData>
+																			</Effect>
+																		</Custom>
+																	</Reference>
+																</ReferenceList>
+															</EffectSlot>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</AuxBus>
+										<AuxBus Name="Catwalk" ID="{8FCC4064-6115-478C-89DE-D546E2C66AF8}">
+											<ObjectLists>
+												<ObjectList Name="Effects">
+													<Reference>
+														<Local>
+															<EffectSlot Name="" ID="{F464E0D2-9052-4A5C-B399-25D3EBB0EAD6}" ShortID="778316268">
+																<ReferenceList>
+																	<Reference Name="Effect" PluginName="Wwise Convolution Reverb" CompanyID="0" PluginID="127" PluginType="3">
+																		<ObjectRef Name="Arena" ID="{FCCFC1A7-2023-4BAE-B1BE-5DAEB2DF78EA}" WorkUnitID="{9D68BE5F-8CA6-43E0-BCE2-C7D59F63E582}"/>
+																	</Reference>
+																</ReferenceList>
+															</EffectSlot>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</AuxBus>
+										<AuxBus Name="Lower_Hallways" ID="{1177A88D-4014-4E14-B342-5103816ED86F}">
+											<PropertyList>
+												<Property Name="BusVolume" Type="Real64">
+													<ValueList>
+														<Value>-3</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ObjectLists>
+												<ObjectList Name="Effects">
+													<Reference>
+														<Local>
+															<EffectSlot Name="" ID="{F652A50A-B229-492D-9410-FDA354644C0C}" ShortID="109130079">
+																<ReferenceList>
+																	<Reference Name="Effect">
+																		<Custom>
+																			<Effect Name="AK Convolution Reverb (Custom)" ID="{523FDB9F-3D12-403A-924D-7FAF4FEC2BDC}" ShortID="335695037" PluginName="Wwise Convolution Reverb" CompanyID="0" PluginID="127" PluginType="3">
+																				<PropertyList>
+																					<Property Name="IRConvolutionStop" Type="Real64" Value="0.863741496598639"/>
+																					<Property Name="IRLevel" Type="Real32" Value="-9.9"/>
+																					<Property Name="WetLevel" Type="Real32" Value="-21.5"/>
+																				</PropertyList>
+																				<ChildrenList>
+																					<PluginMediaSource Name="Walkway_IR" ID="{45003359-DA7B-48EC-8B0D-50924BFC93D6}">
+																						<ParentPluginID>8323075</ParentPluginID>
+																						<PropertyList>
+																							<Property Name="DataFileName" Type="string" Value="Walkway_IR.wav"/>
+																						</PropertyList>
+																						<MediaIDList>
+																							<MediaID ID="133477674"/>
+																						</MediaIDList>
+																					</PluginMediaSource>
+																				</ChildrenList>
+																				<PluginData>
+	<ConvolutionData>
+		<CurveList Version="1">
+			<CurveInfo Name="IRGraphicEQ">
+				<Curve Name="">
+					<PropertyList>
+						<Property Name="Flags" Type="int32" Value="19"/>
+					</PropertyList>
+					<PointList>
+						<Point>
+							<XPos>20</XPos>
+							<YPos>0</YPos>
+							<Flags>5</Flags>
+						</Point>
+						<Point>
+							<XPos>20000</XPos>
+							<YPos>0</YPos>
+							<Flags>37</Flags>
+						</Point>
+					</PointList>
+				</Curve>
+			</CurveInfo>
+			<CurveInfo Name="IRLPF">
+				<Curve Name="">
+					<PropertyList>
+						<Property Name="Flags" Type="int32" Value="5"/>
+					</PropertyList>
+					<PointList>
+						<Point>
+							<XPos>0</XPos>
+							<YPos>20000</YPos>
+							<Flags>5</Flags>
+						</Point>
+						<Point>
+							<XPos>0.863741496598639</XPos>
+							<YPos>20000</YPos>
+							<Flags>37</Flags>
+						</Point>
+					</PointList>
+				</Curve>
+			</CurveInfo>
+			<CurveInfo Name="IRLevel">
+				<Curve Name="">
+					<PropertyList>
+						<Property Name="Flags" Type="int32" Value="1"/>
+					</PropertyList>
+					<PointList>
+						<Point>
+							<XPos>0</XPos>
+							<YPos>0</YPos>
+							<Flags>5</Flags>
+						</Point>
+						<Point>
+							<XPos>0.863741496598639</XPos>
+							<YPos>0</YPos>
+							<Flags>37</Flags>
+						</Point>
+					</PointList>
+				</Curve>
+			</CurveInfo>
+		</CurveList>
+	</ConvolutionData>
+</PluginData>
+																			</Effect>
+																		</Custom>
+																	</Reference>
+																</ReferenceList>
+															</EffectSlot>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</AuxBus>
+										<AuxBus Name="Upper_Capture_Area" ID="{89FBA9F9-4567-40F2-9BBD-4CD8811816D0}">
+											<ObjectLists>
+												<ObjectList Name="Effects">
+													<Reference>
+														<Local>
+															<EffectSlot Name="" ID="{6E3C8AE5-8C75-420B-BEF6-A9D20CD7F846}" ShortID="875883621">
+																<ReferenceList>
+																	<Reference Name="Effect" PluginName="Wwise Convolution Reverb" CompanyID="0" PluginID="127" PluginType="3">
+																		<ObjectRef Name="Arena" ID="{FCCFC1A7-2023-4BAE-B1BE-5DAEB2DF78EA}" WorkUnitID="{9D68BE5F-8CA6-43E0-BCE2-C7D59F63E582}"/>
+																	</Reference>
+																</ReferenceList>
+															</EffectSlot>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</AuxBus>
+										<AuxBus Name="Capture_Point_Room" ID="{A82B7772-0947-4D06-AA4B-BE229671CD72}">
+											<ObjectLists>
+												<ObjectList Name="Effects">
+													<Reference>
+														<Local>
+															<EffectSlot Name="" ID="{04603C0C-ACF5-4723-B083-429049CD2BBD}" ShortID="858646750">
+																<ReferenceList>
+																	<Reference Name="Effect">
+																		<Custom>
+																			<Effect Name="AK Convolution Reverb (Custom)" ID="{B23603D7-B44F-4AF8-ABDD-E7CE90B6BABC}" ShortID="987156646" PluginName="Wwise Convolution Reverb" CompanyID="0" PluginID="127" PluginType="3">
+																				<PropertyList>
+																					<Property Name="IRConvolutionStop" Type="Real64" Value="1.528820861678"/>
+																					<Property Name="IRLevel" Type="Real32" Value="-13.9"/>
+																					<Property Name="WetLevel" Type="Real32" Value="-12.5"/>
+																				</PropertyList>
+																				<ChildrenList>
+																					<PluginMediaSource Name="CoveredRoom_IR" ID="{A1175F46-C3AC-4A60-9914-088CA83341EB}">
+																						<ParentPluginID>8323075</ParentPluginID>
+																						<PropertyList>
+																							<Property Name="DataFileName" Type="string" Value="CoveredRoom_IR.wav"/>
+																						</PropertyList>
+																						<MediaIDList>
+																							<MediaID ID="13558134"/>
+																						</MediaIDList>
+																					</PluginMediaSource>
+																				</ChildrenList>
+																				<PluginData>
+	<ConvolutionData>
+		<CurveList Version="1">
+			<CurveInfo Name="IRGraphicEQ">
+				<Curve Name="">
+					<PropertyList>
+						<Property Name="Flags" Type="int32" Value="19"/>
+					</PropertyList>
+					<PointList>
+						<Point>
+							<XPos>20</XPos>
+							<YPos>0</YPos>
+							<Flags>5</Flags>
+						</Point>
+						<Point>
+							<XPos>20000</XPos>
+							<YPos>0</YPos>
+							<Flags>37</Flags>
+						</Point>
+					</PointList>
+				</Curve>
+			</CurveInfo>
+			<CurveInfo Name="IRLPF">
+				<Curve Name="">
+					<PropertyList>
+						<Property Name="Flags" Type="int32" Value="5"/>
+					</PropertyList>
+					<PointList>
+						<Point>
+							<XPos>0</XPos>
+							<YPos>20000</YPos>
+							<Flags>5</Flags>
+						</Point>
+						<Point>
+							<XPos>1.528820861678</XPos>
+							<YPos>20000</YPos>
+							<Flags>37</Flags>
+						</Point>
+					</PointList>
+				</Curve>
+			</CurveInfo>
+			<CurveInfo Name="IRLevel">
+				<Curve Name="">
+					<PropertyList>
+						<Property Name="Flags" Type="int32" Value="1"/>
+					</PropertyList>
+					<PointList>
+						<Point>
+							<XPos>0</XPos>
+							<YPos>0</YPos>
+							<Flags>5</Flags>
+						</Point>
+						<Point>
+							<XPos>1.528820861678</XPos>
+							<YPos>0</YPos>
+							<Flags>37</Flags>
+						</Point>
+					</PointList>
+				</Curve>
+			</CurveInfo>
+		</CurveList>
+	</ConvolutionData>
+</PluginData>
+																			</Effect>
+																		</Custom>
+																	</Reference>
+																</ReferenceList>
+															</EffectSlot>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</AuxBus>
+										<AuxBus Name="Upper_Hallways" ID="{3A72E3C8-4B76-42CE-B317-56C80BCBBFDE}">
+											<ObjectLists>
+												<ObjectList Name="Effects">
+													<Reference>
+														<Local>
+															<EffectSlot Name="" ID="{F72A4ACB-DEBA-47A5-9CF9-03F87A203CB5}" ShortID="862524737">
+																<ReferenceList>
+																	<Reference Name="Effect">
+																		<Custom>
+																			<Effect Name="AK Convolution Reverb (Custom)" ID="{9AF42A39-5FAD-42A4-888E-0A8B8EF7CD8A}" ShortID="628087013" PluginName="Wwise Convolution Reverb" CompanyID="0" PluginID="127" PluginType="3">
+																				<PropertyList>
+																					<Property Name="IRConvolutionStop" Type="Real64" Value="0.77546485260771"/>
+																					<Property Name="IRLevel" Type="Real32" Value="-10.2"/>
+																					<Property Name="WetLevel" Type="Real32" Value="-7"/>
+																				</PropertyList>
+																				<ChildrenList>
+																					<PluginMediaSource Name="Bridge_IR" ID="{581B8B02-09E0-4E36-94AF-4D59AF96BACA}">
+																						<ParentPluginID>8323075</ParentPluginID>
+																						<PropertyList>
+																							<Property Name="DataFileName" Type="string" Value="Bridge_IR.wav"/>
+																						</PropertyList>
+																						<MediaIDList>
+																							<MediaID ID="287609041"/>
+																						</MediaIDList>
+																					</PluginMediaSource>
+																				</ChildrenList>
+																				<PluginData>
+	<ConvolutionData>
+		<CurveList Version="1">
+			<CurveInfo Name="IRGraphicEQ">
+				<Curve Name="">
+					<PropertyList>
+						<Property Name="Flags" Type="int32" Value="19"/>
+					</PropertyList>
+					<PointList>
+						<Point>
+							<XPos>20</XPos>
+							<YPos>0</YPos>
+							<Flags>5</Flags>
+						</Point>
+						<Point>
+							<XPos>20000</XPos>
+							<YPos>0</YPos>
+							<Flags>37</Flags>
+						</Point>
+					</PointList>
+				</Curve>
+			</CurveInfo>
+			<CurveInfo Name="IRLPF">
+				<Curve Name="">
+					<PropertyList>
+						<Property Name="Flags" Type="int32" Value="5"/>
+					</PropertyList>
+					<PointList>
+						<Point>
+							<XPos>0</XPos>
+							<YPos>20000</YPos>
+							<Flags>5</Flags>
+						</Point>
+						<Point>
+							<XPos>0.77546485260771</XPos>
+							<YPos>20000</YPos>
+							<Flags>37</Flags>
+						</Point>
+					</PointList>
+				</Curve>
+			</CurveInfo>
+			<CurveInfo Name="IRLevel">
+				<Curve Name="">
+					<PropertyList>
+						<Property Name="Flags" Type="int32" Value="1"/>
+					</PropertyList>
+					<PointList>
+						<Point>
+							<XPos>0</XPos>
+							<YPos>0</YPos>
+							<Flags>5</Flags>
+						</Point>
+						<Point>
+							<XPos>0.77546485260771</XPos>
+							<YPos>0</YPos>
+							<Flags>37</Flags>
+						</Point>
+					</PointList>
+				</Curve>
+			</CurveInfo>
+		</CurveList>
+	</ConvolutionData>
+</PluginData>
+																			</Effect>
+																		</Custom>
+																	</Reference>
+																</ReferenceList>
+															</EffectSlot>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</AuxBus>
+									</ChildrenList>
+								</Bus>
+								<Bus Name="HDR Bus" ID="{04185827-5AB7-48B0-976A-FB4678EA4F73}">
+									<PropertyList>
+										<Property Name="HdrEnable" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
+										<Property Name="HdrRatio" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
+										<Property Name="HdrReleaseTime" Type="Real64">
+											<ValueList>
+												<Value>0.08</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="HdrPeakOutputGameParameter">
+											<ObjectRef Name="HDR" ID="{55C58AA4-23D6-480D-B90F-D61064B4B0A0}" WorkUnitID="{9532220F-F6DA-417F-9DAC-FAB366854D8D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Bus Name="Ambience" ID="{D00AA00F-7DE1-49D0-98AE-36FAAF394B76}">
+											<PropertyList>
+												<Property Name="Color" Type="int16" Value="13"/>
+												<Property Name="OverrideColor" Type="bool" Value="True"/>
+											</PropertyList>
+											<ObjectLists>
+												<ObjectList Name="Effects">
+													<Reference>
+														<Local>
+															<EffectSlot Name="" ID="{4EEAC377-1FB8-4E78-93DE-4E9E2B8115A3}" ShortID="64226823">
+																<ReferenceList>
+																	<Reference Name="Effect">
+																		<Custom CreatedFrom="{08956998-4CE2-443F-B717-FE7A5C05D968}">
+																			<Effect Name="Sidechain_Low (Custom)" ID="{28C06AB5-2E82-44D2-86B0-014721121A21}" ShortID="878718995" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+																				<PropertyList>
+																					<Property Name="FrequencyBand1" Type="Real32" Value="243"/>
+																					<Property Name="OnOffBand2" Type="bool" Value="False"/>
+																					<Property Name="OnOffBand3" Type="bool" Value="False"/>
+																				</PropertyList>
+																				<ObjectLists>
+																					<ObjectList Name="RTPC">
+																						<Reference>
+																							<Local>
+																								<RTPC Name="" ID="{7A735B98-B999-4AB5-9BC1-63959510B9BE}" ShortID="176008677">
+																									<PropertyList>
+																										<Property Name="PropertyName" Type="string" Value="GainBand1"/>
+																									</PropertyList>
+																									<ReferenceList>
+																										<Reference Name="ControlInput">
+																											<ObjectRef Name="Sidechain_Low_UI" ID="{C971C7EE-664A-41B7-86FA-FE8683BD51BC}" WorkUnitID="{9532220F-F6DA-417F-9DAC-FAB366854D8D}"/>
+																										</Reference>
+																										<Reference Name="Curve">
+																											<Custom>
+																												<Curve Name="" ID="{7CF6A262-5D53-48BB-8091-D42F1D0245DF}">
+																													<PropertyList>
+																														<Property Name="Flags" Type="int32" Value="3"/>
+																													</PropertyList>
+																													<PointList>
+																														<Point>
+																															<XPos>-48</XPos>
+																															<YPos>0</YPos>
+																															<Flags>5</Flags>
+																														</Point>
+																														<Point>
+																															<XPos>-35</XPos>
+																															<YPos>0</YPos>
+																															<Flags>0</Flags>
+																															<SegmentShape>Log1</SegmentShape>
+																														</Point>
+																														<Point>
+																															<XPos>0</XPos>
+																															<YPos>-48</YPos>
+																															<Flags>37</Flags>
+																														</Point>
+																													</PointList>
+																												</Curve>
+																											</Custom>
+																										</Reference>
+																									</ReferenceList>
+																								</RTPC>
+																							</Local>
+																						</Reference>
+																						<Reference>
+																							<Local>
+																								<RTPC Name="" ID="{A2E621EF-D240-4BD4-BCB0-5210BCE704C1}" ShortID="778983726">
+																									<PropertyList>
+																										<Property Name="PropertyName" Type="string" Value="GainBand1"/>
+																									</PropertyList>
+																									<ReferenceList>
+																										<Reference Name="ControlInput">
+																											<ObjectRef Name="Sidechain_Low" ID="{051F9B13-D5FB-45E2-9395-A84BBB185DDE}" WorkUnitID="{9532220F-F6DA-417F-9DAC-FAB366854D8D}"/>
+																										</Reference>
+																										<Reference Name="Curve">
+																											<Custom>
+																												<Curve Name="" ID="{B00D9B39-AA61-4229-9568-921039F66427}">
+																													<PropertyList>
+																														<Property Name="Flags" Type="int32" Value="3"/>
+																													</PropertyList>
+																													<PointList>
+																														<Point>
+																															<XPos>-48</XPos>
+																															<YPos>0</YPos>
+																															<Flags>5</Flags>
+																														</Point>
+																														<Point>
+																															<XPos>-33.1581769436997</XPos>
+																															<YPos>0</YPos>
+																															<Flags>0</Flags>
+																															<SegmentShape>Log1</SegmentShape>
+																														</Point>
+																														<Point>
+																															<XPos>0</XPos>
+																															<YPos>-3.89811</YPos>
+																															<Flags>37</Flags>
+																														</Point>
+																													</PointList>
+																												</Curve>
+																											</Custom>
+																										</Reference>
+																									</ReferenceList>
+																								</RTPC>
+																							</Local>
+																						</Reference>
+																					</ObjectList>
+																				</ObjectLists>
+																			</Effect>
+																		</Custom>
+																	</Reference>
+																</ReferenceList>
+															</EffectSlot>
+														</Local>
+													</Reference>
+													<Reference>
+														<Local>
+															<EffectSlot Name="" ID="{E69D2669-5565-464E-A615-F0977F572693}" ShortID="459099430">
+																<ReferenceList>
+																	<Reference Name="Effect">
+																		<Custom CreatedFrom="{143FD56D-D023-4FA3-B1E1-111C3A25CD30}">
+																			<Effect Name="Sidechain_High (Custom)" ID="{47B3BBBB-AC09-4B4C-B46B-219AE336E18A}" ShortID="75405074" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+																				<PropertyList>
+																					<Property Name="FilterTypeBand1" Type="int32" Value="5"/>
+																					<Property Name="FrequencyBand1" Type="Real32" Value="2866"/>
+																					<Property Name="OnOffBand2" Type="bool" Value="False"/>
+																					<Property Name="OnOffBand3" Type="bool" Value="False"/>
+																				</PropertyList>
+																				<ObjectLists>
+																					<ObjectList Name="RTPC">
+																						<Reference>
+																							<Local>
+																								<RTPC Name="" ID="{27CCBEA8-2A99-48C6-AB72-70AFAA35AE40}" ShortID="32540977">
+																									<PropertyList>
+																										<Property Name="PropertyName" Type="string" Value="GainBand1"/>
+																									</PropertyList>
+																									<ReferenceList>
+																										<Reference Name="ControlInput">
+																											<ObjectRef Name="Sidechain_High_UI" ID="{8C6C66BF-0CA1-4C76-9D0E-664EB3258F4E}" WorkUnitID="{9532220F-F6DA-417F-9DAC-FAB366854D8D}"/>
+																										</Reference>
+																										<Reference Name="Curve">
+																											<Custom>
+																												<Curve Name="" ID="{F8E1466B-EE9A-425A-8948-10079527855B}">
+																													<PropertyList>
+																														<Property Name="Flags" Type="int32" Value="3"/>
+																													</PropertyList>
+																													<PointList>
+																														<Point>
+																															<XPos>-48</XPos>
+																															<YPos>0</YPos>
+																															<Flags>5</Flags>
+																														</Point>
+																														<Point>
+																															<XPos>-35</XPos>
+																															<YPos>-0.04996</YPos>
+																															<Flags>0</Flags>
+																															<SegmentShape>Log1</SegmentShape>
+																														</Point>
+																														<Point>
+																															<XPos>-0.00100000000000477</XPos>
+																															<YPos>-6.63654</YPos>
+																															<Flags>0</Flags>
+																														</Point>
+																														<Point>
+																															<XPos>0</XPos>
+																															<YPos>-6.63654</YPos>
+																															<Flags>37</Flags>
+																														</Point>
+																													</PointList>
+																												</Curve>
+																											</Custom>
+																										</Reference>
+																									</ReferenceList>
+																								</RTPC>
+																							</Local>
+																						</Reference>
+																						<Reference>
+																							<Local>
+																								<RTPC Name="" ID="{1A309B59-A5F2-4EE8-A5CA-EF8A71B9E31E}" ShortID="839887032">
+																									<PropertyList>
+																										<Property Name="PropertyName" Type="string" Value="GainBand1"/>
+																									</PropertyList>
+																									<ReferenceList>
+																										<Reference Name="ControlInput">
+																											<ObjectRef Name="Sidechain_High" ID="{C89BD2BC-A195-4E4C-84DB-FB9D74FB04A4}" WorkUnitID="{9532220F-F6DA-417F-9DAC-FAB366854D8D}"/>
+																										</Reference>
+																										<Reference Name="Curve">
+																											<Custom>
+																												<Curve Name="" ID="{BFB5BD9E-085E-4DA3-96CC-6C09CB0F66CD}">
+																													<PropertyList>
+																														<Property Name="Flags" Type="int32" Value="3"/>
+																													</PropertyList>
+																													<PointList>
+																														<Point>
+																															<XPos>-48</XPos>
+																															<YPos>0</YPos>
+																															<Flags>5</Flags>
+																														</Point>
+																														<Point>
+																															<XPos>-35.1313672922252</XPos>
+																															<YPos>0</YPos>
+																															<Flags>0</Flags>
+																															<SegmentShape>Log1</SegmentShape>
+																														</Point>
+																														<Point>
+																															<XPos>0</XPos>
+																															<YPos>-3.7717</YPos>
+																															<Flags>37</Flags>
+																														</Point>
+																													</PointList>
+																												</Curve>
+																											</Custom>
+																										</Reference>
+																									</ReferenceList>
+																								</RTPC>
+																							</Local>
+																						</Reference>
+																					</ObjectList>
+																				</ObjectLists>
+																			</Effect>
+																		</Custom>
+																	</Reference>
+																</ReferenceList>
+															</EffectSlot>
+														</Local>
+													</Reference>
+												</ObjectList>
+												<ObjectList Name="RTPC">
+													<Reference>
+														<Local>
+															<RTPC Name="" ID="{6D895FE4-D66F-4991-AECE-79E013638B1A}" ShortID="258132326">
+																<PropertyList>
+																	<Property Name="PropertyName" Type="string" Value="Lowpass"/>
+																</PropertyList>
+																<ReferenceList>
+																	<Reference Name="ControlInput">
+																		<ObjectRef Name="Crouch_Pass" ID="{B420C446-931D-46F2-A13F-54B3891CC04F}" WorkUnitID="{9532220F-F6DA-417F-9DAC-FAB366854D8D}"/>
+																	</Reference>
+																	<Reference Name="Curve">
+																		<Custom>
+																			<Curve Name="" ID="{9A049274-C87A-4768-927B-985C8B320F20}">
+																				<PropertyList>
+																					<Property Name="Flags" Type="int32" Value="65537"/>
+																				</PropertyList>
+																				<PointList>
+																					<Point>
+																						<XPos>0</XPos>
+																						<YPos>0</YPos>
+																						<Flags>5</Flags>
+																					</Point>
+																					<Point>
+																						<XPos>1</XPos>
+																						<YPos>69</YPos>
+																						<Flags>37</Flags>
+																					</Point>
+																				</PointList>
+																			</Curve>
+																		</Custom>
+																	</Reference>
+																</ReferenceList>
+															</RTPC>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</Bus>
+										<Bus Name="Player" ID="{E4909E3C-EBCB-4EEC-ACDF-E826289BFA42}">
+											<PropertyList>
+												<Property Name="Color" Type="int16" Value="15"/>
+												<Property Name="OverrideColor" Type="bool" Value="True"/>
+												<Property Name="ReflectionsVolume" Type="Real64">
+													<ValueList>
+														<Value>-9</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="UserAuxSend0">
+													<ObjectRef Name="Sidechain_Low" ID="{7A0323CF-47E7-4A2D-B4A3-13957CDBA819}" WorkUnitID="{17F379C2-E719-4DC1-BE64-5433F12CA0DE}"/>
+												</Reference>
+												<Reference Name="UserAuxSend1">
+													<ObjectRef Name="Sidechain_High" ID="{04303727-4ED9-4BFE-8454-40B742F221AA}" WorkUnitID="{17F379C2-E719-4DC1-BE64-5433F12CA0DE}"/>
+												</Reference>
+											</ReferenceList>
+											<ObjectLists>
+												<ObjectList Name="Effects">
+													<Reference>
+														<Local>
+															<EffectSlot Name="" ID="{52933744-4554-4AEF-8A0B-90A820105CAB}" ShortID="841000250">
+																<ReferenceList>
+																	<Reference Name="Effect" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+																		<ObjectRef Name="Sidechain_Low" ID="{08956998-4CE2-443F-B717-FE7A5C05D968}" WorkUnitID="{828A4124-51DF-4D2A-9685-BF6E5917FBAD}"/>
+																	</Reference>
+																</ReferenceList>
+															</EffectSlot>
+														</Local>
+													</Reference>
+													<Reference>
+														<Local>
+															<EffectSlot Name="" ID="{9DCF4764-179B-4BA5-8421-E3AF39599071}" ShortID="145711324">
+																<ReferenceList>
+																	<Reference Name="Effect" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+																		<ObjectRef Name="Sidechain_High" ID="{143FD56D-D023-4FA3-B1E1-111C3A25CD30}" WorkUnitID="{828A4124-51DF-4D2A-9685-BF6E5917FBAD}"/>
+																	</Reference>
+																</ReferenceList>
+															</EffectSlot>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</Bus>
+										<Bus Name="Weapons" ID="{1FC70217-95D9-4171-BDDC-45299D414EC1}">
+											<PropertyList>
+												<Property Name="Color" Type="int16" Value="5"/>
+												<Property Name="OverrideColor" Type="bool" Value="True"/>
+												<Property Name="ReflectionsVolume" Type="Real64">
+													<ValueList>
+														<Value>-9</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="UserAuxSend0">
+													<ObjectRef Name="Sidechain_High" ID="{04303727-4ED9-4BFE-8454-40B742F221AA}" WorkUnitID="{17F379C2-E719-4DC1-BE64-5433F12CA0DE}"/>
+												</Reference>
+												<Reference Name="UserAuxSend1">
+													<ObjectRef Name="Sidechain_Low" ID="{7A0323CF-47E7-4A2D-B4A3-13957CDBA819}" WorkUnitID="{17F379C2-E719-4DC1-BE64-5433F12CA0DE}"/>
+												</Reference>
+											</ReferenceList>
+											<ObjectLists>
+												<ObjectList Name="Effects">
+													<Reference>
+														<Local>
+															<EffectSlot Name="" ID="{6DB10AE9-7308-4928-A02E-ADF3E5F165E6}" ShortID="892564139">
+																<ReferenceList>
+																	<Reference Name="Effect" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+																		<ObjectRef Name="Sidechain_Low" ID="{08956998-4CE2-443F-B717-FE7A5C05D968}" WorkUnitID="{828A4124-51DF-4D2A-9685-BF6E5917FBAD}"/>
+																	</Reference>
+																</ReferenceList>
+															</EffectSlot>
+														</Local>
+													</Reference>
+													<Reference>
+														<Local>
+															<EffectSlot Name="" ID="{C55A77EB-75F5-4E8F-9BF7-ED517BC3FEA2}" ShortID="682587215">
+																<ReferenceList>
+																	<Reference Name="Effect" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+																		<ObjectRef Name="Sidechain_High" ID="{143FD56D-D023-4FA3-B1E1-111C3A25CD30}" WorkUnitID="{828A4124-51DF-4D2A-9685-BF6E5917FBAD}"/>
+																	</Reference>
+																</ReferenceList>
+															</EffectSlot>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</Bus>
+									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo>
+												<StateGroupRef Name="ExplosionState" ID="{F231351B-E6DD-42E0-80BD-D14677E13B62}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="Normal" ID="{115E5712-F181-4756-BA05-0E11B54CBDBA}"/>
+												<CustomState Name="" ID="{0A0AB3A5-0949-4868-8D11-8F85EDA8E87C}" ShortID="578994616"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="HighPass" ID="{C53AAF15-17C8-4DD8-A911-5667D6AD7F85}"/>
+												<CustomState Name="" ID="{A249B057-63DA-431E-BFC9-7D8A8CBABF2A}" ShortID="689413738">
+													<PropertyList>
+														<Property Name="Highpass" Type="int16" Value="58"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
+								</Bus>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Non-World" ID="{BF3931FB-413E-4CBA-8BC0-0A4AD1E4F75D}" ShortID="1056927525">
+							<ChildrenList>
+								<Bus Name="UI" ID="{6F4FA9D3-4A59-4827-AFCD-33F806F0FF3F}">
+									<PropertyList>
+										<Property Name="Color" Type="int16" Value="2"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="UserAuxSend0">
+											<ObjectRef Name="Sidechain_Low_UI" ID="{11DEB295-75FB-4A54-A160-86D77669CA4D}" WorkUnitID="{17F379C2-E719-4DC1-BE64-5433F12CA0DE}"/>
+										</Reference>
+										<Reference Name="UserAuxSend1">
+											<ObjectRef Name="Sidechain_High_UI" ID="{5D0326AE-1C63-42E2-9494-F8DC9B105989}" WorkUnitID="{17F379C2-E719-4DC1-BE64-5433F12CA0DE}"/>
+										</Reference>
+									</ReferenceList>
+									<ObjectLists>
+										<ObjectList Name="RTPC">
+											<Reference>
+												<Local>
+													<RTPC Name="" ID="{96E928C9-496C-4611-82D3-007B1AC8E63E}" ShortID="225976886">
+														<PropertyList>
+															<Property Name="PropertyName" Type="string" Value="Lowpass"/>
+														</PropertyList>
+														<ReferenceList>
+															<Reference Name="ControlInput">
+																<ObjectRef Name="Crouch_Pass" ID="{B420C446-931D-46F2-A13F-54B3891CC04F}" WorkUnitID="{9532220F-F6DA-417F-9DAC-FAB366854D8D}"/>
+															</Reference>
+															<Reference Name="Curve">
+																<Custom>
+																	<Curve Name="" ID="{CE1B4E86-79A4-4458-B277-36B5A3FD46F0}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="65537"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>1</XPos>
+																				<YPos>62</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</Custom>
+															</Reference>
+														</ReferenceList>
+													</RTPC>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+									<DuckingList>
+										<DuckItem>
+											<BusRef Name="Ambience" ID="{D00AA00F-7DE1-49D0-98AE-36FAAF394B76}"/>
+											<DuckingParam>
+												<Volume>-6</Volume>
+												<FadeInTime>1.5</FadeInTime>
+												<FadeOutTime>1.5</FadeOutTime>
+												<FadeCurve>FadeLog1</FadeCurve>
+											</DuckingParam>
+										</DuckItem>
+										<DuckItem>
+											<BusRef Name="MX" ID="{E696AA33-B3A6-4188-9240-6790A88B07B3}"/>
+											<DuckingParam>
+												<Volume>-4.5</Volume>
+												<FadeInTime>0.5</FadeInTime>
+												<FadeOutTime>1</FadeOutTime>
+												<FadeCurve>FadeLog2</FadeCurve>
+											</DuckingParam>
+										</DuckItem>
+										<DuckItem>
+											<BusRef Name="Player" ID="{E4909E3C-EBCB-4EEC-ACDF-E826289BFA42}"/>
+											<DuckingParam>
+												<Volume>-2</Volume>
+												<FadeInTime>1</FadeInTime>
+												<FadeOutTime>1</FadeOutTime>
+												<FadeCurve>FadeLog1</FadeCurve>
+											</DuckingParam>
+										</DuckItem>
+										<DuckItem>
+											<BusRef Name="Weapons" ID="{1FC70217-95D9-4171-BDDC-45299D414EC1}"/>
+											<DuckingParam>
+												<Volume>-2</Volume>
+												<FadeInTime>1</FadeInTime>
+												<FadeOutTime>1</FadeOutTime>
+												<FadeCurve>FadeLog2</FadeCurve>
+											</DuckingParam>
+										</DuckItem>
+									</DuckingList>
+								</Bus>
+								<Bus Name="MX" ID="{E696AA33-B3A6-4188-9240-6790A88B07B3}">
+									<PropertyList>
+										<Property Name="BusVolume" Type="Real64">
+											<ValueList>
+												<Value>-2</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Color" Type="int16" Value="24"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+									</PropertyList>
+									<ObjectLists>
+										<ObjectList Name="Effects">
+											<Reference>
+												<Local>
+													<EffectSlot Name="" ID="{097F1AD7-2E37-474E-9A2B-38C63F37E6BB}" ShortID="419635420">
+														<ReferenceList>
+															<Reference Name="Effect" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+																<ObjectRef Name="Sidechain_High" ID="{143FD56D-D023-4FA3-B1E1-111C3A25CD30}" WorkUnitID="{828A4124-51DF-4D2A-9685-BF6E5917FBAD}"/>
+															</Reference>
+														</ReferenceList>
+													</EffectSlot>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<EffectSlot Name="" ID="{A169ECC5-9A85-4B18-B2BD-B763B9D300D3}" ShortID="118390549">
+														<ReferenceList>
+															<Reference Name="Effect" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+																<ObjectRef Name="Sidechain_Low" ID="{08956998-4CE2-443F-B717-FE7A5C05D968}" WorkUnitID="{828A4124-51DF-4D2A-9685-BF6E5917FBAD}"/>
+															</Reference>
+														</ReferenceList>
+													</EffectSlot>
+												</Local>
+											</Reference>
+										</ObjectList>
+										<ObjectList Name="RTPC">
+											<Reference>
+												<Local>
+													<RTPC Name="" ID="{9C39C4CE-49BF-457C-9683-C6086584A340}" ShortID="29171606">
+														<PropertyList>
+															<Property Name="PropertyName" Type="string" Value="Lowpass"/>
+														</PropertyList>
+														<ReferenceList>
+															<Reference Name="ControlInput">
+																<ObjectRef Name="Crouch_Pass" ID="{B420C446-931D-46F2-A13F-54B3891CC04F}" WorkUnitID="{9532220F-F6DA-417F-9DAC-FAB366854D8D}"/>
+															</Reference>
+															<Reference Name="Curve">
+																<Custom>
+																	<Curve Name="" ID="{9A7BB658-512D-4779-B31F-ABB3AA14066A}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="65537"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>1</XPos>
+																				<YPos>69</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</Custom>
+															</Reference>
+														</ReferenceList>
+													</RTPC>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</Bus>
+							</ChildrenList>
+						</Folder>
+						<Bus Name="Sidechain_UI" ID="{E4AE2376-41A6-408F-8C69-8D0DB0088AE8}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="4"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<AuxBus Name="Sidechain_Low_UI" ID="{11DEB295-75FB-4A54-A160-86D77669CA4D}">
+									<ObjectLists>
+										<ObjectList Name="Effects">
+											<Reference>
+												<Local>
+													<EffectSlot Name="" ID="{4CF13E41-1846-4718-9AA2-63C3F84A73DD}" ShortID="1065896409">
+														<ReferenceList>
+															<Reference Name="Effect">
+																<Custom>
+																	<Effect Name="Parametric EQ (Custom)" ID="{1BD98D28-3371-4CC9-88F1-AA912CA9C3BE}" ShortID="465488096" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+																		<PropertyList>
+																			<Property Name="FilterTypeBand1" Type="int32" Value="0"/>
+																			<Property Name="FrequencyBand1" Type="Real32" Value="258"/>
+																			<Property Name="OnOffBand2" Type="bool" Value="False"/>
+																			<Property Name="OnOffBand3" Type="bool" Value="False"/>
+																			<Property Name="QFactorBand1" Type="Real32" Value="0.5"/>
+																		</PropertyList>
+																	</Effect>
+																</Custom>
+															</Reference>
+														</ReferenceList>
+													</EffectSlot>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<EffectSlot Name="" ID="{4A94E896-FE20-4FD5-90AE-38FC9BF29055}" ShortID="945817110">
+														<ReferenceList>
+															<Reference Name="Effect">
+																<Custom>
+																	<Effect Name="Meter (Custom)" ID="{06D269DA-8779-4E89-B4C7-7630CBFBD70A}" ShortID="3408413" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">
+																		<PropertyList>
+																			<Property Name="Hold" Type="Real32" Value="0.16"/>
+																			<Property Name="Min" Type="Real32" Value="-52.6"/>
+																		</PropertyList>
+																		<PluginData>
+	<GameParameter Name="Sidechain_Low_UI" ID="{C971C7EE-664A-41B7-86FA-FE8683BD51BC}"/>
+</PluginData>
+																	</Effect>
+																</Custom>
+															</Reference>
+														</ReferenceList>
+													</EffectSlot>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</AuxBus>
+								<AuxBus Name="Sidechain_High_UI" ID="{5D0326AE-1C63-42E2-9494-F8DC9B105989}">
+									<ObjectLists>
+										<ObjectList Name="Effects">
+											<Reference>
+												<Local>
+													<EffectSlot Name="" ID="{01D8E749-77E6-4DC1-A48D-CF20E935D88F}" ShortID="220244635">
+														<ReferenceList>
+															<Reference Name="Effect">
+																<Custom>
+																	<Effect Name="Parametric EQ (Custom)" ID="{E6047FF2-2159-4494-AA4F-9F684745DAF2}" ShortID="898880639" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+																		<PropertyList>
+																			<Property Name="FilterTypeBand2" Type="int32" Value="1"/>
+																			<Property Name="FrequencyBand2" Type="Real32" Value="1861"/>
+																			<Property Name="FrequencyBand3" Type="Real32" Value="9650"/>
+																			<Property Name="OnOffBand1" Type="bool" Value="False"/>
+																			<Property Name="OnOffBand3" Type="bool" Value="False"/>
+																			<Property Name="QFactorBand2" Type="Real32" Value="0.5"/>
+																		</PropertyList>
+																	</Effect>
+																</Custom>
+															</Reference>
+														</ReferenceList>
+													</EffectSlot>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<EffectSlot Name="" ID="{255BBBAF-A04F-435D-8D17-0835DB65C5A6}" ShortID="582495456">
+														<ReferenceList>
+															<Reference Name="Effect">
+																<Custom>
+																	<Effect Name="Meter (Custom)" ID="{D4B1CAB3-4F92-4607-B5A0-96592C8D98B6}" ShortID="187629857" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">
+																		<PropertyList>
+																			<Property Name="Hold" Type="Real32" Value="0.26"/>
+																		</PropertyList>
+																		<PluginData>
+	<GameParameter Name="Sidechain_High_UI" ID="{8C6C66BF-0CA1-4C76-9D0E-664EB3258F4E}"/>
+</PluginData>
+																	</Effect>
+																</Custom>
+															</Reference>
+														</ReferenceList>
+													</EffectSlot>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</AuxBus>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Effects">
+									<Reference>
+										<Local>
+											<EffectSlot Name="" ID="{C2F9759D-9F56-4DF9-867E-FF3127859B68}" ShortID="166425310">
+												<ReferenceList>
+													<Reference Name="Effect">
+														<Custom>
+															<Effect Name="Gain (Custom)" ID="{59A80B82-82A9-408F-BD41-DEB177AB79DB}" ShortID="462956227" PluginName="Wwise Gain" CompanyID="0" PluginID="139" PluginType="3">
+																<PropertyList>
+																	<Property Name="FullBandGain" Type="Real32" Value="-96.3"/>
+																</PropertyList>
+															</Effect>
+														</Custom>
+													</Reference>
+												</ReferenceList>
+											</EffectSlot>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</Bus>
+					</ChildrenList>
+				</Bus>
+			</ChildrenList>
+		</WorkUnit>
+	</Busses>
+</WwiseDocument>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{A20BE923-96A7-44DE-9457-2624A42E4431}" SchemaVersion="119">
+	<States>
+		<WorkUnit Name="Default Work Unit" ID="{A20BE923-96A7-44DE-9457-2624A42E4431}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="MXState" ID="{C288704A-B086-47EB-B393-58D5BD27A544}">
+					<ChildrenList>
+						<State Name="None" ID="{3176CA47-4C4C-44E7-9EDE-2C0510EB510A}"/>
+						<State Name="Play" ID="{E1623B7A-6525-4A48-8BD9-80864225B645}"/>
+						<State Name="Finish" ID="{10ED7AED-CABF-4890-8918-FCB7723353C4}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="CroushState" ID="{2BACAFE5-0006-40B5-8A5E-E322CB65C041}">
+					<ChildrenList>
+						<State Name="None" ID="{1B420D75-7261-4142-B8D1-904B8F531E89}"/>
+						<State Name="Crouched" ID="{497A333D-5007-47CB-A8D2-48C9C4E1CF20}"/>
+						<State Name="Uncrouched" ID="{0D2BD66C-662D-4A61-96E2-86ED0A398B9C}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="ExplosionState" ID="{F231351B-E6DD-42E0-80BD-D14677E13B62}">
+					<ChildrenList>
+						<State Name="None" ID="{CD3DAA51-D5C5-4366-9CCE-CE3DDE1C8A1F}"/>
+						<State Name="HighPass" ID="{C53AAF15-17C8-4DD8-A911-5667D6AD7F85}"/>
+						<State Name="Normal" ID="{115E5712-F181-4756-BA05-0E11B54CBDBA}"/>
+					</ChildrenList>
+					<TransitionList>
+						<Transition>
+							<StartState Name="HighPass" ID="{C53AAF15-17C8-4DD8-A911-5667D6AD7F85}"/>
+							<EndState Name="Normal" ID="{115E5712-F181-4756-BA05-0E11B54CBDBA}"/>
+							<Time>4</Time>
+							<IsShared>false</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="Normal" ID="{115E5712-F181-4756-BA05-0E11B54CBDBA}"/>
+							<EndState Name="HighPass" ID="{C53AAF15-17C8-4DD8-A911-5667D6AD7F85}"/>
+							<Time>1.2</Time>
+							<IsShared>false</IsShared>
+						</Transition>
+					</TransitionList>
+				</StateGroup>
+				<StateGroup Name="APS_Focus" ID="{388FBFC5-6C84-4B56-B4BA-DB0BF9D6F2AA}">
+					<ChildrenList>
+						<State Name="None" ID="{2A78E2D0-3CB6-4264-9FCD-FD23D20E9966}"/>
+						<State Name="Focused" ID="{11FCF506-296C-4AC4-A46E-1EE33F683C71}"/>
+						<State Name="Unfocused" ID="{6E5EEAA1-7FA7-4D71-854F-85A01AAFA44F}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</States>
+</WwiseDocument>

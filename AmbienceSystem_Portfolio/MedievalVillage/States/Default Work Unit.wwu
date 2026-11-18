@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{D7257679-AC07-4378-8732-A9B3BE48686D}" SchemaVersion="119">
+	<States>
+		<WorkUnit Name="Default Work Unit" ID="{D7257679-AC07-4378-8732-A9B3BE48686D}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="Area" ID="{DD35175E-C4B7-4DC8-9E70-4C8CCB03A284}">
+					<ChildrenList>
+						<State Name="None" ID="{637147D3-FE8A-47A6-9FF5-C3224288CE98}"/>
+						<State Name="Forest" ID="{A03205E1-466B-418E-A0ED-31123474978E}"/>
+						<State Name="Field" ID="{6BCB001B-7464-41DE-94FC-9A3C55A26F28}"/>
+						<State Name="Village" ID="{B6E02AC0-4F2F-45B6-BE02-8FB238D276AA}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="ExteriorCheck" ID="{F11F2A52-37F0-486C-A7C2-1688FA404EC5}">
+					<ChildrenList>
+						<State Name="None" ID="{2F678026-7235-42BB-9654-81BFCFD1A46E}"/>
+						<State Name="Building" ID="{6BA492DB-6EC2-42F6-9E20-A689B4E0B8DD}"/>
+						<State Name="Interior" ID="{27C5F190-8123-49ED-86F7-6F54F99E8BCD}"/>
+						<State Name="Exterior" ID="{791859CC-E4C9-49E3-8DFE-A50ACF426813}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</States>
+</WwiseDocument>

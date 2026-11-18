@@ -1,0 +1,40 @@
+State Group	ID	Name			Wwise Object Path	Notes
+	1176860857	ExteriorCheck			\Default Work Unit\ExteriorCheck	
+	3686139462	Area			\Default Work Unit\Area	
+
+State	ID	Name	State Group			Notes
+	748895195	None	ExteriorCheck			
+	1132214669	Interior	ExteriorCheck			
+	2213992659	Exterior	ExteriorCheck			
+	3339761385	Building	ExteriorCheck			
+	491961918	Forest	Area			
+	514358619	Field	Area			
+	748895195	None	Area			
+	3945572659	Village	Area			
+
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	85412153	Ambience			\Default Work Unit\Master Audio Bus\Ambience	
+	348963605	Reverb			\Default Work Unit\Master Audio Bus\Reverb	
+	599996866	2D_Ambience			\Default Work Unit\Master Audio Bus\Ambience\2D_Ambience	
+	603313991	3D_Ambience			\Default Work Unit\Master Audio Bus\Ambience\3D_Ambience	
+	1537061107	Wind			\Default Work Unit\Master Audio Bus\Ambience\3D_Ambience\Wind	
+	2129636626	Movement			\Default Work Unit\Master Audio Bus\Movement	
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	12377074	Forge			\Default Work Unit\Master Audio Bus\Reverb\Forge	
+	491961918	Forest			\Default Work Unit\Master Audio Bus\Reverb\Forest	
+	514358619	Field			\Default Work Unit\Master Audio Bus\Reverb\Field	
+	3945572659	Village			\Default Work Unit\Master Audio Bus\Reverb\Village	
+
+Effect plug-ins	ID	Name	Type				Notes
+	275564784	Have_U_Ever_Been_Outside (Custom)	Wwise RoomVerb			
+	960098761	Meter (Custom)	Wwise Meter			
+	1014145253	Room_Medium (Custom)	Wwise RoomVerb			
+	1061204808	Have_U_Ever_Been_Outside (Custom)	Wwise RoomVerb			
+	1073288824	Have_U_Ever_Been_Outside (Custom)	Wwise RoomVerb			
+
+Audio Devices	ID	Name	Type				Notes
+	2317455096	No_Output	No Output			
+	3859886410	System	System			
+

@@ -1,0 +1,1304 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{3233B393-9F70-48EC-A329-1906449E59D4}" SchemaVersion="119" RootDocumentID="{6002CD08-2212-4B1C-9EE5-35D4641AB3F8}" ParentDocumentID="{6002CD08-2212-4B1C-9EE5-35D4641AB3F8}">
+	<AudioObjects>
+		<WorkUnit Name="Movement" ID="{3233B393-9F70-48EC-A329-1906449E59D4}" OwnerID="{6002CD08-2212-4B1C-9EE5-35D4641AB3F8}" PersistMode="Nested">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="2"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<ActorMixer Name="Footsteps_Container" ID="{0C61DFA5-2613-4EEC-860A-E7001ED8C7BB}" ShortID="702821090">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BF29FAC5-1320-47BE-8CB3-E5F6CF9FA6D8}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Movement" ID="{990EDA90-E229-45DA-8B10-98A9253F2737}" WorkUnitID="{05F5F81D-DB58-459A-9179-417346193955}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<BlendContainer Name="Footstep_Blend" ID="{206C5141-A950-4790-99DD-19276B4889E1}" ShortID="41472509">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{FA5B6BC3-DCE1-4E1D-A3FE-ED404BE0ED55}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="227"/>
+													<Property Name="Min" Type="Real64" Value="-253"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-6</Value>
+									</ValueList>
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{C18C4CDB-F30C-4208-9CE9-244CB96EE120}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="2"/>
+													<Property Name="Min" Type="Real64" Value="-3"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BF29FAC5-1320-47BE-8CB3-E5F6CF9FA6D8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{05F5F81D-DB58-459A-9179-417346193955}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<SwitchContainer Name="Walk" ID="{E40D6254-61C3-4118-BBB4-C12AD9A62D7D}" ShortID="680734692">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-1</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BF29FAC5-1320-47BE-8CB3-E5F6CF9FA6D8}"/>
+										</Reference>
+										<Reference Name="DefaultSwitchOrState">
+											<ObjectRef Name="Dirt" ID="{A030F214-A9CE-411A-BC29-87880035704E}" WorkUnitID="{63544C6E-7B11-4ED2-8B6C-465CD4D8F010}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Movement" ID="{990EDA90-E229-45DA-8B10-98A9253F2737}" WorkUnitID="{05F5F81D-DB58-459A-9179-417346193955}"/>
+										</Reference>
+										<Reference Name="SwitchGroupOrStateGroup">
+											<ObjectRef Name="Footstep_PhysicalMaterials" ID="{500074DF-4F47-432E-AF11-7CD39E372926}" WorkUnitID="{63544C6E-7B11-4ED2-8B6C-465CD4D8F010}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<RandomSequenceContainer Name="Dirt_Walk" ID="{3EF185BA-337F-40E4-BE84-EE5D4540819F}" ShortID="15507446">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>4</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BF29FAC5-1320-47BE-8CB3-E5F6CF9FA6D8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{05F5F81D-DB58-459A-9179-417346193955}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="MVAMB_MVMT_Dirt_Walk_01" ID="{7C8F4589-27D1-4FE0-9905-BEB04C9A8B84}" ShortID="678611541">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BF29FAC5-1320-47BE-8CB3-E5F6CF9FA6D8}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{05F5F81D-DB58-459A-9179-417346193955}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="MVAMB_MVMT_Dirt_Walk_01" ID="{831B10E9-BD50-40E0-89DC-95008A773BA6}">
+															<Language>SFX</Language>
+															<AudioFile>MVAMB_MVMT_Dirt_Walk_01.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="269688864"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="MVAMB_MVMT_Dirt_Walk_01" ID="{831B10E9-BD50-40E0-89DC-95008A773BA6}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="MVAMB_MVMT_Dirt_Walk_02" ID="{54539950-2078-44BC-983C-FE6956A4838C}" ShortID="740086562">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BF29FAC5-1320-47BE-8CB3-E5F6CF9FA6D8}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{05F5F81D-DB58-459A-9179-417346193955}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="MVAMB_MVMT_Dirt_Walk_02" ID="{B2A72FC9-1F92-4267-B3D3-3E66FF13F56C}">
+															<Language>SFX</Language>
+															<AudioFile>MVAMB_MVMT_Dirt_Walk_02.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="1877740"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="MVAMB_MVMT_Dirt_Walk_02" ID="{B2A72FC9-1F92-4267-B3D3-3E66FF13F56C}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="MVAMB_MVMT_Dirt_Walk_03" ID="{7ABA5C62-D99E-471D-8B6C-ACD67938662B}" ShortID="774428641">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BF29FAC5-1320-47BE-8CB3-E5F6CF9FA6D8}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{05F5F81D-DB58-459A-9179-417346193955}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="MVAMB_MVMT_Dirt_Walk_03" ID="{789DC338-53F2-4175-8930-EB4F6E3007E6}">
+															<Language>SFX</Language>
+															<AudioFile>MVAMB_MVMT_Dirt_Walk_03.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="113312526"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="MVAMB_MVMT_Dirt_Walk_03" ID="{789DC338-53F2-4175-8930-EB4F6E3007E6}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="MVAMB_MVMT_Dirt_Walk_04" ID="{53FF3A81-E338-4072-B579-DA2A13358544}" ShortID="45854194">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BF29FAC5-1320-47BE-8CB3-E5F6CF9FA6D8}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{05F5F81D-DB58-459A-9179-417346193955}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="MVAMB_MVMT_Dirt_Walk_04" ID="{B798AB2D-C0A9-4AC3-B007-804A22B4AF09}">
+															<Language>SFX</Language>
+															<AudioFile>MVAMB_MVMT_Dirt_Walk_04.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="800522768"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="MVAMB_MVMT_Dirt_Walk_04" ID="{B798AB2D-C0A9-4AC3-B007-804A22B4AF09}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="MVAMB_MVMT_Dirt_Walk_05" ID="{3302C831-E5F9-4834-828F-D50788317CCE}" ShortID="96537594">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BF29FAC5-1320-47BE-8CB3-E5F6CF9FA6D8}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{05F5F81D-DB58-459A-9179-417346193955}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="MVAMB_MVMT_Dirt_Walk_05" ID="{E27F7309-5D21-437D-9878-36F294E526B3}">
+															<Language>SFX</Language>
+															<AudioFile>MVAMB_MVMT_Dirt_Walk_05.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="193214997"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="MVAMB_MVMT_Dirt_Walk_05" ID="{E27F7309-5D21-437D-9878-36F294E526B3}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="MVAMB_MVMT_Dirt_Walk_06" ID="{66BECCD7-96D1-4A26-A472-41AB1B3AFA2D}" ShortID="214034722">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BF29FAC5-1320-47BE-8CB3-E5F6CF9FA6D8}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{05F5F81D-DB58-459A-9179-417346193955}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="MVAMB_MVMT_Dirt_Walk_06" ID="{B3E92B02-29C3-49E0-9FDD-ACFFCBEA3A46}">
+															<Language>SFX</Language>
+															<AudioFile>MVAMB_MVMT_Dirt_Walk_06.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="303160349"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="MVAMB_MVMT_Dirt_Walk_06" ID="{B3E92B02-29C3-49E0-9FDD-ACFFCBEA3A46}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Grass_Walk" ID="{2E8888C4-314D-483D-976A-AD180B9AD3AF}" ShortID="543617875">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>1</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BF29FAC5-1320-47BE-8CB3-E5F6CF9FA6D8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{05F5F81D-DB58-459A-9179-417346193955}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="MVAMB_MVMT_Foliage_Walk_01" ID="{E946AD50-1BE0-4E7C-9721-347A4C2388B1}" ShortID="396350697">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BF29FAC5-1320-47BE-8CB3-E5F6CF9FA6D8}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{05F5F81D-DB58-459A-9179-417346193955}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="MVAMB_MVMT_Foliage_Walk_01" ID="{A46014F5-C73B-4A1D-842A-4C220C0A3D4B}">
+															<Language>SFX</Language>
+															<AudioFile>MVAMB_MVMT_Foliage_Walk_01.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="876968200"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="MVAMB_MVMT_Foliage_Walk_01" ID="{A46014F5-C73B-4A1D-842A-4C220C0A3D4B}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="MVAMB_MVMT_Foliage_Walk_02" ID="{7B40B947-5739-47F2-A76B-4543D3EE9D88}" ShortID="376872252">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BF29FAC5-1320-47BE-8CB3-E5F6CF9FA6D8}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{05F5F81D-DB58-459A-9179-417346193955}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="MVAMB_MVMT_Foliage_Walk_02" ID="{BA8A3133-0CD2-4748-8389-58CF550EC246}">
+															<Language>SFX</Language>
+															<AudioFile>MVAMB_MVMT_Foliage_Walk_02.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="839843995"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="MVAMB_MVMT_Foliage_Walk_02" ID="{BA8A3133-0CD2-4748-8389-58CF550EC246}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="MVAMB_MVMT_Foliage_Walk_03" ID="{F8045FC7-F41F-4113-A706-9A39BD2B4CC6}" ShortID="442953252">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BF29FAC5-1320-47BE-8CB3-E5F6CF9FA6D8}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{05F5F81D-DB58-459A-9179-417346193955}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="MVAMB_MVMT_Foliage_Walk_03" ID="{428DBE6E-5664-417D-966C-07D0B68382F8}">
+															<Language>SFX</Language>
+															<AudioFile>MVAMB_MVMT_Foliage_Walk_03.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="358767849"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="MVAMB_MVMT_Foliage_Walk_03" ID="{428DBE6E-5664-417D-966C-07D0B68382F8}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="MVAMB_MVMT_Foliage_Walk_04" ID="{220A0B12-7703-41E7-9E4A-DE4990C6AE5D}" ShortID="645427161">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BF29FAC5-1320-47BE-8CB3-E5F6CF9FA6D8}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{05F5F81D-DB58-459A-9179-417346193955}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="MVAMB_MVMT_Foliage_Walk_04" ID="{C1868327-C67D-4F21-A8EF-66962C674327}">
+															<Language>SFX</Language>
+															<AudioFile>MVAMB_MVMT_Foliage_Walk_04.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="113241377"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="MVAMB_MVMT_Foliage_Walk_04" ID="{C1868327-C67D-4F21-A8EF-66962C674327}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="MVAMB_MVMT_Foliage_Walk_05" ID="{A703BAFE-6ECE-487A-89F1-803DDFBC17FD}" ShortID="527601134">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BF29FAC5-1320-47BE-8CB3-E5F6CF9FA6D8}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{05F5F81D-DB58-459A-9179-417346193955}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="MVAMB_MVMT_Foliage_Walk_05" ID="{159622E3-4066-4945-8701-E71C113256F0}">
+															<Language>SFX</Language>
+															<AudioFile>MVAMB_MVMT_Foliage_Walk_05.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="42768234"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="MVAMB_MVMT_Foliage_Walk_05" ID="{159622E3-4066-4945-8701-E71C113256F0}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<StateInfo>
+												<StateGroupList>
+													<StateGroupInfo>
+														<StateGroupRef Name="Area" ID="{DD35175E-C4B7-4DC8-9E70-4C8CCB03A284}"/>
+													</StateGroupInfo>
+												</StateGroupList>
+												<CustomStateList>
+													<CustomState>
+														<StateRef Name="Forest" ID="{A03205E1-466B-418E-A0ED-31123474978E}"/>
+														<CustomState Name="" ID="{E48116A8-FE10-4173-A7E7-0956DCC83206}" ShortID="690044431"/>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Field" ID="{6BCB001B-7464-41DE-94FC-9A3C55A26F28}"/>
+														<CustomState Name="" ID="{EEC3C320-F38C-4B62-8269-7C516DA29F72}" ShortID="868667524">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-108"/>
+															</PropertyList>
+														</CustomState>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Village" ID="{B6E02AC0-4F2F-45B6-BE02-8FB238D276AA}"/>
+														<CustomState Name="" ID="{5767CB44-7BCA-48C7-9A4E-FAA739DDEBE7}" ShortID="715076430">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-108"/>
+															</PropertyList>
+														</CustomState>
+													</CustomState>
+												</CustomStateList>
+											</StateInfo>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Wood_Walk" ID="{D264DBD9-D400-40CE-8ED7-EC003EE073D8}" ShortID="528582991">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BF29FAC5-1320-47BE-8CB3-E5F6CF9FA6D8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{05F5F81D-DB58-459A-9179-417346193955}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="MVAMB_MVMT_Wood_Walk_01" ID="{19DEB44F-0DAB-48DE-A55C-8E820EB3CA82}" ShortID="964534406">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BF29FAC5-1320-47BE-8CB3-E5F6CF9FA6D8}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{05F5F81D-DB58-459A-9179-417346193955}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="MVAMB_MVMT_Wood_Walk_01" ID="{6BB70BF7-F5E8-4B27-A257-E0A59CCE0ECE}">
+															<Language>SFX</Language>
+															<AudioFile>MVAMB_MVMT_Wood_Walk_01.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="932008338"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="MVAMB_MVMT_Wood_Walk_01" ID="{6BB70BF7-F5E8-4B27-A257-E0A59CCE0ECE}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="MVAMB_MVMT_Wood_Walk_02" ID="{280621EA-9C1F-403A-B927-D12614A72DCE}" ShortID="1007841200">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BF29FAC5-1320-47BE-8CB3-E5F6CF9FA6D8}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{05F5F81D-DB58-459A-9179-417346193955}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="MVAMB_MVMT_Wood_Walk_02" ID="{792887D4-F042-4A6C-959C-5EAC0F06BE70}">
+															<Language>SFX</Language>
+															<AudioFile>MVAMB_MVMT_Wood_Walk_02.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="1065819550"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="MVAMB_MVMT_Wood_Walk_02" ID="{792887D4-F042-4A6C-959C-5EAC0F06BE70}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="MVAMB_MVMT_Wood_Walk_03" ID="{E3EA045F-A08C-46D9-BF33-AFC45FBC8ABC}" ShortID="193798770">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BF29FAC5-1320-47BE-8CB3-E5F6CF9FA6D8}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{05F5F81D-DB58-459A-9179-417346193955}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="MVAMB_MVMT_Wood_Walk_03" ID="{96E3F25F-B76F-4254-9312-77AE04EFE0E0}">
+															<Language>SFX</Language>
+															<AudioFile>MVAMB_MVMT_Wood_Walk_03.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="180840226"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="MVAMB_MVMT_Wood_Walk_03" ID="{96E3F25F-B76F-4254-9312-77AE04EFE0E0}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="MVAMB_MVMT_Wood_Walk_04" ID="{501576E7-1F02-4267-8D6A-0EEBDC98DABF}" ShortID="293334528">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BF29FAC5-1320-47BE-8CB3-E5F6CF9FA6D8}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{05F5F81D-DB58-459A-9179-417346193955}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="MVAMB_MVMT_Wood_Walk_04" ID="{57307E21-F39E-4C6A-B7CB-984E2B964B64}">
+															<Language>SFX</Language>
+															<AudioFile>MVAMB_MVMT_Wood_Walk_04.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="242522122"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="MVAMB_MVMT_Wood_Walk_04" ID="{57307E21-F39E-4C6A-B7CB-984E2B964B64}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Stone_Walk" ID="{5B290D48-4DD4-4764-A149-512829361761}" ShortID="973828441">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BF29FAC5-1320-47BE-8CB3-E5F6CF9FA6D8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{05F5F81D-DB58-459A-9179-417346193955}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="MVAMB_MVMT_Stone_Walk_01" ID="{AEDDF1E3-620F-4D7D-9115-B75574002B79}" ShortID="228007785">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BF29FAC5-1320-47BE-8CB3-E5F6CF9FA6D8}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{05F5F81D-DB58-459A-9179-417346193955}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="MVAMB_MVMT_Stone_Walk_01" ID="{025B4833-F5FF-44F0-8DC7-D796BC65B4A8}">
+															<Language>SFX</Language>
+															<AudioFile>MVAMB_MVMT_Stone_Walk_01.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="51068478"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="MVAMB_MVMT_Stone_Walk_01" ID="{025B4833-F5FF-44F0-8DC7-D796BC65B4A8}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="MVAMB_MVMT_Stone_Walk_02" ID="{2E443ACF-1C3E-4BC1-BC2C-8E219360D2C1}" ShortID="582100076">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BF29FAC5-1320-47BE-8CB3-E5F6CF9FA6D8}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{05F5F81D-DB58-459A-9179-417346193955}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="MVAMB_MVMT_Stone_Walk_02" ID="{2E79B6D8-3D0B-41DE-8E43-EA90F6B1F6AB}">
+															<Language>SFX</Language>
+															<AudioFile>MVAMB_MVMT_Stone_Walk_02.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="244146520"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="MVAMB_MVMT_Stone_Walk_02" ID="{2E79B6D8-3D0B-41DE-8E43-EA90F6B1F6AB}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="MVAMB_MVMT_Stone_Walk_03" ID="{2C2663E0-D2BA-4B81-92DB-261FB93E86F0}" ShortID="273840864">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BF29FAC5-1320-47BE-8CB3-E5F6CF9FA6D8}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{05F5F81D-DB58-459A-9179-417346193955}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="MVAMB_MVMT_Stone_Walk_03" ID="{83F0079F-1739-4FE5-B24F-3F9AC65AA0C4}">
+															<Language>SFX</Language>
+															<AudioFile>MVAMB_MVMT_Stone_Walk_03.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="5376386"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="MVAMB_MVMT_Stone_Walk_03" ID="{83F0079F-1739-4FE5-B24F-3F9AC65AA0C4}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="MVAMB_MVMT_Stone_Walk_04" ID="{373050B4-52E3-405E-B001-B1759C76AAFB}" ShortID="724368009">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BF29FAC5-1320-47BE-8CB3-E5F6CF9FA6D8}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{05F5F81D-DB58-459A-9179-417346193955}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="MVAMB_MVMT_Stone_Walk_04" ID="{911A2640-4E75-40EA-A42B-10168A3DCA9A}">
+															<Language>SFX</Language>
+															<AudioFile>MVAMB_MVMT_Stone_Walk_04.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="30740906"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="MVAMB_MVMT_Stone_Walk_04" ID="{911A2640-4E75-40EA-A42B-10168A3DCA9A}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="MVAMB_MVMT_Stone_Walk_05" ID="{12B9150C-DC73-4499-96EC-25C7987F594F}" ShortID="511592943">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BF29FAC5-1320-47BE-8CB3-E5F6CF9FA6D8}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{05F5F81D-DB58-459A-9179-417346193955}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="MVAMB_MVMT_Stone_Walk_05" ID="{6E57B388-8340-438D-865C-8B4865110C62}">
+															<Language>SFX</Language>
+															<AudioFile>MVAMB_MVMT_Stone_Walk_05.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="36973768"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="MVAMB_MVMT_Stone_Walk_05" ID="{6E57B388-8340-438D-865C-8B4865110C62}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Undergrowth_Walk" ID="{6D925E6C-82AC-4406-BA3D-525684312CC3}" ShortID="424049821">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BF29FAC5-1320-47BE-8CB3-E5F6CF9FA6D8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{05F5F81D-DB58-459A-9179-417346193955}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="MVAMB_MVMT_Walk_Moss_01" ID="{27B4D77E-7DE5-4839-A3B9-D3E0DC60DEA7}" ShortID="957741909">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BF29FAC5-1320-47BE-8CB3-E5F6CF9FA6D8}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{05F5F81D-DB58-459A-9179-417346193955}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="MVAMB_MVMT_Walk_Moss_01" ID="{AA7F0F07-BA3D-4F8A-BEF7-7789A618D145}">
+															<Language>SFX</Language>
+															<AudioFile>MVAMB_MVMT_Walk_Moss_01.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="810769814"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="MVAMB_MVMT_Walk_Moss_01" ID="{AA7F0F07-BA3D-4F8A-BEF7-7789A618D145}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="MVAMB_MVMT_Walk_Moss_02" ID="{BEDB832A-F975-47CE-B3EF-9DEB4EF163DE}" ShortID="787206100">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BF29FAC5-1320-47BE-8CB3-E5F6CF9FA6D8}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{05F5F81D-DB58-459A-9179-417346193955}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="MVAMB_MVMT_Walk_Moss_02" ID="{E26CF91D-6EDF-44CB-96BD-973040FCABAB}">
+															<Language>SFX</Language>
+															<AudioFile>MVAMB_MVMT_Walk_Moss_02.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="892201450"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="MVAMB_MVMT_Walk_Moss_02" ID="{E26CF91D-6EDF-44CB-96BD-973040FCABAB}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="MVAMB_MVMT_Walk_Moss_03" ID="{D4A568C8-6B89-42C9-9242-57DE6C0A3235}" ShortID="1002751728">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BF29FAC5-1320-47BE-8CB3-E5F6CF9FA6D8}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{05F5F81D-DB58-459A-9179-417346193955}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="MVAMB_MVMT_Walk_Moss_03" ID="{8723EE84-DC35-4B39-8515-B94D79AFE9D9}">
+															<Language>SFX</Language>
+															<AudioFile>MVAMB_MVMT_Walk_Moss_03.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="712960714"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="MVAMB_MVMT_Walk_Moss_03" ID="{8723EE84-DC35-4B39-8515-B94D79AFE9D9}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+									</ChildrenList>
+									<GroupingInfo>
+										<GroupingBehaviorList>
+											<GroupingBehavior>
+												<ItemRef Name="Stone_Walk" ID="{5B290D48-4DD4-4764-A149-512829361761}"/>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="Undergrowth_Walk" ID="{6D925E6C-82AC-4406-BA3D-525684312CC3}"/>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="Dirt_Walk" ID="{3EF185BA-337F-40E4-BE84-EE5D4540819F}"/>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="Grass_Walk" ID="{2E8888C4-314D-483D-976A-AD180B9AD3AF}"/>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="Wood_Walk" ID="{D264DBD9-D400-40CE-8ED7-EC003EE073D8}"/>
+											</GroupingBehavior>
+										</GroupingBehaviorList>
+										<GroupingList>
+											<Grouping>
+												<SwitchRef Name="Dirt" ID="{A030F214-A9CE-411A-BC29-87880035704E}"/>
+												<ItemList>
+													<ItemRef Name="Dirt_Walk" ID="{3EF185BA-337F-40E4-BE84-EE5D4540819F}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Wood" ID="{0F3B2C96-B056-4F15-9DE2-3AAE00650E06}"/>
+												<ItemList>
+													<ItemRef Name="Wood_Walk" ID="{D264DBD9-D400-40CE-8ED7-EC003EE073D8}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Undergrowth" ID="{07FBCEDF-2647-405C-8AB7-ED4E694A2E0F}"/>
+												<ItemList>
+													<ItemRef Name="Undergrowth_Walk" ID="{6D925E6C-82AC-4406-BA3D-525684312CC3}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Stone" ID="{B53FEFEA-445D-4960-8F69-AB638D6484F8}"/>
+												<ItemList>
+													<ItemRef Name="Stone_Walk" ID="{5B290D48-4DD4-4764-A149-512829361761}"/>
+												</ItemList>
+											</Grouping>
+										</GroupingList>
+									</GroupingInfo>
+								</SwitchContainer>
+								<SwitchContainer Name="Run" ID="{406129AA-0357-4448-AE88-9840B028C4C5}" ShortID="625096815">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-6</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BF29FAC5-1320-47BE-8CB3-E5F6CF9FA6D8}"/>
+										</Reference>
+										<Reference Name="DefaultSwitchOrState">
+											<ObjectRef Name="Dirt" ID="{A030F214-A9CE-411A-BC29-87880035704E}" WorkUnitID="{63544C6E-7B11-4ED2-8B6C-465CD4D8F010}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{05F5F81D-DB58-459A-9179-417346193955}"/>
+										</Reference>
+										<Reference Name="SwitchGroupOrStateGroup">
+											<ObjectRef Name="Footstep_PhysicalMaterials" ID="{500074DF-4F47-432E-AF11-7CD39E372926}" WorkUnitID="{63544C6E-7B11-4ED2-8B6C-465CD4D8F010}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<RandomSequenceContainer Name="Dirt__Run" ID="{5316D140-1565-40A2-8BBB-5928A28EA757}" ShortID="669414137">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ValueList>
+														<Value>430</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-3</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BF29FAC5-1320-47BE-8CB3-E5F6CF9FA6D8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{05F5F81D-DB58-459A-9179-417346193955}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="MVAMB_MVMT_Dirt_Run_03" ID="{E32B6FE0-A8A9-45FC-94DD-8DF7C6013364}" ShortID="274280702">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BF29FAC5-1320-47BE-8CB3-E5F6CF9FA6D8}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Movement" ID="{990EDA90-E229-45DA-8B10-98A9253F2737}" WorkUnitID="{05F5F81D-DB58-459A-9179-417346193955}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="MVAMB_MVMT_Dirt_Run_03" ID="{95FA15A1-5DCF-4217-9033-BA95184A2958}">
+															<Language>SFX</Language>
+															<AudioFile>MVAMB_MVMT_Dirt_Run_03.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="938971001"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="MVAMB_MVMT_Dirt_Run_03" ID="{95FA15A1-5DCF-4217-9033-BA95184A2958}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="MVAMB_MVMT_Dirt_Run_05" ID="{328A62DE-C34A-44CA-BA58-16B80933C97B}" ShortID="346102566">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BF29FAC5-1320-47BE-8CB3-E5F6CF9FA6D8}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Movement" ID="{990EDA90-E229-45DA-8B10-98A9253F2737}" WorkUnitID="{05F5F81D-DB58-459A-9179-417346193955}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="MVAMB_MVMT_Dirt_Run_05" ID="{8A7C4E3F-F9C9-41FA-BE51-3282C5957AFE}">
+															<Language>SFX</Language>
+															<AudioFile>MVAMB_MVMT_Dirt_Run_05.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="197997106"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="MVAMB_MVMT_Dirt_Run_05" ID="{8A7C4E3F-F9C9-41FA-BE51-3282C5957AFE}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="MVAMB_MVMT_Dirt_Run_01" ID="{6183CDA5-967A-4442-8F1A-87753A3E9596}" ShortID="699969355">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BF29FAC5-1320-47BE-8CB3-E5F6CF9FA6D8}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Movement" ID="{990EDA90-E229-45DA-8B10-98A9253F2737}" WorkUnitID="{05F5F81D-DB58-459A-9179-417346193955}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="MVAMB_MVMT_Dirt_Run_01" ID="{2853A737-0445-435A-B812-2C06A82AC301}">
+															<Language>SFX</Language>
+															<AudioFile>MVAMB_MVMT_Dirt_Run_01.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="535370785"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="MVAMB_MVMT_Dirt_Run_01" ID="{2853A737-0445-435A-B812-2C06A82AC301}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="MVAMB_MVMT_Dirt_Run_02" ID="{D9D0329F-DBE2-4F3B-B1F9-279FD84540CC}" ShortID="401993879">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BF29FAC5-1320-47BE-8CB3-E5F6CF9FA6D8}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Movement" ID="{990EDA90-E229-45DA-8B10-98A9253F2737}" WorkUnitID="{05F5F81D-DB58-459A-9179-417346193955}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="MVAMB_MVMT_Dirt_Run_02" ID="{85632244-466D-499C-A763-3C063A7619B1}">
+															<Language>SFX</Language>
+															<AudioFile>MVAMB_MVMT_Dirt_Run_02.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="231947072"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="MVAMB_MVMT_Dirt_Run_02" ID="{85632244-466D-499C-A763-3C063A7619B1}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="MVAMB_MVMT_Dirt_Run_04" ID="{1B7D006E-4017-4C99-8C16-B4415AE62D04}" ShortID="169158948">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BF29FAC5-1320-47BE-8CB3-E5F6CF9FA6D8}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Movement" ID="{990EDA90-E229-45DA-8B10-98A9253F2737}" WorkUnitID="{05F5F81D-DB58-459A-9179-417346193955}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="MVAMB_MVMT_Dirt_Run_04" ID="{7710FE7D-72C4-4026-8BD7-C4E8DD9318E2}">
+															<Language>SFX</Language>
+															<AudioFile>MVAMB_MVMT_Dirt_Run_04.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="296434475"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="MVAMB_MVMT_Dirt_Run_04" ID="{7710FE7D-72C4-4026-8BD7-C4E8DD9318E2}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Wood_Run" ID="{EA219A97-AB06-4F3F-95FF-9020BC7D3D56}" ShortID="51191633">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BF29FAC5-1320-47BE-8CB3-E5F6CF9FA6D8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{05F5F81D-DB58-459A-9179-417346193955}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="MVAMB_MVMT_Wood_Run_01" ID="{1AE4E233-1E8F-4A2D-8C10-5B257D8178EC}" ShortID="246963460">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BF29FAC5-1320-47BE-8CB3-E5F6CF9FA6D8}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{05F5F81D-DB58-459A-9179-417346193955}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="MVAMB_MVMT_Wood_Run_01" ID="{71C5F232-65DE-4522-98B2-A7BFB82AE21E}">
+															<Language>SFX</Language>
+															<AudioFile>MVAMB_MVMT_Wood_Run_01.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="237628641"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="MVAMB_MVMT_Wood_Run_01" ID="{71C5F232-65DE-4522-98B2-A7BFB82AE21E}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="MVAMB_MVMT_Wood_Run_02" ID="{73638383-2CB5-4E5F-8EC9-0A8C9F580835}" ShortID="1035045374">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BF29FAC5-1320-47BE-8CB3-E5F6CF9FA6D8}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{05F5F81D-DB58-459A-9179-417346193955}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="MVAMB_MVMT_Wood_Run_02" ID="{FB7FD2A9-2685-48B3-BB13-E017CB974993}">
+															<Language>SFX</Language>
+															<AudioFile>MVAMB_MVMT_Wood_Run_02.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="114361696"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="MVAMB_MVMT_Wood_Run_02" ID="{FB7FD2A9-2685-48B3-BB13-E017CB974993}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="MVAMB_MVMT_Wood_Run_03" ID="{30D69C7C-829D-46FF-AE67-99D678073B95}" ShortID="762136601">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BF29FAC5-1320-47BE-8CB3-E5F6CF9FA6D8}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{05F5F81D-DB58-459A-9179-417346193955}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="MVAMB_MVMT_Wood_Run_03" ID="{A97E6788-11E7-46E7-A1CC-3914E92DBEE9}">
+															<Language>SFX</Language>
+															<AudioFile>MVAMB_MVMT_Wood_Run_03.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="296127076"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="MVAMB_MVMT_Wood_Run_03" ID="{A97E6788-11E7-46E7-A1CC-3914E92DBEE9}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="MVAMB_MVMT_Wood_Run_04" ID="{A6B1DB50-D572-4EBC-B1F9-D2D1218ED615}" ShortID="770872761">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BF29FAC5-1320-47BE-8CB3-E5F6CF9FA6D8}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{05F5F81D-DB58-459A-9179-417346193955}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="MVAMB_MVMT_Wood_Run_04" ID="{2D4343F5-21D5-4865-A1C7-9BE5F687DEB2}">
+															<Language>SFX</Language>
+															<AudioFile>MVAMB_MVMT_Wood_Run_04.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="30826807"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="MVAMB_MVMT_Wood_Run_04" ID="{2D4343F5-21D5-4865-A1C7-9BE5F687DEB2}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Stone_Run" ID="{56C35A73-1D70-415C-AB1D-6AA7269124AF}" ShortID="949391542">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BF29FAC5-1320-47BE-8CB3-E5F6CF9FA6D8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{05F5F81D-DB58-459A-9179-417346193955}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="MVAMB_MVMT_Stone_Run_01" ID="{DA9F1AB9-CCD8-4041-B5F9-2DFD7829DA52}" ShortID="1013371617">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BF29FAC5-1320-47BE-8CB3-E5F6CF9FA6D8}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{05F5F81D-DB58-459A-9179-417346193955}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="MVAMB_MVMT_Stone_Run_01" ID="{D837040A-9970-495F-AF52-23131F8D485E}">
+															<Language>SFX</Language>
+															<AudioFile>MVAMB_MVMT_Stone_Run_01.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="622521874"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="MVAMB_MVMT_Stone_Run_01" ID="{D837040A-9970-495F-AF52-23131F8D485E}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="MVAMB_MVMT_Stone_Run_02" ID="{CE4DF3E7-C327-421F-8D2A-54DAD8B0830C}" ShortID="448081971">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BF29FAC5-1320-47BE-8CB3-E5F6CF9FA6D8}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{05F5F81D-DB58-459A-9179-417346193955}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="MVAMB_MVMT_Stone_Run_02" ID="{9580BF52-92E4-439A-B45C-E95B8D827645}">
+															<Language>SFX</Language>
+															<AudioFile>MVAMB_MVMT_Stone_Run_02.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="209612959"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="MVAMB_MVMT_Stone_Run_02" ID="{9580BF52-92E4-439A-B45C-E95B8D827645}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="MVAMB_MVMT_Stone_Run_03" ID="{5F714DED-68E0-4018-801A-127FBAE8730C}" ShortID="449564959">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BF29FAC5-1320-47BE-8CB3-E5F6CF9FA6D8}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{05F5F81D-DB58-459A-9179-417346193955}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="MVAMB_MVMT_Stone_Run_03" ID="{F1E73E2D-960C-4AB3-84C7-3BC273D1DD4E}">
+															<Language>SFX</Language>
+															<AudioFile>MVAMB_MVMT_Stone_Run_03.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="498097930"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="MVAMB_MVMT_Stone_Run_03" ID="{F1E73E2D-960C-4AB3-84C7-3BC273D1DD4E}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="MVAMB_MVMT_Stone_Run_04" ID="{38017933-7DBC-43FF-9ED9-7D4CA4822F55}" ShortID="330179882">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BF29FAC5-1320-47BE-8CB3-E5F6CF9FA6D8}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{05F5F81D-DB58-459A-9179-417346193955}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="MVAMB_MVMT_Stone_Run_04" ID="{5FE659E4-A645-45C4-A946-5913BFFEAB7E}">
+															<Language>SFX</Language>
+															<AudioFile>MVAMB_MVMT_Stone_Run_04.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="529831544"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="MVAMB_MVMT_Stone_Run_04" ID="{5FE659E4-A645-45C4-A946-5913BFFEAB7E}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Undergrowth_Run" ID="{F33AA16C-7972-4BD3-8D71-5A516BD26529}" ShortID="653985761">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BF29FAC5-1320-47BE-8CB3-E5F6CF9FA6D8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{05F5F81D-DB58-459A-9179-417346193955}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="MVAMB_MVMT_Run_Moss_01" ID="{14AD4E65-7B14-4C23-9600-7A5E61B9F00D}" ShortID="963745780">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BF29FAC5-1320-47BE-8CB3-E5F6CF9FA6D8}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{05F5F81D-DB58-459A-9179-417346193955}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="MVAMB_MVMT_Run_Moss_01" ID="{0F09BCA9-7FE0-408A-96B5-B82906DCC234}">
+															<Language>SFX</Language>
+															<AudioFile>MVAMB_MVMT_Run_Moss_01.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="88526252"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="MVAMB_MVMT_Run_Moss_01" ID="{0F09BCA9-7FE0-408A-96B5-B82906DCC234}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="MVAMB_MVMT_Run_Moss_02" ID="{88BF037A-94BF-48EF-85D0-32BC006863AF}" ShortID="295936867">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BF29FAC5-1320-47BE-8CB3-E5F6CF9FA6D8}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{05F5F81D-DB58-459A-9179-417346193955}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="MVAMB_MVMT_Run_Moss_02" ID="{9888BDB7-5BC2-485E-BB5B-19A533933D1B}">
+															<Language>SFX</Language>
+															<AudioFile>MVAMB_MVMT_Run_Moss_02.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="933623071"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="MVAMB_MVMT_Run_Moss_02" ID="{9888BDB7-5BC2-485E-BB5B-19A533933D1B}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="MVAMB_MVMT_Run_Moss_03" ID="{F2F2180D-8185-41D0-9955-77382E7D672D}" ShortID="129133086">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BF29FAC5-1320-47BE-8CB3-E5F6CF9FA6D8}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{05F5F81D-DB58-459A-9179-417346193955}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="MVAMB_MVMT_Run_Moss_03" ID="{DA65C2ED-8482-497D-BD5A-C556F336E65B}">
+															<Language>SFX</Language>
+															<AudioFile>MVAMB_MVMT_Run_Moss_03.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="902148381"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="MVAMB_MVMT_Run_Moss_03" ID="{DA65C2ED-8482-497D-BD5A-C556F336E65B}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+									</ChildrenList>
+									<GroupingInfo>
+										<GroupingBehaviorList>
+											<GroupingBehavior>
+												<ItemRef Name="Dirt__Run" ID="{5316D140-1565-40A2-8BBB-5928A28EA757}"/>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="Undergrowth_Run" ID="{F33AA16C-7972-4BD3-8D71-5A516BD26529}"/>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="Stone_Run" ID="{56C35A73-1D70-415C-AB1D-6AA7269124AF}"/>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="Wood_Run" ID="{EA219A97-AB06-4F3F-95FF-9020BC7D3D56}"/>
+											</GroupingBehavior>
+										</GroupingBehaviorList>
+										<GroupingList>
+											<Grouping>
+												<SwitchRef Name="Dirt" ID="{A030F214-A9CE-411A-BC29-87880035704E}"/>
+												<ItemList>
+													<ItemRef Name="Dirt__Run" ID="{5316D140-1565-40A2-8BBB-5928A28EA757}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Wood" ID="{0F3B2C96-B056-4F15-9DE2-3AAE00650E06}"/>
+												<ItemList>
+													<ItemRef Name="Wood_Run" ID="{EA219A97-AB06-4F3F-95FF-9020BC7D3D56}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Undergrowth" ID="{07FBCEDF-2647-405C-8AB7-ED4E694A2E0F}"/>
+												<ItemList>
+													<ItemRef Name="Undergrowth_Run" ID="{F33AA16C-7972-4BD3-8D71-5A516BD26529}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Stone" ID="{B53FEFEA-445D-4960-8F69-AB638D6484F8}"/>
+												<ItemList>
+													<ItemRef Name="Stone_Run" ID="{56C35A73-1D70-415C-AB1D-6AA7269124AF}"/>
+												</ItemList>
+											</Grouping>
+										</GroupingList>
+									</GroupingInfo>
+								</SwitchContainer>
+							</ChildrenList>
+							<BlendTrackList>
+								<BlendTrack Name="New Blend Track" ID="{FC989B71-78FD-4F9F-8A57-22693A5872E8}" ShortID="789756961">
+									<PropertyList>
+										<Property Name="EnableCrossFading" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="LayerCrossFadeControlInput">
+											<ObjectRef Name="Velocity" ID="{B7585C10-8A75-4F61-84D6-AEECB557CCDD}" WorkUnitID="{A3E64751-1B62-47C9-8C67-DE66BBD86BBE}"/>
+										</Reference>
+									</ReferenceList>
+									<ObjectLists>
+										<ObjectList Name="RTPC">
+											<Reference>
+												<Local>
+													<RTPC Name="" ID="{FA6ABA42-7F0F-46E5-8132-5D28EAC3C79B}" ShortID="563836703">
+														<PropertyList>
+															<Property Name="PropertyName" Type="string" Value="Volume"/>
+														</PropertyList>
+														<ReferenceList>
+															<Reference Name="ControlInput">
+																<ObjectRef Name="Velocity" ID="{B7585C10-8A75-4F61-84D6-AEECB557CCDD}" WorkUnitID="{A3E64751-1B62-47C9-8C67-DE66BBD86BBE}"/>
+															</Reference>
+															<Reference Name="Curve">
+																<Custom>
+																	<Curve Name="" ID="{4AC40A15-B51E-4A7A-BABC-76628586AADA}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>-200</YPos>
+																				<Flags>5</Flags>
+																				<SegmentShape>Exp1</SegmentShape>
+																			</Point>
+																			<Point>
+																				<XPos>4.99763</XPos>
+																				<YPos>-5.61532</YPos>
+																				<Flags>0</Flags>
+																				<SegmentShape>Log2</SegmentShape>
+																			</Point>
+																			<Point>
+																				<XPos>10</XPos>
+																				<YPos>1.36915</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</Custom>
+															</Reference>
+														</ReferenceList>
+													</RTPC>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+									<BlendTrackAssocList>
+										<BlendTrackAssoc>
+											<ItemRef Name="Walk" ID="{E40D6254-61C3-4118-BBB4-C12AD9A62D7D}"/>
+											<CrossfadingInfo>
+												<LeftEdgePos>0</LeftEdgePos>
+												<LeftFadingMode>Automatic</LeftFadingMode>
+												<RightEdgePos>6.77073090797662</RightEdgePos>
+												<RightFadingMode>Automatic</RightFadingMode>
+											</CrossfadingInfo>
+										</BlendTrackAssoc>
+										<BlendTrackAssoc>
+											<ItemRef Name="Run" ID="{406129AA-0357-4448-AE88-9840B028C4C5}"/>
+											<CrossfadingInfo>
+												<LeftEdgePos>7.31220231403913</LeftEdgePos>
+												<LeftFadingMode>Automatic</LeftFadingMode>
+												<RightEdgePos>10</RightEdgePos>
+												<RightFadingMode>Automatic</RightFadingMode>
+											</CrossfadingInfo>
+										</BlendTrackAssoc>
+									</BlendTrackAssocList>
+								</BlendTrack>
+							</BlendTrackList>
+						</BlendContainer>
+					</ChildrenList>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

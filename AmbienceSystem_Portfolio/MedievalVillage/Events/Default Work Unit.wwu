@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{37A8E576-81F7-48DB-8106-97136D6FA940}" SchemaVersion="119">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{37A8E576-81F7-48DB-8106-97136D6FA940}" PersistMode="Standalone">
+			<ChildrenList>
+				<WorkUnit Name="Movement" ID="{9ADA2F30-4AE8-4B23-9951-A31191237117}" PersistMode="Reference"/>
+				<WorkUnit Name="Ambience" ID="{5E847467-A76E-4E47-843C-57F0E66391F3}" PersistMode="Reference"/>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

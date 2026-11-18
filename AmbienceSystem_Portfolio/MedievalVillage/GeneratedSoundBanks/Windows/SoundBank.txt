@@ -1,0 +1,154 @@
+Event	ID	Name			Wwise Object Path	Notes
+	224793992	Play_AMB2D_Forest			\Default Work Unit\Ambience\2D Ambience\Play_AMB2D_Forest	
+	337851413	Play_MVMT_Footstep			\Default Work Unit\Movement\Play_MVMT_Footstep	
+	410773671	Play_AMB3D_BannerRustle_Large			\Default Work Unit\Ambience\3D Ambience\Play_AMB3D_BannerRustle_Large	
+	711442636	Play_AMB2D_Fields			\Default Work Unit\Ambience\2D Ambience\Play_AMB2D_Fields	
+	713497946	Play_AMB2D_Storm			\Default Work Unit\Ambience\2D Ambience\Play_AMB2D_Storm	
+	1275728957	Play_AMB3D_WindGust			\Default Work Unit\Ambience\3D Ambience\Play_AMB3D_WindGust	
+	1864336298	Play_AMB3D_Village_Crow_Caw			\Default Work Unit\Ambience\3D Ambience\Play_AMB3D_Village_Crow_Caw	
+	3124761557	Play_AMB3D_Forest_BirdCall			\Default Work Unit\Ambience\3D Ambience\Forest\Play_AMB3D_Forest_BirdCall	
+	3350734665	Play_AMB2D_Village			\Default Work Unit\Ambience\2D Ambience\Play_AMB2D_Village	
+	3358165816	Play_AMB3D_BannerRustle_Loop			\Default Work Unit\Ambience\3D Ambience\Play_AMB3D_BannerRustle_Loop	
+	3367379716	Play_AMB3D_Village_Crow_FlyAway			\Default Work Unit\Ambience\3D Ambience\Village\Play_AMB3D_Village_Crow_FlyAway	
+	3393669167	Play_AMB3D_Village_Lantern			\Default Work Unit\Ambience\3D Ambience\Village\Play_AMB3D_Village_Lantern	
+	3504126637	Play_AMB3D_Forest_BushRustle			\Default Work Unit\Ambience\3D Ambience\Forest\Play_AMB3D_Forest_BushRustle	
+	3518207694	Play_AMB3D_Village_Forge			\Default Work Unit\Ambience\3D Ambience\Village\Play_AMB3D_Village_Forge	
+	3707582442	Play_AMB3D_Village_WoodCreak			\Default Work Unit\Ambience\3D Ambience\Village\Play_AMB3D_Village_WoodCreak	
+	3780561745	Play_AMB3D_Forest_Cicada			\Default Work Unit\Ambience\3D Ambience\Forest\Play_AMB3D_Forest_Cicada	
+	3861049160	Play_AMB2D_Smith			\Default Work Unit\Ambience\2D Ambience\Play_AMB2D_Smith	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	4270634489	Footstep_PhysicalMaterials			\Default Work Unit\Footstep_PhysicalMaterials	
+
+Switch	ID	Name	Switch Group			Notes
+	1216965916	Stone	Footstep_PhysicalMaterials			
+	1644059380	Undergrowth	Footstep_PhysicalMaterials			
+	2058049674	Wood	Footstep_PhysicalMaterials			
+	2195636714	Dirt	Footstep_PhysicalMaterials			
+
+State Group	ID	Name			Wwise Object Path	Notes
+	1176860857	ExteriorCheck			\Default Work Unit\ExteriorCheck	
+	3686139462	Area			\Default Work Unit\Area	
+
+State	ID	Name	State Group			Notes
+	748895195	None	ExteriorCheck			
+	1132214669	Interior	ExteriorCheck			
+	2213992659	Exterior	ExteriorCheck			
+	3339761385	Building	ExteriorCheck			
+	491961918	Forest	Area			
+	514358619	Field	Area			
+	748895195	None	Area			
+	3945572659	Village	Area			
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	3519441192	Velocity			\Default Work Unit\Velocity	
+
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	85412153	Ambience			\Default Work Unit\Master Audio Bus\Ambience	
+	348963605	Reverb			\Default Work Unit\Master Audio Bus\Reverb	
+	599996866	2D_Ambience			\Default Work Unit\Master Audio Bus\Ambience\2D_Ambience	
+	603313991	3D_Ambience			\Default Work Unit\Master Audio Bus\Ambience\3D_Ambience	
+	1537061107	Wind			\Default Work Unit\Master Audio Bus\Ambience\3D_Ambience\Wind	
+	2129636626	Movement			\Default Work Unit\Master Audio Bus\Movement	
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	12377074	Forge			\Default Work Unit\Master Audio Bus\Reverb\Forge	
+	491961918	Forest			\Default Work Unit\Master Audio Bus\Reverb\Forest	
+	514358619	Field			\Default Work Unit\Master Audio Bus\Reverb\Field	
+	3945572659	Village			\Default Work Unit\Master Audio Bus\Reverb\Village	
+
+Effect plug-ins	ID	Name	Type				Notes
+	275564784	Have_U_Ever_Been_Outside (Custom)	Wwise RoomVerb			
+	960098761	Meter (Custom)	Wwise Meter			
+	1014145253	Room_Medium (Custom)	Wwise RoomVerb			
+	1061204808	Have_U_Ever_Been_Outside (Custom)	Wwise RoomVerb			
+	1073288824	Have_U_Ever_Been_Outside (Custom)	Wwise RoomVerb			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	1877740	MVAMB_MVMT_Dirt_Walk_02	C:\Users\ericf\Documents\Unreal Projects\AmbienceSystem_Portfolio\MedievalVillage\.cache\Windows\SFX\MVAMB_MVMT_Dirt_Walk_02_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Movement\Footsteps_Container\Footstep_Blend\Walk\Dirt_Walk\MVAMB_MVMT_Dirt_Walk_02		253216
+	5376386	MVAMB_MVMT_Stone_Walk_03	C:\Users\ericf\Documents\Unreal Projects\AmbienceSystem_Portfolio\MedievalVillage\.cache\Windows\SFX\MVAMB_MVMT_Stone_Walk_03_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Movement\Footsteps_Container\Footstep_Blend\Walk\Stone_Walk\MVAMB_MVMT_Stone_Walk_03		253216
+	30740906	MVAMB_MVMT_Stone_Walk_04	C:\Users\ericf\Documents\Unreal Projects\AmbienceSystem_Portfolio\MedievalVillage\.cache\Windows\SFX\MVAMB_MVMT_Stone_Walk_04_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Movement\Footsteps_Container\Footstep_Blend\Walk\Stone_Walk\MVAMB_MVMT_Stone_Walk_04		253216
+	30826807	MVAMB_MVMT_Wood_Run_04	C:\Users\ericf\Documents\Unreal Projects\AmbienceSystem_Portfolio\MedievalVillage\.cache\Windows\SFX\MVAMB_MVMT_Wood_Run_04_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Movement\Footsteps_Container\Footstep_Blend\Run\Wood_Run\MVAMB_MVMT_Wood_Run_04		253216
+	33766166	MVAMB_AMB3D_BirdCall_02	C:\Users\ericf\Documents\Unreal Projects\AmbienceSystem_Portfolio\MedievalVillage\.cache\Windows\SFX\MVAMB_AMB3D_BirdCall_02_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\3D_Ambience\3D_Ambience_Forest\BirdCall\MVAMB_AMB3D_BirdCall_02		1039648
+	36973768	MVAMB_MVMT_Stone_Walk_05	C:\Users\ericf\Documents\Unreal Projects\AmbienceSystem_Portfolio\MedievalVillage\.cache\Windows\SFX\MVAMB_MVMT_Stone_Walk_05_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Movement\Footsteps_Container\Footstep_Blend\Walk\Stone_Walk\MVAMB_MVMT_Stone_Walk_05		253216
+	42768234	MVAMB_MVMT_Foliage_Walk_05	C:\Users\ericf\Documents\Unreal Projects\AmbienceSystem_Portfolio\MedievalVillage\.cache\Windows\SFX\MVAMB_MVMT_Foliage_Walk_05_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Movement\Footsteps_Container\Footstep_Blend\Walk\Grass_Walk\MVAMB_MVMT_Foliage_Walk_05		253216
+	51068478	MVAMB_MVMT_Stone_Walk_01	C:\Users\ericf\Documents\Unreal Projects\AmbienceSystem_Portfolio\MedievalVillage\.cache\Windows\SFX\MVAMB_MVMT_Stone_Walk_01_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Movement\Footsteps_Container\Footstep_Blend\Walk\Stone_Walk\MVAMB_MVMT_Stone_Walk_01		253216
+	88526252	MVAMB_MVMT_Run_Moss_01	C:\Users\ericf\Documents\Unreal Projects\AmbienceSystem_Portfolio\MedievalVillage\.cache\Windows\SFX\MVAMB_MVMT_Run_Moss_01_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Movement\Footsteps_Container\Footstep_Blend\Run\Undergrowth_Run\MVAMB_MVMT_Run_Moss_01		253216
+	113241377	MVAMB_MVMT_Foliage_Walk_04	C:\Users\ericf\Documents\Unreal Projects\AmbienceSystem_Portfolio\MedievalVillage\.cache\Windows\SFX\MVAMB_MVMT_Foliage_Walk_04_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Movement\Footsteps_Container\Footstep_Blend\Walk\Grass_Walk\MVAMB_MVMT_Foliage_Walk_04		253216
+	113312526	MVAMB_MVMT_Dirt_Walk_03	C:\Users\ericf\Documents\Unreal Projects\AmbienceSystem_Portfolio\MedievalVillage\.cache\Windows\SFX\MVAMB_MVMT_Dirt_Walk_03_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Movement\Footsteps_Container\Footstep_Blend\Walk\Dirt_Walk\MVAMB_MVMT_Dirt_Walk_03		253216
+	114361696	MVAMB_MVMT_Wood_Run_02	C:\Users\ericf\Documents\Unreal Projects\AmbienceSystem_Portfolio\MedievalVillage\.cache\Windows\SFX\MVAMB_MVMT_Wood_Run_02_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Movement\Footsteps_Container\Footstep_Blend\Run\Wood_Run\MVAMB_MVMT_Wood_Run_02		253216
+	116006581	MVAMB_AMB3D_BannerRustle_Large_02	C:\Users\ericf\Documents\Unreal Projects\AmbienceSystem_Portfolio\MedievalVillage\.cache\Windows\SFX\MVAMB_AMB3D_BannerRustle_Large_02_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\3D_Ambience\3D_Ambience_Banner\BannerRustle_Large\MVAMB_AMB3D_BannerRustle_Large_02		253216
+	163938029	MVAMB_AMB3D_WindGust_Forest_01	C:\Users\ericf\Documents\Unreal Projects\AmbienceSystem_Portfolio\MedievalVillage\.cache\Windows\SFX\MVAMB_AMB3D_WindGust_Forest_01_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\3D_Ambience\3D_Ambience_Wind\WindGusts\Forest\MVAMB_AMB3D_WindGust_Forest_01		1826080
+	180840226	MVAMB_MVMT_Wood_Walk_03	C:\Users\ericf\Documents\Unreal Projects\AmbienceSystem_Portfolio\MedievalVillage\.cache\Windows\SFX\MVAMB_MVMT_Wood_Walk_03_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Movement\Footsteps_Container\Footstep_Blend\Walk\Wood_Walk\MVAMB_MVMT_Wood_Walk_03		253216
+	193214997	MVAMB_MVMT_Dirt_Walk_05	C:\Users\ericf\Documents\Unreal Projects\AmbienceSystem_Portfolio\MedievalVillage\.cache\Windows\SFX\MVAMB_MVMT_Dirt_Walk_05_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Movement\Footsteps_Container\Footstep_Blend\Walk\Dirt_Walk\MVAMB_MVMT_Dirt_Walk_05		253216
+	197997106	MVAMB_MVMT_Dirt_Run_05	C:\Users\ericf\Documents\Unreal Projects\AmbienceSystem_Portfolio\MedievalVillage\.cache\Windows\SFX\MVAMB_MVMT_Dirt_Run_05_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Movement\Footsteps_Container\Footstep_Blend\Run\Dirt__Run\MVAMB_MVMT_Dirt_Run_05		253216
+	203079656	MVAMB_AMB3D_BirdCall_04	C:\Users\ericf\Documents\Unreal Projects\AmbienceSystem_Portfolio\MedievalVillage\.cache\Windows\SFX\MVAMB_AMB3D_BirdCall_04_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\3D_Ambience\3D_Ambience_Forest\BirdCall\MVAMB_AMB3D_BirdCall_04		1563936
+	209612959	MVAMB_MVMT_Stone_Run_02	C:\Users\ericf\Documents\Unreal Projects\AmbienceSystem_Portfolio\MedievalVillage\.cache\Windows\SFX\MVAMB_MVMT_Stone_Run_02_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Movement\Footsteps_Container\Footstep_Blend\Run\Stone_Run\MVAMB_MVMT_Stone_Run_02		253216
+	231947072	MVAMB_MVMT_Dirt_Run_02	C:\Users\ericf\Documents\Unreal Projects\AmbienceSystem_Portfolio\MedievalVillage\.cache\Windows\SFX\MVAMB_MVMT_Dirt_Run_02_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Movement\Footsteps_Container\Footstep_Blend\Run\Dirt__Run\MVAMB_MVMT_Dirt_Run_02		253216
+	237628641	MVAMB_MVMT_Wood_Run_01	C:\Users\ericf\Documents\Unreal Projects\AmbienceSystem_Portfolio\MedievalVillage\.cache\Windows\SFX\MVAMB_MVMT_Wood_Run_01_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Movement\Footsteps_Container\Footstep_Blend\Run\Wood_Run\MVAMB_MVMT_Wood_Run_01		253216
+	242522122	MVAMB_MVMT_Wood_Walk_04	C:\Users\ericf\Documents\Unreal Projects\AmbienceSystem_Portfolio\MedievalVillage\.cache\Windows\SFX\MVAMB_MVMT_Wood_Walk_04_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Movement\Footsteps_Container\Footstep_Blend\Walk\Wood_Walk\MVAMB_MVMT_Wood_Walk_04		253216
+	244146520	MVAMB_MVMT_Stone_Walk_02	C:\Users\ericf\Documents\Unreal Projects\AmbienceSystem_Portfolio\MedievalVillage\.cache\Windows\SFX\MVAMB_MVMT_Stone_Walk_02_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Movement\Footsteps_Container\Footstep_Blend\Walk\Stone_Walk\MVAMB_MVMT_Stone_Walk_02		253216
+	269688864	MVAMB_MVMT_Dirt_Walk_01	C:\Users\ericf\Documents\Unreal Projects\AmbienceSystem_Portfolio\MedievalVillage\.cache\Windows\SFX\MVAMB_MVMT_Dirt_Walk_01_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Movement\Footsteps_Container\Footstep_Blend\Walk\Dirt_Walk\MVAMB_MVMT_Dirt_Walk_01		253216
+	272215089	MVAMB_AMB3D_WindGust_Forest_02	C:\Users\ericf\Documents\Unreal Projects\AmbienceSystem_Portfolio\MedievalVillage\.cache\Windows\SFX\MVAMB_AMB3D_WindGust_Forest_02_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\3D_Ambience\3D_Ambience_Wind\WindGusts\Forest\MVAMB_AMB3D_WindGust_Forest_02		1826080
+	296127076	MVAMB_MVMT_Wood_Run_03	C:\Users\ericf\Documents\Unreal Projects\AmbienceSystem_Portfolio\MedievalVillage\.cache\Windows\SFX\MVAMB_MVMT_Wood_Run_03_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Movement\Footsteps_Container\Footstep_Blend\Run\Wood_Run\MVAMB_MVMT_Wood_Run_03		253216
+	296434475	MVAMB_MVMT_Dirt_Run_04	C:\Users\ericf\Documents\Unreal Projects\AmbienceSystem_Portfolio\MedievalVillage\.cache\Windows\SFX\MVAMB_MVMT_Dirt_Run_04_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Movement\Footsteps_Container\Footstep_Blend\Run\Dirt__Run\MVAMB_MVMT_Dirt_Run_04		253216
+	303160349	MVAMB_MVMT_Dirt_Walk_06	C:\Users\ericf\Documents\Unreal Projects\AmbienceSystem_Portfolio\MedievalVillage\.cache\Windows\SFX\MVAMB_MVMT_Dirt_Walk_06_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Movement\Footsteps_Container\Footstep_Blend\Walk\Dirt_Walk\MVAMB_MVMT_Dirt_Walk_06		253216
+	310247767	MVAMB_AMB3D_WindGust_General_01	C:\Users\ericf\Documents\Unreal Projects\AmbienceSystem_Portfolio\MedievalVillage\.cache\Windows\SFX\MVAMB_AMB3D_WindGust_General_01_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\3D_Ambience\3D_Ambience_Wind\WindGusts\General\MVAMB_AMB3D_WindGust_General_01		1945160
+	313706917	MVAMB_AMB3D_BannerRustle_Large_01	C:\Users\ericf\Documents\Unreal Projects\AmbienceSystem_Portfolio\MedievalVillage\.cache\Windows\SFX\MVAMB_AMB3D_BannerRustle_Large_01_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\3D_Ambience\3D_Ambience_Banner\BannerRustle_Large\MVAMB_AMB3D_BannerRustle_Large_01		253216
+	343087894	MVAMB_AMB3D_Crow_01	C:\Users\ericf\Documents\Unreal Projects\AmbienceSystem_Portfolio\MedievalVillage\.cache\Windows\SFX\MVAMB_AMB3D_Crow_01_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\3D_Ambience\3D_Ambience_Village\Crow_Caw\MVAMB_AMB3D_Crow_01		1039648
+	358767849	MVAMB_MVMT_Foliage_Walk_03	C:\Users\ericf\Documents\Unreal Projects\AmbienceSystem_Portfolio\MedievalVillage\.cache\Windows\SFX\MVAMB_MVMT_Foliage_Walk_03_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Movement\Footsteps_Container\Footstep_Blend\Walk\Grass_Walk\MVAMB_MVMT_Foliage_Walk_03		253216
+	388381558	MVAMB_AMB3D_WoodCreak_04	C:\Users\ericf\Documents\Unreal Projects\AmbienceSystem_Portfolio\MedievalVillage\.cache\Windows\SFX\MVAMB_AMB3D_WoodCreak_04_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\3D_Ambience\3D_Ambience_Village\WoodCreak\MVAMB_AMB3D_WoodCreak_04		515360
+	482332482	MVAMB_AMB3D_Cicada_02	C:\Users\ericf\Documents\Unreal Projects\AmbienceSystem_Portfolio\MedievalVillage\.cache\Windows\SFX\MVAMB_AMB3D_Cicada_02_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\3D_Ambience\3D_Ambience_Forest\Cicada\MVAMB_AMB3D_Cicada_02		1048056
+	498097930	MVAMB_MVMT_Stone_Run_03	C:\Users\ericf\Documents\Unreal Projects\AmbienceSystem_Portfolio\MedievalVillage\.cache\Windows\SFX\MVAMB_MVMT_Stone_Run_03_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Movement\Footsteps_Container\Footstep_Blend\Run\Stone_Run\MVAMB_MVMT_Stone_Run_03		253216
+	529831544	MVAMB_MVMT_Stone_Run_04	C:\Users\ericf\Documents\Unreal Projects\AmbienceSystem_Portfolio\MedievalVillage\.cache\Windows\SFX\MVAMB_MVMT_Stone_Run_04_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Movement\Footsteps_Container\Footstep_Blend\Run\Stone_Run\MVAMB_MVMT_Stone_Run_04		253216
+	531609743	MVAMB_AMB3D_WindGust_General_03	C:\Users\ericf\Documents\Unreal Projects\AmbienceSystem_Portfolio\MedievalVillage\.cache\Windows\SFX\MVAMB_AMB3D_WindGust_General_03_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\3D_Ambience\3D_Ambience_Wind\WindGusts\General\MVAMB_AMB3D_WindGust_General_03		1659832
+	535370785	MVAMB_MVMT_Dirt_Run_01	C:\Users\ericf\Documents\Unreal Projects\AmbienceSystem_Portfolio\MedievalVillage\.cache\Windows\SFX\MVAMB_MVMT_Dirt_Run_01_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Movement\Footsteps_Container\Footstep_Blend\Run\Dirt__Run\MVAMB_MVMT_Dirt_Run_01		253216
+	581991574	MVAMB_AMB3D_Crow_02	C:\Users\ericf\Documents\Unreal Projects\AmbienceSystem_Portfolio\MedievalVillage\.cache\Windows\SFX\MVAMB_AMB3D_Crow_02_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\3D_Ambience\3D_Ambience_Village\Crow_Caw\MVAMB_AMB3D_Crow_02		1301792
+	610307768	MVAMB_AMB3D_Cicada_03	C:\Users\ericf\Documents\Unreal Projects\AmbienceSystem_Portfolio\MedievalVillage\.cache\Windows\SFX\MVAMB_AMB3D_Cicada_03_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\3D_Ambience\3D_Ambience_Forest\Cicada\MVAMB_AMB3D_Cicada_03		1039648
+	622521874	MVAMB_MVMT_Stone_Run_01	C:\Users\ericf\Documents\Unreal Projects\AmbienceSystem_Portfolio\MedievalVillage\.cache\Windows\SFX\MVAMB_MVMT_Stone_Run_01_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Movement\Footsteps_Container\Footstep_Blend\Run\Stone_Run\MVAMB_MVMT_Stone_Run_01		253216
+	630727918	MVAMB_AMB3D_BushRustle_02	C:\Users\ericf\Documents\Unreal Projects\AmbienceSystem_Portfolio\MedievalVillage\.cache\Windows\SFX\MVAMB_AMB3D_BushRustle_02_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\3D_Ambience\3D_Ambience_Forest\BushRustle\MVAMB_AMB3D_BushRustle_02		777504
+	656050783	MVAMB_AMB3D_Crow_03	C:\Users\ericf\Documents\Unreal Projects\AmbienceSystem_Portfolio\MedievalVillage\.cache\Windows\SFX\MVAMB_AMB3D_Crow_03_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\3D_Ambience\3D_Ambience_Village\Crow_Caw\MVAMB_AMB3D_Crow_03		1039648
+	658215475	MVAMB_AMB3D_Cicada_01	C:\Users\ericf\Documents\Unreal Projects\AmbienceSystem_Portfolio\MedievalVillage\.cache\Windows\SFX\MVAMB_AMB3D_Cicada_01_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\3D_Ambience\3D_Ambience_Forest\Cicada\MVAMB_AMB3D_Cicada_01		1039648
+	667613652	MVAMB_AMB3D_BirdFly_01_REV	C:\Users\ericf\Documents\Unreal Projects\AmbienceSystem_Portfolio\MedievalVillage\.cache\Windows\SFX\MVAMB_AMB3D_BirdFly_01_REV_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\3D_Ambience\3D_Ambience_Village\Crow_FlyAway\MVAMB_AMB3D_BirdFly_01_REV		515360
+	675049094	MVAMB_AMB3D_WoodCreak_02	C:\Users\ericf\Documents\Unreal Projects\AmbienceSystem_Portfolio\MedievalVillage\.cache\Windows\SFX\MVAMB_AMB3D_WoodCreak_02_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\3D_Ambience\3D_Ambience_Village\WoodCreak\MVAMB_AMB3D_WoodCreak_02		515360
+	695597515	MVAMB_AMB3D_WoodCreak_01	C:\Users\ericf\Documents\Unreal Projects\AmbienceSystem_Portfolio\MedievalVillage\.cache\Windows\SFX\MVAMB_AMB3D_WoodCreak_01_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\3D_Ambience\3D_Ambience_Village\WoodCreak\MVAMB_AMB3D_WoodCreak_01		253216
+	698241151	MVAMB_AMB3D_WindGust_General_02	C:\Users\ericf\Documents\Unreal Projects\AmbienceSystem_Portfolio\MedievalVillage\.cache\Windows\SFX\MVAMB_AMB3D_WindGust_General_02_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\3D_Ambience\3D_Ambience_Wind\WindGusts\General\MVAMB_AMB3D_WindGust_General_02		1659832
+	712960714	MVAMB_MVMT_Walk_Moss_03	C:\Users\ericf\Documents\Unreal Projects\AmbienceSystem_Portfolio\MedievalVillage\.cache\Windows\SFX\MVAMB_MVMT_Walk_Moss_03_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Movement\Footsteps_Container\Footstep_Blend\Walk\Undergrowth_Walk\MVAMB_MVMT_Walk_Moss_03		253216
+	737766269	MVAMB_AMB3D_WindGust_Forest_04	C:\Users\ericf\Documents\Unreal Projects\AmbienceSystem_Portfolio\MedievalVillage\.cache\Windows\SFX\MVAMB_AMB3D_WindGust_Forest_04_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\3D_Ambience\3D_Ambience_Wind\WindGusts\Forest\MVAMB_AMB3D_WindGust_Forest_04		1585944
+	767578179	MVAMB_AMB3D_WoodCreak_03	C:\Users\ericf\Documents\Unreal Projects\AmbienceSystem_Portfolio\MedievalVillage\.cache\Windows\SFX\MVAMB_AMB3D_WoodCreak_03_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\3D_Ambience\3D_Ambience_Village\WoodCreak\MVAMB_AMB3D_WoodCreak_03		515360
+	781047292	MVAMB_AMB3D_BushRustle_01	C:\Users\ericf\Documents\Unreal Projects\AmbienceSystem_Portfolio\MedievalVillage\.cache\Windows\SFX\MVAMB_AMB3D_BushRustle_01_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\3D_Ambience\3D_Ambience_Forest\BushRustle\MVAMB_AMB3D_BushRustle_01		777504
+	800522768	MVAMB_MVMT_Dirt_Walk_04	C:\Users\ericf\Documents\Unreal Projects\AmbienceSystem_Portfolio\MedievalVillage\.cache\Windows\SFX\MVAMB_MVMT_Dirt_Walk_04_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Movement\Footsteps_Container\Footstep_Blend\Walk\Dirt_Walk\MVAMB_MVMT_Dirt_Walk_04		253216
+	809270089	MVAMB_AMB3D_WindGust_Forest_03	C:\Users\ericf\Documents\Unreal Projects\AmbienceSystem_Portfolio\MedievalVillage\.cache\Windows\SFX\MVAMB_AMB3D_WindGust_Forest_03_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\3D_Ambience\3D_Ambience_Wind\WindGusts\Forest\MVAMB_AMB3D_WindGust_Forest_03		1826080
+	810769814	MVAMB_MVMT_Walk_Moss_01	C:\Users\ericf\Documents\Unreal Projects\AmbienceSystem_Portfolio\MedievalVillage\.cache\Windows\SFX\MVAMB_MVMT_Walk_Moss_01_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Movement\Footsteps_Container\Footstep_Blend\Walk\Undergrowth_Walk\MVAMB_MVMT_Walk_Moss_01		253216
+	813551098	MVAMB_AMB3D_BirdCall_01	C:\Users\ericf\Documents\Unreal Projects\AmbienceSystem_Portfolio\MedievalVillage\.cache\Windows\SFX\MVAMB_AMB3D_BirdCall_01_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\3D_Ambience\3D_Ambience_Forest\BirdCall\MVAMB_AMB3D_BirdCall_01		1301792
+	821048420	MVAMB_AMB3D_BirdFly_03_REV	C:\Users\ericf\Documents\Unreal Projects\AmbienceSystem_Portfolio\MedievalVillage\.cache\Windows\SFX\MVAMB_AMB3D_BirdFly_03_REV_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\3D_Ambience\3D_Ambience_Village\Crow_FlyAway\MVAMB_AMB3D_BirdFly_03_REV		515360
+	830834780	MVAMB_AMB3D_WindGust_General_04	C:\Users\ericf\Documents\Unreal Projects\AmbienceSystem_Portfolio\MedievalVillage\.cache\Windows\SFX\MVAMB_AMB3D_WindGust_General_04_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\3D_Ambience\3D_Ambience_Wind\WindGusts\General\MVAMB_AMB3D_WindGust_General_04		1301792
+	835943619	MVAMB_AMB3D_WindGust_Forest_05	C:\Users\ericf\Documents\Unreal Projects\AmbienceSystem_Portfolio\MedievalVillage\.cache\Windows\SFX\MVAMB_AMB3D_WindGust_Forest_05_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\3D_Ambience\3D_Ambience_Wind\WindGusts\Forest\MVAMB_AMB3D_WindGust_Forest_05		1826080
+	839843995	MVAMB_MVMT_Foliage_Walk_02	C:\Users\ericf\Documents\Unreal Projects\AmbienceSystem_Portfolio\MedievalVillage\.cache\Windows\SFX\MVAMB_MVMT_Foliage_Walk_02_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Movement\Footsteps_Container\Footstep_Blend\Walk\Grass_Walk\MVAMB_MVMT_Foliage_Walk_02		253216
+	852481515	MVAMB_AMB3D_BushRustle_03	C:\Users\ericf\Documents\Unreal Projects\AmbienceSystem_Portfolio\MedievalVillage\.cache\Windows\SFX\MVAMB_AMB3D_BushRustle_03_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\3D_Ambience\3D_Ambience_Forest\BushRustle\MVAMB_AMB3D_BushRustle_03		1039648
+	876968200	MVAMB_MVMT_Foliage_Walk_01	C:\Users\ericf\Documents\Unreal Projects\AmbienceSystem_Portfolio\MedievalVillage\.cache\Windows\SFX\MVAMB_MVMT_Foliage_Walk_01_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Movement\Footsteps_Container\Footstep_Blend\Walk\Grass_Walk\MVAMB_MVMT_Foliage_Walk_01		253216
+	878971493	MVAMB_AMB3D_BannerRustle_Large_04	C:\Users\ericf\Documents\Unreal Projects\AmbienceSystem_Portfolio\MedievalVillage\.cache\Windows\SFX\MVAMB_AMB3D_BannerRustle_Large_04_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\3D_Ambience\3D_Ambience_Banner\BannerRustle_Large\MVAMB_AMB3D_BannerRustle_Large_04		253216
+	892201450	MVAMB_MVMT_Walk_Moss_02	C:\Users\ericf\Documents\Unreal Projects\AmbienceSystem_Portfolio\MedievalVillage\.cache\Windows\SFX\MVAMB_MVMT_Walk_Moss_02_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Movement\Footsteps_Container\Footstep_Blend\Walk\Undergrowth_Walk\MVAMB_MVMT_Walk_Moss_02		253216
+	898011573	MVAMB_AMB3D_BirdCall_03	C:\Users\ericf\Documents\Unreal Projects\AmbienceSystem_Portfolio\MedievalVillage\.cache\Windows\SFX\MVAMB_AMB3D_BirdCall_03_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\3D_Ambience\3D_Ambience_Forest\BirdCall\MVAMB_AMB3D_BirdCall_03		1301792
+	902148381	MVAMB_MVMT_Run_Moss_03	C:\Users\ericf\Documents\Unreal Projects\AmbienceSystem_Portfolio\MedievalVillage\.cache\Windows\SFX\MVAMB_MVMT_Run_Moss_03_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Movement\Footsteps_Container\Footstep_Blend\Run\Undergrowth_Run\MVAMB_MVMT_Run_Moss_03		253216
+	932008338	MVAMB_MVMT_Wood_Walk_01	C:\Users\ericf\Documents\Unreal Projects\AmbienceSystem_Portfolio\MedievalVillage\.cache\Windows\SFX\MVAMB_MVMT_Wood_Walk_01_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Movement\Footsteps_Container\Footstep_Blend\Walk\Wood_Walk\MVAMB_MVMT_Wood_Walk_01		253216
+	933623071	MVAMB_MVMT_Run_Moss_02	C:\Users\ericf\Documents\Unreal Projects\AmbienceSystem_Portfolio\MedievalVillage\.cache\Windows\SFX\MVAMB_MVMT_Run_Moss_02_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Movement\Footsteps_Container\Footstep_Blend\Run\Undergrowth_Run\MVAMB_MVMT_Run_Moss_02		253216
+	938971001	MVAMB_MVMT_Dirt_Run_03	C:\Users\ericf\Documents\Unreal Projects\AmbienceSystem_Portfolio\MedievalVillage\.cache\Windows\SFX\MVAMB_MVMT_Dirt_Run_03_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Movement\Footsteps_Container\Footstep_Blend\Run\Dirt__Run\MVAMB_MVMT_Dirt_Run_03		253216
+	940524448	MVAMB_AMB3D_BirdFly_02_REV	C:\Users\ericf\Documents\Unreal Projects\AmbienceSystem_Portfolio\MedievalVillage\.cache\Windows\SFX\MVAMB_AMB3D_BirdFly_02_REV_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\3D_Ambience\3D_Ambience_Village\Crow_FlyAway\MVAMB_AMB3D_BirdFly_02_REV		515360
+	959632580	MVAMB_AMB3D_Crow_04	C:\Users\ericf\Documents\Unreal Projects\AmbienceSystem_Portfolio\MedievalVillage\.cache\Windows\SFX\MVAMB_AMB3D_Crow_04_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\3D_Ambience\3D_Ambience_Village\Crow_Caw\MVAMB_AMB3D_Crow_04		1039648
+	973452083	MVAMB_AMB3D_Cicada_04	C:\Users\ericf\Documents\Unreal Projects\AmbienceSystem_Portfolio\MedievalVillage\.cache\Windows\SFX\MVAMB_AMB3D_Cicada_04_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\3D_Ambience\3D_Ambience_Forest\Cicada\MVAMB_AMB3D_Cicada_04		1039648
+	1063204273	MVAMB_AMB3D_BannerRustle_Large_03	C:\Users\ericf\Documents\Unreal Projects\AmbienceSystem_Portfolio\MedievalVillage\.cache\Windows\SFX\MVAMB_AMB3D_BannerRustle_Large_03_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\3D_Ambience\3D_Ambience_Banner\BannerRustle_Large\MVAMB_AMB3D_BannerRustle_Large_03		253216
+	1065819550	MVAMB_MVMT_Wood_Walk_02	C:\Users\ericf\Documents\Unreal Projects\AmbienceSystem_Portfolio\MedievalVillage\.cache\Windows\SFX\MVAMB_MVMT_Wood_Walk_02_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Movement\Footsteps_Container\Footstep_Blend\Walk\Wood_Walk\MVAMB_MVMT_Wood_Walk_02		253216
+
+Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
+	106513712	MVAMB_AMB2D_Smith	C:\Users\ericf\Documents\Unreal Projects\AmbienceSystem_Portfolio\MedievalVillage\.cache\Windows\SFX\MVAMB_AMB2D_Smith_5D513DC3.wem	106513712.wem	\Actor-Mixer Hierarchy\Default Work Unit\Ambience\2D_Ambience\2D_Ambience_Loops\MVAMB_AMB2D_Smith	
+	339396261	MVAMB_AMB3D_Forge	C:\Users\ericf\Documents\Unreal Projects\AmbienceSystem_Portfolio\MedievalVillage\.cache\Windows\SFX\MVAMB_AMB3D_Forge_D74889D3.wem	339396261.wem	\Actor-Mixer Hierarchy\Default Work Unit\Ambience\3D_Ambience\3D_Ambience_Village\MVAMB_AMB3D_Forge	
+	375761970	MVAMB_AMB3D_Lantern	C:\Users\ericf\Documents\Unreal Projects\AmbienceSystem_Portfolio\MedievalVillage\.cache\Windows\SFX\MVAMB_AMB3D_Lantern_0324AB79.wem	375761970.wem	\Actor-Mixer Hierarchy\Default Work Unit\Ambience\3D_Ambience\3D_Ambience_Village\MVAMB_AMB3D_Lantern	
+	464091168	MVAMB_AMB2D_Storm	C:\Users\ericf\Documents\Unreal Projects\AmbienceSystem_Portfolio\MedievalVillage\.cache\Windows\SFX\MVAMB_AMB2D_Storm_BFF7F1AD.wem	464091168.wem	\Actor-Mixer Hierarchy\Default Work Unit\Ambience\2D_Ambience\2D_Ambience_Loops\MVAMB_AMB2D_General\MVAMB_AMB2D_Storm	
+	601110615	MVAMB_AMB2D_Fields	C:\Users\ericf\Documents\Unreal Projects\AmbienceSystem_Portfolio\MedievalVillage\.cache\Windows\SFX\MVAMB_AMB2D_Fields_BA79FA9F.wem	601110615.wem	\Actor-Mixer Hierarchy\Default Work Unit\Ambience\2D_Ambience\2D_Ambience_Loops\MVAMB_AMB2D_Fields	
+	757316712	MVAMB_AMB2D_Wind_Loop	C:\Users\ericf\Documents\Unreal Projects\AmbienceSystem_Portfolio\MedievalVillage\.cache\Windows\SFX\MVAMB_AMB2D_Wind_Loop_FBC78EF0.wem	757316712.wem	\Actor-Mixer Hierarchy\Default Work Unit\Ambience\2D_Ambience\2D_Ambience_Loops\MVAMB_AMB2D_General\MVAMB_AMB2D_Wind_Loop	
+	845608399	MVAMB_AMB2D_Village	C:\Users\ericf\Documents\Unreal Projects\AmbienceSystem_Portfolio\MedievalVillage\.cache\Windows\SFX\MVAMB_AMB2D_Village_7F190DA6.wem	845608399.wem	\Actor-Mixer Hierarchy\Default Work Unit\Ambience\2D_Ambience\2D_Ambience_Loops\MVAMB_AMB2D_Village	
+	865284555	MVAMB_AMB3D_BannerRustle_Loop	C:\Users\ericf\Documents\Unreal Projects\AmbienceSystem_Portfolio\MedievalVillage\.cache\Windows\SFX\MVAMB_AMB3D_BannerRustle_Loop_3BBDB9F5.wem	865284555.wem	\Actor-Mixer Hierarchy\Default Work Unit\Ambience\3D_Ambience\3D_Ambience_Banner\MVAMB_AMB3D_BannerRustle_Loop	
+	950490598	MVAMB_AMB2D_Forest	C:\Users\ericf\Documents\Unreal Projects\AmbienceSystem_Portfolio\MedievalVillage\.cache\Windows\SFX\MVAMB_AMB2D_Forest_F4110EDC.wem	950490598.wem	\Actor-Mixer Hierarchy\Default Work Unit\Ambience\2D_Ambience\2D_Ambience_Loops\MVAMB_AMB2D_Forest	
+

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{9ADA2F30-4AE8-4B23-9951-A31191237117}" SchemaVersion="119" RootDocumentID="{37A8E576-81F7-48DB-8106-97136D6FA940}" ParentDocumentID="{37A8E576-81F7-48DB-8106-97136D6FA940}">
+	<Events>
+		<WorkUnit Name="Movement" ID="{9ADA2F30-4AE8-4B23-9951-A31191237117}" OwnerID="{37A8E576-81F7-48DB-8106-97136D6FA940}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="Play_MVMT_Footstep" ID="{762E01A4-8D6E-498E-A778-C671BAD104EF}">
+					<ChildrenList>
+						<Action Name="" ID="{28187D3A-E9B6-4D21-AE6B-DCAF3B29644E}" ShortID="904416838">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Footstep_Blend" ID="{206C5141-A950-4790-99DD-19276B4889E1}" WorkUnitID="{3233B393-9F70-48EC-A329-1906449E59D4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{05A5BC54-A946-4AEA-8DCC-1842817DFD3C}" ShortID="972037547">
+							<PropertyList>
+								<Property Name="Probability" Type="Real64" Value="15"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Grass_Walk" ID="{2E8888C4-314D-483D-976A-AD180B9AD3AF}" WorkUnitID="{3233B393-9F70-48EC-A329-1906449E59D4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
