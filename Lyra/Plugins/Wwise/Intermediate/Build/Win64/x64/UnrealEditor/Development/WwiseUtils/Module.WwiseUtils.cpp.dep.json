@@ -1,0 +1,22 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\projects\\tech-sound-portfolio\\lyra\\plugins\\wwise\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\wwiseutils\\module.wwiseutils.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\projects\\tech-sound-portfolio\\lyra\\intermediate\\build\\win64\\x64\\lyraeditor\\development\\core\\sharedpch.core.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "c:\\projects\\tech-sound-portfolio\\lyra\\plugins\\wwise\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\wwiseutils\\definitions.wwiseutils.h",
+            "c:\\projects\\tech-sound-portfolio\\lyra\\plugins\\wwise\\source\\wwiseutils\\private\\wwiseunrealhelper.cpp",
+            "c:\\projects\\tech-sound-portfolio\\lyra\\plugins\\wwise\\source\\wwiseutils\\public\\wwiseunrealhelper.h",
+            "c:\\projects\\tech-sound-portfolio\\lyra\\plugins\\wwise\\source\\wwiseutils\\public\\wwise\\stats\\global.h",
+            "c:\\projects\\tech-sound-portfolio\\lyra\\plugins\\wwise\\source\\wwiseutils\\private\\wwise\\stats\\global.cpp",
+            "c:\\projects\\tech-sound-portfolio\\lyra\\plugins\\wwise\\source\\wwiseutils\\private\\wwise\\stats\\memory.cpp",
+            "c:\\projects\\tech-sound-portfolio\\lyra\\plugins\\wwise\\source\\wwiseutils\\public\\wwise\\stats\\memory.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\source\\runtime\\core\\public\\hal\\lowlevelmemstats.h",
+            "c:\\projects\\tech-sound-portfolio\\lyra\\plugins\\wwise\\source\\wwiseutils\\private\\wwise\\stats\\namedevents.cpp",
+            "c:\\projects\\tech-sound-portfolio\\lyra\\plugins\\wwise\\source\\wwiseutils\\public\\wwise\\stats\\namedevents.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

@@ -25,7 +25,7 @@ struct FAkMidiProgramChange;
 #endif
 #define AKAUDIO_AkGameplayTypes_generated_h
 
-#define FID_Users_ericf_Documents_Unreal_Projects_Lyra_Plugins_Wwise_Source_AkAudio_Classes_AkGameplayTypes_h_402_INCLASS_NO_PURE_DECLS \
+#define FID_Projects_Tech_Sound_Portfolio_Lyra_Plugins_Wwise_Source_AkAudio_Classes_AkGameplayTypes_h_402_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUAkCallbackInfo(); \
 	friend struct Z_Construct_UClass_UAkCallbackInfo_Statics; \
@@ -34,7 +34,7 @@ public: \
 	DECLARE_SERIALIZER(UAkCallbackInfo)
 
 
-#define FID_Users_ericf_Documents_Unreal_Projects_Lyra_Plugins_Wwise_Source_AkAudio_Classes_AkGameplayTypes_h_402_ENHANCED_CONSTRUCTORS \
+#define FID_Projects_Tech_Sound_Portfolio_Lyra_Plugins_Wwise_Source_AkAudio_Classes_AkGameplayTypes_h_402_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	UAkCallbackInfo(UAkCallbackInfo&&); \
@@ -46,33 +46,33 @@ public: \
 	NO_API virtual ~UAkCallbackInfo();
 
 
-#define FID_Users_ericf_Documents_Unreal_Projects_Lyra_Plugins_Wwise_Source_AkAudio_Classes_AkGameplayTypes_h_399_PROLOG
-#define FID_Users_ericf_Documents_Unreal_Projects_Lyra_Plugins_Wwise_Source_AkAudio_Classes_AkGameplayTypes_h_402_GENERATED_BODY \
+#define FID_Projects_Tech_Sound_Portfolio_Lyra_Plugins_Wwise_Source_AkAudio_Classes_AkGameplayTypes_h_399_PROLOG
+#define FID_Projects_Tech_Sound_Portfolio_Lyra_Plugins_Wwise_Source_AkAudio_Classes_AkGameplayTypes_h_402_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_Users_ericf_Documents_Unreal_Projects_Lyra_Plugins_Wwise_Source_AkAudio_Classes_AkGameplayTypes_h_402_INCLASS_NO_PURE_DECLS \
-	FID_Users_ericf_Documents_Unreal_Projects_Lyra_Plugins_Wwise_Source_AkAudio_Classes_AkGameplayTypes_h_402_ENHANCED_CONSTRUCTORS \
+	FID_Projects_Tech_Sound_Portfolio_Lyra_Plugins_Wwise_Source_AkAudio_Classes_AkGameplayTypes_h_402_INCLASS_NO_PURE_DECLS \
+	FID_Projects_Tech_Sound_Portfolio_Lyra_Plugins_Wwise_Source_AkAudio_Classes_AkGameplayTypes_h_402_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
 template<> AKAUDIO_API UClass* StaticClass<class UAkCallbackInfo>();
 
-#define FID_Users_ericf_Documents_Unreal_Projects_Lyra_Plugins_Wwise_Source_AkAudio_Classes_AkGameplayTypes_h_417_GENERATED_BODY \
+#define FID_Projects_Tech_Sound_Portfolio_Lyra_Plugins_Wwise_Source_AkAudio_Classes_AkGameplayTypes_h_417_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FAkChannelMask_Statics; \
 	AKAUDIO_API static class UScriptStruct* StaticStruct();
 
 
 template<> AKAUDIO_API UScriptStruct* StaticStruct<struct FAkChannelMask>();
 
-#define FID_Users_ericf_Documents_Unreal_Projects_Lyra_Plugins_Wwise_Source_AkAudio_Classes_AkGameplayTypes_h_426_GENERATED_BODY \
+#define FID_Projects_Tech_Sound_Portfolio_Lyra_Plugins_Wwise_Source_AkAudio_Classes_AkGameplayTypes_h_426_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FAkOutputSettings_Statics; \
 	AKAUDIO_API static class UScriptStruct* StaticStruct();
 
 
 template<> AKAUDIO_API UScriptStruct* StaticStruct<struct FAkOutputSettings>();
 
-#define FID_Users_ericf_Documents_Unreal_Projects_Lyra_Plugins_Wwise_Source_AkAudio_Classes_AkGameplayTypes_h_448_INCLASS_NO_PURE_DECLS \
+#define FID_Projects_Tech_Sound_Portfolio_Lyra_Plugins_Wwise_Source_AkAudio_Classes_AkGameplayTypes_h_448_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUAkEventCallbackInfo(); \
 	friend struct Z_Construct_UClass_UAkEventCallbackInfo_Statics; \
@@ -81,7 +81,7 @@ public: \
 	DECLARE_SERIALIZER(UAkEventCallbackInfo)
 
 
-#define FID_Users_ericf_Documents_Unreal_Projects_Lyra_Plugins_Wwise_Source_AkAudio_Classes_AkGameplayTypes_h_448_ENHANCED_CONSTRUCTORS \
+#define FID_Projects_Tech_Sound_Portfolio_Lyra_Plugins_Wwise_Source_AkAudio_Classes_AkGameplayTypes_h_448_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	UAkEventCallbackInfo(UAkEventCallbackInfo&&); \
@@ -93,26 +93,26 @@ public: \
 	NO_API virtual ~UAkEventCallbackInfo();
 
 
-#define FID_Users_ericf_Documents_Unreal_Projects_Lyra_Plugins_Wwise_Source_AkAudio_Classes_AkGameplayTypes_h_445_PROLOG
-#define FID_Users_ericf_Documents_Unreal_Projects_Lyra_Plugins_Wwise_Source_AkAudio_Classes_AkGameplayTypes_h_448_GENERATED_BODY \
+#define FID_Projects_Tech_Sound_Portfolio_Lyra_Plugins_Wwise_Source_AkAudio_Classes_AkGameplayTypes_h_445_PROLOG
+#define FID_Projects_Tech_Sound_Portfolio_Lyra_Plugins_Wwise_Source_AkAudio_Classes_AkGameplayTypes_h_448_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_Users_ericf_Documents_Unreal_Projects_Lyra_Plugins_Wwise_Source_AkAudio_Classes_AkGameplayTypes_h_448_INCLASS_NO_PURE_DECLS \
-	FID_Users_ericf_Documents_Unreal_Projects_Lyra_Plugins_Wwise_Source_AkAudio_Classes_AkGameplayTypes_h_448_ENHANCED_CONSTRUCTORS \
+	FID_Projects_Tech_Sound_Portfolio_Lyra_Plugins_Wwise_Source_AkAudio_Classes_AkGameplayTypes_h_448_INCLASS_NO_PURE_DECLS \
+	FID_Projects_Tech_Sound_Portfolio_Lyra_Plugins_Wwise_Source_AkAudio_Classes_AkGameplayTypes_h_448_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
 template<> AKAUDIO_API UClass* StaticClass<class UAkEventCallbackInfo>();
 
-#define FID_Users_ericf_Documents_Unreal_Projects_Lyra_Plugins_Wwise_Source_AkAudio_Classes_AkGameplayTypes_h_596_GENERATED_BODY \
+#define FID_Projects_Tech_Sound_Portfolio_Lyra_Plugins_Wwise_Source_AkAudio_Classes_AkGameplayTypes_h_596_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FAkMidiEventBase_Statics; \
 	AKAUDIO_API static class UScriptStruct* StaticStruct();
 
 
 template<> AKAUDIO_API UScriptStruct* StaticStruct<struct FAkMidiEventBase>();
 
-#define FID_Users_ericf_Documents_Unreal_Projects_Lyra_Plugins_Wwise_Source_AkAudio_Classes_AkGameplayTypes_h_615_GENERATED_BODY \
+#define FID_Projects_Tech_Sound_Portfolio_Lyra_Plugins_Wwise_Source_AkAudio_Classes_AkGameplayTypes_h_615_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FAkMidiGeneric_Statics; \
 	AKAUDIO_API static class UScriptStruct* StaticStruct(); \
 	typedef FAkMidiEventBase Super;
@@ -120,7 +120,7 @@ template<> AKAUDIO_API UScriptStruct* StaticStruct<struct FAkMidiEventBase>();
 
 template<> AKAUDIO_API UScriptStruct* StaticStruct<struct FAkMidiGeneric>();
 
-#define FID_Users_ericf_Documents_Unreal_Projects_Lyra_Plugins_Wwise_Source_AkAudio_Classes_AkGameplayTypes_h_634_GENERATED_BODY \
+#define FID_Projects_Tech_Sound_Portfolio_Lyra_Plugins_Wwise_Source_AkAudio_Classes_AkGameplayTypes_h_634_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FAkMidiNoteOnOff_Statics; \
 	AKAUDIO_API static class UScriptStruct* StaticStruct(); \
 	typedef FAkMidiEventBase Super;
@@ -128,7 +128,7 @@ template<> AKAUDIO_API UScriptStruct* StaticStruct<struct FAkMidiGeneric>();
 
 template<> AKAUDIO_API UScriptStruct* StaticStruct<struct FAkMidiNoteOnOff>();
 
-#define FID_Users_ericf_Documents_Unreal_Projects_Lyra_Plugins_Wwise_Source_AkAudio_Classes_AkGameplayTypes_h_653_GENERATED_BODY \
+#define FID_Projects_Tech_Sound_Portfolio_Lyra_Plugins_Wwise_Source_AkAudio_Classes_AkGameplayTypes_h_653_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FAkMidiCc_Statics; \
 	AKAUDIO_API static class UScriptStruct* StaticStruct(); \
 	typedef FAkMidiEventBase Super;
@@ -136,7 +136,7 @@ template<> AKAUDIO_API UScriptStruct* StaticStruct<struct FAkMidiNoteOnOff>();
 
 template<> AKAUDIO_API UScriptStruct* StaticStruct<struct FAkMidiCc>();
 
-#define FID_Users_ericf_Documents_Unreal_Projects_Lyra_Plugins_Wwise_Source_AkAudio_Classes_AkGameplayTypes_h_672_GENERATED_BODY \
+#define FID_Projects_Tech_Sound_Portfolio_Lyra_Plugins_Wwise_Source_AkAudio_Classes_AkGameplayTypes_h_672_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FAkMidiPitchBend_Statics; \
 	AKAUDIO_API static class UScriptStruct* StaticStruct(); \
 	typedef FAkMidiEventBase Super;
@@ -144,7 +144,7 @@ template<> AKAUDIO_API UScriptStruct* StaticStruct<struct FAkMidiCc>();
 
 template<> AKAUDIO_API UScriptStruct* StaticStruct<struct FAkMidiPitchBend>();
 
-#define FID_Users_ericf_Documents_Unreal_Projects_Lyra_Plugins_Wwise_Source_AkAudio_Classes_AkGameplayTypes_h_695_GENERATED_BODY \
+#define FID_Projects_Tech_Sound_Portfolio_Lyra_Plugins_Wwise_Source_AkAudio_Classes_AkGameplayTypes_h_695_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FAkMidiNoteAftertouch_Statics; \
 	AKAUDIO_API static class UScriptStruct* StaticStruct(); \
 	typedef FAkMidiEventBase Super;
@@ -152,7 +152,7 @@ template<> AKAUDIO_API UScriptStruct* StaticStruct<struct FAkMidiPitchBend>();
 
 template<> AKAUDIO_API UScriptStruct* StaticStruct<struct FAkMidiNoteAftertouch>();
 
-#define FID_Users_ericf_Documents_Unreal_Projects_Lyra_Plugins_Wwise_Source_AkAudio_Classes_AkGameplayTypes_h_714_GENERATED_BODY \
+#define FID_Projects_Tech_Sound_Portfolio_Lyra_Plugins_Wwise_Source_AkAudio_Classes_AkGameplayTypes_h_714_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FAkMidiChannelAftertouch_Statics; \
 	AKAUDIO_API static class UScriptStruct* StaticStruct(); \
 	typedef FAkMidiEventBase Super;
@@ -160,7 +160,7 @@ template<> AKAUDIO_API UScriptStruct* StaticStruct<struct FAkMidiNoteAftertouch>
 
 template<> AKAUDIO_API UScriptStruct* StaticStruct<struct FAkMidiChannelAftertouch>();
 
-#define FID_Users_ericf_Documents_Unreal_Projects_Lyra_Plugins_Wwise_Source_AkAudio_Classes_AkGameplayTypes_h_729_GENERATED_BODY \
+#define FID_Projects_Tech_Sound_Portfolio_Lyra_Plugins_Wwise_Source_AkAudio_Classes_AkGameplayTypes_h_729_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FAkMidiProgramChange_Statics; \
 	AKAUDIO_API static class UScriptStruct* StaticStruct(); \
 	typedef FAkMidiEventBase Super;
@@ -168,7 +168,7 @@ template<> AKAUDIO_API UScriptStruct* StaticStruct<struct FAkMidiChannelAftertou
 
 template<> AKAUDIO_API UScriptStruct* StaticStruct<struct FAkMidiProgramChange>();
 
-#define FID_Users_ericf_Documents_Unreal_Projects_Lyra_Plugins_Wwise_Source_AkAudio_Classes_AkGameplayTypes_h_748_RPC_WRAPPERS_NO_PURE_DECLS \
+#define FID_Projects_Tech_Sound_Portfolio_Lyra_Plugins_Wwise_Source_AkAudio_Classes_AkGameplayTypes_h_748_RPC_WRAPPERS_NO_PURE_DECLS \
 	DECLARE_FUNCTION(execGetProgramChange); \
 	DECLARE_FUNCTION(execGetChannelAftertouch); \
 	DECLARE_FUNCTION(execGetNoteAftertouch); \
@@ -181,7 +181,7 @@ template<> AKAUDIO_API UScriptStruct* StaticStruct<struct FAkMidiProgramChange>(
 	DECLARE_FUNCTION(execGetType);
 
 
-#define FID_Users_ericf_Documents_Unreal_Projects_Lyra_Plugins_Wwise_Source_AkAudio_Classes_AkGameplayTypes_h_748_INCLASS_NO_PURE_DECLS \
+#define FID_Projects_Tech_Sound_Portfolio_Lyra_Plugins_Wwise_Source_AkAudio_Classes_AkGameplayTypes_h_748_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUAkMIDIEventCallbackInfo(); \
 	friend struct Z_Construct_UClass_UAkMIDIEventCallbackInfo_Statics; \
@@ -190,7 +190,7 @@ public: \
 	DECLARE_SERIALIZER(UAkMIDIEventCallbackInfo)
 
 
-#define FID_Users_ericf_Documents_Unreal_Projects_Lyra_Plugins_Wwise_Source_AkAudio_Classes_AkGameplayTypes_h_748_ENHANCED_CONSTRUCTORS \
+#define FID_Projects_Tech_Sound_Portfolio_Lyra_Plugins_Wwise_Source_AkAudio_Classes_AkGameplayTypes_h_748_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	UAkMIDIEventCallbackInfo(UAkMIDIEventCallbackInfo&&); \
@@ -202,20 +202,20 @@ public: \
 	NO_API virtual ~UAkMIDIEventCallbackInfo();
 
 
-#define FID_Users_ericf_Documents_Unreal_Projects_Lyra_Plugins_Wwise_Source_AkAudio_Classes_AkGameplayTypes_h_745_PROLOG
-#define FID_Users_ericf_Documents_Unreal_Projects_Lyra_Plugins_Wwise_Source_AkAudio_Classes_AkGameplayTypes_h_748_GENERATED_BODY \
+#define FID_Projects_Tech_Sound_Portfolio_Lyra_Plugins_Wwise_Source_AkAudio_Classes_AkGameplayTypes_h_745_PROLOG
+#define FID_Projects_Tech_Sound_Portfolio_Lyra_Plugins_Wwise_Source_AkAudio_Classes_AkGameplayTypes_h_748_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_Users_ericf_Documents_Unreal_Projects_Lyra_Plugins_Wwise_Source_AkAudio_Classes_AkGameplayTypes_h_748_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_Users_ericf_Documents_Unreal_Projects_Lyra_Plugins_Wwise_Source_AkAudio_Classes_AkGameplayTypes_h_748_INCLASS_NO_PURE_DECLS \
-	FID_Users_ericf_Documents_Unreal_Projects_Lyra_Plugins_Wwise_Source_AkAudio_Classes_AkGameplayTypes_h_748_ENHANCED_CONSTRUCTORS \
+	FID_Projects_Tech_Sound_Portfolio_Lyra_Plugins_Wwise_Source_AkAudio_Classes_AkGameplayTypes_h_748_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Projects_Tech_Sound_Portfolio_Lyra_Plugins_Wwise_Source_AkAudio_Classes_AkGameplayTypes_h_748_INCLASS_NO_PURE_DECLS \
+	FID_Projects_Tech_Sound_Portfolio_Lyra_Plugins_Wwise_Source_AkAudio_Classes_AkGameplayTypes_h_748_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
 template<> AKAUDIO_API UClass* StaticClass<class UAkMIDIEventCallbackInfo>();
 
-#define FID_Users_ericf_Documents_Unreal_Projects_Lyra_Plugins_Wwise_Source_AkAudio_Classes_AkGameplayTypes_h_796_INCLASS_NO_PURE_DECLS \
+#define FID_Projects_Tech_Sound_Portfolio_Lyra_Plugins_Wwise_Source_AkAudio_Classes_AkGameplayTypes_h_796_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUAkMarkerCallbackInfo(); \
 	friend struct Z_Construct_UClass_UAkMarkerCallbackInfo_Statics; \
@@ -224,7 +224,7 @@ public: \
 	DECLARE_SERIALIZER(UAkMarkerCallbackInfo)
 
 
-#define FID_Users_ericf_Documents_Unreal_Projects_Lyra_Plugins_Wwise_Source_AkAudio_Classes_AkGameplayTypes_h_796_ENHANCED_CONSTRUCTORS \
+#define FID_Projects_Tech_Sound_Portfolio_Lyra_Plugins_Wwise_Source_AkAudio_Classes_AkGameplayTypes_h_796_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	UAkMarkerCallbackInfo(UAkMarkerCallbackInfo&&); \
@@ -236,19 +236,19 @@ public: \
 	NO_API virtual ~UAkMarkerCallbackInfo();
 
 
-#define FID_Users_ericf_Documents_Unreal_Projects_Lyra_Plugins_Wwise_Source_AkAudio_Classes_AkGameplayTypes_h_793_PROLOG
-#define FID_Users_ericf_Documents_Unreal_Projects_Lyra_Plugins_Wwise_Source_AkAudio_Classes_AkGameplayTypes_h_796_GENERATED_BODY \
+#define FID_Projects_Tech_Sound_Portfolio_Lyra_Plugins_Wwise_Source_AkAudio_Classes_AkGameplayTypes_h_793_PROLOG
+#define FID_Projects_Tech_Sound_Portfolio_Lyra_Plugins_Wwise_Source_AkAudio_Classes_AkGameplayTypes_h_796_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_Users_ericf_Documents_Unreal_Projects_Lyra_Plugins_Wwise_Source_AkAudio_Classes_AkGameplayTypes_h_796_INCLASS_NO_PURE_DECLS \
-	FID_Users_ericf_Documents_Unreal_Projects_Lyra_Plugins_Wwise_Source_AkAudio_Classes_AkGameplayTypes_h_796_ENHANCED_CONSTRUCTORS \
+	FID_Projects_Tech_Sound_Portfolio_Lyra_Plugins_Wwise_Source_AkAudio_Classes_AkGameplayTypes_h_796_INCLASS_NO_PURE_DECLS \
+	FID_Projects_Tech_Sound_Portfolio_Lyra_Plugins_Wwise_Source_AkAudio_Classes_AkGameplayTypes_h_796_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
 template<> AKAUDIO_API UClass* StaticClass<class UAkMarkerCallbackInfo>();
 
-#define FID_Users_ericf_Documents_Unreal_Projects_Lyra_Plugins_Wwise_Source_AkAudio_Classes_AkGameplayTypes_h_818_INCLASS_NO_PURE_DECLS \
+#define FID_Projects_Tech_Sound_Portfolio_Lyra_Plugins_Wwise_Source_AkAudio_Classes_AkGameplayTypes_h_818_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUAkDurationCallbackInfo(); \
 	friend struct Z_Construct_UClass_UAkDurationCallbackInfo_Statics; \
@@ -257,7 +257,7 @@ public: \
 	DECLARE_SERIALIZER(UAkDurationCallbackInfo)
 
 
-#define FID_Users_ericf_Documents_Unreal_Projects_Lyra_Plugins_Wwise_Source_AkAudio_Classes_AkGameplayTypes_h_818_ENHANCED_CONSTRUCTORS \
+#define FID_Projects_Tech_Sound_Portfolio_Lyra_Plugins_Wwise_Source_AkAudio_Classes_AkGameplayTypes_h_818_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	UAkDurationCallbackInfo(UAkDurationCallbackInfo&&); \
@@ -269,26 +269,26 @@ public: \
 	NO_API virtual ~UAkDurationCallbackInfo();
 
 
-#define FID_Users_ericf_Documents_Unreal_Projects_Lyra_Plugins_Wwise_Source_AkAudio_Classes_AkGameplayTypes_h_815_PROLOG
-#define FID_Users_ericf_Documents_Unreal_Projects_Lyra_Plugins_Wwise_Source_AkAudio_Classes_AkGameplayTypes_h_818_GENERATED_BODY \
+#define FID_Projects_Tech_Sound_Portfolio_Lyra_Plugins_Wwise_Source_AkAudio_Classes_AkGameplayTypes_h_815_PROLOG
+#define FID_Projects_Tech_Sound_Portfolio_Lyra_Plugins_Wwise_Source_AkAudio_Classes_AkGameplayTypes_h_818_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_Users_ericf_Documents_Unreal_Projects_Lyra_Plugins_Wwise_Source_AkAudio_Classes_AkGameplayTypes_h_818_INCLASS_NO_PURE_DECLS \
-	FID_Users_ericf_Documents_Unreal_Projects_Lyra_Plugins_Wwise_Source_AkAudio_Classes_AkGameplayTypes_h_818_ENHANCED_CONSTRUCTORS \
+	FID_Projects_Tech_Sound_Portfolio_Lyra_Plugins_Wwise_Source_AkAudio_Classes_AkGameplayTypes_h_818_INCLASS_NO_PURE_DECLS \
+	FID_Projects_Tech_Sound_Portfolio_Lyra_Plugins_Wwise_Source_AkAudio_Classes_AkGameplayTypes_h_818_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
 template<> AKAUDIO_API UClass* StaticClass<class UAkDurationCallbackInfo>();
 
-#define FID_Users_ericf_Documents_Unreal_Projects_Lyra_Plugins_Wwise_Source_AkAudio_Classes_AkGameplayTypes_h_843_GENERATED_BODY \
+#define FID_Projects_Tech_Sound_Portfolio_Lyra_Plugins_Wwise_Source_AkAudio_Classes_AkGameplayTypes_h_843_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FAkSegmentInfo_Statics; \
 	AKAUDIO_API static class UScriptStruct* StaticStruct();
 
 
 template<> AKAUDIO_API UScriptStruct* StaticStruct<struct FAkSegmentInfo>();
 
-#define FID_Users_ericf_Documents_Unreal_Projects_Lyra_Plugins_Wwise_Source_AkAudio_Classes_AkGameplayTypes_h_889_INCLASS_NO_PURE_DECLS \
+#define FID_Projects_Tech_Sound_Portfolio_Lyra_Plugins_Wwise_Source_AkAudio_Classes_AkGameplayTypes_h_889_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUAkMusicSyncCallbackInfo(); \
 	friend struct Z_Construct_UClass_UAkMusicSyncCallbackInfo_Statics; \
@@ -297,7 +297,7 @@ public: \
 	DECLARE_SERIALIZER(UAkMusicSyncCallbackInfo)
 
 
-#define FID_Users_ericf_Documents_Unreal_Projects_Lyra_Plugins_Wwise_Source_AkAudio_Classes_AkGameplayTypes_h_889_ENHANCED_CONSTRUCTORS \
+#define FID_Projects_Tech_Sound_Portfolio_Lyra_Plugins_Wwise_Source_AkAudio_Classes_AkGameplayTypes_h_889_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	UAkMusicSyncCallbackInfo(UAkMusicSyncCallbackInfo&&); \
@@ -309,31 +309,31 @@ public: \
 	NO_API virtual ~UAkMusicSyncCallbackInfo();
 
 
-#define FID_Users_ericf_Documents_Unreal_Projects_Lyra_Plugins_Wwise_Source_AkAudio_Classes_AkGameplayTypes_h_886_PROLOG
-#define FID_Users_ericf_Documents_Unreal_Projects_Lyra_Plugins_Wwise_Source_AkAudio_Classes_AkGameplayTypes_h_889_GENERATED_BODY \
+#define FID_Projects_Tech_Sound_Portfolio_Lyra_Plugins_Wwise_Source_AkAudio_Classes_AkGameplayTypes_h_886_PROLOG
+#define FID_Projects_Tech_Sound_Portfolio_Lyra_Plugins_Wwise_Source_AkAudio_Classes_AkGameplayTypes_h_889_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_Users_ericf_Documents_Unreal_Projects_Lyra_Plugins_Wwise_Source_AkAudio_Classes_AkGameplayTypes_h_889_INCLASS_NO_PURE_DECLS \
-	FID_Users_ericf_Documents_Unreal_Projects_Lyra_Plugins_Wwise_Source_AkAudio_Classes_AkGameplayTypes_h_889_ENHANCED_CONSTRUCTORS \
+	FID_Projects_Tech_Sound_Portfolio_Lyra_Plugins_Wwise_Source_AkAudio_Classes_AkGameplayTypes_h_889_INCLASS_NO_PURE_DECLS \
+	FID_Projects_Tech_Sound_Portfolio_Lyra_Plugins_Wwise_Source_AkAudio_Classes_AkGameplayTypes_h_889_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
 template<> AKAUDIO_API UClass* StaticClass<class UAkMusicSyncCallbackInfo>();
 
-#define FID_Users_ericf_Documents_Unreal_Projects_Lyra_Plugins_Wwise_Source_AkAudio_Classes_AkGameplayTypes_h_908_DELEGATE \
+#define FID_Projects_Tech_Sound_Portfolio_Lyra_Plugins_Wwise_Source_AkAudio_Classes_AkGameplayTypes_h_908_DELEGATE \
 AKAUDIO_API void FOnAkPostEventCallback_DelegateWrapper(const FScriptDelegate& OnAkPostEventCallback, EAkCallbackType CallbackType, UAkCallbackInfo* CallbackInfo);
 
 
-#define FID_Users_ericf_Documents_Unreal_Projects_Lyra_Plugins_Wwise_Source_AkAudio_Classes_AkGameplayTypes_h_909_DELEGATE \
+#define FID_Projects_Tech_Sound_Portfolio_Lyra_Plugins_Wwise_Source_AkAudio_Classes_AkGameplayTypes_h_909_DELEGATE \
 AKAUDIO_API void FOnAkBankCallback_DelegateWrapper(const FScriptDelegate& OnAkBankCallback, EAkResult Result);
 
 
-#define FID_Users_ericf_Documents_Unreal_Projects_Lyra_Plugins_Wwise_Source_AkAudio_Classes_AkGameplayTypes_h_910_DELEGATE \
+#define FID_Projects_Tech_Sound_Portfolio_Lyra_Plugins_Wwise_Source_AkAudio_Classes_AkGameplayTypes_h_910_DELEGATE \
 AKAUDIO_API void FOnSetCurrentAudioCultureCallback_DelegateWrapper(const FScriptDelegate& OnSetCurrentAudioCultureCallback, bool Succeeded);
 
 
-#define FID_Users_ericf_Documents_Unreal_Projects_Lyra_Plugins_Wwise_Source_AkAudio_Classes_AkGameplayTypes_h_1070_GENERATED_BODY \
+#define FID_Projects_Tech_Sound_Portfolio_Lyra_Plugins_Wwise_Source_AkAudio_Classes_AkGameplayTypes_h_1070_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FAkExternalSourceInfo_Statics; \
 	AKAUDIO_API static class UScriptStruct* StaticStruct();
 
@@ -341,7 +341,7 @@ AKAUDIO_API void FOnSetCurrentAudioCultureCallback_DelegateWrapper(const FScript
 template<> AKAUDIO_API UScriptStruct* StaticStruct<struct FAkExternalSourceInfo>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_Users_ericf_Documents_Unreal_Projects_Lyra_Plugins_Wwise_Source_AkAudio_Classes_AkGameplayTypes_h
+#define CURRENT_FILE_ID FID_Projects_Tech_Sound_Portfolio_Lyra_Plugins_Wwise_Source_AkAudio_Classes_AkGameplayTypes_h
 
 
 #define FOREACH_ENUM_EAKAUDIOCONTEXT(op) \

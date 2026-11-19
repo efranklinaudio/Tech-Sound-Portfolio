@@ -17,7 +17,7 @@ void EmptyLinkFunctionForGeneratedCodeGameSubtitles_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0x75F01A9F,
+				0xB9D45167,
 				0x36BC3A95,
 				METADATA_PARAMS(0, nullptr)
 			};
@@ -25,5 +25,5 @@ void EmptyLinkFunctionForGeneratedCodeGameSubtitles_init() {}
 		}
 		return Z_Registration_Info_UPackage__Script_GameSubtitles.OuterSingleton;
 	}
-	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_GameSubtitles(Z_Construct_UPackage__Script_GameSubtitles, TEXT("/Script/GameSubtitles"), Z_Registration_Info_UPackage__Script_GameSubtitles, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0x75F01A9F, 0x36BC3A95));
+	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_GameSubtitles(Z_Construct_UPackage__Script_GameSubtitles, TEXT("/Script/GameSubtitles"), Z_Registration_Info_UPackage__Script_GameSubtitles, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0xB9D45167, 0x36BC3A95));
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

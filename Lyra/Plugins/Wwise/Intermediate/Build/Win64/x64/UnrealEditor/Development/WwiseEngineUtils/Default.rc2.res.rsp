@@ -81,5 +81,5 @@
 /DPROJECT_COPYRIGHT_STRING="Fill out your copyright notice in the Description page of Project Settings."
 /DPROJECT_PRODUCT_NAME=Lyra
 /DPROJECT_PRODUCT_IDENTIFIER=Lyra
-/fo "C:\Users\ericf\Documents\Unreal Projects\Lyra\Plugins\Wwise\Intermediate\Build\Win64\x64\UnrealEditor\Development\WwiseEngineUtils\Default.rc2.res"
+/fo "C:\Projects\Tech-Sound-Portfolio\Lyra\Plugins\Wwise\Intermediate\Build\Win64\x64\UnrealEditor\Development\WwiseEngineUtils\Default.rc2.res"
 "..\Build\Windows\Resources\Default.rc2"

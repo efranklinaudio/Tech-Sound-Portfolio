@@ -1,11 +1,11 @@
-"C:\Users\ericf\Documents\Unreal Projects\Lyra\Plugins\GameSubtitles\Intermediate\Build\Win64\x64\UnrealEditor\Development\GameSubtitles\Module.GameSubtitles.cpp"
-/FI"C:\Users\ericf\Documents\Unreal Projects\Lyra\Intermediate\Build\Win64\x64\LyraEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h"
-/FI"C:\Users\ericf\Documents\Unreal Projects\Lyra\Plugins\GameSubtitles\Intermediate\Build\Win64\x64\UnrealEditor\Development\GameSubtitles\Definitions.GameSubtitles.h"
-/Yu"C:\Users\ericf\Documents\Unreal Projects\Lyra\Intermediate\Build\Win64\x64\LyraEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h"
-/Fp"C:\Users\ericf\Documents\Unreal Projects\Lyra\Intermediate\Build\Win64\x64\LyraEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h.pch"
-/Fo"C:\Users\ericf\Documents\Unreal Projects\Lyra\Plugins\GameSubtitles\Intermediate\Build\Win64\x64\UnrealEditor\Development\GameSubtitles\Module.GameSubtitles.cpp.obj"
-/sourceDependencies "C:\Users\ericf\Documents\Unreal Projects\Lyra\Plugins\GameSubtitles\Intermediate\Build\Win64\x64\UnrealEditor\Development\GameSubtitles\Module.GameSubtitles.cpp.dep.json"
-@"C:\Users\ericf\Documents\Unreal Projects\Lyra\Plugins\GameSubtitles\Intermediate\Build\Win64\x64\UnrealEditor\Development\GameSubtitles\GameSubtitles.Shared.rsp"
+"C:\Projects\Tech-Sound-Portfolio\Lyra\Plugins\GameSubtitles\Intermediate\Build\Win64\x64\UnrealEditor\Development\GameSubtitles\Module.GameSubtitles.cpp"
+/FI"C:\Projects\Tech-Sound-Portfolio\Lyra\Intermediate\Build\Win64\x64\LyraEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h"
+/FI"C:\Projects\Tech-Sound-Portfolio\Lyra\Plugins\GameSubtitles\Intermediate\Build\Win64\x64\UnrealEditor\Development\GameSubtitles\Definitions.GameSubtitles.h"
+/Yu"C:\Projects\Tech-Sound-Portfolio\Lyra\Intermediate\Build\Win64\x64\LyraEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h"
+/Fp"C:\Projects\Tech-Sound-Portfolio\Lyra\Intermediate\Build\Win64\x64\LyraEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h.pch"
+/Fo"C:\Projects\Tech-Sound-Portfolio\Lyra\Plugins\GameSubtitles\Intermediate\Build\Win64\x64\UnrealEditor\Development\GameSubtitles\Module.GameSubtitles.cpp.obj"
+/sourceDependencies "C:\Projects\Tech-Sound-Portfolio\Lyra\Plugins\GameSubtitles\Intermediate\Build\Win64\x64\UnrealEditor\Development\GameSubtitles\Module.GameSubtitles.cpp.dep.json"
+@"C:\Projects\Tech-Sound-Portfolio\Lyra\Plugins\GameSubtitles\Intermediate\Build\Win64\x64\UnrealEditor\Development\GameSubtitles\GameSubtitles.Shared.rsp"
 /Zc:inline
 /nologo
 /Oi

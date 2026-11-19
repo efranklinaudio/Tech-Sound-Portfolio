@@ -6,11 +6,7 @@
 /NAME:"UnrealEditor-WwiseObstructionOcclusion.dll"
 /IGNORE:4221
 /NODEFAULTLIB
-"C:\Users\ericf\Documents\Unreal Projects\Lyra\Intermediate\Build\Win64\x64\LyraEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h.obj"
-"C:\Users\ericf\Documents\Unreal Projects\Lyra\Plugins\Wwise\Intermediate\Build\Win64\x64\UnrealEditor\Development\WwiseObstructionOcclusion\AkComponentObstructionAndOcclusionService.cpp.obj"
-"C:\Users\ericf\Documents\Unreal Projects\Lyra\Plugins\Wwise\Intermediate\Build\Win64\x64\UnrealEditor\Development\WwiseObstructionOcclusion\AkObstructionAndOcclusionService.cpp.obj"
-"C:\Users\ericf\Documents\Unreal Projects\Lyra\Plugins\Wwise\Intermediate\Build\Win64\x64\UnrealEditor\Development\WwiseObstructionOcclusion\AkPortalObstructionAndOcclusionService.cpp.obj"
-"C:\Users\ericf\Documents\Unreal Projects\Lyra\Plugins\Wwise\Intermediate\Build\Win64\x64\UnrealEditor\Development\WwiseObstructionOcclusion\WwiseObstructionOcclusionModuleImpl.cpp.obj"
-"C:\Users\ericf\Documents\Unreal Projects\Lyra\Plugins\Wwise\Intermediate\Build\Win64\x64\UnrealEditor\Development\WwiseObstructionOcclusion\ObstructionOcclusion.cpp.obj"
-"C:\Users\ericf\Documents\Unreal Projects\Lyra\Plugins\Wwise\Intermediate\Build\Win64\x64\UnrealEditor\Development\WwiseObstructionOcclusion\Default.rc2.res"
-/OUT:"C:\Users\ericf\Documents\Unreal Projects\Lyra\Plugins\Wwise\Intermediate\Build\Win64\x64\UnrealEditor\Development\WwiseObstructionOcclusion\UnrealEditor-WwiseObstructionOcclusion.lib"
+"C:\Projects\Tech-Sound-Portfolio\Lyra\Intermediate\Build\Win64\x64\LyraEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h.obj"
+"C:\Projects\Tech-Sound-Portfolio\Lyra\Plugins\Wwise\Intermediate\Build\Win64\x64\UnrealEditor\Development\WwiseObstructionOcclusion\Module.WwiseObstructionOcclusion.cpp.obj"
+"C:\Projects\Tech-Sound-Portfolio\Lyra\Plugins\Wwise\Intermediate\Build\Win64\x64\UnrealEditor\Development\WwiseObstructionOcclusion\Default.rc2.res"
+/OUT:"C:\Projects\Tech-Sound-Portfolio\Lyra\Plugins\Wwise\Intermediate\Build\Win64\x64\UnrealEditor\Development\WwiseObstructionOcclusion\UnrealEditor-WwiseObstructionOcclusion.lib"

@@ -1,11 +1,11 @@
-"C:\Users\ericf\Documents\Unreal Projects\Lyra\Plugins\UIExtension\Intermediate\Build\Win64\x64\UnrealEditor\Development\UIExtension\Module.UIExtension.cpp"
-/FI"C:\Users\ericf\Documents\Unreal Projects\Lyra\Intermediate\Build\Win64\x64\LyraEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h"
-/FI"C:\Users\ericf\Documents\Unreal Projects\Lyra\Plugins\UIExtension\Intermediate\Build\Win64\x64\UnrealEditor\Development\UIExtension\Definitions.UIExtension.h"
-/Yu"C:\Users\ericf\Documents\Unreal Projects\Lyra\Intermediate\Build\Win64\x64\LyraEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h"
-/Fp"C:\Users\ericf\Documents\Unreal Projects\Lyra\Intermediate\Build\Win64\x64\LyraEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h.pch"
-/Fo"C:\Users\ericf\Documents\Unreal Projects\Lyra\Plugins\UIExtension\Intermediate\Build\Win64\x64\UnrealEditor\Development\UIExtension\Module.UIExtension.cpp.obj"
-/sourceDependencies "C:\Users\ericf\Documents\Unreal Projects\Lyra\Plugins\UIExtension\Intermediate\Build\Win64\x64\UnrealEditor\Development\UIExtension\Module.UIExtension.cpp.dep.json"
-@"C:\Users\ericf\Documents\Unreal Projects\Lyra\Plugins\UIExtension\Intermediate\Build\Win64\x64\UnrealEditor\Development\UIExtension\UIExtension.Shared.rsp"
+"C:\Projects\Tech-Sound-Portfolio\Lyra\Plugins\UIExtension\Intermediate\Build\Win64\x64\UnrealEditor\Development\UIExtension\Module.UIExtension.cpp"
+/FI"C:\Projects\Tech-Sound-Portfolio\Lyra\Intermediate\Build\Win64\x64\LyraEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h"
+/FI"C:\Projects\Tech-Sound-Portfolio\Lyra\Plugins\UIExtension\Intermediate\Build\Win64\x64\UnrealEditor\Development\UIExtension\Definitions.UIExtension.h"
+/Yu"C:\Projects\Tech-Sound-Portfolio\Lyra\Intermediate\Build\Win64\x64\LyraEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h"
+/Fp"C:\Projects\Tech-Sound-Portfolio\Lyra\Intermediate\Build\Win64\x64\LyraEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h.pch"
+/Fo"C:\Projects\Tech-Sound-Portfolio\Lyra\Plugins\UIExtension\Intermediate\Build\Win64\x64\UnrealEditor\Development\UIExtension\Module.UIExtension.cpp.obj"
+/sourceDependencies "C:\Projects\Tech-Sound-Portfolio\Lyra\Plugins\UIExtension\Intermediate\Build\Win64\x64\UnrealEditor\Development\UIExtension\Module.UIExtension.cpp.dep.json"
+@"C:\Projects\Tech-Sound-Portfolio\Lyra\Plugins\UIExtension\Intermediate\Build\Win64\x64\UnrealEditor\Development\UIExtension\UIExtension.Shared.rsp"
 /Zc:inline
 /nologo
 /Oi

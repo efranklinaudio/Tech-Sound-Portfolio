@@ -1,23 +1,23 @@
-C:\Users\ericf\Documents\Unreal Projects\Lyra\Plugins\GameSettings\Source\Public\GameSettingAction.h
-C:\Users\ericf\Documents\Unreal Projects\Lyra\Plugins\GameSettings\Source\Public\GameSettingValue.h
-C:\Users\ericf\Documents\Unreal Projects\Lyra\Plugins\GameSettings\Source\Public\GameSettingValueDiscreteDynamic.h
-C:\Users\ericf\Documents\Unreal Projects\Lyra\Plugins\GameSettings\Source\Public\GameSettingCollection.h
-C:\Users\ericf\Documents\Unreal Projects\Lyra\Plugins\GameSettings\Source\Public\GameSettingValueDiscrete.h
-C:\Users\ericf\Documents\Unreal Projects\Lyra\Plugins\GameSettings\Source\Public\GameSetting.h
-C:\Users\ericf\Documents\Unreal Projects\Lyra\Plugins\GameSettings\Source\Public\GameSettingFilterState.h
-C:\Users\ericf\Documents\Unreal Projects\Lyra\Plugins\GameSettings\Source\Public\GameSettingValueScalar.h
-C:\Users\ericf\Documents\Unreal Projects\Lyra\Plugins\GameSettings\Source\Public\Widgets\GameSettingListView.h
-C:\Users\ericf\Documents\Unreal Projects\Lyra\Plugins\GameSettings\Source\Public\Widgets\GameSettingDetailView.h
-C:\Users\ericf\Documents\Unreal Projects\Lyra\Plugins\GameSettings\Source\Public\Widgets\Misc\GameSettingRotator.h
-C:\Users\ericf\Documents\Unreal Projects\Lyra\Plugins\GameSettings\Source\Public\Widgets\Misc\GameSettingPressAnyKey.h
-C:\Users\ericf\Documents\Unreal Projects\Lyra\Plugins\GameSettings\Source\Public\Widgets\IGameSettingActionInterface.h
-C:\Users\ericf\Documents\Unreal Projects\Lyra\Plugins\GameSettings\Source\Public\Widgets\GameSettingDetailExtension.h
-C:\Users\ericf\Documents\Unreal Projects\Lyra\Plugins\GameSettings\Source\Public\GameSettingValueScalarDynamic.h
-C:\Users\ericf\Documents\Unreal Projects\Lyra\Plugins\GameSettings\Source\Public\GameSettingRegistry.h
-C:\Users\ericf\Documents\Unreal Projects\Lyra\Plugins\GameSettings\Source\Public\Widgets\GameSettingListEntry.h
-C:\Users\ericf\Documents\Unreal Projects\Lyra\Plugins\GameSettings\Source\Public\Widgets\GameSettingVisualData.h
-C:\Users\ericf\Documents\Unreal Projects\Lyra\Plugins\GameSettings\Source\Public\Widgets\GameSettingPanel.h
-C:\Users\ericf\Documents\Unreal Projects\Lyra\Plugins\GameSettings\Source\Public\Widgets\Misc\KeyAlreadyBoundWarning.h
-C:\Users\ericf\Documents\Unreal Projects\Lyra\Plugins\GameSettings\Source\Public\Widgets\GameSettingScreen.h
-C:\Users\ericf\Documents\Unreal Projects\Lyra\Plugins\GameSettings\Source\Private\Widgets\Responsive\GameResponsivePanel.h
-C:\Users\ericf\Documents\Unreal Projects\Lyra\Plugins\GameSettings\Source\Private\Widgets\Responsive\GameResponsivePanelSlot.h
+C:\Projects\Tech-Sound-Portfolio\Lyra\Plugins\GameSettings\Source\Public\GameSettingRegistry.h
+C:\Projects\Tech-Sound-Portfolio\Lyra\Plugins\GameSettings\Source\Public\GameSettingCollection.h
+C:\Projects\Tech-Sound-Portfolio\Lyra\Plugins\GameSettings\Source\Public\GameSettingValue.h
+C:\Projects\Tech-Sound-Portfolio\Lyra\Plugins\GameSettings\Source\Public\GameSettingFilterState.h
+C:\Projects\Tech-Sound-Portfolio\Lyra\Plugins\GameSettings\Source\Public\GameSetting.h
+C:\Projects\Tech-Sound-Portfolio\Lyra\Plugins\GameSettings\Source\Public\Widgets\GameSettingListView.h
+C:\Projects\Tech-Sound-Portfolio\Lyra\Plugins\GameSettings\Source\Public\GameSettingValueScalar.h
+C:\Projects\Tech-Sound-Portfolio\Lyra\Plugins\GameSettings\Source\Public\Widgets\GameSettingDetailView.h
+C:\Projects\Tech-Sound-Portfolio\Lyra\Plugins\GameSettings\Source\Public\GameSettingValueDiscrete.h
+C:\Projects\Tech-Sound-Portfolio\Lyra\Plugins\GameSettings\Source\Public\GameSettingAction.h
+C:\Projects\Tech-Sound-Portfolio\Lyra\Plugins\GameSettings\Source\Public\Widgets\GameSettingDetailExtension.h
+C:\Projects\Tech-Sound-Portfolio\Lyra\Plugins\GameSettings\Source\Public\GameSettingValueDiscreteDynamic.h
+C:\Projects\Tech-Sound-Portfolio\Lyra\Plugins\GameSettings\Source\Public\GameSettingValueScalarDynamic.h
+C:\Projects\Tech-Sound-Portfolio\Lyra\Plugins\GameSettings\Source\Public\Widgets\GameSettingListEntry.h
+C:\Projects\Tech-Sound-Portfolio\Lyra\Plugins\GameSettings\Source\Public\Widgets\GameSettingVisualData.h
+C:\Projects\Tech-Sound-Portfolio\Lyra\Plugins\GameSettings\Source\Public\Widgets\IGameSettingActionInterface.h
+C:\Projects\Tech-Sound-Portfolio\Lyra\Plugins\GameSettings\Source\Public\Widgets\GameSettingPanel.h
+C:\Projects\Tech-Sound-Portfolio\Lyra\Plugins\GameSettings\Source\Public\Widgets\Misc\KeyAlreadyBoundWarning.h
+C:\Projects\Tech-Sound-Portfolio\Lyra\Plugins\GameSettings\Source\Public\Widgets\Misc\GameSettingPressAnyKey.h
+C:\Projects\Tech-Sound-Portfolio\Lyra\Plugins\GameSettings\Source\Public\Widgets\GameSettingScreen.h
+C:\Projects\Tech-Sound-Portfolio\Lyra\Plugins\GameSettings\Source\Public\Widgets\Misc\GameSettingRotator.h
+C:\Projects\Tech-Sound-Portfolio\Lyra\Plugins\GameSettings\Source\Private\Widgets\Responsive\GameResponsivePanel.h
+C:\Projects\Tech-Sound-Portfolio\Lyra\Plugins\GameSettings\Source\Private\Widgets\Responsive\GameResponsivePanelSlot.h

@@ -1,0 +1,16 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\projects\\tech-sound-portfolio\\lyra\\plugins\\wwise\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\wwiseengineutils\\module.wwiseengineutils.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\projects\\tech-sound-portfolio\\lyra\\intermediate\\build\\win64\\x64\\lyraeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "c:\\projects\\tech-sound-portfolio\\lyra\\plugins\\wwise\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\wwiseengineutils\\definitions.wwiseengineutils.h",
+            "c:\\projects\\tech-sound-portfolio\\lyra\\plugins\\wwise\\source\\wwiseengineutils\\private\\wwiseunrealenginehelper.cpp",
+            "c:\\projects\\tech-sound-portfolio\\lyra\\plugins\\wwise\\source\\wwiseengineutils\\public\\wwiseunrealenginehelper.h",
+            "c:\\projects\\tech-sound-portfolio\\lyra\\plugins\\wwise\\source\\wwiseutils\\public\\wwiseunrealdefines.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

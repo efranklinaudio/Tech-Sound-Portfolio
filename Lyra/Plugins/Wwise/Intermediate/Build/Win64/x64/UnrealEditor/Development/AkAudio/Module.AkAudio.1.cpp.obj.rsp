@@ -1,11 +1,11 @@
-"C:\Users\ericf\Documents\Unreal Projects\Lyra\Plugins\Wwise\Intermediate\Build\Win64\x64\UnrealEditor\Development\AkAudio\Module.AkAudio.1.cpp"
-/FI"C:\Users\ericf\Documents\Unreal Projects\Lyra\Intermediate\Build\Win64\x64\LyraEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h"
-/FI"C:\Users\ericf\Documents\Unreal Projects\Lyra\Plugins\Wwise\Intermediate\Build\Win64\x64\UnrealEditor\Development\AkAudio\Definitions.AkAudio.h"
-/Yu"C:\Users\ericf\Documents\Unreal Projects\Lyra\Intermediate\Build\Win64\x64\LyraEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h"
-/Fp"C:\Users\ericf\Documents\Unreal Projects\Lyra\Intermediate\Build\Win64\x64\LyraEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h.pch"
-/Fo"C:\Users\ericf\Documents\Unreal Projects\Lyra\Plugins\Wwise\Intermediate\Build\Win64\x64\UnrealEditor\Development\AkAudio\Module.AkAudio.1.cpp.obj"
-/sourceDependencies "C:\Users\ericf\Documents\Unreal Projects\Lyra\Plugins\Wwise\Intermediate\Build\Win64\x64\UnrealEditor\Development\AkAudio\Module.AkAudio.1.cpp.dep.json"
-@"C:\Users\ericf\Documents\Unreal Projects\Lyra\Plugins\Wwise\Intermediate\Build\Win64\x64\UnrealEditor\Development\AkAudio\AkAudio.Shared.rsp"
+"C:\Projects\Tech-Sound-Portfolio\Lyra\Plugins\Wwise\Intermediate\Build\Win64\x64\UnrealEditor\Development\AkAudio\Module.AkAudio.1.cpp"
+/FI"C:\Projects\Tech-Sound-Portfolio\Lyra\Intermediate\Build\Win64\x64\LyraEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h"
+/FI"C:\Projects\Tech-Sound-Portfolio\Lyra\Plugins\Wwise\Intermediate\Build\Win64\x64\UnrealEditor\Development\AkAudio\Definitions.AkAudio.h"
+/Yu"C:\Projects\Tech-Sound-Portfolio\Lyra\Intermediate\Build\Win64\x64\LyraEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h"
+/Fp"C:\Projects\Tech-Sound-Portfolio\Lyra\Intermediate\Build\Win64\x64\LyraEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h.pch"
+/Fo"C:\Projects\Tech-Sound-Portfolio\Lyra\Plugins\Wwise\Intermediate\Build\Win64\x64\UnrealEditor\Development\AkAudio\Module.AkAudio.1.cpp.obj"
+/sourceDependencies "C:\Projects\Tech-Sound-Portfolio\Lyra\Plugins\Wwise\Intermediate\Build\Win64\x64\UnrealEditor\Development\AkAudio\Module.AkAudio.1.cpp.dep.json"
+@"C:\Projects\Tech-Sound-Portfolio\Lyra\Plugins\Wwise\Intermediate\Build\Win64\x64\UnrealEditor\Development\AkAudio\AkAudio.Shared.rsp"
 /Zc:inline
 /nologo
 /Oi

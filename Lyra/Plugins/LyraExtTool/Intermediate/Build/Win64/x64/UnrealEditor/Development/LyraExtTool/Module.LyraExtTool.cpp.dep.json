@@ -1,12 +1,18 @@
 {
     "Version": "1.2",
     "Data": {
-        "Source": "c:\\users\\ericf\\documents\\unreal projects\\lyra\\plugins\\lyraexttool\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\lyraexttool\\module.lyraexttool.cpp",
+        "Source": "c:\\projects\\tech-sound-portfolio\\lyra\\plugins\\lyraexttool\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\lyraexttool\\module.lyraexttool.cpp",
         "ProvidedModule": "",
-        "PCH": "c:\\users\\ericf\\documents\\unreal projects\\lyra\\intermediate\\build\\win64\\x64\\lyraeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "PCH": "c:\\projects\\tech-sound-portfolio\\lyra\\intermediate\\build\\win64\\x64\\lyraeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
         "Includes": [
-            "c:\\users\\ericf\\documents\\unreal projects\\lyra\\plugins\\lyraexttool\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\lyraexttool\\definitions.lyraexttool.h",
-            "c:\\users\\ericf\\documents\\unreal projects\\lyra\\plugins\\lyraexttool\\intermediate\\build\\win64\\unrealeditor\\inc\\lyraexttool\\uht\\lyraexttool.init.gen.cpp"
+            "c:\\projects\\tech-sound-portfolio\\lyra\\plugins\\lyraexttool\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\lyraexttool\\definitions.lyraexttool.h",
+            "c:\\projects\\tech-sound-portfolio\\lyra\\plugins\\lyraexttool\\intermediate\\build\\win64\\unrealeditor\\inc\\lyraexttool\\uht\\lyraexttool.init.gen.cpp",
+            "c:\\projects\\tech-sound-portfolio\\lyra\\plugins\\lyraexttool\\source\\lyraexttool\\private\\bpfunctionlibrary.cpp",
+            "c:\\projects\\tech-sound-portfolio\\lyra\\plugins\\lyraexttool\\source\\lyraexttool\\public\\bpfunctionlibrary.h",
+            "c:\\projects\\tech-sound-portfolio\\lyra\\plugins\\lyraexttool\\intermediate\\build\\win64\\unrealeditor\\inc\\lyraexttool\\uht\\bpfunctionlibrary.generated.h",
+            "c:\\projects\\tech-sound-portfolio\\lyra\\plugins\\lyraexttool\\intermediate\\build\\win64\\unrealeditor\\inc\\lyraexttool\\uht\\bpfunctionlibrary.gen.cpp",
+            "c:\\projects\\tech-sound-portfolio\\lyra\\plugins\\lyraexttool\\source\\lyraexttool\\private\\lyraexttool.cpp",
+            "c:\\projects\\tech-sound-portfolio\\lyra\\plugins\\lyraexttool\\source\\lyraexttool\\public\\lyraexttool.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []
