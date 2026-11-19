@@ -6,8 +6,9 @@ I also included some videos down below that go through each project, as well as 
 
 Demo Reel
 
-Lyra (Unreal 5.4, Wwise 2023.1.6)
+Lyra (Unreal 5.4, Wwise 2023.1.6). Open to L_Convolution_Blackout Lvl, and full area of World Partition
 
-Medieval Village (Unreal 5.2, Wwwise 2023.1.6)
+Medieval Village (Unreal 5.3, Wwwise 2023.1.6). Open to MedievalVillage_P_WP lvl 
 
-Movement System (Unreal 5.4, Metasounds) 
+Movement System (Unreal 5.3, Metasounds). Should open up to the correct lvl automatically, there is an issue with the turn in place system though that I couldn't figure out. 
+
